@@ -1,0 +1,114 @@
+/* CONTAINER */
+
+.w {
+  max-width: 128rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+}
+
+@media (min-width: 640px) {
+  .w {
+    padding-left: var(--space-m);
+    padding-right: var(--space-m);
+  }
+}
+
+/* HOVER no-underline → underline */
+
+.hover-underline {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 0.06em;
+  transition: background-size 0.45s var(--ease);
+}
+
+.hover-underline:focus,
+.hover-trigger:focus .hover-underline,
+.hover-trigger.router-link-active .hover-underline {
+  background-size: 100% 0.06em;
+}
+
+@media (hover: hover) {
+  .hover-underline:hover,
+  .hover-trigger:hover .hover-underline {
+    background-size: 100% 0.06em;
+    background-position: 0% 100%;
+  }
+}
+
+/* HOVER underline → no-underline */
+
+.hover-deunderline,
+.rich a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 0.06em;
+  transition: background-size 0.45s var(--ease);
+}
+
+.hover-deunderline:focus,
+.hover-trigger:focus .hover-deunderline,
+.rich a:focus {
+  background-size: 100% 0.06em;
+}
+
+@media (hover: hover) {
+  .hover-deunderline:hover,
+  .hover-trigger:hover .hover-deunderline,
+  .rich a:hover {
+    background-size: 0% 0.06em;
+    background-position: 100% 100%;
+  }
+}
+
+/* POSITION */
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.sticky {
+  position: sticky;
+}
+.fixed {
+  position: fixed;
+}
+
+/* DISPLAY */
+
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+
+/* OTHER */
+
+.break-word {
+  word-break: break-word;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

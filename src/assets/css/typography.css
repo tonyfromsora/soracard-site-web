@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@700&display=swap');
+
+body {
+  font: var(--font-m);
+  font-family: 'Inter', sans-serif;
+}
+
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.bold {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+h1,
+.text-xxl {
+  font-size: var(--font-xxl);
+  letter-spacing: var(--tracking-tight);
+  line-height: 1.1;
+}
+h2,
+.text-xl {
+  font-size: var(--font-xl);
+  letter-spacing: var(--tracking-tight);
+  line-height: 1.2;
+}
+h3,
+.text-l {
+  font-size: var(--font-l);
+  letter-spacing: var(--tracking-tight);
+  line-height: 1.2;
+}
+h4,
+.text-m {
+  font-size: var(--font-m);
+}
+h5,
+.text-s {
+  font-size: var(--font-s);
+}
+h6,
+.text-xs {
+  font-size: var(--font-xs);
+}
+
+.text-center {
+  text-align: center;
+}

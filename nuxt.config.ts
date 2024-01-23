@@ -2,4 +2,5 @@
 export default defineNuxtConfig({
   srcDir: 'src/',
   devtools: { enabled: false },
+  css: ['~/assets/css/main.css'],
 })
