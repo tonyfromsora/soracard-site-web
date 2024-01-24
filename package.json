@@ -14,5 +14,9 @@
     "typescript": "^5.3.3",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "mouse-follower": "^1.1.2"
   }
 }

@@ -6,6 +6,7 @@
 @import 'colors';
 @import 'common';
 @import 'rich';
+@import 'cursor';
 
 html {
   scroll-behavior: smooth;

@@ -1,0 +1,26 @@
+@import '../../../node_modules/mouse-follower/dist/mouse-follower.min.css';
+
+.mf-cursor.-scale {
+  z-index: -1;
+  color: var(--color-light2);
+}
+.mf-cursor.-scale::before {
+  transform: scale(2);
+}
+
+.mf-cursor.-text {
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+.mf-cursor.-text::before,
+.mf-cursor.-text.-active::before {
+  opacity: 1;
+  transform: scale(2);
+}
+
+@supports (mix-blend-mode: exclusion) {
+  .mf-cursor.-exclusion {
+    color: white;
+    mix-blend-mode: exclusion;
+  }
+}
