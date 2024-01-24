@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@700&display=swap');
 
 body {
-  font: var(--font-m);
   font-family: 'Inter', sans-serif;
+  font-size: var(--font-s);
+  line-height: 1.4;
 }
 
 b,
@@ -16,7 +17,6 @@ h6,
 .bold {
   font-family: 'Sora', sans-serif;
   font-weight: 700;
-  line-height: 1.4;
 }
 
 h1,

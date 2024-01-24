@@ -15,6 +15,15 @@
   }
 }
 
+/* STYLES */
+
+.rounded {
+  border-radius: 1.6rem;
+}
+.shadow {
+  box-shadow: var(--shadow);
+}
+
 /* HOVER no-underline → underline */
 
 .hover-underline {
