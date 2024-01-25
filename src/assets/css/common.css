@@ -10,8 +10,8 @@
 
 @media (min-width: 640px) {
   .w {
-    padding-left: var(--space-m);
-    padding-right: var(--space-m);
+    padding-left: var(--space-s);
+    padding-right: var(--space-s);
   }
 }
 
@@ -32,7 +32,7 @@
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 0.06em;
+  background-size: 0% 1px;
   transition: background-size 0.45s var(--ease);
 }
 
@@ -40,14 +40,14 @@
 .hover-trigger:focus .hover-underline,
 .hover-trigger.router-link-active .hover-underline,
 .rich a:focus {
-  background-size: 100% 0.06em;
+  background-size: 100% 1px;
 }
 
 @media (hover: hover) {
   .hover-underline:hover,
   .hover-trigger:hover .hover-underline,
   .rich a:hover {
-    background-size: 100% 0.06em;
+    background-size: 100% 1px;
     background-position: 0% 100%;
   }
 }
@@ -59,19 +59,19 @@
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 100% 0.06em;
+  background-size: 100% 1px;
   transition: background-size 0.45s var(--ease);
 }
 
 .hover-deunderline:focus,
 .hover-trigger:focus .hover-deunderline {
-  background-size: 100% 0.06em;
+  background-size: 100% 1px;
 }
 
 @media (hover: hover) {
   .hover-deunderline:hover,
   .hover-trigger:hover .hover-deunderline {
-    background-size: 0% 0.06em;
+    background-size: 0% 1px;
     background-position: 100% 100%;
   }
 }

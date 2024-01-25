@@ -18,14 +18,17 @@ const toggleAccordion = (i: number) => {
   <nav>
     <ul class="groups">
       <li v-for="(group, i) in navRef" :key="group.title" :class="{ open: group.isOpen }" class="group">
-        <div @click="toggleAccordion(i)" class="group-title p-xs bold">{{
-          group.title }}</div>
+        <div @click="toggleAccordion(i)" class="group-title p-xs bold">
+          <span :data-title="group.title">{{ group.title }}</span>
+        </div>
         <div class="links" data-cursor="-hidden">
           <div>
             <ul>
               <li v-for="(item, i) in group.links" :style="`--delay: ${i * 0.05}s`">
-                <NuxtLink :href="item.href" class="block hover-trigger px-xs py-3xs">
+                <NuxtLink :href="item.href" class="link hover-trigger px-xs py-3xs">
                   <span class="hover-underline">{{ item.title }}</span>
+                  <img v-if="item.isExternal" src="/icons/external.svg" alt="external link icon" class="external">
+                  <span v-if="item.label" class="label bg-accent light1 rounded">{{ item.label }}</span>
                 </NuxtLink>
               </li>
             </ul>
@@ -67,6 +70,28 @@ li {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb24tdGFibGVyLWNoZXZyb24tZG93biIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTYgOWw2IDZsNiAtNiIgLz48L3N2Zz4=);
   background-size: contain;
   transition: transform 1s var(--ease);
+}
+
+.link {
+  display: flex;
+  gap: 0.4em;
+  justify-content: center;
+  align-items: center;
+}
+
+.external {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+  opacity: 0.5;
+}
+
+.label {
+  text-transform: uppercase;
+  padding: 1px 4px;
+  display: inline-flex;
+  font-size: 1rem;
+  margin-right: -1.5em;
 }
 
 @media (max-width: 959px) {
@@ -160,11 +185,41 @@ li {
   }
 
   .group:hover .group-title::after {
-    transform: rotate(-180deg);
+    transform: rotateX(-180deg);
   }
 
   .group:has(.group-title:active) .links {
     transform: translateX(50%) scale(1.05);
+  }
+}
+
+@media (min-width: 960px) and (hover:hover) {
+  .group-title>span {
+    color: transparent;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .group-title>span::before,
+  .group-title>span::after {
+    content: attr(data-title);
+    color: var(--color-dark1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s var(--ease);
+  }
+
+  .group-title>span::after {
+    transform: translateY(100%) scaleY(0.5);
+  }
+
+  .group:hover .group-title>span::before {
+    transform: translateY(-100%) scaleY(0.5);
+  }
+
+  .group:hover .group-title>span::after {
+    transform: translateY(0);
   }
 }
 </style>

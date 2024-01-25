@@ -18,6 +18,9 @@ body {
 .dark2 {
   color: var(--color-dark2);
 }
+.accent {
+  color: var(--color-accent);
+}
 
 .bg-light1 {
   background-color: var(--color-light1);
@@ -33,4 +36,7 @@ body {
 }
 .bg-dark2 {
   background-color: var(--color-dark2);
+}
+.bg-accent {
+  background-color: var(--color-accent);
 }

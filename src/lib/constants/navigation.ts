@@ -1,7 +1,7 @@
 import type { Link } from './types'
 
 type NavLink = Link & {
-  isInternal?: boolean
+  isExternal?: boolean
   label?: string
 }
 
@@ -16,7 +16,7 @@ const nav: {
       { title: 'Integrations', href: 'https://soracard.com/integrations/' },
       { title: 'Earn', href: 'https://soracard.com/earn/' },
       { title: 'Fees', href: 'https://soracard.com/fees/' },
-      { title: 'Blog', href: '/', isInternal: true },
+      { title: 'Blog', href: '/' },
       { title: 'Referrals', href: 'https://soracard.com/referrals/', label: 'soon' },
       { title: 'Apply', href: 'https://soracard.com/' },
     ],
@@ -43,20 +43,23 @@ const nav: {
   {
     title: 'Resources',
     links: [
-      { title: 'SORA Wiki', href: 'https://wiki.sora.org/' },
+      { title: 'SORA Wiki', href: 'https://wiki.sora.org/', isExternal: true },
       {
         title: 'Builders',
         href: 'https://medium.com/sora-xor/sora-builders-programme-979bea8831ed',
+        isExternal: true,
       },
       {
         title: 'SII Insurance',
         href: 'https://medium.com/sora-xor/social-insurance-for-systematically-important-infrastructure-18a63ef711ca',
+        isExternal: true,
       },
       {
         title: 'Bug Bounty',
         href: 'https://medium.com/sora-xor/announcing-the-sora-and-polkaswap-bug-bounty-programme-65ff37fe4876',
+        isExternal: true,
       },
-      { title: 'Brand Kit', href: 'https://github.com/sora-xor/sora-branding' },
+      { title: 'Brand Kit', href: 'https://github.com/sora-xor/sora-branding', isExternal: true },
     ],
   },
 ]
