@@ -8,7 +8,8 @@ const { title, href, target, ghost = false } = defineProps<{
 </script>
 
 <template>
-  <NuxtLink class="button px-s py-xxs bold text-center" :href="href" :target="target" :class="{ outlined: !ghost }">
+  <NuxtLink class="button px-s py-xxs bold text-center inline-block" :href="href" :target="target"
+    :class="{ outlined: !ghost }">
     <span :data-title="title">{{ title }}</span>
   </NuxtLink>
 </template>
@@ -37,7 +38,6 @@ const { title, href, target, ghost = false } = defineProps<{
   border-radius: 50%;
   transform: translateY(100%);
   transition: transform 1s var(--ease), border-radius 1s var(--ease), background-color 1s var(--ease);
-  z-index: -1;
 }
 
 .button>span {
@@ -45,6 +45,7 @@ const { title, href, target, ghost = false } = defineProps<{
   color: transparent;
   position: relative;
   display: block;
+  z-index: 2;
 }
 
 .button>span::before,

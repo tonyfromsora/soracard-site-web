@@ -27,8 +27,8 @@ router.afterEach(() => isOpen.value = false)
     <div class="nav">
       <HeaderNav />
       <div class="cta">
-        <Button href="https://soracard.com/fees" target="_blank" title="Fees" ghost class="block" />
-        <Button href="/" title="Apply" class="block" />
+        <Button href="https://soracard.com/fees" target="_blank" title="Fees" ghost />
+        <Button href="/" title="Apply" />
       </div>
     </div>
 
@@ -163,4 +163,5 @@ router.afterEach(() => isOpen.value = false)
   .cta {
     justify-content: flex-end;
   }
-}</style>
+}
+</style>
