@@ -27,6 +27,7 @@
   --color-light1: #ffffff;
   --color-light2: #fafafa;
   --color-light3: #f1f3f6;
+  --color-semi-dark: rgba(33, 33, 33, 0.2);
 
   --ease: cubic-bezier(0.075, 0.82, 0.165, 1);
   --shadow: 0px 2rem 5rem 0px rgba(0, 0, 0, 0.05);
