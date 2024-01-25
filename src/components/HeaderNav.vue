@@ -18,7 +18,7 @@ const toggleAccordion = (i: number) => {
   <nav>
     <ul class="groups">
       <li v-for="(group, i) in navRef" :key="group.title" :class="{ open: group.isOpen }" class="group">
-        <div @click="toggleAccordion(i)" class="group-title p-xs bold" data-cursor-stick data-cursor="-scale">{{
+        <div @click="toggleAccordion(i)" class="group-title p-xs bold">{{
           group.title }}</div>
         <div class="links" data-cursor="-hidden">
           <div>

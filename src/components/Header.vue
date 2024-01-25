@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { useScroll } from '~/composables/useScroll'
+const { scrollY, isScrollDown } = useScroll()
 const router = useRouter()
 
 const isOpen = ref(false)
@@ -9,7 +11,7 @@ router.afterEach(() => isOpen.value = false)
 <template>
   <Overlay :open="isOpen" @click="isOpen = false" />
 
-  <header class="topbar text-s" :class="{ open: isOpen }">
+  <header class="topbar text-s" :class="{ open: isOpen, 'with-bg': scrollY > 10, hidden: isScrollDown, }">
     <NuxtLink to="/" data-cursor-text="Home">
       <svg viewBox="0 0 182 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo">
         <path
@@ -24,11 +26,10 @@ router.afterEach(() => isOpen.value = false)
     <div class="nav">
       <HeaderNav />
       <div class="cta">
-        <a class="block hover-trigger px-s py-3xs bold text-center" href="https://soracard.com/fees" target="_blank"
-          data-cursor-stick data-cursor="-scale">
+        <a class="block hover-trigger px-s py-3xs bold text-center" href="https://soracard.com/fees" target="_blank">
           <span class="hover-underline">Fees</span>
         </a>
-        <Button href="/" title="Apply" class="block" data-cursor-stick data-cursor="-scale" />
+        <Button href="/" title="Apply" class="block" />
       </div>
     </div>
 
@@ -48,8 +49,47 @@ router.afterEach(() => isOpen.value = false)
   padding: var(--space-xs);
   z-index: 13;
   perspective: 200rem;
+  transition: opacity .5s ease, transform .5s ease;
 }
 
+.topbar::before {
+  content: '';
+  background-image: linear-gradient(to bottom,
+      hsl(216, 20%, 95.1%) 0%,
+      hsla(216, 20%, 95.1%, 0.987) 8.1%,
+      hsla(216, 20%, 95.1%, 0.951) 15.5%,
+      hsla(216, 20%, 95.1%, 0.896) 22.5%,
+      hsla(216, 20%, 95.1%, 0.825) 29%,
+      hsla(216, 20%, 95.1%, 0.741) 35.3%,
+      hsla(216, 20%, 95.1%, 0.648) 41.2%,
+      hsla(216, 20%, 95.1%, 0.55) 47.1%,
+      hsla(216, 20%, 95.1%, 0.45) 52.9%,
+      hsla(216, 20%, 95.1%, 0.352) 58.8%,
+      hsla(216, 20%, 95.1%, 0.259) 64.7%,
+      hsla(216, 20%, 95.1%, 0.175) 71%,
+      hsla(216, 20%, 95.1%, 0.104) 77.5%,
+      hsla(216, 20%, 95.1%, 0.049) 84.5%,
+      hsla(216, 20%, 95.1%, 0.013) 91.9%,
+      hsla(216, 20%, 95.1%, 0) 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -3rem;
+  left: 0;
+  transition: opacity 1s var(--ease);
+  opacity: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.topbar.with-bg::before {
+  opacity: 1;
+}
+
+.topbar.hidden:not(.open) {
+  opacity: 0;
+  transform: translateY(-3rem) scale(1.01);
+}
 
 .logo {
   display: block;
@@ -92,9 +132,14 @@ router.afterEach(() => isOpen.value = false)
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 640px) {
   .topbar {
     padding: var(--space-s);
+  }
+}
+
+@media (min-width: 960px) {
+  .topbar {
     display: grid;
     grid-template-columns: 1fr 3fr;
   }
