@@ -6,7 +6,7 @@ const { title, description, date, image, accented } = defineProps<BlogArticleMet
 <template>
   <NuxtLink :href="href" data-cursor-text="View" class="tile" :class="{ accented }">
     <div class="image rounded">
-      <img :src="image" alt="Article cover">
+      <img :src="image" alt="Article cover" :loading="accented ? undefined : 'lazy'">
     </div>
     <div>
       <p class="text-s mb-xxs dark2">{{ date }}</p>
