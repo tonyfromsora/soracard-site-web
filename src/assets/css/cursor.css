@@ -1,17 +1,15 @@
 @import '../../../node_modules/mouse-follower/dist/mouse-follower.min.css';
 
-.mf-cursor.-scale {
-  z-index: -1;
-  color: var(--color-light2);
-}
-.mf-cursor.-scale::before {
-  transform: scale(2);
-}
-
 .mf-cursor.-text::before,
 .mf-cursor.-text.-active::before {
   opacity: 1;
   transform: scale(2);
+}
+
+@media not (hover: hover) {
+  .mf-cursor {
+    display: none;
+  }
 }
 
 @supports (mix-blend-mode: exclusion) {
