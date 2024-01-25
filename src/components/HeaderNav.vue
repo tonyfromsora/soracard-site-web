@@ -163,7 +163,7 @@ li {
     transform: rotate(-180deg);
   }
 
-  .group:active .links {
+  .group:has(.group-title:active) .links {
     transform: translateX(50%) scale(1.05);
   }
 }

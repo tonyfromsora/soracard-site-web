@@ -8,10 +8,6 @@
   transform: scale(2);
 }
 
-.mf-cursor.-text {
-  font-family: 'Sora', sans-serif;
-  font-weight: 700;
-}
 .mf-cursor.-text::before,
 .mf-cursor.-text.-active::before {
   opacity: 1;

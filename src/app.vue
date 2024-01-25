@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import MouseFollower from "mouse-follower"
 import gsap from "gsap"
+const router = useRouter()
 
 MouseFollower.registerGSAP(gsap)
 let cursor: MouseFollower
@@ -12,6 +13,9 @@ onMounted(() => {
   })
 })
 onBeforeUnmount(() => cursor?.destroy())
+router.afterEach(() => {
+  cursor?.removeText()
+})
 </script>
 
 <template>

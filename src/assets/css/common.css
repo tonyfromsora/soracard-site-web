@@ -1,7 +1,7 @@
 /* CONTAINER */
 
 .w {
-  max-width: 128rem;
+  max-width: 140rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--space-xs);
@@ -18,7 +18,7 @@
 /* STYLES */
 
 .rounded {
-  border-radius: 1.6rem;
+  border-radius: var(--radius);
 }
 .shadow {
   box-shadow: var(--shadow);
@@ -26,7 +26,8 @@
 
 /* HOVER no-underline → underline */
 
-.hover-underline {
+.hover-underline,
+.rich a {
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 100% 100%;
@@ -37,13 +38,15 @@
 
 .hover-underline:focus,
 .hover-trigger:focus .hover-underline,
-.hover-trigger.router-link-active .hover-underline {
+.hover-trigger.router-link-active .hover-underline,
+.rich a:focus {
   background-size: 100% 0.06em;
 }
 
 @media (hover: hover) {
   .hover-underline:hover,
-  .hover-trigger:hover .hover-underline {
+  .hover-trigger:hover .hover-underline,
+  .rich a:hover {
     background-size: 100% 0.06em;
     background-position: 0% 100%;
   }
@@ -51,8 +54,7 @@
 
 /* HOVER underline → no-underline */
 
-.hover-deunderline,
-.rich a {
+.hover-deunderline {
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -62,15 +64,13 @@
 }
 
 .hover-deunderline:focus,
-.hover-trigger:focus .hover-deunderline,
-.rich a:focus {
+.hover-trigger:focus .hover-deunderline {
   background-size: 100% 0.06em;
 }
 
 @media (hover: hover) {
   .hover-deunderline:hover,
-  .hover-trigger:hover .hover-deunderline,
-  .rich a:hover {
+  .hover-trigger:hover .hover-deunderline {
     background-size: 0% 0.06em;
     background-position: 100% 100%;
   }

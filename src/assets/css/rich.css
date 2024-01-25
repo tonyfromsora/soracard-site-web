@@ -1,5 +1,5 @@
 .rich {
-  max-width: 100rem;
+  max-width: 90rem;
   overflow: hidden;
 }
 
@@ -8,36 +8,46 @@
 }
 
 .rich h1:not(:first-child) {
-  margin-top: var(--space-l);
+  margin-top: 1em;
 }
 .rich h2:not(:first-child) {
-  margin-top: var(--space-m);
+  margin-top: 1.6em;
 }
-.rich h3:not(:first-child),
-.rich h4:not(:first-child),
-.rich h5:not(:first-child),
-.rich h6:not(:first-child),
-.rich p:not(:first-child),
-.rich ul,
-.rich ol,
-.rich li:not(:first-child) {
-  margin-top: var(--space-xxs);
+.rich h3:not(:first-child) {
+  margin-top: 2em;
 }
 
-.rich h1:not(:last-child) {
-  margin-bottom: var(--space-m);
+.rich h4:not(:first-child),
+.rich h5:not(:first-child),
+.rich h6:not(:first-child) {
+  margin-top: 2em;
 }
-.rich h2:not(:last-child) {
-  margin-bottom: var(--space-s);
+.rich p:not(:first-child),
+.rich ul,
+.rich ol {
+  margin-top: 1.4em;
 }
-.rich h3:not(:last-child),
-.rich h4:not(:last-child),
-.rich h5:not(:last-child),
-.rich h6:not(:last-child),
+
 .rich p:not(:last-child),
 .rich ul,
 .rich ol {
-  margin-bottom: var(--space-xxs);
+  margin-bottom: 1em;
+}
+
+.rich h1:not(:last-child) {
+  margin-bottom: 0.55em;
+}
+.rich h2:not(:last-child),
+.rich h3:not(:last-child) {
+  margin-bottom: 0.6em;
+}
+.rich h4:not(:last-child),
+.rich h5:not(:last-child),
+.rich h6:not(:last-child) {
+  margin-bottom: 1em;
+}
+.rich li:not(:last-child) {
+  margin-bottom: 0.5em;
 }
 
 .rich ul,
@@ -67,7 +77,7 @@
   counter-increment: ol;
 }
 .rich ul > li:before {
-  content: '—';
+  content: '•';
 }
 
 .rich table {
@@ -104,5 +114,21 @@
 }
 
 .rich hr {
-  margin: var(--space-s) 0;
+  margin: var(--space-xl) 0;
+}
+.rich hr + h1:not(:first-child),
+.rich hr + h2:not(:first-child),
+.rich hr + h3:not(:first-child),
+.rich hr + h4:not(:first-child) {
+  margin-top: unset;
+}
+
+.rich a {
+  color: var(--color-accent);
+}
+
+.rich img,
+.rich video {
+  border-radius: var(--radius);
+  margin: var(--space-xl) auto;
 }

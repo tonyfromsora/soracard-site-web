@@ -9,9 +9,9 @@ router.afterEach(() => isOpen.value = false)
 <template>
   <Overlay :open="isOpen" @click="isOpen = false" />
 
-  <header class="topbar" :class="{ open: isOpen }">
+  <header class="topbar text-s" :class="{ open: isOpen }">
     <NuxtLink to="/" data-cursor-text="Home">
-      <svg viewBox="0 0 182 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 0 182 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo">
         <path
           d="M7.9 28.2C10 29.4 12.5 30 15.1 30C17.7 30 20.1 29.3 22.3 28.2L15.1 17.5L7.9 28.2ZM15.1 0C6.7 0 0 6.7 0 15C0 19.9 2.2 24.1 5.8 26.9L13.8 15H5.9V12.5H13.9V10H5.9V7.5H24.3V10H16.3V12.5H24.3V15H16.3L24.3 26.9C27.9 24.1 30.1 19.9 30.1 15C30.1 6.7 23.3 0 15.1 0ZM45.9 13.7L44.1 13.6C42.1 13.5 41.2 12.4 41.2 11.1C41.2 9.5 42.4 8.1 44.8 8.1C47.3 8.1 48.4 9.6 48.4 11.2H51.7C51.7 7.5 48.9 5.1 44.7 5.1C40.6 5.1 37.8 7.4 37.8 11C37.8 14.2 40 16.2 43.7 16.5L45.5 16.6C48 16.8 49.2 17.7 49.2 19.1C49.2 20.8 47.8 22.2 44.9 22.2C41.6 22.2 40.5 20.5 40.5 18.9H37.2C37.2 22.5 40 25.1 45 25.1C49.6 25.1 52.7 22.6 52.7 19C52.7 15.9 50 14.1 45.9 13.7ZM75.9 14.9V15.5C75.9 19.8 72.7 25.4 65.8 25.4C58.8 25.4 55.7 19.8 55.7 15.5V14.9C55.7 10.3 59 5.1 65.8 5.1C72.5 5.1 75.9 10.3 75.9 14.9ZM72.4 15.2C72.4 11.3 69.9 8.2 65.8 8.2C61.7 8.2 59.1 11.2 59.1 15.2C59.1 18.9 61.6 22.2 65.8 22.2C69.9 22.2 72.4 19 72.4 15.2ZM90.9 17.8L96.1 24.9H92.3L87.6 18.4H87.4H83.9V24.9H80.5V5.6H87.3C91.8 5.6 94.6 7.6 94.6 11.8V12.2C94.6 15.1 93.3 17 90.9 17.8ZM91.4 12C91.4 9.9 90 8.5 87.8 8.5H84V15.5H87.9C90.1 15.5 91.4 14.1 91.4 12ZM110.1 5.7L116.9 24.8H113.4L111.6 19.5H103L101.2 24.8H97.8L104.5 5.7H110.1ZM110.7 16.7L107.9 8.6H107L104.2 16.7H110.7Z"
           fill="#EE1122" />
@@ -51,7 +51,7 @@ router.afterEach(() => isOpen.value = false)
 }
 
 
-.topbar svg {
+.logo {
   display: block;
   height: 3rem;
 }
@@ -97,6 +97,10 @@ router.afterEach(() => isOpen.value = false)
     padding: var(--space-s);
     display: grid;
     grid-template-columns: 1fr 3fr;
+  }
+
+  .logo {
+    height: 3.2rem;
   }
 
   .topbar> :first-child {
