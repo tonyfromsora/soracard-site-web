@@ -5,9 +5,9 @@
         <BlogHeroSection :title="doc.title || 'Title is missing'"
           :description="doc.description || 'Description is missing'"
           :image="doc.image || 'https://sora.org/assets/products/sora-card.jpg'" :date="doc.date || 'Date is missing'" />
-        <main class="rich text-m w px-xs">
-          <ContentRenderer :value="doc" class="rich px-xs" />
-        </main>
+
+        <ContentRenderer :value="doc" class="text-m w rich px-s" />
+
       </article>
     </template>
     <template #not-found>
