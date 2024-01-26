@@ -2,7 +2,7 @@
 title: 'SORA Card sign-ups are LIVE!'
 description: 'We are thrilled to announce the launch of sign-ups for SORA Card!'
 date: 2023/08/08
-image: https://miro.medium.com/v2/resize:fit:4000/format:webp/1*Zzdq2MCuzcHu_J8ImC5MTQ.png
+image: /blog/sign-ups-are-live.jpg
 ---
 
 SORA Card, the neobanking-inspired solution bringing an IBAN and debit card to your DeFi applications, is now open to sign up.

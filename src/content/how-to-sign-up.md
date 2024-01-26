@@ -2,7 +2,7 @@
 title: 'How to Sign Up for SORA Card, a Walkthrough'
 description: 'In this article, you will find a walkthrough to sign up for SORA Card and undergo the KYC process.'
 date: 2023/08/08
-image: https://miro.medium.com/v2/resize:fit:4000/format:webp/1*6fckVKb5w6EeW7CfCd7Ihw.png
+image: /blog/how-to-sign-up.jpg
 ---
 
 Although signing up and undergoing KYC for SORA Card is straightforward, this article will help you resolve any questions you might have.

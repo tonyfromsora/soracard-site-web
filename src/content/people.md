@@ -2,7 +2,7 @@
 title: 'SORA Card — Meet the People Behind the Project'
 description: 'We speak with Mathieu, the SORA Wallet project manager, and Beno, who is managing the SORA Card initiative, ahead of the SORA Card launch'
 date: 2022/10/08
-image: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*hLW1k2EhsTwIzgtqk3wjWw.png
+image: /blog/people.jpg
 ---
 
 ### Mathieu and Beno, part of the management team behind the SORA Card initiative
