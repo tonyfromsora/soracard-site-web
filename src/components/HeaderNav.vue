@@ -122,7 +122,7 @@ li {
 
   .group.open li {
     opacity: 1;
-    visibility: visible;
+    visibility: unset;
     transform: translateY(0);
     transition-delay: var(--delay);
   }
