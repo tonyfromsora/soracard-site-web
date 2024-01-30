@@ -13,5 +13,8 @@
     <template #not-found>
       <h1 class="text-3xl text-center w py-3xl">Not found</h1>
     </template>
+    <template #empty>
+      <h1 class="text-3xl text-center w py-3xl">Not found</h1>
+    </template>
   </ContentDoc>
 </template>

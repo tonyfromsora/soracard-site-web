@@ -1,6 +1,6 @@
 <template>
   <section class="container w pt-l pb-3xl">
-    <ContentList :query="{ sort: [{ 'date': -1 }] }" v-slot="{ list }">
+    <ContentList :query="{ sort: [{ 'date': -1 }] }" v-slot="{ list }" path="/blog">
       <BlogTile v-for="(article, i) in list" :key="article._path" :title="article.title || 'Title is missing'"
         :date="(new Date(article.date)).toDateString()" :href="`${article._path}`"
         :description="article.description || 'Description is missing'" :image="article.image" :accented="!i" />

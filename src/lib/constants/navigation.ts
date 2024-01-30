@@ -16,7 +16,7 @@ const nav: {
       { title: 'Integrations', href: 'https://soracard.com/integrations/' },
       { title: 'Earn', href: 'https://soracard.com/earn/' },
       { title: 'Fees', href: 'https://soracard.com/fees/' },
-      { title: 'Blog', href: '/' },
+      { title: 'Blog', href: '/blog' },
       { title: 'Referrals', href: 'https://soracard.com/referrals/', label: 'soon' },
       { title: 'Apply', href: 'https://soracard.com/' },
     ],
@@ -24,11 +24,11 @@ const nav: {
   {
     title: 'About',
     links: [
-      { title: 'Vision', href: 'https://soracard.com/vision/' },
-      { title: 'SORAnomics', href: 'https://soracard.com/soranomics/' },
-      { title: 'Technology', href: 'https://soracard.com/technology/' },
-      { title: 'Ambassadors', href: 'https://soracard.com/ambassadors/' },
-      { title: 'Partners', href: 'https://soracard.com/partners/' },
+      { title: 'Vision', href: '/vision' },
+      { title: 'SORAnomics', href: '/soranomics' },
+      { title: 'Technology', href: '/technology' },
+      { title: 'Ambassadors', href: '/ambassadors' },
+      { title: 'Partners', href: '/partners' },
     ],
   },
   {
