@@ -47,7 +47,8 @@ const socials: (Link & { icon: string })[] = [{
 <template>
   <ul>
     <li v-for="link in socials">
-      <NuxtLink :href="link.href" target="_blank" class="block py-m" data-cursor-stick :data-cursor-text="link.title">
+      <NuxtLink :href="link.href" target="_blank" class="block py-m" data-cursor-show data-cursor-stick
+        :data-cursor-text="link.title">
         <img :src="`/icons/${link.icon}.svg`" :alt="`${link.title} icon`">
       </NuxtLink>
     </li>

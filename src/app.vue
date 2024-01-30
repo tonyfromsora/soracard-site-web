@@ -10,11 +10,13 @@ onMounted(() => {
   cursor = new MouseFollower({
     skewing: 2,
     stickDelta: 0.25,
+    visible: false,
   })
 })
 onBeforeUnmount(() => cursor?.destroy())
 router.afterEach(() => {
   cursor?.removeText()
+  cursor?.hide()
 })
 </script>
 

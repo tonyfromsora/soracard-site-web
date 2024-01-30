@@ -21,7 +21,7 @@ const toggleAccordion = (i: number) => {
         <div @click="toggleAccordion(i)" class="group-title p-xs bold">
           <span :data-title="group.title">{{ group.title }}</span>
         </div>
-        <div class="links" data-cursor="-hidden">
+        <div class="links">
           <div>
             <ul>
               <li v-for="(item, i) in group.links" :style="`--delay: ${i * 0.05}s`">
