@@ -61,7 +61,7 @@ ul {
   display: flex;
   justify-content: center;
   width: 100%;
-  border-bottom: 1px solid var(--color-semi-dark);
+  max-width: 67rem;
 }
 
 ul,
@@ -72,7 +72,6 @@ li {
 
 li {
   flex: 1;
-  max-width: 7rem;
 }
 
 img {
