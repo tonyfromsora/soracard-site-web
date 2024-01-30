@@ -12,12 +12,12 @@ const nav: {
   {
     title: 'SORA Card',
     links: [
-      { title: 'Features', href: 'https://soracard.com/#features' },
-      { title: 'Integrations', href: 'https://soracard.com/integrations/' },
-      { title: 'Earn', href: 'https://soracard.com/earn/' },
-      { title: 'Fees', href: 'https://soracard.com/fees/' },
+      { title: 'Features', href: '/#features' },
+      { title: 'Integrations', href: '/integrations' },
+      { title: 'Earn', href: '/earn' },
+      { title: 'Fees', href: '/fees' },
       { title: 'Blog', href: '/blog' },
-      { title: 'Referrals', href: 'https://soracard.com/referrals/', label: 'soon' },
+      { title: 'Referrals', href: '/referrals', label: 'soon' },
       { title: 'Apply', href: 'https://soracard.com/' },
     ],
   },
@@ -34,7 +34,7 @@ const nav: {
   {
     title: 'Help',
     links: [
-      { title: 'FAQ', href: 'https://soracard.com/#FAQ' },
+      { title: 'FAQ', href: '/#faq' },
       { title: 'Support', href: 'https://soracard.com/support/' },
       { title: 'Contact', href: 'https://soracard.com/contact/' },
       { title: 'Request Feature', href: 'https://soracard.com/request-feature/' },
