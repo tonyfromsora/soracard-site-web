@@ -1,0 +1,147 @@
+.rich {
+  max-width: 90rem;
+  overflow: hidden;
+}
+
+.rich * {
+  scroll-margin-top: var(--space-m);
+}
+
+.rich h1:not(:first-child) {
+  margin-top: 1em;
+}
+.rich h2:not(:first-child) {
+  margin-top: 1.6em;
+}
+.rich h3:not(:first-child) {
+  margin-top: 2em;
+}
+
+.rich h4:not(:first-child),
+.rich h5:not(:first-child),
+.rich h6:not(:first-child) {
+  margin-top: 2em;
+}
+.rich p:not(:first-child),
+.rich ul,
+.rich ol {
+  margin-top: 1.4em;
+}
+
+.rich p:not(:last-child),
+.rich ul,
+.rich ol {
+  margin-bottom: 1em;
+}
+
+.rich h1:not(:last-child) {
+  margin-bottom: 0.55em;
+}
+.rich h2:not(:last-child),
+.rich h3:not(:last-child) {
+  margin-bottom: 0.6em;
+}
+.rich h4:not(:last-child),
+.rich h5:not(:last-child),
+.rich h6:not(:last-child) {
+  margin-bottom: 1em;
+}
+.rich li:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+.rich table:not(:first-child) {
+  margin-top: 3em;
+}
+.rich table:not(:last-child) {
+  margin-bottom: 3em;
+}
+
+.rich ul,
+.rich ol {
+  display: block;
+  padding: 0;
+  counter-reset: ol;
+}
+.rich ul li,
+.rich ol li {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 1.8em;
+}
+.rich ul li:before,
+.rich ol > li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: currentColor;
+  font-size: inherit;
+  line-height: inherit;
+}
+.rich ol li:before {
+  content: counters(ol, '.') '.';
+  counter-increment: ol;
+}
+.rich ul > li:before {
+  content: '•';
+}
+
+.rich table {
+  width: 100%;
+  display: block;
+  overflow-x: scroll;
+  border-collapse: separate;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+  box-sizing: border-box;
+  background-color: var(--color-light2);
+  border-radius: var(--radius);
+  font-size: var(--font-s);
+}
+
+.rich table thead,
+.rich table tbody {
+  width: 100%;
+}
+.rich table td,
+.rich table th {
+  padding: var(--space-s) var(--space-xs);
+  overflow-wrap: normal;
+  vertical-align: top;
+  text-align: left;
+  font-weight: normal;
+}
+
+.rich table tr:not(:last-child) td {
+  border-bottom: 1px solid var(--color-light3);
+}
+.rich table td:not(:last-child),
+.rich table th:not(:last-child) {
+  border-right: 1px solid var(--color-light3);
+}
+.rich table th {
+  border-bottom: 1px solid var(--color-semi-dark);
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+}
+
+.rich hr {
+  margin: var(--space-l) 0;
+}
+.rich hr + h1:not(:first-child),
+.rich hr + h2:not(:first-child),
+.rich hr + h3:not(:first-child),
+.rich hr + h4:not(:first-child) {
+  margin-top: unset;
+}
+
+.rich a {
+  color: var(--color-accent);
+}
+
+.rich img,
+.rich video {
+  border-radius: var(--radius);
+  margin: var(--space-xl) auto;
+}
