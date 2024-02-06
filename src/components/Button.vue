@@ -4,12 +4,13 @@ const { title, href, target, ghost = false } = defineProps<{
   href: string,
   target?: "_blank" | "_parent" | "_self" | "_top"
   ghost?: boolean
+  large?: boolean
 }>()
 </script>
 
 <template>
-  <NuxtLink class="button px-s py-xxs bold text-center inline-block" :href="href" :target="target"
-    :class="{ outlined: !ghost }">
+  <NuxtLink class="button bold text-center inline-block" :href="href" :target="target"
+    :class="{ outlined: !ghost, 'px-s': !large, 'py-xxs': !large, 'px-m': large, 'py-xs': large }">
     <span :data-title="title">{{ title }}</span>
   </NuxtLink>
 </template>
@@ -36,7 +37,7 @@ const { title, href, target, ghost = false } = defineProps<{
   position: absolute;
   background-color: var(--color-dark1);
   border-radius: 50%;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 1s var(--ease), border-radius 1s var(--ease), background-color 1s var(--ease);
 }
 
