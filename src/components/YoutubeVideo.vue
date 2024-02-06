@@ -6,9 +6,9 @@ const play = ref(false)
 
 <template>
   <div class="block rounded bg-dark2" :class="{ play }">
-    <img :src="cover" alt="Video cover" @click="play = true" data-cursor-text="Play">
-    <iframe v-if="play" data-cursor="-hidden" width="1920" height="1080"
-      :src="`https://www.youtube.com/embed/${id}?autoplay=1`" title="YouTube video player" frameborder="0"
+    <img :src="cover" alt="Video cover" @click="play = true" data-cursor-show data-cursor-text="Play">
+    <iframe v-if="play" width="1920" height="1080" :src="`https://www.youtube.com/embed/${id}?autoplay=1`"
+      title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen></iframe>
   </div>
@@ -37,7 +37,8 @@ const play = ref(false)
   transition: opacity 1s var(--ease), transform 1s var(--ease), visibility 1s var(--ease);
 }
 
-.block.play img {
+.block.play img,
+.block.play::after {
   opacity: 0;
   visibility: hidden;
 }
@@ -58,9 +59,7 @@ const play = ref(false)
 
   .block:hover::after,
   .block.play::after {
-    opacity: 0;
-    visibility: hidden;
-    transform: scale(0.75);
+    transform: scale(0.9);
   }
 
   .block:hover img {
