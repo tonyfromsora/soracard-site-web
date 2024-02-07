@@ -10,13 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.9.3",
+    "nuxt": "^3.10.1",
     "typescript": "^5.3.3",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@nuxt/content": "^2.11.0",
+    "@nuxt/content": "^2.12.0",
     "gsap": "^3.12.5",
     "mouse-follower": "^1.1.2",
     "ogl": "^1.0.3"
