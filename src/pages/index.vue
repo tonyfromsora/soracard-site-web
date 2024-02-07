@@ -8,5 +8,6 @@ useSeoMeta({
   <HomeHero />
   <HomeFeatures id="features" />
   <HomeValue />
+  <HomeAccordionBanner />
   <HomeFAQ id="faq" />
 </template>
