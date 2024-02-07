@@ -34,7 +34,7 @@ onMounted(() => {
         end: 'bottom top',
         scrub: true,
         onUpdate: (val) => {
-          progress.value = val.progress
+          gsap.to(progress, { value: val.progress, ease: 'power4.out', duration: 1 })
         }
       })
     }, container.value)

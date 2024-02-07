@@ -150,7 +150,7 @@ const { scrollY } = useScroll()
 
   .image picture {
     transform-origin: bottom right;
-    transform: translateY(calc(var(--progress) * -40%)) rotate(calc(var(--progress) * 20deg));
+    transform: translateY(calc(var(--progress) * -40%)) translateX(calc(var(--progress) * 10%)) rotate(calc(var(--progress) * 20deg));
     opacity: calc(1 - var(--progress));
   }
 

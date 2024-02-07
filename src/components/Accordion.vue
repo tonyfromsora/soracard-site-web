@@ -23,7 +23,8 @@ const toggleAccordion = (i: number) => {
 <template>
   <div>
     <div v-for="(item, i) in itemsRef" :key="i" class="item" :class="{ open: item.isOpen }">
-      <h3 @click="toggleAccordion(i)" class="text-m py-s hover-trigger">
+      <h3 @click="toggleAccordion(i)" class="text-m py-s hover-trigger" data-cursor-show
+        :data-cursor-text="item.isOpen ? 'Close' : 'Open'">
         <span>
           {{ item.title }}
         </span>
