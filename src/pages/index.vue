@@ -9,5 +9,6 @@ useSeoMeta({
   <HomeFeatures id="features" />
   <HomeValue />
   <HomeAccordionBanner />
+  <HomePossibilities />
   <HomeFAQ id="faq" />
 </template>
