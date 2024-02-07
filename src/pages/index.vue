@@ -12,4 +12,5 @@ useSeoMeta({
   <HomePossibilities />
   <HomeFAQ id="faq" />
   <HomeBlog />
+  <HomeBanner />
 </template>
