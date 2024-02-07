@@ -11,4 +11,5 @@ useSeoMeta({
   <HomeAccordionBanner />
   <HomePossibilities />
   <HomeFAQ id="faq" />
+  <HomeBlog />
 </template>
