@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const isModalOpen = useApplyModalState()
 const { scrollY } = useScroll()
 </script>
 
@@ -7,7 +8,7 @@ const { scrollY } = useScroll()
     <h1 class="text-3xl mb-m">More than just a card</h1>
     <p class="text-l dark2 mb-l">Access the new era of interoperable finance, all in the palm of your hands.</p>
     <div class="flex">
-      <Button title="Apply" href="" large />
+      <Button title="Apply" large @click="isModalOpen = !isModalOpen" />
       <Button title="Learn more" href="#features" ghost large />
     </div>
     <div class="image">

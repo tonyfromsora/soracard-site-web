@@ -24,4 +24,5 @@ router.afterEach(() => {
   <Header />
   <NuxtPage />
   <Footer />
+  <ApplyModal />
 </template>

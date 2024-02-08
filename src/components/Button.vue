@@ -1,20 +1,25 @@
 <script setup lang="ts">
 const { title, href, target, ghost = false } = defineProps<{
   title: string,
-  href: string,
+  href?: string,
   target?: "_blank" | "_parent" | "_self" | "_top"
   ghost?: boolean
   large?: boolean
   light?: boolean
 }>()
+
+const component = computed(() => {
+  if (href) return resolveComponent('NuxtLink')
+  return 'button'
+})
 </script>
 
 <template>
-  <NuxtLink class="button bold text-center inline-block" :href="href" :target="target"
+  <component class="button bold text-center inline-block" :is="component" :href="href" :target="target"
     :class="{ outlined: !ghost, 'px-s': !large, 'py-xxs': !large, 'px-m': large, 'py-xs': large }"
     :style="`--color: ${light ? 'var(--color-light1)' : 'var(--color-dark1)'}`">
     <span :data-title="title">{{ title }}</span>
-  </NuxtLink>
+  </component>
 </template>
 
 <style scoped>

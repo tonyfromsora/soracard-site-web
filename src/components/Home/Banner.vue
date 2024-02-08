@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const isModalOpen = useApplyModalState()
+</script>
+
 <template>
   <section class="w container pb-xxl">
     <div class="grid rounded bg-dark1 light1">
@@ -7,7 +11,7 @@
           SORA card is a neobanking-style solution that gives direct access to decentralized and non-custodial crypto.
           SORA does not have access to your crypto assets or user data. We value freedom.
         </p>
-        <Button href="#" title="Apply now" large light />
+        <Button title="Apply now" large light @click="isModalOpen = !isModalOpen" />
       </div>
       <div class="image">
         <img src="/home/banner.jpg" alt="Hand holding SORA Card" />

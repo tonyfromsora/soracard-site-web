@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useScroll } from '~/composables/useScroll'
 const { scrollY, isScrollDown } = useScroll()
+const isModalOpen = useApplyModalState()
 const router = useRouter()
 
 const isOpen = ref(false)
@@ -27,8 +27,11 @@ router.afterEach(() => isOpen.value = false)
     <div class="nav">
       <HeaderNav />
       <div class="cta">
-        <Button href="https://soracard.com/fees" target="_blank" title="Fees" ghost />
-        <Button href="/" title="Apply" />
+        <Button href="/fees" target="_blank" title="Fees" ghost />
+        <Button title="Apply" @click="() => {
+          isOpen = false
+          isModalOpen = !isModalOpen
+        }" />
       </div>
     </div>
 
@@ -48,7 +51,7 @@ router.afterEach(() => isOpen.value = false)
   padding: var(--space-xs);
   z-index: 13;
   perspective: 200rem;
-  transition: opacity .5s ease, transform .5s ease;
+  transition: opacity .5s ease, visibility .5s ease, transform .5s ease;
 }
 
 .topbar::before {
@@ -87,6 +90,7 @@ router.afterEach(() => isOpen.value = false)
 
 .topbar.hidden:not(.open) {
   opacity: 0;
+  visibility: hidden;
   transform: translateY(-3rem) scale(1.01);
 }
 
