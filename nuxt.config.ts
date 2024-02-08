@@ -14,6 +14,9 @@ export default defineNuxtConfig({
       anchorLinks: false,
     },
   },
+  build: {
+    transpile: ['gsap'],
+  },
   app: {
     head: {
       htmlAttrs: {

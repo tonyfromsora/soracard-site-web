@@ -4,12 +4,15 @@ const { title, href, target, ghost = false } = defineProps<{
   href: string,
   target?: "_blank" | "_parent" | "_self" | "_top"
   ghost?: boolean
+  large?: boolean
+  light?: boolean
 }>()
 </script>
 
 <template>
-  <NuxtLink class="button px-s py-xxs bold text-center inline-block" :href="href" :target="target"
-    :class="{ outlined: !ghost }">
+  <NuxtLink class="button bold text-center inline-block" :href="href" :target="target"
+    :class="{ outlined: !ghost, 'px-s': !large, 'py-xxs': !large, 'px-m': large, 'py-xs': large }"
+    :style="`--color: ${light ? 'var(--color-light1)' : 'var(--color-dark1)'}`">
     <span :data-title="title">{{ title }}</span>
   </NuxtLink>
 </template>
@@ -24,7 +27,7 @@ const { title, href, target, ghost = false } = defineProps<{
 }
 
 .button.outlined {
-  box-shadow: inset 0 0 0 2px var(--color-dark1);
+  box-shadow: inset 0 0 0 2px var(--color);
 }
 
 .button::before {
@@ -34,9 +37,9 @@ const { title, href, target, ghost = false } = defineProps<{
   bottom: 0;
   left: 0;
   position: absolute;
-  background-color: var(--color-dark1);
+  background-color: var(--color);
   border-radius: 50%;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 1s var(--ease), border-radius 1s var(--ease), background-color 1s var(--ease);
 }
 
@@ -59,11 +62,11 @@ const { title, href, target, ghost = false } = defineProps<{
 }
 
 .button>span::before {
-  color: var(--color-dark1);
+  color: var(--color);
 }
 
 .button>span::after {
-  color: var(--color-dark1);
+  color: var(--color);
   transform: translateY(100%) scaleY(0.5);
 }
 
