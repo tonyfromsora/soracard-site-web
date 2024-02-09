@@ -85,6 +85,7 @@
 }
 .rich ul > li:before {
   content: '•';
+  left: 0.25em;
 }
 
 .rich table {
