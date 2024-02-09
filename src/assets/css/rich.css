@@ -7,64 +7,64 @@
   scroll-margin-top: var(--space-m);
 }
 
-.rich h1:not(:first-child) {
+.rich h1:not(:first-child):not([class]) {
   margin-top: 1em;
 }
-.rich h2:not(:first-child) {
+.rich h2:not(:first-child):not([class]) {
   margin-top: 1.6em;
 }
-.rich h3:not(:first-child) {
+.rich h3:not(:first-child):not([class]) {
   margin-top: 2em;
 }
 
-.rich h4:not(:first-child),
-.rich h5:not(:first-child),
-.rich h6:not(:first-child) {
+.rich h4:not(:first-child):not([class]),
+.rich h5:not(:first-child):not([class]),
+.rich h6:not(:first-child):not([class]) {
   margin-top: 2em;
 }
-.rich p:not(:first-child),
-.rich ul,
-.rich ol {
+.rich p:not(:first-child):not([class]),
+.rich ul:not([class]),
+.rich ol:not([class]) {
   margin-top: 1.4em;
 }
 
-.rich p:not(:last-child),
-.rich ul,
-.rich ol {
+.rich p:not(:last-child):not([class]),
+.rich ul:not([class]),
+.rich ol:not([class]) {
   margin-bottom: 1em;
 }
 
-.rich h1:not(:last-child) {
+.rich h1:not(:last-child):not([class]) {
   margin-bottom: 0.55em;
 }
-.rich h2:not(:last-child),
-.rich h3:not(:last-child) {
+.rich h2:not(:last-child):not([class]),
+.rich h3:not(:last-child):not([class]) {
   margin-bottom: 0.6em;
 }
-.rich h4:not(:last-child),
-.rich h5:not(:last-child),
-.rich h6:not(:last-child) {
+.rich h4:not(:last-child):not([class]),
+.rich h5:not(:last-child):not([class]),
+.rich h6:not(:last-child):not([class]) {
   margin-bottom: 1em;
 }
-.rich li:not(:last-child) {
+.rich li:not(:last-child):not([class]) {
   margin-bottom: 0.5em;
 }
 
-.rich table:not(:first-child) {
+.rich table:not(:first-child):not([class]) {
   margin-top: 3em;
 }
-.rich table:not(:last-child) {
+.rich table:not(:last-child):not([class]) {
   margin-bottom: 3em;
 }
 
-.rich ul,
-.rich ol {
+.rich ul:not([class]),
+.rich ol:not([class]) {
   display: block;
   padding: 0;
   counter-reset: ol;
 }
-.rich ul li,
-.rich ol li {
+.rich ul li:not([class]),
+.rich ol li:not([class]) {
   position: relative;
   display: block;
   box-sizing: border-box;

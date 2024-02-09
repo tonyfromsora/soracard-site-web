@@ -5,12 +5,9 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s pt-3xl flex mb-s mx-auto">
-    <div class="flex px-xs py-3xs bg-light1 rounded text-s">Earn</div>
-  </section>
-
-  <section class="rich px-s pb-3xl mx-auto">
-    <h1>
+  <section class="rich px-s py-3xl mx-auto">
+    <span class="px-xs py-3xs bg-light1 rounded text-s">Earn</span>
+    <h1 class="my-m">
       Earn farming and staking rewards
     </h1>
     <p class="text-l rich">

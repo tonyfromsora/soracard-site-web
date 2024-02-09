@@ -5,11 +5,9 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s pt-3xl flex mb-s mx-auto">
-    <div class="flex px-xs py-3xs bg-light1 rounded text-s">Ambassadors</div>
-  </section>
-  <section class="rich px-s pb-3xl mx-auto">
-    <h1 class="text-xl">
+  <section class="rich px-s py-3xl mx-auto">
+    <span class="px-xs py-3xs bg-light1 rounded text-s">Ambassadors</span>
+    <h1 class="text-xl my-m">
       We believe in building a better world through decentralisation and empowering communities
     </h1>
     <p class="text-l">
@@ -39,7 +37,8 @@ useSeoMeta({
     </p>
     <hr>
     <div class="text-center">
-    <Button href="https://medium.com/sora-xor/天-become-a-sorambassador-ed290dadb247" title="Learn more" class="text-s"
-      target="_blank" />
-  </div>
-</section></template>
+      <Button href="https://medium.com/sora-xor/天-become-a-sorambassador-ed290dadb247" title="Learn more" class="text-s"
+        target="_blank" />
+    </div>
+  </section>
+</template>

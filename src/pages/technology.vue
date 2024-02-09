@@ -5,11 +5,9 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s pt-3xl flex mb-s mx-auto">
-    <div class="flex px-xs py-3xs bg-light1 rounded text-s">Technology</div>
-  </section>
-  <section class="rich px-s pb-3xl mx-auto">
-    <h1 class="text-xl">
+  <section class="rich px-s py-3xl mx-auto">
+    <span class="px-xs py-3xs bg-light1 rounded text-s">Technology</span>
+    <h1 class="text-xl my-m">
       We believe in a better, more efficient blockchain network for all
     </h1>
     <p class="text-l">

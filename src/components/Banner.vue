@@ -1,20 +1,21 @@
 <script setup lang="ts">
-const isModalOpen = useApplyModalState()
+const { image, background } = defineProps<{
+  image: {
+    src: string
+    alt: string
+  }
+  background?: string
+}>()
 </script>
 
 <template>
   <section class="w container pb-xxl">
-    <div class="grid rounded bg-dark1 light1">
+    <div class="grid rounded bg-dark1 light1" :style="{ 'background-color': background }">
       <div class="text">
-        <h2 class="mb-m">Get SORA Card — Value Freedom</h2>
-        <p class="text-l mb-l">
-          SORA card is a neobanking-style solution that gives direct access to decentralized and non-custodial crypto.
-          SORA does not have access to your crypto assets or user data. We value freedom.
-        </p>
-        <Button title="Apply now" large light @click="isModalOpen = !isModalOpen" />
+        <slot />
       </div>
       <div class="image">
-        <img src="/home/banner.jpg" alt="Hand holding SORA Card" />
+        <img :src="image.src" :alt="image.alt" />
       </div>
     </div>
   </section>

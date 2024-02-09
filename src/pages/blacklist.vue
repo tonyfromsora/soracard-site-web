@@ -5,11 +5,9 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s pt-3xl flex mb-s mx-auto">
-    <div class="flex px-xs py-3xs bg-light1 rounded text-s">Restricted countries</div>
-  </section>
-  <section class="rich px-s pb-3xl mx-auto">
-    <h1 class="text-xl">
+  <section class="rich px-s py-3xl mx-auto">
+    <span class="px-xs py-3xs bg-light1 rounded text-s">Restricted countries</span>
+    <h1 class="text-xl my-m">
       Regretfully, residents of the following jurisdictions are not eligible to apply for SORA Card at this time
     </h1>
     <p class="text-l">

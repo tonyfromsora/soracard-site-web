@@ -5,14 +5,12 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s pt-3xl flex mb-s mx-auto" style="justify-content: center;">
-    <div class="flex px-xs py-3xs bg-light1 rounded text-s">Vision</div>
-  </section>
-  <section class="w">
-    <h1 class="text-center pb-s">
+  <section class="w pt-3xl text-center">
+    <span class="px-xs py-3xs bg-light1 rounded text-s">Vision</span>
+    <h1 class="my-s">
       We believe that a better world begins with better money
     </h1>
-    <div class="text-l text-center mx-auto rich pb-xl">
+    <div class="text-l mx-auto rich pb-xl">
       At our core, we all desire a better world. SORA's revolutionary decentralized economic system is designed to treat
       money as a global commons, allowing the humankind to work together to advance all of humanity.
     </div>
