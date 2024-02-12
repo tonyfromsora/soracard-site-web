@@ -4,7 +4,7 @@
 }
 
 .rich * {
-  scroll-margin-top: var(--space-m);
+  scroll-margin-top: var(--space-xxl);
 }
 
 .rich h1:not(:first-child):not([class]) {

@@ -27,7 +27,7 @@ router.afterEach(() => isOpen.value = false)
     <div class="nav">
       <HeaderNav />
       <div class="cta">
-        <Button href="/fees" target="_blank" title="Fees" ghost />
+        <Button href="/fees" title="Fees" ghost />
         <Button title="Apply" @click="() => {
           isOpen = false
           isModalOpen = !isModalOpen
