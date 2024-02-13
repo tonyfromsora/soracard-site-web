@@ -9,6 +9,7 @@ button {
   margin: 0;
   width: auto;
   cursor: pointer;
+  color: inherit;
 }
 
 /* Box sizing rules */
