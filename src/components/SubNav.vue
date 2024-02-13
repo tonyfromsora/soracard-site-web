@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { type Link } from '~/lib/constants/types'
-const { items } = defineProps<{ items: Link[] }>()
+const { items } = defineProps<{ items: (Link & { bold?: boolean })[] }>()
 
 const isOpen = ref(false)
 </script>
@@ -10,7 +10,8 @@ const isOpen = ref(false)
     <button class="py-xs px-s text-s bg-light1 rounded button" @click="isOpen = !isOpen">Navigation</button>
     <ul class="rounded py-s px-xs bg-light1 nav">
       <li v-for="item in items">
-        <a :href="item.href" class="block text-s p-3xs hover-trigger" @click="isOpen = false">
+        <a :href="item.href" class="block text-s px-3xs hover-trigger" :class="item.bold ? 'bold py-xs' : 'py-3xs'"
+          @click="isOpen = false">
           <span class="hover-underline">
             {{ item.title }}
           </span>
@@ -23,6 +24,8 @@ const isOpen = ref(false)
 <style scoped>
 .nav {
   list-style: none;
+  max-height: calc(100vh - var(--space-xxl) - var(--space-3xl));
+  overflow-y: auto;
 }
 
 @media (max-width: 959px) {
@@ -52,7 +55,8 @@ const isOpen = ref(false)
     transition: opacity 0.6s var(--ease), visibility 0.6s var(--ease), transform 1s var(--ease);
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-2rem) scaleY(0.75);
+    transform: scaleY(0.75);
+    transform-origin: top;
     position: absolute;
     top: calc(100% + 1px);
     left: 0;

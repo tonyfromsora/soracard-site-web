@@ -60,32 +60,7 @@
 .rich ul:not([class]),
 .rich ol:not([class]) {
   display: block;
-  padding: 0;
-  counter-reset: ol;
-}
-.rich ul li:not([class]),
-.rich ol li:not([class]) {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  padding-left: 1.8em;
-}
-.rich ul li:before,
-.rich ol > li:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: currentColor;
-  font-size: inherit;
-  line-height: inherit;
-}
-.rich ol li:before {
-  content: counters(ol, '.') '.';
-  counter-increment: ol;
-}
-.rich ul > li:before {
-  content: '•';
-  left: 0.25em;
+  padding: 0 0 0 2.2em;
 }
 
 .rich table {
