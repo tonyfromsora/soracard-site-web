@@ -3,13 +3,13 @@ import type { Link } from '~/lib/constants/types'
 
 const links: (Link & { external?: boolean })[] = [{
   title: 'Terms and Conditions',
-  href: 'https://soracard.com/terms'
+  href: '/terms'
 }, {
   title: 'Privacy Policy',
-  href: 'https://soracard.com/privacy'
+  href: '/privacy'
 }, {
   title: 'Restricted Countries',
-  href: 'https://soracard.com/blacklist'
+  href: '/blacklist'
 }, {
   title: 'Polkaswap Memorandum and Terms of Services',
   href: 'https://wiki.sora.org/polkaswap/terms',
@@ -20,11 +20,11 @@ const links: (Link & { external?: boolean })[] = [{
   external: true
 }, {
   title: 'SORA Wallet Terms and Conditions',
-  href: 'https://sora.org/terms/',
+  href: 'https://sora.org/terms',
   external: true
 }, {
   title: 'SORA Wallet Privacy Policy',
-  href: 'https://sora.org/privacy/',
+  href: 'https://sora.org/privacy',
   external: true
 }, {
   title: 'Unlimit Privacy Policy ',
@@ -35,13 +35,13 @@ const links: (Link & { external?: boolean })[] = [{
 
 <template>
   <div class="text-xs dark2 text-center py-s legal">
-    <a v-for="link in links" :href="link.href" class="hover-trigger p-3xs link"
+    <NuxtLink v-for="link in links" :href="link.href" class="hover-trigger p-3xs link"
       :target="link.external ? '_blank' : undefined">
       <span class="hover-underline">
         {{ link.title }}
       </span>
       <img v-if="link.external" src="/icons/external.svg" alt="external link icon" class="external">
-    </a>
+    </NuxtLink>
   </div>
 </template>
 
