@@ -5,7 +5,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s py-3xl mx-auto">
+  <section class="rich px-s py-3xl mx-auto" data-aos="fade-up">
     <span class="px-xs py-3xs bg-light1 rounded text-s">SORAnomics</span>
     <h1 class="text-xl my-m">
       We believe inflation is beneficial only when new goods or services are created using the newly printed money

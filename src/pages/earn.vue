@@ -5,7 +5,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s py-3xl mx-auto">
+  <section class="rich px-s py-3xl mx-auto" data-aos="fade-up">
     <span class="px-xs py-3xs bg-light1 rounded text-s">Earn</span>
     <h1 class="my-m">
       Earn farming and staking rewards
@@ -25,7 +25,7 @@ useSeoMeta({
       to earn rewards on their tokens but also Web3 projects issuing tokens, as it offers an out-of-the-box solution for
       implementing yield farming.
     </p>
-    <img src="https://soracard.com/images/demeter.png" alt="Demeter image" style="max-width: 30rem;">
+    <img src="/earn/demeter.jpg" alt="Demeter image" style="max-width: 30rem; aspect-ratio: 1/1;">
     <hr>
     <p class="text-s">
       Referring friends to the SORA network also earns rewards, with users receiving 10% of their referrals' network fees

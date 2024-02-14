@@ -5,7 +5,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s py-3xl mx-auto">
+  <section class="rich px-s py-3xl mx-auto" data-aos="fade-up">
     <span class="px-xs py-3xs bg-light1 rounded text-s">Partners</span>
     <h1 class="text-xl my-m">
       We believe in the power of partnerships to revolutionize our world economy
@@ -34,7 +34,7 @@ useSeoMeta({
       Card, all built on the SORA network.
     </p>
     <figure class="mt-xl mb-l">
-      <YoutubeVideo id="058n40NpfqM" cover="https://soracard.com/images/058n40NpfqM2.jpg" class="mb-s" />
+      <YoutubeVideo id="058n40NpfqM" cover="/about/partners.jpg" class="mb-s" />
       <figcaption class="text-center text-s">
         Build with SORA
       </figcaption>

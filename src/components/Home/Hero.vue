@@ -32,19 +32,20 @@ onUnmounted(() => {
 
 <template>
   <section class="py-3xl w container" ref="container">
-    <h1 class="text-3xl mb-m">More than just a card</h1>
-    <p class="text-l dark2 mb-l">Access the new era of interoperable finance, all in the palm of your hands.</p>
-    <div class="flex">
+    <h1 class="text-3xl mb-m" data-aos="fade-up">More than just a card</h1>
+    <p class="text-l dark2 mb-l" data-aos="fade-up" data-aos-delay="100">Access the new era of interoperable finance, all
+      in the palm of your hands.</p>
+    <div class="flex" data-aos="fade-up" data-aos-delay="200">
       <Button title="Apply" large @click="isModalOpen = !isModalOpen" />
       <Button title="Learn more" href="#features" ghost large />
     </div>
-    <div class="image">
+    <div class="image" data-aos="fade-up" data-aos-delay="400">
       <picture :style="`--progress: ${progress};`">
         <source srcset="/home/hero.webp" type="image/webp" />
         <img src="/home/hero.png" alt="Hand holding phone with SORA Card in wallet app" />
       </picture>
     </div>
-    <div class="chains">
+    <div class="chains" data-aos="fade-up" data-aos-delay="300">
       <svg viewBox="0 0 221 70" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M15.7475 61.4C19.9336 63.8 24.9169 65 30.0997 65C35.2824 65 40.0664 63.6 44.4518 61.4L30.0997 40L15.7475 61.4ZM30.0997 5C13.3555 5 0 18.4 0 35C0 44.8 4.38538 53.2 11.5615 58.8L27.5083 35H11.7608V30H27.7076V25H11.7608V20H48.4385V25H32.4917V30H48.4385V35H32.4917L48.4385 58.8C55.6146 53.2 60 44.8 60 35C60 18.4 46.4452 5 30.0997 5Z"

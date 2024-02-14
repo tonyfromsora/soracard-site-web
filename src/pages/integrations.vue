@@ -4,7 +4,7 @@
   <Banner :image="{
     src: '/integrations/fearless-wallet.jpg',
     alt: ''
-  }" background="#11121B">
+  }" background="#11121B" data-aos="fade-up">
     <h2 class="mb-3xs">Soon, SORA Card will also integrate with Fearless Wallet</h2>
     <div class="text-l mb-m rich">
       <ul>

@@ -1,9 +1,9 @@
 <template>
   <section class="text-center w pt-3xl">
-    <h1 class="mb-s text-3xl">The new era of interoperable finance starts here</h1>
-    <p class="text-l mb-m">All in the palm of your hands</p>
-    <Button href="#more" title="Learn more" large style="z-index: 2;" />
-    <div class="hero">
+    <h1 class="mb-s text-3xl" data-aos="fade-up">The new era of interoperable finance starts here</h1>
+    <p class="text-l mb-m" data-aos="fade-up" data-aos-delay="100">All in the palm of your hands</p>
+    <Button href="#more" title="Learn more" large style="z-index: 2;" data-aos="fade-up" data-aos-delay="200" />
+    <div class="hero" data-aos="fade-up" data-aos-delay="300">
       <IntegrationsHeroVisual class="mx-auto inner" />
     </div>
   </section>

@@ -51,7 +51,7 @@ const nav = [
 </script>
 
 <template>
-  <section class="container w my-3xl mx-auto">
+  <section class="container w my-3xl mx-auto" data-aos="fade-up">
     <SubNav :items="nav" />
     <div class="rich">
       <h1 class="mb-3xs">Terms and Conditions</h1>

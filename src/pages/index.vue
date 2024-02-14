@@ -12,12 +12,12 @@ useSeoMeta({
   <HomeValue />
   <HomeAccordionBanner />
   <HomePossibilities />
-  <HomeFAQ id="faq" />
+  <HomeFAQ id="faq" data-aos="fade-up" />
   <HomeBlog />
   <Banner :image="{
     src: '/home/banner.jpg',
     alt: 'Hand holding SORA Card'
-  }">
+  }" data-aos="fade-up">
     <h2 class="mb-m">Get SORA Card — Value Freedom</h2>
     <p class="text-l mb-l">
       SORA card is a neobanking-style solution that gives direct access to decentralized and non-custodial crypto.

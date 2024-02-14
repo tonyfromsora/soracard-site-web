@@ -5,7 +5,7 @@ const isModalOpen = useApplyModalState()
 <template>
   <section class="w pt-xl pb-3xl px-xs">
     <div class="item pb-3xl">
-      <div class="text rich p-3xs">
+      <div class="text rich p-3xs" data-aos="fade-up">
         <span class="px-xs py-3xs bg-light1 rounded text-s">SORA Wallet</span>
         <h2 class="mt-xs">
           A unique self-custodial crypto wallet with an integrated DEX and debit card
@@ -30,10 +30,10 @@ const isModalOpen = useApplyModalState()
         <Button title="Download SORA Wallet" @click="isModalOpen = true" class="text-s mt-xs" />
       </div>
       <IntegrationsProductVisual :image="{ src: '/integrations/sora-wallet.jpg', alt: 'SORA Wallet mobile app' }"
-        class="visual" />
+        class="visual" data-aos="fade-up" data-aos-delay="100" />
     </div>
     <div class="item">
-      <div class="text rich p-3xs">
+      <div class="text rich p-3xs" data-aos="fade-up">
         <span class="px-xs py-3xs bg-light1 rounded text-s">Polkaswap</span>
         <h2 class="mt-xs">The AMM DEX revolutionizing Polkadot's interoperable future</h2>
         <p>
@@ -56,7 +56,7 @@ const isModalOpen = useApplyModalState()
         <Button title="Start using polkaswap.io" href="https://polkaswap.io/" target="_blank" class="text-s mt-xs" />
       </div>
       <IntegrationsProductVisual :image="{ src: '/integrations/polkaswap.jpg', alt: 'SORA Wallet mobile app' }"
-        class="visual" />
+        class="visual" data-aos="fade-up" data-aos-delay="100" />
     </div>
   </section>
 </template>

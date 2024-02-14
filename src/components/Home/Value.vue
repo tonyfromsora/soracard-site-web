@@ -48,7 +48,7 @@ onUnmounted(() => {
 
 <template>
   <section class="container w px-s" ref="container">
-    <div class="text">
+    <div class="text" data-aos="fade-up">
       <div class="accent bold mb-xxs">Value Freedom</div>
       <h2 class="mb-l">Full ownership of your crypto with easy access to payments and DeFi</h2>
       <div class="features">
@@ -63,7 +63,7 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-    <div class="image" :style="`--progess: ${progress}`">
+    <div class="image" :style="`--progess: ${progress}`" data-aos="fade-up" data-aos-delay="100">
       <img src="/home/value.jpg" alt="SORA Card">
       <img src="/home/value.jpg" alt="SORA Card">
       <img src="/home/value.jpg" alt="SORA Card">

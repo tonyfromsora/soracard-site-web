@@ -53,6 +53,7 @@ const play = ref(false)
   margin: -5rem;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTIwIDEyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHJ4PSI2MCIgZmlsbD0iIzIxMjEyMSIvPgo8cGF0aCBkPSJNNzcgNTguMjY3OUM3OC4zMzMzIDU5LjAzNzcgNzguMzMzMyA2MC45NjIzIDc3IDYxLjczMjFMNTMgNzUuNTg4NUM1MS42NjY3IDc2LjM1ODMgNTAgNzUuMzk2IDUwIDczLjg1NjRMNTAgNDYuMTQzNkM1MCA0NC42MDQgNTEuNjY2NyA0My42NDE3IDUzIDQ0LjQxMTVMNzcgNTguMjY3OVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPg==");
   transition: opacity 1s var(--ease), transform 1s var(--ease), visibility 1s var(--ease);
+  pointer-events: none;
 }
 
 @media (hover:hover) {

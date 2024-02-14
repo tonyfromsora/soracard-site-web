@@ -5,6 +5,6 @@ useSeoMeta({
 </script>
 
 <template>
-  <h1 class="text-3xl w text-center pt-3xl pb-xl">Blog</h1>
-  <BlogList accent />
+  <h1 class="text-3xl w text-center pt-3xl pb-xl" data-aos="fade-up">Blog</h1>
+  <BlogList accent data-aos="fade-up" data-aos-delay="200" />
 </template>

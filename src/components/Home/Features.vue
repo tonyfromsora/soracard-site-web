@@ -9,10 +9,10 @@ const features = [
 
 <template>
   <section class="w grid pb-xxl">
-    <div class="image rounded">
+    <div class="image rounded" data-aos="fade-up">
       <img src="/home/features.jpg" alt="Hand holding SORA Card" />
     </div>
-    <div class="text bg-light1 rounded">
+    <div class="text bg-light1 rounded" data-aos="fade-up" data-aos-delay="100">
       <h2 class="mb-l">The ultimate all-in-one self-custodial crypto + neobanking-inspired solution</h2>
       <ul class="mb-l">
         <li v-for="feature in features" class="pl-l pb-xs">{{ feature }}</li>

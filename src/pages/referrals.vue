@@ -5,7 +5,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s py-3xl mx-auto text-center">
+  <section class="rich px-s py-3xl mx-auto text-center" data-aos="fade-up">
     <span class="px-xs py-3xs bg-light1 rounded text-s">Coming soon</span>
     <h1 class="my-m">
       Development is currently underway

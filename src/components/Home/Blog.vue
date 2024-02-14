@@ -1,9 +1,9 @@
 <template>
-  <div class="w mb-m flex title">
+  <div class="w mb-m flex title" data-aos="fade-up">
     <h2 class="text-xxl">Latest blog posts</h2>
     <Button href="/blog" title="See All" class="text-s" />
   </div>
-  <BlogList :limit="3" />
+  <BlogList :limit="3" data-aos="fade-up" data-aos-delay="100" />
 </template>
 
 <style scoped>

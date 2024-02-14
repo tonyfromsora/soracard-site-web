@@ -33,7 +33,7 @@ const items = [{
 </script>
 
 <template>
-  <section class="w container">
+  <section class="w container" data-aos="fade-up">
     <div class="block bg-light1 rounded">
       <div class="image">
         <img src="/home/accordion-banner.jpg" alt="SORA Wallet app with SORA Card">

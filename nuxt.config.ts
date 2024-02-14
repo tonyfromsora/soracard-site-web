@@ -8,11 +8,14 @@ export default defineNuxtConfig({
   srcDir: 'src/',
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', 'nuxt-aos'],
   content: {
     markdown: {
       anchorLinks: false,
     },
+  },
+  aos: {
+    duration: 800,
   },
   build: {
     transpile: ['gsap'],
