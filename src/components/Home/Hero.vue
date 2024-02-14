@@ -1,10 +1,37 @@
 <script setup lang="ts">
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 const isModalOpen = useApplyModalState()
-const { scrollY } = useScroll()
+
+gsap.registerPlugin(ScrollTrigger)
+let ctx: gsap.Context
+const container = ref<HTMLElement>()
+const progress = ref(0)
+
+onMounted(() => {
+  if (container.value) {
+    ctx = gsap.context(() => {
+      ScrollTrigger.create({
+        trigger: container.value,
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true,
+        onUpdate: (val) => {
+          gsap.to(progress, { value: val.progress, ease: 'power4.out', duration: 0.2 })
+        }
+      })
+    }, container.value)
+  }
+})
+
+onUnmounted(() => {
+  ctx?.revert()
+})
 </script>
 
 <template>
-  <section class="py-3xl w container">
+  <section class="py-3xl w container" ref="container">
     <h1 class="text-3xl mb-m">More than just a card</h1>
     <p class="text-l dark2 mb-l">Access the new era of interoperable finance, all in the palm of your hands.</p>
     <div class="flex">
@@ -12,7 +39,7 @@ const { scrollY } = useScroll()
       <Button title="Learn more" href="#features" ghost large />
     </div>
     <div class="image">
-      <picture :style="`--progress: ${Math.min(1, scrollY * 0.001)};`">
+      <picture :style="`--progress: ${progress};`">
         <source srcset="/home/hero.webp" type="image/webp" />
         <img src="/home/hero.png" alt="Hand holding phone with SORA Card in wallet app" />
       </picture>
@@ -58,7 +85,7 @@ const { scrollY } = useScroll()
       </p>
     </div>
   </section>
-  <HomeBackground class="bg" :style="`--opacity: ${Math.max(0, 1 - scrollY * 0.0005)};`" />
+  <HomeBackground class="bg" :style="`--opacity: ${1 - progress};`" />
 </template>
 
 <style scoped>
