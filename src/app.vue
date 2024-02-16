@@ -21,6 +21,7 @@ router.afterEach(() => {
 </script>
 
 <template>
+  <NuxtLoadingIndicator color="var(--color-dark1)" />
   <Header />
   <NuxtPage />
   <Footer />
