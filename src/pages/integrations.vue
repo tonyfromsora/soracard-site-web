@@ -1,3 +1,9 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: 'SORA Card | Value Freedom — Integrations'
+})
+</script>
+
 <template>
   <IntegrationsHero />
   <IntegrationsProducts id="more" />

@@ -36,8 +36,8 @@ const nav: {
     links: [
       { title: 'FAQ', href: '/#faq' },
       { title: 'Support', href: '/support/' },
-      { title: 'Contact', href: 'https://soracard.com/contact/' },
-      { title: 'Request Feature', href: 'https://soracard.com/request-feature/' },
+      { title: 'Contact', href: '/contact' },
+      { title: 'Request Feature', href: '/request-feature' },
     ],
   },
   {

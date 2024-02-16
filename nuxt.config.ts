@@ -20,6 +20,16 @@ export default defineNuxtConfig({
   build: {
     transpile: ['gsap'],
   },
+  runtimeConfig: {
+    gmailClientId: '',
+    gmailClientSecret: '',
+    gmailRefreshToken: '',
+    gmailRedirectUrl: '',
+    gmailUser: '',
+
+    recaptchaSecretKey: '',
+    public: { recaptchaSiteKey: '' },
+  },
   app: {
     head: {
       htmlAttrs: {

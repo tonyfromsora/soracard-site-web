@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: 'SORA Card | Value Freedom — Privacy Policy'
+})
+
 const nav = [
   { title: "Introduction", href: "#1" },
   { title: "Who We Are", href: "#2" },

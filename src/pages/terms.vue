@@ -1,4 +1,7 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: 'SORA Card | Value Freedom — Terms and Conditions'
+})
 const nav = [
   { title: 'General Terms of Use', href: "#0", bold: true },
   { title: 'Agreement to Terms', href: '#1' },
