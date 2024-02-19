@@ -24,14 +24,14 @@ const nav = [
       <h1>Support</h1>
 
       <p>If you can't find an answer below please
-        <a href="/contact" class="link-primary">submit a request</a>
+        <NuxtLink href="/contact">submit a request</NuxtLink>
         and our support will solve your issue as soon as possible. Alternatively, please reach out to the
         SORA community through
-        <a href="/contact" class="link-primary">
+        <NuxtLink href="/contact">
           Telegram
-        </a> or <a href="/contact" class="link-primary">
+        </NuxtLink> or <NuxtLink href="/contact">
           Discord
-        </a>.
+        </NuxtLink>.
       </p>
       <hr class="border-black-30 mb-3 mb-md-4 mb-lg-5">
 
@@ -56,7 +56,7 @@ const nav = [
 
       <h2 id="2">Geographic availability</h2>
 
-      <p>Please refer to the <a href="/blacklist" class="link-primary">restricted countries</a> list to see if you can
+      <p>Please refer to the <NuxtLink href="/blacklist">restricted countries</NuxtLink> list to see if you can
         apply for SORA Card. If your country is not on the restrictions list, you may apply.</p>
 
       <h2 id="3">Managing your account</h2>
