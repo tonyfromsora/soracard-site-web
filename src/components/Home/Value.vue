@@ -114,7 +114,7 @@ onUnmounted(() => {
   width: 46%;
   border-radius: min(2.4rem, 2.4vw);
   transform: translateX(-50%) translateY(-50%) rotateZ(40deg) rotateY(30deg) rotateX(-30deg);
-  box-shadow: 0.45vw 0.4vw 0px 0px #B30115;
+  box-shadow: 9vw 8vw 8vw -0.2vw rgba(0, 0, 0, 0.1), 0.45vw 0.4vw 0px 0px #B30115;
 }
 
 .image img:nth-child(3) {
@@ -149,7 +149,7 @@ onUnmounted(() => {
 
   .image img {
     border-radius: min(2.4rem, 1.2vw);
-    box-shadow: min(0.3vw, 0.3rem) min(0.25vw, 0.25rem) 0px 0px #B30115;
+    box-shadow: min(5vw, 5rem) min(4vw, 4rem) min(4vw, 4rem) max(-0.1vw, -0.1rem) rgba(0, 0, 0, 0.1), min(0.3vw, 0.3rem) min(0.25vw, 0.25rem) 0px 0px #B30115;
   }
 }
 </style>
