@@ -10,7 +10,7 @@ const { title, description, date, image, accented } = defineProps<BlogArticleMet
     </div>
     <div>
       <p class="text-s mb-xxs dark2">{{ date }}</p>
-      <h3>{{ title }}</h3>
+      <h2>{{ title }}</h2>
       <p class="description dark2">{{ description }}</p>
     </div>
   </NuxtLink>
@@ -36,7 +36,7 @@ const { title, description, date, image, accented } = defineProps<BlogArticleMet
   will-change: transform;
 }
 
-.tile h3 {
+.tile h2 {
   font-size: var(--font-l);
   margin-bottom: var(--space-xs);
 }
@@ -57,7 +57,7 @@ const { title, description, date, image, accented } = defineProps<BlogArticleMet
     grid-column-end: span 2;
   }
 
-  .accented h3 {
+  .accented h2 {
     font-size: var(--font-xl);
   }
 

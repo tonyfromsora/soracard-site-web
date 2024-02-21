@@ -3,7 +3,8 @@
     <div class="w">
       <FooterNav />
       <div class="flex">
-        <NuxtLink href="/" data-cursor-show data-cursor-text="Home" data-cursor-stick class="px-3xs py-xs">
+        <NuxtLink href="/" data-cursor-show data-cursor-text="Home" data-cursor-stick class="px-3xs py-xs"
+          aria-label="Homepage">
           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M15.0498 30C12.4585 30 9.96678 29.4 7.87375 28.2L15.0498 17.5L22.2259 28.2C20.0332 29.3 17.6412 30 15.0498 30Z"

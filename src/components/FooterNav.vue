@@ -16,7 +16,7 @@ const isModalOpen = useApplyModalState()
           <NuxtLink v-else :href="item.href" class="link hover-trigger py-3xs">
             <span class="hover-underline">{{ item.title }}</span>
             <img v-if="item.isExternal" src="/icons/external.svg" alt="external link icon" class="external">
-            <span v-if="item.label" class="label bg-accent light1 rounded">{{ item.label }}</span>
+            <span v-if="item.label" class="label bold rounded">{{ item.label }}</span>
           </NuxtLink>
         </li>
       </ul>
@@ -64,6 +64,7 @@ li {
   display: inline-flex;
   font-size: 1rem;
   margin-right: -1.5em;
+  border: 1px solid var(--color-accent);
 }
 
 @media (min-width: 960px) {

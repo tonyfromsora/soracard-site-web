@@ -20,6 +20,6 @@ useSeoMeta({
         <li>Advanced user-focused solutions</li>
       </ul>
     </div>
-    <Button title="Learn more" href="https://fearlesswallet.io" target="_blank" large light />
+    <Button title="fearlesswallet.io" href="https://fearlesswallet.io" target="_blank" large light />
   </Banner>
 </template>
