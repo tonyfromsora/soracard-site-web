@@ -14,10 +14,10 @@ useSeoMeta({
     <h2 class="mb-3xs">Soon, SORA Card will also integrate with Fearless Wallet</h2>
     <div class="text-l mb-m rich">
       <ul>
-        <li>Self-custodial wallet</li>
-        <li>All of Polkadot in one app</li>
-        <li>Features Polkaswap</li>
-        <li>User-focused solution</li>
+        <li>Self-custodial mobile wallet and extension</li>
+        <li>All of Polkadot and Ethereum in one app</li>
+        <li>Polkaswap cross-chain DEX</li>
+        <li>Advanced user-focused solutions</li>
       </ul>
     </div>
     <Button title="Learn more" href="https://fearlesswallet.io" target="_blank" large light />
