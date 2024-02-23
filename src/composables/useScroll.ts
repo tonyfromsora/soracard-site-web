@@ -1,7 +1,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 export const useScroll = () => {
-  const scrollY = ref(0)
+  const scrollY = ref(window?.scrollY || 0)
   const isScrollDown = ref(false)
 
   const handleScroll = () => {

@@ -48,7 +48,7 @@ onUnmounted(() => {
 
 <template>
   <section class="container w px-s" ref="container">
-    <div class="text">
+    <div class="text" data-aos="fade-up">
       <div class="accent bold mb-xxs">Value Freedom</div>
       <h2 class="mb-l">Full ownership of your crypto with easy access to payments and DeFi</h2>
       <div class="features">
@@ -63,7 +63,7 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-    <div class="image" :style="`--progess: ${progress}`">
+    <div class="image" :style="`--progess: ${progress}`" data-aos="fade-up" data-aos-delay="100">
       <img src="/home/value.jpg" alt="SORA Card">
       <img src="/home/value.jpg" alt="SORA Card">
       <img src="/home/value.jpg" alt="SORA Card">
@@ -114,7 +114,7 @@ onUnmounted(() => {
   width: 46%;
   border-radius: min(2.4rem, 2.4vw);
   transform: translateX(-50%) translateY(-50%) rotateZ(40deg) rotateY(30deg) rotateX(-30deg);
-  box-shadow: 0.45vw 0.4vw 0px 0px #B30115;
+  box-shadow: 9vw 8vw 8vw -0.2vw rgba(0, 0, 0, 0.1), 0.45vw 0.4vw 0px 0px #B30115;
 }
 
 .image img:nth-child(3) {
@@ -149,7 +149,7 @@ onUnmounted(() => {
 
   .image img {
     border-radius: min(2.4rem, 1.2vw);
-    box-shadow: min(0.3vw, 0.3rem) min(0.25vw, 0.25rem) 0px 0px #B30115;
+    box-shadow: min(5vw, 5rem) min(4vw, 4rem) min(4vw, 4rem) max(-0.1vw, -0.1rem) rgba(0, 0, 0, 0.1), min(0.3vw, 0.3rem) min(0.25vw, 0.25rem) 0px 0px #B30115;
   }
 }
 </style>

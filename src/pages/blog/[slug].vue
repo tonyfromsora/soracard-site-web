@@ -6,7 +6,7 @@
           :description="doc.description || 'Description is missing'"
           :image="doc.image || 'https://sora.org/assets/products/sora-card.jpg'" :date="doc.date || 'Date is missing'" />
 
-        <ContentRenderer :value="doc" class="text-m w rich px-s" />
+        <ContentRenderer :value="doc" class="text-m w rich px-s" data-aos="fade-up" />
 
       </article>
     </template>

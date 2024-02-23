@@ -7,7 +7,7 @@ type NavLink = Link & {
 
 const nav: {
   title: string
-  links: NavLink[]
+  links: (NavLink | 'apply')[]
 }[] = [
   {
     title: 'SORA Card',
@@ -18,7 +18,7 @@ const nav: {
       { title: 'Fees', href: '/fees' },
       { title: 'Blog', href: '/blog' },
       { title: 'Referrals', href: '/referrals', label: 'soon' },
-      { title: 'Apply', href: 'https://soracard.com/' },
+      'apply',
     ],
   },
   {
@@ -35,9 +35,9 @@ const nav: {
     title: 'Help',
     links: [
       { title: 'FAQ', href: '/#faq' },
-      { title: 'Support', href: 'https://soracard.com/support/' },
-      { title: 'Contact', href: 'https://soracard.com/contact/' },
-      { title: 'Request Feature', href: 'https://soracard.com/request-feature/' },
+      { title: 'Support', href: '/support/' },
+      { title: 'Contact', href: '/contact' },
+      { title: 'Request Feature', href: '/request-feature' },
     ],
   },
   {

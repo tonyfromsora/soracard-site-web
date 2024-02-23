@@ -13,7 +13,7 @@ const features = [{
 
 <template>
   <section class="w container pt-xxl">
-    <div class="text mb-l">
+    <div class="text mb-l" data-aos="fade-up">
       <div class="accent bold mb-xxs">Possibilities</div>
       <h2 class="mb-l">Superior privacy, limits and interoperability</h2>
       <div class="features">
@@ -28,7 +28,7 @@ const features = [{
         </div>
       </div>
     </div>
-    <HomeCompare />
+    <HomeCompare data-aos="fade-up" data-aos-delay="100" />
   </section>
 </template>
 

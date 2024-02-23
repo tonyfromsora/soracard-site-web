@@ -22,9 +22,9 @@
         <img src="/icons/qr.svg" alt="QR Code" width="200" height="200">
       </div>
     </div>
-    <div class="rounded bg-light1 px-s py-xxs">
+    <!-- <div class="rounded bg-light1 px-s py-xxs">
       <Button href="http://polkaswap.io/#/card" title="Open Polkaswap" target="_blank" />
-    </div>
+    </div> -->
   </div>
 </template>
 

@@ -5,11 +5,9 @@ useSeoMeta({
 </script>
 
 <template>
-  <section class="rich px-s pt-3xl flex mb-s mx-auto" style="justify-content: center;">
-    <div class="flex px-xs py-3xs bg-light1 rounded text-s">Coming soon</div>
-  </section>
-  <section class="rich px-s pb-3xl mx-auto text-center">
-    <h1>
+  <section class="rich px-s py-3xl mx-auto text-center" data-aos="fade-up">
+    <span class="px-xs py-3xs bg-light1 rounded text-s">Coming soon</span>
+    <h1 class="my-m">
       Development is currently underway
     </h1>
     <p class="text-l">
@@ -18,7 +16,7 @@ useSeoMeta({
     <hr>
 
     <Button href="https://wiki.sora.org/referral.html" title="Learn more" class="text-s" target="_blank" />
-    <p class="text-s">
+    <p class="text-s mt-xs">
       about the SORA network referral system
     </p>
   </section>
