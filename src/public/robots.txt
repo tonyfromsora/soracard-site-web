@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /_bak/
+Sitemap: https://soracard.com/sitemap.xml
