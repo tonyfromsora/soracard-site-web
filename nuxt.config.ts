@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   srcDir: 'src/',
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/content', 'nuxt-aos'],
+  modules: ['@nuxt/content', 'nuxt-aos', '@nuxtjs/sitemap'],
   content: {
     markdown: {
       anchorLinks: false,
@@ -16,6 +16,13 @@ export default defineNuxtConfig({
   },
   aos: {
     duration: 800,
+  },
+  site: {
+    url: 'soracard.com',
+  },
+  sitemap: {
+    sources: ['/api/sitemap'],
+    credits: false,
   },
   build: {
     transpile: ['gsap'],
