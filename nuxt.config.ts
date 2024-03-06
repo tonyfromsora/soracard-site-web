@@ -42,6 +42,14 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en',
       },
+      script: [
+        {
+          key: 'plausible',
+          src: 'https://plausible.io/js/script.js',
+          defer: true,
+          'data-domain': 'soracard.com',
+        },
+      ],
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: title,
