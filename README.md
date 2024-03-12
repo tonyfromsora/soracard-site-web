@@ -1,10 +1,12 @@
-# Soracard blog
+# soracard.com
 
-![](./src/public/og.jpg)
+![SORA Card in hand and headline 'More then just a card'](./src/public/og.jpg)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[soracard.com](https://soracard.com) website build with [Nuxt 3](https://nuxt.com)
 
-## Environment
+## [How to publish a blog article](./guide/README.md)
+
+## Required environment
 
 Env variables required to send email via gmail API:
 
@@ -27,9 +29,9 @@ NUXT_PUBLIC_RECAPTCHA_SITE_KEY
 
 Get them [here](https://www.google.com/recaptcha/admin/create) (Score based (v3))
 
-On local machine you can use `.env` file in the root of the project to scecify the variables
+On local machine you can use `.env` file in the root of the project to specify the variables
 
-## Setup
+## Running the app
 
 Make sure to install the dependencies:
 
@@ -37,15 +39,11 @@ Make sure to install the dependencies:
 yarn install
 ```
 
-## Development Server
-
 Start the development server on `http://localhost:3000`:
 
 ```bash
 yarn dev
 ```
-
-## Production
 
 Build the application for production:
 
