@@ -1,4 +1,4 @@
-# Publishing a blog article
+# Publishing a Blog Article
 
 Before we dive into the specifics of publishing a blog article, it's important to understand the tools involved. The process requires the use of GitHub, a platform for version control and collaboration, and Markdown, a lightweight markup language for creating formatted text. Here are documentation links to learn more:
 
@@ -7,21 +7,31 @@ Before we dive into the specifics of publishing a blog article, it's important t
 
 To publish a blog article on the [soracard.com](http://soracard.com/) blog, follow these steps:
 
-## 1. Write an article in Notion.
+## 1. Write an Article in Notion
 
 Start by drafting your article in Notion, including all the content, images, and other elements you want to include. Notion is particularly useful for drafting articles as it allows for markdown formatting, which makes the transition to GitHub smoother and more efficient.
 
 ![Screenshot](./images/01.jpg)
 
-## 2. Add an article to the GitHub repo.
+## 2. Fork the `soracard-site-web` GitHub Repository
 
-Once your article is complete, navigate to the [soracard.com](http://soracard.com/) blog's GitHub repository and add a new `.md` file to the [src/content/blog](https://github.com/soramitsu/soracard-site-web/tree/master/src/content/blog) directory.
+Once your article is complete, navigate to the [soracard.com GitHub repository](https://github.com/sora-xor/soracard-site-web). Fork it if you haven't already.
 
 ![Screenshot](./images/02.jpg)
 
-**Name the file appropriately.** The file you create will determine the URL of the published article. Ensure that the filename is descriptive and uses hyphens instead of spaces for optimal SEO.
+If you've previously forked the repository, ensure to sync it with the upstream repository.
 
 ![Screenshot](./images/03.jpg)
+
+## 3. Add an Article to the Forked Repository
+
+Navigate to the forked GitHub repository and add a new `.md` file to the `/src/content/blog` directory.
+
+![Screenshot](./images/04.jpg)
+
+Name the file appropriately. The file you create will determine the **URL of the published article**. Ensure that the filename is descriptive and uses hyphens instead of spaces for optimal SEO.
+
+![Screenshot](./images/05.jpg)
 
 Add the required meta information at the beginning of the file:
 
@@ -34,60 +44,77 @@ image: /blog/[article-path]/cover.jpg
 ---
 ```
 
-Replace `[article-path]` in the image path with the actual `.md` file name. We will upload this image during [Step 3](#3-add-the-images).
-
-![Screenshot](./images/04.jpg)
-
-Copy-paste the article content from Notion.
-
-![Screenshot](./images/05.jpg)
-
-Commit changes.
+Replace `[article-path]` in the image path with the actual `.md` file name. We will upload this image during [Step 4](#4-add-the-images).
 
 ![Screenshot](./images/06.jpg)
 
-Assign the `webdev` team as reviewers and create a pull request.
+Copy-paste the article content from Notion.
 
 ![Screenshot](./images/07.jpg)
 
-After creating the PR you can see the message from the Vercel bot with a preview link.
+Commit changes:
+
+1. Select the option **create a new branch** and name the branch following the format: `feat/[article-path]-article`, replacing `[article-path]` with the actual `.md` file name.
+2. Then press the **Propose changes** button.
 
 ![Screenshot](./images/08.jpg)
 
-Let’s visit the preview link and scroll down to the blog. We can find that the cover image is missing in the article. So let’s add the images.
+Select the **compare across forks** option to be able to see the upstream repo.
 
 ![Screenshot](./images/09.jpg)
 
-## 3. Add the images
+Select `sora-xor/soracard-site-web` upstream as the base repository and branch `master`, then push the **Create pull request** button.
+
+![Screenshot](./images/10.jpg)
+
+Select the **Create draft pull request** option, as images need to be uploaded before ready for review, and push the button.
+
+![Screenshot](./images/11.jpg)
+
+After creating the PR and approving the preview deploy by the admin, you'll receive a message from the Vercel bot with a preview link.
+
+![Screenshot](./images/12.jpg)
+
+Visit the preview link and scroll down to the blog. You may notice the cover image missing in the article.
+
+![Screenshot](./images/13.jpg)
+
+So let’s add the images.
+
+## 4. Add the Images
 
 First of all, use the Squoosh app to optimize the images for web use. This ensures that the images load quickly and look good on the blog.
 
 Visit [squoosh.app](https://squoosh.app)
 
-![Screenshot](./images/10.jpg)
-
-Upload the image to optimize. For the cover/hero image, the size should be **1920x1080px** (use `Resize` toggle to adjust if needed), for the other images recommended width is **1280px**. You can experiment with various compression parameters, or just use **MozJPEG 80% quality**.
-
-![Screenshot](./images/11.jpg)
-
-Upload the images to `src/public/blog/[article-path]` directory of the branch created previously
-
-![Screenshot](./images/12.jpg)
-
-... and commit the changes
-
-![Screenshot](./images/13.jpg)
-
-If your article body includes images, be sure to replace their Notion URLs with the local ones you just uploaded. Follow this pattern for the URL: `/blog/[article-path]/[image-name]`. Commit the changes after update.
-
 ![Screenshot](./images/14.jpg)
 
-Once the project rebuilds, you can see that now images are in place.
+Upload the image to optimize. For the cover/hero image, the size should be **1920x1080 pixels** (use **Resize** toggle to adjust if needed); for other images, a recommended width is **1280 pixels**. You can experiment with various compression parameters or just use **MozJPEG 80% quality**.
 
 ![Screenshot](./images/15.jpg)
 
-## 4. Publish on production
-
-Wait for the Pull Request approval by a member of the `webdev` team and then merge it. Once merged, the changes will be published in production
+Upload the images to the `/src/public/blog/[article-path]` directory of the previously created branch ...
 
 ![Screenshot](./images/16.jpg)
+
+... and commit the changes.
+
+![Screenshot](./images/17.jpg)
+
+If your article body includes images, be sure to replace their Notion URLs with the local ones you just uploaded. Follow this pattern for the URL: `/blog/[article-path]/[image-name]`. Commit the changes after updating.
+
+![Screenshot](./images/18.jpg)
+
+Once the project rebuilds, you can see that now images are in place.
+
+![Screenshot](./images/19.jpg)
+
+Nice, the article is ready, so push the **Ready for review** button.
+
+![Screenshot](./images/20.jpg)
+
+## 5. Publish on production
+
+Wait for the Pull Request approval by a member of the `soracard` team, and then merge it. Once merged, the changes will be published in production.
+
+![Screenshot](./images/21.jpg)
