@@ -60,7 +60,7 @@ li {
 
 .label {
   text-transform: uppercase;
-  padding: 1px 4px;
+  padding: 1px 4px 0 4px;
   display: inline-flex;
   font-size: 1rem;
   margin-right: -1.5em;
