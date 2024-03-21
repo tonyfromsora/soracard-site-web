@@ -1,9 +1,15 @@
 <script setup lang="ts">
+const { baseUrl } = useRuntimeConfig().public
+
 const title = 'SORA Card | Value Freedom — Vision'
+const ogImage = `${baseUrl}/vision/og.jpg`
 useSeoMeta({
   title,
   ogTitle: title,
   twitterTitle: title,
+  ogImage,
+  ogImageSecureUrl: ogImage,
+  twitterImage: ogImage,
 })
 </script>
 
@@ -18,7 +24,7 @@ useSeoMeta({
       money as a global commons, allowing the humankind to work together to advance all of humanity.
     </div>
     <div data-aos="fade-up" data-aos-delay="300">
-      <YoutubeVideo id="1AGV3urOEiw" cover="/about/vision.jpg" class="mb-xxl" />
+      <YoutubeVideo id="1AGV3urOEiw" cover="/vision/video.jpg" class="mb-xxl" />
     </div>
   </section>
   <section class="rich px-s pb-3xl mx-auto" data-aos="fade-up">

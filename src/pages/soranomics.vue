@@ -1,9 +1,15 @@
 <script setup lang="ts">
+const { baseUrl } = useRuntimeConfig().public
+
 const title = 'SORA Card | Value Freedom — SORAnomics'
+const ogImage = `${baseUrl}/soranomics/og.jpg`
 useSeoMeta({
   title,
   ogTitle: title,
   twitterTitle: title,
+  ogImage,
+  ogImageSecureUrl: ogImage,
+  twitterImage: ogImage,
 })
 </script>
 
@@ -32,7 +38,7 @@ useSeoMeta({
       thriving economic ecosystem.
     </p>
     <figure class="mt-xl mb-l">
-      <YoutubeVideo id="KEfdlctvHH4" cover="/about/werner.jpg" class="mb-s" />
+      <YoutubeVideo id="KEfdlctvHH4" cover="/soranomics/werner.jpg" class="mb-s" />
       <figcaption class="text-center text-s">
         Professor Richard Werner presenting at the SORA Economic Forum, June 22, 2021
       </figcaption>

@@ -1,9 +1,15 @@
 <script setup lang="ts">
+const { baseUrl } = useRuntimeConfig().public
+
 const title = 'SORA Card | Value Freedom — Partners'
+const ogImage = `${baseUrl}/partners/og.jpg`
 useSeoMeta({
   title,
   ogTitle: title,
   twitterTitle: title,
+  ogImage,
+  ogImageSecureUrl: ogImage,
+  twitterImage: ogImage,
 })
 </script>
 
@@ -38,7 +44,7 @@ useSeoMeta({
       Card, all built on the SORA network.
     </p>
     <figure class="mt-xl mb-l">
-      <YoutubeVideo id="058n40NpfqM" cover="/about/partners.jpg" class="mb-s" />
+      <YoutubeVideo id="058n40NpfqM" cover="/partners/video.jpg" class="mb-s" />
       <figcaption class="text-center text-s">
         Build with SORA
       </figcaption>

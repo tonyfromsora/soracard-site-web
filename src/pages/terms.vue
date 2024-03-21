@@ -1,10 +1,17 @@
 <script setup lang="ts">
+const { baseUrl } = useRuntimeConfig().public
+
 const title = 'SORA Card | Value Freedom — Terms and Conditions'
+const ogImage = `${baseUrl}/terms/og.jpg`
 useSeoMeta({
   title,
   ogTitle: title,
   twitterTitle: title,
+  ogImage,
+  ogImageSecureUrl: ogImage,
+  twitterImage: ogImage,
 })
+
 const nav = [
   { title: 'General Terms of Use', href: "#0", bold: true },
   { title: 'Agreement to Terms', href: '#1' },
