@@ -1,6 +1,9 @@
 <script setup lang="ts">
+const title = 'SORA Card | Value Freedom — Request a feature'
 useSeoMeta({
-  title: 'SORA Card | Value Freedom — Request a feature'
+  title,
+  ogTitle: title,
+  twitterTitle: title,
 })
 const githubTileContents = {
   icon: '/icons/github.svg',
@@ -17,7 +20,8 @@ const githubTileContents = {
   <section class="rich px-s pt-3xl pb-xl mx-auto text-center" data-aos="fade-up">
     <h1 class="mb-s">Request a feature</h1>
     <p class="text-l">
-      We're passionate about the future of blockchain technology, and we'd love to hear your ideas! If you have a feature
+      We're passionate about the future of blockchain technology, and we'd love to hear your ideas! If you have a
+      feature
       request or suggestion, please don't hesitate to share it with us.
     </p>
     <hr>

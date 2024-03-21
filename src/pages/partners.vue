@@ -1,6 +1,9 @@
 <script setup lang="ts">
+const title = 'SORA Card | Value Freedom — Partners'
 useSeoMeta({
-  title: 'SORA Card | Value Freedom — Partners'
+  title,
+  ogTitle: title,
+  twitterTitle: title,
 })
 </script>
 
@@ -21,7 +24,8 @@ useSeoMeta({
       <a href="https://ceresblockchain.solutions/" target="_blank">Ceres</a>,
       <a href="https://linkedin.com/company/abed-group/" target="_blank">Abed Group</a>,
       <a href="https://drinknoir.com/" target="_blank">Noir</a>, and
-      <a href="https://rmrk.app/" target="_blank">RMRK</a> are just a few of the organizations that SORA has collaborated
+      <a href="https://rmrk.app/" target="_blank">RMRK</a> are just a few of the organizations that SORA has
+      collaborated
       with to build a decentralized ecosystem that empowers users. These partnerships have resulted in innovative
       solutions such as the
       <a href="https://polkaswap.io/" target="_blank">Polkaswap</a> DEX, the
@@ -40,7 +44,8 @@ useSeoMeta({
       </figcaption>
     </figure>
     <p>
-      By partnering with organizations that share our vision of a more equitable and prosperous world, SORA is helping to
+      By partnering with organizations that share our vision of a more equitable and prosperous world, SORA is helping
+      to
       shape the future of blockchain technology. Through our comprehensive tutorial and RFP process, SORA is also
       encouraging community involvement in the development of the network, ensuring that we remain user-focused and
       community-driven.
@@ -48,7 +53,8 @@ useSeoMeta({
     <hr>
     <p class="text-center">
       Join the SORA community and be part of the movement to revolutionize our economy with blockchain technology. As a
-      partner, you will have the opportunity to contribute to the growth and development of the network, and be a part of
+      partner, you will have the opportunity to contribute to the growth and development of the network, and be a part
+      of
       a community dedicated to building a better future for all.
     </p>
     <hr>

@@ -1,6 +1,9 @@
 <script setup lang="ts">
+const title = 'SORA Card | Value Freedom — Terms and Conditions'
 useSeoMeta({
-  title: 'SORA Card | Value Freedom — Terms and Conditions'
+  title,
+  ogTitle: title,
+  twitterTitle: title,
 })
 const nav = [
   { title: 'General Terms of Use', href: "#0", bold: true },

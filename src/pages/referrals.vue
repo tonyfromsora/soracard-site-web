@@ -1,6 +1,9 @@
 <script setup lang="ts">
+const title = 'SORA Card | Value Freedom — Referrals'
 useSeoMeta({
-  title: 'SORA Card | Value Freedom — Referrals'
+  title,
+  ogTitle: title,
+  twitterTitle: title,
 })
 </script>
 

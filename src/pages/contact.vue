@@ -1,6 +1,9 @@
 <script setup lang="ts">
+const title = 'SORA Card | Value Freedom — Contact'
 useSeoMeta({
-  title: 'SORA Card | Value Freedom — Contact'
+  title,
+  ogTitle: title,
+  twitterTitle: title,
 })
 const telegramTileContents = {
   icon: '/icons/telegram.svg',

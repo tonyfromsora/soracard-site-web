@@ -1,6 +1,9 @@
 <script setup lang="ts">
+const title = 'SORA Card | Value Freedom — Restricted countries'
 useSeoMeta({
-  title: 'SORA Card | Value Freedom — Restricted countries'
+  title,
+  ogTitle: title,
+  twitterTitle: title,
 })
 </script>
 
@@ -73,7 +76,8 @@ useSeoMeta({
     </ul>
     <hr>
     <p>
-      If you are a resident of any of the above-mentioned jurisdictions, please do not attempt to undergo the KYC process.
+      If you are a resident of any of the above-mentioned jurisdictions, please do not attempt to undergo the KYC
+      process.
       Instead, please reach out to the SORA community through Telegram or Discord.
     </p>
   </section>

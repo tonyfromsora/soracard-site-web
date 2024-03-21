@@ -1,6 +1,9 @@
 <script setup lang="ts">
+const title = 'SORA Card | Value Freedom — Fees'
 useSeoMeta({
-  title: 'SORA Card | Value Freedom — Fees'
+  title,
+  ogTitle: title,
+  twitterTitle: title,
 })
 const nav = [
   { title: 'IBAN / SEPA Transaction Fees', href: '#1' },
