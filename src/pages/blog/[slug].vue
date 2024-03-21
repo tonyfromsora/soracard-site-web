@@ -10,20 +10,31 @@ if (!data.value) {
   })
 }
 
-const title = data.value.title || 'Not found'
-const description = data.value.description || 'Error 404'
-const ogImage = data.value.og || '/og.jpg'
-useSeoMeta({
-  title: title,
-  description: description,
-  ogTitle: title,
-  ogDescription: description,
-  ogImage: ogImage,
-  ogImageSecureUrl: ogImage,
-  twitterTitle: title,
-  twitterDescription: description,
-  twitterImage: ogImage
-})
+const { baseUrl } = useRuntimeConfig().public
+
+const title = data.value.title
+const description = data.value.description
+const ogImage = data.value.og
+
+const meta = {
+  ...(title ? {
+    title: title,
+    ogTitle: title,
+    twitterTitle: title,
+  } : {}),
+  ...(description ? {
+    description: description,
+    ogDescription: description,
+    twitterDescription: description,
+  } : {}),
+  ...(ogImage ? {
+    ogImage: `${baseUrl}${ogImage}`,
+    ogImageSecureUrl: `${baseUrl}${ogImage}`,
+    twitterImage: `${baseUrl}${ogImage}`
+  } : {})
+}
+
+useSeoMeta(meta)
 </script>
 
 <template>
