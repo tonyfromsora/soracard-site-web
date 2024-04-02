@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { scrollY, isScrollDown } = useScroll()
-const isModalOpen = useApplyModalState()
+const isApplyModalOpen = useApplyModalState()
 const router = useRouter()
 
 const isOpen = ref(false)
@@ -29,9 +29,9 @@ router.afterEach(() => isOpen.value = false)
       <div class="cta">
         <Button href="/fees" title="Fees" ghost />
         <Button title="Apply" @click="() => {
-          isOpen = false
-          isModalOpen = !isModalOpen
-        }" />
+    isOpen = false
+    isApplyModalOpen = !isApplyModalOpen
+  }" />
       </div>
     </div>
 

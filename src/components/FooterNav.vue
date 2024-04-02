@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import nav from '@/lib/constants/navigation'
 
-const isModalOpen = useApplyModalState()
+const isApplyModalOpen = useApplyModalState()
 </script>
 
 <template>
@@ -10,7 +10,7 @@ const isModalOpen = useApplyModalState()
       <div class="py-3xs bold">{{ group.title }}</div>
       <ul>
         <li v-for="(item, i) in group.links" :style="`--delay: ${i * 0.05}s`">
-          <button v-if="(typeof item === 'string')" class="link hover-trigger py-3xs" @click="isModalOpen = true">
+          <button v-if="(typeof item === 'string')" class="link hover-trigger py-3xs" @click="isApplyModalOpen = true">
             <span class="hover-underline">Apply</span>
           </button>
           <NuxtLink v-else :href="item.href" class="link hover-trigger py-3xs">

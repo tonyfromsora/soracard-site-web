@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const isModalOpen = useApplyModalState()
+const isApplyModalOpen = useApplyModalState()
 </script>
 
 <template>
@@ -26,7 +26,7 @@ const isModalOpen = useApplyModalState()
           exchanging currencies. Plus, with the powerful debit card, you can make purchases with ease, both in-store and
           online, all while enjoying competitive rates and outstanding security and privacy measures.
         </p>
-        <Button title="Download SORA Wallet" @click="isModalOpen = true" class="text-s mt-xs" />
+        <Button title="Download SORA Wallet" @click="isApplyModalOpen = true" class="text-s mt-xs" />
       </div>
       <IntegrationsProductVisual :image="{ src: '/integrations/sora-wallet.jpg', alt: 'SORA Wallet mobile app' }"
         class="visual" data-aos="fade-up" data-aos-delay="100" />

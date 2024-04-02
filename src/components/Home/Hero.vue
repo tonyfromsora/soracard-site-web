@@ -2,7 +2,7 @@
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-const isModalOpen = useApplyModalState()
+const isApplyModalOpen = useApplyModalState()
 
 gsap.registerPlugin(ScrollTrigger)
 let ctx: gsap.Context
@@ -33,10 +33,11 @@ onUnmounted(() => {
 <template>
   <section class="py-3xl w container" ref="container">
     <h1 class="text-3xl mb-m" data-aos="fade-up">More than just a card</h1>
-    <p class="text-l dark2 mb-l" data-aos="fade-up" data-aos-delay="100">Access the new era of interoperable finance, all
+    <p class="text-l dark2 mb-l" data-aos="fade-up" data-aos-delay="100">Access the new era of interoperable finance,
+      all
       in the palm of your hands.</p>
     <div class="flex" data-aos="fade-up" data-aos-delay="200">
-      <Button title="Apply" large @click="isModalOpen = !isModalOpen" />
+      <Button title="Apply" large @click="isApplyModalOpen = !isApplyModalOpen" />
       <Button title="Learn more" href="#features" ghost large />
     </div>
     <div class="image" data-aos="fade-up" data-aos-delay="400">
