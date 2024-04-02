@@ -26,5 +26,6 @@ router.afterEach(() => {
   <NuxtPage />
   <Footer />
   <ApplyModal />
+  <MiraModal />
   <CookieBumper />
 </template>

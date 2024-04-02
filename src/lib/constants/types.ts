@@ -9,3 +9,9 @@ export type BlogArticleMeta = {
   date: string
   image: string
 }
+export type QAFeedItem = {
+  question: string[]
+  answer?: string[]
+  links?: { title: string; href: string }[]
+  ts: number
+}

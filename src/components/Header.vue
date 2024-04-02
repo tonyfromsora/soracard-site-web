@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { scrollY, isScrollDown } = useScroll()
 const isApplyModalOpen = useApplyModalState()
+const isMiraModalOpen = useMiraModalState()
 const router = useRouter()
 
 const isOpen = ref(false)
@@ -27,11 +28,9 @@ router.afterEach(() => isOpen.value = false)
     <div class="nav">
       <HeaderNav />
       <div class="cta">
+        <Button title="Mira" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }" ghost />
         <Button href="/fees" title="Fees" ghost />
-        <Button title="Apply" @click="() => {
-    isOpen = false
-    isApplyModalOpen = !isApplyModalOpen
-  }" />
+        <Button title="Apply" @click="() => { isOpen = false; isApplyModalOpen = !isApplyModalOpen }" />
       </div>
     </div>
 
