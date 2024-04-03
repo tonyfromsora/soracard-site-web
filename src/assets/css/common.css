@@ -105,6 +105,12 @@
 .flex {
   display: flex;
 }
+.aic {
+  align-items: center;
+}
+.jcc {
+  justify-content: center;
+}
 
 /* OTHER */
 

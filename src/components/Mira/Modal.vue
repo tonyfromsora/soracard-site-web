@@ -63,6 +63,7 @@ onMounted(() => {
           <p v-for="p in item.answer">
             {{ p }}
           </p>
+          <MiraAnswerControls v-if="item.answer?.length" v-bind="item" />
         </MiraMessage>
         <MiraMessage from="You" data-aos="fade-up">
           <p v-for="p in item.question">
