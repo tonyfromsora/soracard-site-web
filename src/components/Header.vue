@@ -3,10 +3,34 @@ const { scrollY, isScrollDown } = useScroll()
 const isApplyModalOpen = useApplyModalState()
 const isMiraModalOpen = useMiraModalState()
 const router = useRouter()
+const { miraBaseUrl } = useRuntimeConfig().public
 
 const isOpen = ref(false)
+const miraEnabled = ref(false)
 
 router.afterEach(() => isOpen.value = false)
+
+onMounted(async () => {
+  const visitorId = useCookie('visitor-id', {
+    maxAge: 60 * 60 * 24 * 365, // 1 year
+  })
+  visitorId.value = visitorId.value || crypto.randomUUID()
+  try {
+    const response = await fetch(`${miraBaseUrl}/featureflags`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        visitorId: visitorId.value,
+      }),
+    })
+    const data = await response.json()
+    if (data.includes('qa')) miraEnabled.value = true
+  } catch (e) {
+    console.log('Error fetching QA data')
+  }
+})
 </script>
 
 <template>
@@ -28,7 +52,8 @@ router.afterEach(() => isOpen.value = false)
     <div class="nav">
       <HeaderNav />
       <div class="cta">
-        <Button title="Mira" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }" ghost />
+        <Button v-if="miraEnabled" title="Mira" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }"
+          ghost />
         <Button href="/fees" title="Fees" ghost />
         <Button title="Apply" @click="() => { isOpen = false; isApplyModalOpen = !isApplyModalOpen }" />
       </div>
@@ -36,6 +61,8 @@ router.afterEach(() => isOpen.value = false)
 
     <Burger :open="isOpen" @click="isOpen = !isOpen" class="burger" />
   </header>
+
+  <MiraModal v-if="miraEnabled" />
 </template>
 
 <style scoped>
