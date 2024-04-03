@@ -71,6 +71,7 @@ onMounted(() => {
           </p>
         </MiraMessage>
       </template>
+      <MiraExampleQuestions v-if="!feed.length" @question="(value) => { question = value; handleSubmit() }" />
       <MiraMessage from="Mira">
         <p>Hi there 👋</p>
         <p>I'm Mira, an experimental assistant trained on SORA data. Ask me anything, and I'll do my best. I'm in beta,
