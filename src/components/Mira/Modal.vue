@@ -1,14 +1,23 @@
 <script setup lang="ts">
 import { type QAFeedItem } from '~/lib/constants/types'
+const { recaptchaSiteKey } = useRuntimeConfig().public
+const { miraBaseUrl } = useRuntimeConfig().public
 
 const LOCALSTORAGE_ITEM_NAME = 'mira-chat-history'
-const { miraBaseUrl } = useRuntimeConfig().public
+
+useHead({
+  script: [{
+    key: 'recaptcha',
+    src: `https://www.google.com/recaptcha/api.js?render=${recaptchaSiteKey}`,
+    async: true,
+    defer: true,
+  }]
+})
 
 const isMiraModalOpen = useMiraModalState()
 
 const question = ref('')
 const feed = ref<QAFeedItem[]>([])
-
 const processing = ref(false)
 
 const handleSubmit = async () => {
@@ -18,16 +27,28 @@ const handleSubmit = async () => {
   question.value = ''
   processing.value = true
   feed.value.unshift({ question: q.split('\n').filter(el => el), ts })
+
+  let token
+
+  try {
+    token = await window.grecaptcha.execute(recaptchaSiteKey, { action: 'submit' })
+  } catch (error) {
+    console.log(error)
+    feed.value[0].answer = ['reCAPTCHA error. Please try again.']
+    processing.value = false
+    return
+  }
+
   try {
     const result = await fetch(`${miraBaseUrl}/ask`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ question: q })
+      body: JSON.stringify({ question: q, token })
     })
 
     const { message, links } = await result.json()
 
-    feed.value[0].answer = message?.split('\n').filter((el: string) => el) || "Something went wrong, I can't answer that."
+    feed.value[0].answer = message?.split('\n').filter((el: string) => el) || ["Something went wrong, I can't answer that."]
     feed.value[0].links = links
   } catch (error) {
     console.log(error)
