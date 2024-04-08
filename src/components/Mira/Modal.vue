@@ -121,7 +121,7 @@ onMounted(() => {
   transform: scale(1.1) translateX(45%);
   transition: transform 1s var(--ease), opacity 1s var(--ease), visibility 1s var(--ease);
   width: 100%;
-  max-width: 70rem;
+  max-width: 60rem;
   max-height: 80vh;
 }
 
