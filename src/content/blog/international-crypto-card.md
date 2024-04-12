@@ -14,7 +14,7 @@ og: /blog/international-crypto-card.md/og.jpg # thumbnal image for sharing, 1200
 
 So you’ve been offered a crypto payment card…
 
-/Most of us have “crypto” and “payment cards” separately. But how do they work connected? Let’s dive into some details:
+Most of us have “crypto” and “payment cards” separately. But how do they work connected? Let’s dive into some details:
 
 ## Crypto in the pocket or safe crypto?
 
@@ -34,7 +34,7 @@ Technically, the service provider pulls the funds through a custodial channel, w
 
 SORA Card works both ways. It is a convenient way to buy digital assets with fiat currency and tap into the world of seamless cross-border transfers and Decentralized Finance (DeFi) that crypto can provide. Again, after processing through the custodial channel, the funds are settled on the blockchain, with the only access to them via the owner’s keys.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/60b12b52-a589-4d53-8dd7-c112c8359650/54158875-8710-4d2c-957d-fe2fce7e718f/Untitled.png)
+![Flowchart](/blog/international-crypto-card/image1.jpg)
 
 As SORA Card is certified by major financial network, Mastercard, it is taking that convenience one step further by allowing users to tap into their crypto wallets while traveling or shopping online.
 
@@ -46,7 +46,7 @@ Card processing technology is constantly evolving, adding additional security me
 
 SORA Card aims to combine the best features of the two systems and merge them into a new money management paradigm:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/60b12b52-a589-4d53-8dd7-c112c8359650/a698393c-9946-4dd9-bce9-9b2e6fbe02d2/Untitled.png)
+![Card Benefits](/blog/international-crypto-card/sora card-benefits.jpg)
 
 **Some quick tips for those still on the fence, worrying around security and utility:**
 
