@@ -2,8 +2,8 @@
 title: 'International Crypto Card: Your Gateway to the World'
 description: 'Discover the SORA Card: Your passport to seamless crypto transactions and global spending. Explore the world of DeFi and cross-border payments with ease. '
 date: 2024-04-11
-image: /blog/international-crypto-card.md/cover.jpg # cover for the website, 1920x1080px
-og: /blog/international-crypto-card.md/og.jpg # thumbnal image for sharing, 1200x630px
+image: /blog/international-crypto-card/cover.jpg # cover for the website, 1920x1080px
+og: /blog/international-crypto-card/og.jpg # thumbnal image for sharing, 1200x630px
 ---
 ## TL;DR
 
@@ -46,29 +46,29 @@ Card processing technology is constantly evolving, adding additional security me
 
 SORA Card aims to combine the best features of the two systems and merge them into a new money management paradigm:
 
-![Card Benefits](/blog/international-crypto-card/sora card-benefits.jpg)
+![Card-Benefits](/blog/international-crypto-card/sora-card-benefits.jpg)
 
 **Some quick tips for those still on the fence, worrying around security and utility:**
 
 1. Research Reputable Providers
 
-The most credible providers issue monthly transparency reports as audited by external analysts. They also clarify policies on security, data usage, and availability upfront for users.
+   The most credible providers issue monthly transparency reports as audited by external analysts. They also clarify policies on security, data usage, and availability upfront for users.
 
-Checking reputable review sites can further reveal actual customer experiences managing the card over months of usage across various scenarios. Comparing providers on validation metrics curates trustworthy options.
+   Checking reputable review sites can further reveal actual customer experiences managing the card over months of usage across various scenarios. Comparing providers on validation metrics curates trustworthy options.
 
-1. Start Small to Test Features
+2. Start Small to Test Features
 
-Once signed up, begin by funding your crypto card with a small balance to pilot basic features.
+   Once signed up, begin by funding your crypto card with a small balance to pilot basic features.
 
-Verify how fast currency exchanges occur in the background when paying in foreign denominations. Check the app and online account dashboards to understand usability. Consider setting a card freeze or transaction limits for added security, ensuring smooth customer support experiences if needed.
+   Verify how fast currency exchanges occur in the background when paying in foreign denominations. Check the app and online account dashboards to understand usability. Consider setting a card freeze or transaction    limits   for added security, ensuring smooth customer support experiences if needed.
 
-1. Ramp Up Functional Use
+3. Ramp Up Functional Use
 
-After testing core functionality and support channels, gradually ramp up reliance on your crypto card across normal spending categories.
+   After testing core functionality and support channels, gradually ramp up reliance on your crypto card across normal spending categories.
 
-Consider allocating only a portion of token holdings to your fiat wallet to access as needed for higher expense items like travel or large purchases. Even though your address is secure with your keys, it is a recommended practice in crypto to have separate cold addresses for your savings.
+   Consider allocating only a portion of token holdings to your fiat wallet to access as needed for higher expense items like travel or large purchases. Even though your address is secure with your keys, it is a       recommended practice in crypto to have separate cold addresses for your savings.
 
-Crypto cards are expected to reach over 300 million users within four years as blockchain and digital currency adoption continue to proliferate. With a seamless user experience that retains crypto's inherent advantages over traditional banking, widespread mainstream use seems imminent.
+   Crypto cards are expected to reach over 300 million users within four years as blockchain and digital currency adoption continue to proliferate. With a seamless user experience that retains crypto's inherent    advantages   over traditional banking, widespread mainstream use seems imminent.
 
 ## Crypto Cards Already in Use
 
