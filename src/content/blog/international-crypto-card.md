@@ -5,6 +5,7 @@ date: 2024-04-11
 image: /blog/international-crypto-card/cover.jpg # cover for the website, 1920x1080px
 og: /blog/international-crypto-card/og.jpg # thumbnal image for sharing, 1200x630px
 ---
+
 ## TL;DR
 
 - Introducing SORA Card: a seamless bridge between cryptocurrency and everyday payments, emphasizing security and convenience.
@@ -60,15 +61,15 @@ SORA Card aims to combine the best features of the two systems and merge them in
 
    Once signed up, begin by funding your crypto card with a small balance to pilot basic features.
 
-   Verify how fast currency exchanges occur in the background when paying in foreign denominations. Check the app and online account dashboards to understand usability. Consider setting a card freeze or transaction    limits   for added security, ensuring smooth customer support experiences if needed.
+   Verify how fast currency exchanges occur in the background when paying in foreign denominations. Check the app and online account dashboards to understand usability. Consider setting a card freeze or transaction limits for added security, ensuring smooth customer support experiences if needed.
 
 3. Ramp Up Functional Use
 
    After testing core functionality and support channels, gradually ramp up reliance on your crypto card across normal spending categories.
 
-   Consider allocating only a portion of token holdings to your fiat wallet to access as needed for higher expense items like travel or large purchases. Even though your address is secure with your keys, it is a       recommended practice in crypto to have separate cold addresses for your savings.
+   Consider allocating only a portion of token holdings to your fiat wallet to access as needed for higher expense items like travel or large purchases. Even though your address is secure with your keys, it is a recommended practice in crypto to have separate cold addresses for your savings.
 
-   Crypto cards are expected to reach over 300 million users within four years as blockchain and digital currency adoption continue to proliferate. With a seamless user experience that retains crypto's inherent    advantages   over traditional banking, widespread mainstream use seems imminent.
+   Crypto cards are expected to reach over 300 million users within four years as blockchain and digital currency adoption continue to proliferate. With a seamless user experience that retains crypto's inherent advantages over traditional banking, widespread mainstream use seems imminent.
 
 ## Crypto Cards Already in Use
 
@@ -98,4 +99,4 @@ But, as construction continues and crypto tools are being integrated with legacy
 
 True adepts know that blockchain hints at an even bolder horizon where decentralized money disintermediates control over finance - liberating access, transparency, and opportunity for billions worldwide. The world's financial transformations have only just begun as blockchain promises to remake how value flows everywhere - to finally get us where we need to go without borders.
 
-SORA Card delivers on this promise today, letting digital assets benefit routine life within the existing payment ecosystem. Getting started with SORA Card is straightforward. Prospective users can sign up through the SORA [website](https://soracard.com/), complete the necessary verification steps, and order their card. The platform's user-friendly interface ensures a smooth setup process, allowing users to quickly begin enjoying the benefits of SORA Card.
+SORA Card delivers on this promise today, letting digital assets benefit routine life within the existing payment ecosystem. Getting started with SORA Card is straightforward. Prospective users can <ApplyButton>sign up</ApplyButton> through the SORA Card website, complete the necessary verification steps, and order their card. The platform's user-friendly interface ensures a smooth setup process, allowing users to quickly begin enjoying the benefits of SORA Card.

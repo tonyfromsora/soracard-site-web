@@ -10,12 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/sitemap": "^5.1.2",
+    "@nuxtjs/sitemap": "^5.1.4",
     "@types/nodemailer": "^6.4.14",
-    "nuxt": "^3.11.1",
+    "nuxt": "^3.11.2",
     "nuxt-aos": "^1.2.4",
-    "typescript": "^5.4.3",
-    "vue": "^3.4.21",
+    "typescript": "^5.4.5",
+    "vue": "^3.4.22",
     "vue-router": "^4.3.0"
   },
   "dependencies": {
