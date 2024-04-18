@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import contents from '~/lib/lang/homepage'
+import en from '~/lib/lang/en/homepage'
+import be from '~/lib/lang/be/homepage'
 
-const isApplyModalOpen = useApplyModalState()
 const { t, tm } = useI18n({
-  messages: contents,
+  messages: { en, be },
 })
 
 useSeoMeta({
@@ -11,6 +11,8 @@ useSeoMeta({
   ogTitle: t('seoMeta.title'),
   twitterTitle: t('seoMeta.title'),
 })
+
+const isApplyModalOpen = useApplyModalState()
 </script>
 
 <template>
