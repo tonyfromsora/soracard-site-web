@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   srcDir: 'src/',
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/content', 'nuxt-aos', '@nuxtjs/sitemap'],
+  modules: ['@nuxt/content', 'nuxt-aos', '@nuxtjs/sitemap', '@nuxtjs/i18n'],
   content: {
     markdown: {
       anchorLinks: false,
@@ -23,6 +23,13 @@ export default defineNuxtConfig({
   sitemap: {
     sources: ['/api/sitemap'],
     credits: false,
+  },
+  i18n: {
+    locales: [
+      { name: 'En', code: 'en' },
+      { name: 'Ru', code: 'ru' },
+    ],
+    defaultLocale: 'en',
   },
   build: {
     transpile: ['gsap'],
