@@ -1,34 +1,37 @@
 <script setup lang="ts">
 import contents from '~/lib/lang/homepage'
+
 const isApplyModalOpen = useApplyModalState()
+const { t, tm } = useI18n({
+  messages: contents,
+})
 
 useSeoMeta({
-  title: contents.en.seoMeta.title,
-  ogTitle: contents.en.seoMeta.title,
-  twitterTitle: contents.en.seoMeta.title,
+  title: t('seoMeta.title'),
+  ogTitle: t('seoMeta.title'),
+  twitterTitle: t('seoMeta.title'),
 })
 </script>
 
 <template>
-  <HomeHero v-bind="contents.en.hero" />
+  <HomeHero v-bind="tm('hero')" />
   <HomeMira id="more" />
-  <HomeFeatures id="features" v-bind="contents.en.features" />
-  <HomeValue v-bind="contents.en.value" />
-  <HomeAccordionBanner v-bind="contents.en.accordionBanner" />
-  <HomePossibilities v-bind="contents.en.possibilities" />
-  <HomeFAQ id="faq" data-aos="fade-up" v-bind="contents.en.faq" />
-  <HomeBlog v-bind="contents.en.blog" />
+  <HomeFeatures id="features" v-bind="tm('features')" />
+  <HomeValue v-bind="tm('value')" />
+  <HomeAccordionBanner v-bind="tm('accordionBanner')" />
+  <HomePossibilities v-bind="tm('possibilities')" />
+  <HomeFAQ id="faq" data-aos="fade-up" v-bind="tm('faq')" />
+  <HomeBlog v-bind="tm('blog')" />
   <Banner :image="{
     src: '/home/banner.jpg',
     alt: 'Hand holding SORA Card'
   }" data-aos="fade-up">
     <h2 class="mb-m">
-      {{ contents.en.getCardBanner.title }}
+      {{ t('getCardBanner.title') }}
     </h2>
     <p class="text-l mb-l">
-      {{ contents.en.getCardBanner.description }}
+      {{ t('getCardBanner.description') }}
     </p>
-    <Button :title="contents.en.getCardBanner.applyButtonTitle" large light
-      @click="isApplyModalOpen = !isApplyModalOpen" />
+    <Button :title="t('getCardBanner.applyButtonTitle')" large light @click="isApplyModalOpen = !isApplyModalOpen" />
   </Banner>
 </template>
