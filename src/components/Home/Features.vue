@@ -1,10 +1,9 @@
 <script setup lang="ts">
-const features = [
-  'Full ownership over your crypto',
-  'Easy access to payments and DeFi',
-  'Real-time exchange rate when buying/selling crypto',
-  'Fiat access to major blockchains with true interoperability*'
-]
+const { title, items, disclaimer } = defineProps<{
+  title: string
+  items: string[]
+  disclaimer: string
+}>()
 </script>
 
 <template>
@@ -13,12 +12,14 @@ const features = [
       <img src="/home/features.jpg" alt="Hand holding SORA Card" />
     </div>
     <div class="text bg-light1 rounded" data-aos="fade-up" data-aos-delay="100">
-      <h2 class="mb-l">The ultimate all-in-one self-custodial crypto + neobanking-inspired solution</h2>
+      <h2 class="mb-l">
+        {{ title }}
+      </h2>
       <ul class="mb-l">
-        <li v-for="feature in features" class="pl-l pb-xs">{{ feature }}</li>
+        <li v-for="feature in items" class="pl-l pb-xs">{{ feature }}</li>
       </ul>
       <div class="text-xs">
-        *Currently SORA network with a bridge to Ethereum, Polkadot and Kusama, soon other EVM networks and Bitcoin
+        {{ disclaimer }}
       </div>
     </div>
   </section>

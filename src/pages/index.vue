@@ -1,32 +1,34 @@
 <script setup lang="ts">
+import contents from '~/lib/lang/homepage'
 const isApplyModalOpen = useApplyModalState()
 
-const title = 'SORA Card | Value Freedom'
 useSeoMeta({
-  title,
-  ogTitle: title,
-  twitterTitle: title,
+  title: contents.en.seoMeta.title,
+  ogTitle: contents.en.seoMeta.title,
+  twitterTitle: contents.en.seoMeta.title,
 })
 </script>
 
 <template>
-  <HomeHero />
+  <HomeHero v-bind="contents.en.hero" />
   <HomeMira id="more" />
-  <HomeFeatures id="features" />
-  <HomeValue />
-  <HomeAccordionBanner />
-  <HomePossibilities />
-  <HomeFAQ id="faq" data-aos="fade-up" />
-  <HomeBlog />
+  <HomeFeatures id="features" v-bind="contents.en.features" />
+  <HomeValue v-bind="contents.en.value" />
+  <HomeAccordionBanner v-bind="contents.en.accordionBanner" />
+  <HomePossibilities v-bind="contents.en.possibilities" />
+  <HomeFAQ id="faq" data-aos="fade-up" v-bind="contents.en.faq" />
+  <HomeBlog v-bind="contents.en.blog" />
   <Banner :image="{
     src: '/home/banner.jpg',
     alt: 'Hand holding SORA Card'
   }" data-aos="fade-up">
-    <h2 class="mb-m">Get SORA Card — Value Freedom</h2>
+    <h2 class="mb-m">
+      {{ contents.en.getCardBanner.title }}
+    </h2>
     <p class="text-l mb-l">
-      SORA card is a neobanking-style solution that gives direct access to decentralized and non-custodial crypto.
-      SORA does not have access to your crypto assets or user data. We value freedom.
+      {{ contents.en.getCardBanner.description }}
     </p>
-    <Button title="Apply now" large light @click="isApplyModalOpen = !isApplyModalOpen" />
+    <Button :title="contents.en.getCardBanner.applyButtonTitle" large light
+      @click="isApplyModalOpen = !isApplyModalOpen" />
   </Banner>
 </template>

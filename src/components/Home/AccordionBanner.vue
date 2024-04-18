@@ -1,35 +1,8 @@
 <script setup lang="ts">
-const items = [{
-  title: 'Self-custody',
-  content: [
-    'Retain full custody (possession) of your crypto assets at all times. The SORA wallet is merely an interface to manage your assets, connecting directly to the blockchain.'
-  ]
-}, {
-  title: 'Ease of use',
-  content: [
-    'Access to both physical and digital cards. Use SORA Card at more than 90 million card provider merchants globally. Apple Pay and Google Pay compatibility (* will be available shortly in Phase 2 of SORA Card rollout).'
-  ]
-}, {
-  title: 'More than spending crypto',
-  content: [
-    'Buy, Sell, Earn, Pay, Trade, Receive and more! All in one place, at your discretion. Thanks to the integrated ',
-    {
-      title: 'Polkaswap',
-      href: 'https://polkaswap.io/',
-    },
-    ' decentralized exchange and the ',
-    {
-      title: 'Demeter',
-      href: 'https://farming.deotoken.io/',
-    },
-    ' DeFi platform.'
-  ]
-}, {
-  title: 'Privacy and Security',
-  content: [
-    'Access and actions regarding your crypto assets do not require any personal information like names and addresses — you just need your private key for access and full ownership.'
-  ]
-},]
+const { title, items } = defineProps<{
+  title: string
+  items: { title: string; content: (string | { title: string; href: string })[] }[]
+}>()
 </script>
 
 <template>
@@ -39,7 +12,9 @@ const items = [{
         <img src="/home/accordion-banner.jpg" alt="SORA Wallet app with SORA Card">
       </div>
       <div class="text">
-        <h2 class="mb-l">Accelerate your financial freedom today</h2>
+        <h2 class="mb-l">
+          {{ title }}
+        </h2>
         <Accordion :items="items" />
       </div>
     </div>

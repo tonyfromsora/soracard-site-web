@@ -1,7 +1,16 @@
+<script setup lang="ts">
+const { title, viewAllButtonTitle } = defineProps<{
+  title: string
+  viewAllButtonTitle: string
+}>()
+</script>
+
 <template>
   <div class="w mb-m flex title" data-aos="fade-up">
-    <h2 class="text-xxl">Latest blog posts</h2>
-    <Button href="/blog" title="See All" class="text-s" />
+    <h2 class="text-xxl">
+      {{ title }}
+    </h2>
+    <Button href="/blog" :title="viewAllButtonTitle" class="text-s" />
   </div>
   <BlogList :limit="3" data-aos="fade-up" data-aos-delay="100" />
 </template>

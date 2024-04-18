@@ -1,23 +1,25 @@
 <script setup lang="ts">
-const features = [{
-  title: 'Highest possible privacy features',
-  description: 'KYC with IBAN (fiat) provider only, crypto completely self-custodial and decentralized'
-}, {
-  title: 'High limits and low fees',
-  description: 'Top of the line cash withdrawal limits, as well as spending and top-up limits and options'
-}, {
-  title: 'Premium crypto integrations',
-  description: 'SORA Card is a unique all-in-one self-custodial crypto wallet and fiat debit card integrated with a multi-chain decentralized exchange and DeFi platform'
-},]
+import type { Link } from '~/lib/constants/types'
+
+const { label, title, items } = defineProps<{
+  label: string
+  title: string
+  items: { title: string; description: string }[]
+  comparisonDetails: (string | Link)[]
+}>()
 </script>
 
 <template>
   <section class="w container pt-xxl">
     <div class="text mb-l" data-aos="fade-up">
-      <div class="accent bold mb-xxs">Possibilities</div>
-      <h2 class="mb-l">Superior privacy, limits and interoperability</h2>
+      <div class="accent bold mb-xxs">
+        {{ label }}
+      </div>
+      <h2 class="mb-l">
+        {{ title }}
+      </h2>
       <div class="features">
-        <div v-for="feature in features">
+        <div v-for="feature in items">
           <h3 class="text-m mb-xxs feature-title">
             <div class="icon mr-xxs">
               <img :src="`/icons/check.svg`" alt="Check icon">
@@ -28,7 +30,7 @@ const features = [{
         </div>
       </div>
     </div>
-    <HomeCompare data-aos="fade-up" data-aos-delay="100" />
+    <HomeCompare data-aos="fade-up" data-aos-delay="100" :details="comparisonDetails" />
   </section>
 </template>
 
