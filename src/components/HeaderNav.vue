@@ -14,6 +14,8 @@ const toggleAccordion = (i: number) => {
     })
   }
 }
+
+const localePath = useLocalePath()
 </script>
 
 <template>
@@ -31,9 +33,11 @@ const toggleAccordion = (i: number) => {
                   @click="isApplyModalOpen = true">
                   <span class="hover-underline">Apply</span>
                 </button>
-                <NuxtLink v-else :href="item.href" class="link hover-trigger px-xs py-3xs">
+                <NuxtLink v-else :href="item.external ? item.href : localePath(item.href)"
+                  class="link hover-trigger px-xs py-3xs" :external="item.external"
+                  :target="item.external ? '_blank' : undefined">
                   <span class="hover-underline">{{ item.title }}</span>
-                  <img v-if="item.isExternal" src="/icons/external.svg" alt="external link icon" class="external">
+                  <img v-if="item.external" src="/icons/external.svg" alt="external link icon" class="external">
                   <span v-if="item.label" class="label bold rounded">{{ item.label }}</span>
                 </NuxtLink>
               </li>

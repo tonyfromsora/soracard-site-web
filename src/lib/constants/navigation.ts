@@ -1,7 +1,7 @@
 import type { Link } from './types'
 
 type NavLink = Link & {
-  isExternal?: boolean
+  external?: boolean
   label?: string
 }
 
@@ -43,23 +43,23 @@ const nav: {
   {
     title: 'Resources',
     links: [
-      { title: 'SORA Wiki', href: 'https://wiki.sora.org/', isExternal: true },
+      { title: 'SORA Wiki', href: 'https://wiki.sora.org/', external: true },
       {
         title: 'Builders',
         href: 'https://medium.com/sora-xor/sora-builders-programme-979bea8831ed',
-        isExternal: true,
+        external: true,
       },
       {
         title: 'SII Insurance',
         href: 'https://medium.com/sora-xor/social-insurance-for-systematically-important-infrastructure-18a63ef711ca',
-        isExternal: true,
+        external: true,
       },
       {
         title: 'Bug Bounty',
         href: 'https://medium.com/sora-xor/announcing-the-sora-and-polkaswap-bug-bounty-programme-65ff37fe4876',
-        isExternal: true,
+        external: true,
       },
-      { title: 'Brand Kit', href: 'https://github.com/sora-xor/sora-branding', isExternal: true },
+      { title: 'Brand Kit', href: 'https://github.com/sora-xor/sora-branding', external: true },
     ],
   },
 ]
