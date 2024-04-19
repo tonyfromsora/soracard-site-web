@@ -30,6 +30,7 @@ export default defineNuxtConfig({
       { name: 'Be', code: 'be' },
     ],
     defaultLocale: 'en',
+    strategy: 'prefix_and_default',
   },
   build: {
     transpile: ['gsap'],
