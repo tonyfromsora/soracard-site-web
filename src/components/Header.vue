@@ -1,4 +1,11 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/header'
+import be from '~/lib/lang/be/header'
+
+const { t } = useI18n({
+  messages: { en, be }
+})
+
 const { scrollY, isScrollDown } = useScroll()
 const isApplyModalOpen = useApplyModalState()
 const isMiraModalOpen = useMiraModalState()
@@ -56,8 +63,8 @@ const localePath = useLocalePath()
       <HeaderNav />
       <div class="cta">
         <MiraButton v-if="miraEnabled" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }" />
-        <Button :href="localePath('/fees')" title="Fees" ghost />
-        <Button title="Apply" @click="() => { isOpen = false; isApplyModalOpen = !isApplyModalOpen }" />
+        <Button :href="localePath('/fees')" :title="t('header.fees')" ghost />
+        <Button :title="t('header.apply')" @click="() => { isOpen = false; isApplyModalOpen = !isApplyModalOpen }" />
       </div>
     </div>
 

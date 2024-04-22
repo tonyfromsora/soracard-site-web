@@ -5,8 +5,8 @@ export default {
   hero: {
     title: 'Не толькі картка',
     description: 'Атрымайце доступ да новай эры інтэрпрабельнага фінансавання, усё ў вашых руках.',
-    applyButtonTitle: 'Праграма',
-    moreButtonTitle: 'Даведайцеся больш',
+    applyButtonTitle: 'Замовіць',
+    moreButtonTitle: 'Падрабязней',
     ecosystemLogosLine: 'Ваш шлюз ад фіата да крыптавалют',
   },
   features: {

@@ -1,7 +1,16 @@
+<script setup lang="ts">
+import en from '~/lib/lang/en/apply'
+import be from '~/lib/lang/be/apply'
+
+const { t } = useI18n({
+  messages: { en, be }
+})
+</script>
+
 <template>
   <div class="apply text-center">
     <div class="rounded bg-light1 pt-xs pb-s px-s text-xs">
-      Get SORA Wallet for mobile:
+      {{ t('apply.storesTitle') }}
       <div class="stores">
         <a href="https://apps.apple.com/us/app/sora-dae/id1457566711" class="store"
           style="--image: url('/icons/appstore.svg')">
@@ -11,13 +20,14 @@
           style="--image: url('/icons/googleplay.svg')">
           <span>Google Play</span>
         </a>
-        <a href="https://github.com/sora-xor/sora-android/releases" class="store" style="--image: url('/icons/apk.svg')">
+        <a href="https://github.com/sora-xor/sora-android/releases" class="store"
+          style="--image: url('/icons/apk.svg')">
           <span>APK</span>
         </a>
       </div>
     </div>
     <div class="rounded bg-light1 pt-xs pb-s px-s text-xs">
-      Get the app via QR code:
+      {{ t('apply.qrTitle') }}
       <div class="image relative" style="aspect-ratio: 1/1;">
         <img src="/icons/qr.svg" alt="QR Code" width="200" height="200">
       </div>

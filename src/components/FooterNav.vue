@@ -1,21 +1,28 @@
 <script setup lang="ts">
-import nav from '@/lib/constants/navigation'
+import type { NavGroup } from '~/lib/constants/types'
+
+import en from '~/lib/lang/en/navigation'
+import be from '~/lib/lang/be/navigation'
+
+const { tm } = useI18n({
+  messages: { en, be }
+})
 
 const isApplyModalOpen = useApplyModalState()
 </script>
 
 <template>
   <nav class="nav">
-    <div v-for="group in nav">
-      <div class="py-3xs bold">{{ group.title }}</div>
+    <div v-for="group in (tm('navigation') as NavGroup[])">
+      <div class="py-3xs bold">{{ group.groupTitle }}</div>
       <ul>
         <li v-for="(item, i) in group.links" :style="`--delay: ${i * 0.05}s`">
-          <button v-if="(typeof item === 'string')" class="link hover-trigger py-3xs" @click="isApplyModalOpen = true">
-            <span class="hover-underline">Apply</span>
+          <button v-if="('applyButton' in item)" class="link hover-trigger py-3xs" @click="isApplyModalOpen = true">
+            <span class="hover-underline">{{ item.applyButton }}</span>
           </button>
           <NuxtLink v-else :href="item.href" class="link hover-trigger py-3xs">
             <span class="hover-underline">{{ item.title }}</span>
-            <img v-if="item.isExternal" src="/icons/external.svg" alt="external link icon" class="external">
+            <img v-if="item.external" src="/icons/external.svg" alt="external link icon" class="external">
             <span v-if="item.label" class="label bold rounded">{{ item.label }}</span>
           </NuxtLink>
         </li>
