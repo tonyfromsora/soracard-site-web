@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import type { NavGroup } from '~/lib/constants/types'
 
-import en from '~/lib/lang/en/navigation'
-import be from '~/lib/lang/be/navigation'
+import en from '~/lib/lang/en/navigation.json'
+import be from '~/lib/lang/be/navigation.json'
 
 const { tm } = useI18n({
   messages: { en, be }

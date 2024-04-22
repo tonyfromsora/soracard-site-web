@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import en from '~/lib/lang/en/disclaimers'
-import be from '~/lib/lang/be/disclaimers'
+import en from '~/lib/lang/en/disclaimers.json'
+import be from '~/lib/lang/be/disclaimers.json'
 
 const { tm } = useI18n({
   messages: { en, be }

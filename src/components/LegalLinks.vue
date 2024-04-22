@@ -1,19 +1,20 @@
 <script setup lang="ts">
 import type { Link } from '~/lib/constants/types'
 
-import en from '~/lib/lang/en/legalLinks'
-import be from '~/lib/lang/be/legalLinks'
+import en from '~/lib/lang/en/legalLinks.json'
+import be from '~/lib/lang/be/legalLinks.json'
 
 const { tm } = useI18n({
   messages: { en, be }
 })
 
 type LegalLink = Link & { external?: boolean }
+
 </script>
 
 <template>
   <div class="text-xs dark2 text-center py-s legal">
-    <NuxtLink v-for="link in tm('legalLinks') as LegalLink[]" :href="link.href" class="hover-trigger p-3xs link"
+    <NuxtLink v-for="link in (tm('legalLinks') as LegalLink[])" :href="link.href" class="hover-trigger p-3xs link"
       :target="link.external ? '_blank' : undefined">
       <span class="hover-underline">
         {{ link.title }}

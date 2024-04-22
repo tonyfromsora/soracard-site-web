@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import en from '~/lib/lang/en/homepage'
-import be from '~/lib/lang/be/homepage'
+import en from '~/lib/lang/en/homepage.json'
+import be from '~/lib/lang/be/homepage.json'
 
 const { t, tm } = useI18n({
   messages: { en, be },
