@@ -12,7 +12,7 @@ useSeoMeta({
 <template>
   <HomeHero />
   <HomeMira id="more" />
-  <HomeFeatures />
+  <HomeFeatures id="features" />
   <HomeValue />
   <HomeAccordionBanner />
   <HomePossibilities />
