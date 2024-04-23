@@ -22,9 +22,11 @@
 
 .mira video {
   width: 100%;
-  max-width: 19rem;
   height: 100%;
+  max-width: 19rem;
   object-fit: cover;
+  aspect-ratio: 16/9;
+  background-color: var(--color-dark1);
 }
 
 .info {
