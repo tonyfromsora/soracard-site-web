@@ -8,7 +8,7 @@ const features = [
 </script>
 
 <template>
-  <section class="w grid pb-xxl">
+  <section class="w grid my-xxl">
     <div class="image rounded" data-aos="fade-up">
       <img src="/home/features.jpg" alt="Hand holding SORA Card" />
     </div>
@@ -91,7 +91,6 @@ const features = [
 @media (min-width: 960px) {
   .grid {
     grid-template-columns: 1fr 2fr;
-    padding-top: var(--space-xxl);
   }
 }
 </style>
