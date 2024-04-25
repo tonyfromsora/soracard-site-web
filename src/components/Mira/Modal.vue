@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { type QAFeedItem } from '~/lib/constants/types'
-const { recaptchaSiteKey } = useRuntimeConfig().public
+const { miraRecaptchaSiteKey } = useRuntimeConfig().public
 const { miraBaseUrl } = useRuntimeConfig().public
 
 const LOCALSTORAGE_ITEM_NAME = 'mira-chat-history'
@@ -8,7 +8,7 @@ const LOCALSTORAGE_ITEM_NAME = 'mira-chat-history'
 useHead({
   script: [{
     key: 'recaptcha',
-    src: `https://www.google.com/recaptcha/api.js?render=${recaptchaSiteKey}`,
+    src: `https://www.google.com/recaptcha/api.js?render=${miraRecaptchaSiteKey}`,
     async: true,
     defer: true,
   }]
@@ -31,7 +31,7 @@ const handleSubmit = async () => {
   let token
 
   try {
-    token = await window.grecaptcha.execute(recaptchaSiteKey, { action: 'submit' })
+    token = await window.grecaptcha.execute(miraRecaptchaSiteKey, { action: 'submit' })
   } catch (error) {
     console.log(error)
     feed.value[0].answer = ['reCAPTCHA error. Please try again.']

@@ -2,7 +2,7 @@
 const { question, answer } = defineProps<{ question: string[], answer: string[] }>()
 
 const { miraBaseUrl } = useRuntimeConfig().public
-const { recaptchaSiteKey } = useRuntimeConfig().public
+const { miraRecaptchaSiteKey } = useRuntimeConfig().public
 
 const report = ref('')
 const state = ref<'initial' | 'processing' | 'success' | 'error'>('initial')
@@ -13,7 +13,7 @@ const handleSubmit = async () => {
   let token
 
   try {
-    token = await window.grecaptcha.execute(recaptchaSiteKey, { action: 'submit' })
+    token = await window.grecaptcha.execute(miraRecaptchaSiteKey, { action: 'submit' })
   } catch (error) {
     console.log(error)
     message.value = 'reCAPTCHA error. Please try again.'

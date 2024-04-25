@@ -41,6 +41,7 @@ export default defineNuxtConfig({
       baseUrl: '',
 
       miraBaseUrl: '',
+      miraRecaptchaSiteKey: '',
     },
   },
   app: {
