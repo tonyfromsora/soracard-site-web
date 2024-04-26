@@ -101,7 +101,7 @@ li {
   border: 1px solid var(--color-accent);
 }
 
-@media (max-width: 959px) {
+@media (max-width: 1199px) {
   .group {
     border-bottom: 1px solid rgba(0, 0, 0, 0.20);
   }
@@ -143,7 +143,7 @@ li {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1200px) {
   .groups {
     display: flex;
     justify-content: center;
@@ -200,7 +200,7 @@ li {
   }
 }
 
-@media (min-width: 960px) and (hover:hover) {
+@media (min-width: 1200px) and (hover:hover) {
   .group-title>span {
     color: transparent;
     position: relative;

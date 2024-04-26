@@ -52,8 +52,7 @@ onMounted(async () => {
     <div class="nav">
       <HeaderNav />
       <div class="cta">
-        <Button v-if="miraEnabled" title="Mira" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }"
-          ghost />
+        <MiraButton v-if="miraEnabled" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }" />
         <Button href="/fees" title="Fees" ghost />
         <Button title="Apply" @click="() => { isOpen = false; isApplyModalOpen = !isApplyModalOpen }" />
       </div>
@@ -130,7 +129,7 @@ onMounted(async () => {
   align-items: center;
 }
 
-@media (max-width: 959px) {
+@media (max-width: 1199px) {
   .nav {
     transition: opacity 0.6s var(--ease), transform 1s var(--ease), visibility 0.6s var(--ease);
     opacity: 0;
@@ -158,6 +157,7 @@ onMounted(async () => {
   .cta {
     justify-content: center;
     padding: var(--space-xxs) var(--space-s);
+    flex-wrap: wrap;
   }
 }
 
@@ -167,7 +167,7 @@ onMounted(async () => {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1200px) {
   .topbar {
     display: grid;
     grid-template-columns: 1fr 3fr;
