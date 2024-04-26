@@ -2,12 +2,16 @@
 const isVisible = ref(false)
 
 const handleCLick = () => {
-  window.localStorage.cookieMessageAccepted = true
+  try {
+    window.localStorage.cookieMessageAccepted = true
+  } catch (e) {
+    console.warn('No access to localSotage')
+  }
   isVisible.value = false
 }
 
 onMounted(() => {
-  if (!window.localStorage.cookieMessageAccepted) {
+  if (!window?.localStorage?.cookieMessageAccepted) {
     setTimeout(() => isVisible.value = true, 1000)
   }
 })
