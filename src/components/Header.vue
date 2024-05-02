@@ -1,11 +1,36 @@
 <script setup lang="ts">
 const { scrollY, isScrollDown } = useScroll()
-const isModalOpen = useApplyModalState()
+const isApplyModalOpen = useApplyModalState()
+const isMiraModalOpen = useMiraModalState()
 const router = useRouter()
+const { miraBaseUrl } = useRuntimeConfig().public
 
 const isOpen = ref(false)
+const miraEnabled = ref(false)
 
 router.afterEach(() => isOpen.value = false)
+
+onMounted(async () => {
+  const visitorId = useCookie('visitor-id', {
+    maxAge: 60 * 60 * 24 * 365, // 1 year
+  })
+  visitorId.value = visitorId.value || crypto.randomUUID()
+  try {
+    const response = await fetch(`${miraBaseUrl}/featureflags`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        visitorId: visitorId.value,
+      }),
+    })
+    const data = await response.json()
+    if (data.includes('qa')) miraEnabled.value = true
+  } catch (e) {
+    console.log('Error fetching QA data')
+  }
+})
 </script>
 
 <template>
@@ -27,16 +52,16 @@ router.afterEach(() => isOpen.value = false)
     <div class="nav">
       <HeaderNav />
       <div class="cta">
+        <MiraButton v-if="miraEnabled" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }" />
         <Button href="/fees" title="Fees" ghost />
-        <Button title="Apply" @click="() => {
-          isOpen = false
-          isModalOpen = !isModalOpen
-        }" />
+        <Button title="Apply" @click="() => { isOpen = false; isApplyModalOpen = !isApplyModalOpen }" />
       </div>
     </div>
 
     <Burger :open="isOpen" @click="isOpen = !isOpen" class="burger" />
   </header>
+
+  <MiraModal v-if="miraEnabled" />
 </template>
 
 <style scoped>
@@ -104,7 +129,7 @@ router.afterEach(() => isOpen.value = false)
   align-items: center;
 }
 
-@media (max-width: 959px) {
+@media (max-width: 1199px) {
   .nav {
     transition: opacity 0.6s var(--ease), transform 1s var(--ease), visibility 0.6s var(--ease);
     opacity: 0;
@@ -132,6 +157,7 @@ router.afterEach(() => isOpen.value = false)
   .cta {
     justify-content: center;
     padding: var(--space-xxs) var(--space-s);
+    flex-wrap: wrap;
   }
 }
 
@@ -141,7 +167,7 @@ router.afterEach(() => isOpen.value = false)
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1200px) {
   .topbar {
     display: grid;
     grid-template-columns: 1fr 3fr;

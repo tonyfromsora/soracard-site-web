@@ -1,13 +1,14 @@
 <script setup lang="ts">
-const isModalOpen = useApplyModalState()
+const isApplyModalOpen = useApplyModalState()
 </script>
 
 <template>
-  <Overlay :open="isModalOpen" @click="isModalOpen = false" data-cursor-show data-cursor-text="Close" :z-index="23"
-    :opacity=".3" />
-  <section class="apply-overlay text-s p-xs" :class="{ open: isModalOpen }">
+  <Overlay :open="isApplyModalOpen" @click="isApplyModalOpen = false" data-cursor-show data-cursor-text="Close"
+    :z-index="23" :opacity=".3" />
+  <section class="apply-overlay text-s p-xs" :class="{ open: isApplyModalOpen }">
     <div class="text-s rounded p-xs bg-light1 text-center">
-      Download and install the <b>SORA Wallet</b> mobile app to create your SORA account and apply for SORA Card using the
+      Download and install the <b>SORA Wallet</b> mobile app to create your SORA account and apply for SORA Card using
+      the
       app
     </div>
     <Apply />

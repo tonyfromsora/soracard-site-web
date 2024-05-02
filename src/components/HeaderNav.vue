@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import nav from '@/lib/constants/navigation'
 
-const isModalOpen = useApplyModalState()
+const isApplyModalOpen = useApplyModalState()
 
 const navRef = ref(nav.map(el => ({ ...el, isOpen: false })))
 
@@ -28,7 +28,7 @@ const toggleAccordion = (i: number) => {
             <ul>
               <li v-for="(item, i) in group.links" :style="`--delay: ${i * 0.05}s`">
                 <button v-if="(typeof item === 'string')" class="link hover-trigger px-xs py-3xs mx-auto"
-                  @click="isModalOpen = true">
+                  @click="isApplyModalOpen = true">
                   <span class="hover-underline">Apply</span>
                 </button>
                 <NuxtLink v-else :href="item.href" class="link hover-trigger px-xs py-3xs">
@@ -101,7 +101,7 @@ li {
   border: 1px solid var(--color-accent);
 }
 
-@media (max-width: 959px) {
+@media (max-width: 1199px) {
   .group {
     border-bottom: 1px solid rgba(0, 0, 0, 0.20);
   }
@@ -143,7 +143,7 @@ li {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1200px) {
   .groups {
     display: flex;
     justify-content: center;
@@ -200,7 +200,7 @@ li {
   }
 }
 
-@media (min-width: 960px) and (hover:hover) {
+@media (min-width: 1200px) and (hover:hover) {
   .group-title>span {
     color: transparent;
     position: relative;

@@ -1,1 +1,1 @@
-export const useApplyModalState = () => useState<boolean>('isModalOpen', () => false)
+export const useApplyModalState = () => useState<boolean>('isApplyModalOpen', () => false)
