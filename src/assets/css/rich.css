@@ -121,3 +121,25 @@
   border-radius: var(--radius);
   margin: var(--space-xl) auto;
 }
+
+.rich blockquote {
+  padding: var(--space-s);
+  border-radius: var(--radius);
+  background-color: var(--color-light2);
+}
+
+.rich blockquote::before {
+  content: '“';
+  display: block;
+  font-size: var(--font-xxl);
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  line-height: 0.85;
+}
+
+.rich blockquote:not(:first-child) {
+  margin-top: var(--space-l);
+}
+.rich blockquote:not(:last-child) {
+  margin-bottom: var(--space-l);
+}

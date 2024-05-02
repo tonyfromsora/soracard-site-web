@@ -11,6 +11,7 @@ useSeoMeta({
 
 <template>
   <HomeHero />
+  <HomeMira id="more" />
   <HomeFeatures id="features" />
   <HomeValue />
   <HomeAccordionBanner />
