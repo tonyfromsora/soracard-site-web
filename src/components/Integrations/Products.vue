@@ -11,21 +11,20 @@ const isModalOpen = useApplyModalState()
           A unique self-custodial crypto wallet with an integrated DEX and debit card
         </h2>
         <p>
-          SORA Wallet provides safe and convenient access to your SORA network assets from anywhere. You can effortlessly
-          hold, send, and receive SORA tokens while on the move. Experience the power of swapping and pooling tokens,
-          while simultaneously earning lucrative rewards with the innovative
+          SORA Wallet provides safe and convenient access to your SORA network assets from anywhere. You can
+          effortlessly hold, send, and receive SORA tokens while on the move. Experience the power of swapping and
+          pooling tokens, while simultaneously earning lucrative rewards with the innovative
           <a href="https://polkaswap.io/" target="_blank">Polkaswap</a>
           DEX and
           <a href="https://farming.deotoken.io/" target="_blank">Demeter</a>
-          farming platform
-          integration.
+          farming platform integration.
         </p>
         <p>
           SORA Card is an all-in-one neobank-inspired offering that boasts a European IBAN, SEPA transfers, FX
           capabilities, a debit card, and a plethora of other impressive features. With this comprehensive solution, you
-          can seamlessly access all your financial needs, whether you're transferring funds across the world or exchanging
-          currencies. Plus, with the powerful debit card, you can make purchases with ease, both in-store and online, all
-          while enjoying competitive rates and outstanding security and privacy measures.
+          can seamlessly access all your financial needs, whether you're transferring funds across the world or
+          exchanging currencies. Plus, with the powerful debit card, you can make purchases with ease, both in-store and
+          online, all while enjoying competitive rates and outstanding security and privacy measures.
         </p>
         <Button title="Download SORA Wallet" @click="isModalOpen = true" class="text-s mt-xs" />
       </div>
@@ -37,15 +36,15 @@ const isModalOpen = useApplyModalState()
         <span class="px-xs py-3xs bg-light1 rounded text-s">Polkaswap</span>
         <h2 class="mt-xs">The AMM DEX revolutionizing Polkadot's interoperable future</h2>
         <p>
-          Polkaswap, built on the powerful Substrate framework, offers a superior trading platform that excels in quality,
-          security, and efficiency. By leveraging its exceptional speed and advanced technical infrastructure, Polkaswap
-          introduces a paradigm shift in how we trade and pool assets in a decentralized environment.
+          Polkaswap, built on the powerful Substrate framework, offers a superior trading platform that excels in
+          quality, security, and efficiency. By leveraging its exceptional speed and advanced technical infrastructure,
+          Polkaswap introduces a paradigm shift in how we trade and pool assets in a decentralized environment.
         </p>
         <p>
           At the core of Polkaswap's innovation lies its cutting-edge Aggregate Liquidity Technology (ALT). This
           groundbreaking approach guarantees users optimal liquidity with each trade, maximizing the number of output
-          tokens received. Moreover, Polkaswap proudly integrates with Ethereum, and soon with other EVM networks, through
-          its reliable HASHI bridge.
+          tokens received. Moreover, Polkaswap proudly integrates with the Polkadot ecosystem and Ethereum, and soon BNB
+          Smart Chain and other EVM networks, through its reliable HASHI bridge.
         </p>
         <p>
           Polkaswap also integrates with SORA Card. With this unique interoperability, users can experience an
