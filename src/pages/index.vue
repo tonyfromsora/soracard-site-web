@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import en from '~/lib/lang/en/homepage.json'
-import be from '~/lib/lang/be/homepage.json'
+import es from '~/lib/lang/es/homepage.json'
 
 const { t, tm } = useI18n({
-  messages: { en, be },
+  messages: { en, es },
 })
 
 useSeoMeta({

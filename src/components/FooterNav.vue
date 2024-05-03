@@ -2,10 +2,10 @@
 import type { NavGroup } from '~/lib/constants/types'
 
 import en from '~/lib/lang/en/navigation.json'
-import be from '~/lib/lang/be/navigation.json'
+import es from '~/lib/lang/es/navigation.json'
 
 const { tm } = useI18n({
-  messages: { en, be }
+  messages: { en, es }
 })
 
 const isApplyModalOpen = useApplyModalState()
@@ -52,10 +52,7 @@ li {
 }
 
 .link {
-  display: flex;
-  gap: 0.4em;
-  justify-content: flex-start;
-  align-items: center;
+  display: block;
 }
 
 .external {
@@ -63,6 +60,9 @@ li {
   height: 1em;
   object-fit: contain;
   opacity: 0.5;
+  display: inline-block;
+  margin-left: 0.4em;
+  transform: translateY(0.1em);
 }
 
 .label {
@@ -71,6 +71,8 @@ li {
   display: inline-flex;
   font-size: 1rem;
   margin-right: -1.5em;
+  margin-left: 0.6em;
+  transform: translateY(-0.15em);
   border: 1px solid var(--color-accent);
 }
 

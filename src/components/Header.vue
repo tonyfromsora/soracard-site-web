@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import en from '~/lib/lang/en/header.json'
-import be from '~/lib/lang/be/header.json'
+import es from '~/lib/lang/es/header.json'
 
 const { t } = useI18n({
-  messages: { en, be }
+  messages: { en, es }
 })
 
 const { scrollY, isScrollDown } = useScroll()
@@ -180,7 +180,7 @@ const localePath = useLocalePath()
 @media (min-width: 1200px) {
   .topbar {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 2fr 5fr;
   }
 
   .logo {
@@ -197,7 +197,7 @@ const localePath = useLocalePath()
 
   .nav {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 2fr;
   }
 
   .cta {

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import en from '~/lib/lang/en/disclaimers.json'
-import be from '~/lib/lang/be/disclaimers.json'
+import es from '~/lib/lang/es/disclaimers.json'
 
 const { tm } = useI18n({
-  messages: { en, be }
+  messages: { en, es }
 })
 </script>
 

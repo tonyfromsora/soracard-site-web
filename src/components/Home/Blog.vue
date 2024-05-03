@@ -6,18 +6,18 @@ const { title, viewAllButtonTitle } = defineProps<{
 </script>
 
 <template>
-  <div class="w mb-m flex title" data-aos="fade-up">
+  <div class="w mb-m title" data-aos="fade-up">
     <h2 class="text-xxl">
       {{ title }}
     </h2>
-    <Button href="/blog" :title="viewAllButtonTitle" class="text-s" />
+    <Button href="/blog" :title="viewAllButtonTitle" class="text-s mb-xs" />
   </div>
   <BlogList :limit="3" data-aos="fade-up" data-aos-delay="100" />
 </template>
 
 <style scoped>
 .title {
-  flex-direction: column;
+  display: grid;
   gap: var(--space-xs);
   align-items: flex-start;
 }
@@ -30,9 +30,9 @@ const { title, viewAllButtonTitle } = defineProps<{
 
 @media (min-width: 960px) {
   .title {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-xxl);
+    align-items: end;
   }
 }
 </style>

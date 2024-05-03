@@ -1,0 +1,212 @@
+{
+  "seoMeta": {
+    "title": "Tarjeta SORA | Valora la libertad",
+    "description": "Accede a la nueva era de las finanzas interoperables, todo en la palma de tus manos.",
+    "keywords": "SORA, Polkaswap, descentralización, DeFi, futuro, clasificación, metaverso, TradFi, tarjeta, cripto"
+  },
+  "hero": {
+    "title": "Más que una simple tarjeta",
+    "description": "Accede a la nueva era de las finanzas interoperables, todo en la palma de tus manos.",
+    "applyButtonTitle": "Solicitar",
+    "moreButtonTitle": "Aprender más",
+    "ecosystemLogosLine": "Tu puerta de entrada fiduciaria a las criptomonedas"
+  },
+  "features": {
+    "title": "La solución definitiva todo en uno, con autocustodia criptográfica y neobanca",
+    "items": [
+      "Propiedad total sobre tu criptografía",
+      "Fácil acceso a pagos y DeFi",
+      "Tipo de cambio en tiempo real al comprar/vender criptomonedas",
+      "Acceso Fiat a las principales cadenas de bloques con verdadera interoperabilidad*"
+    ],
+    "disclaimer": "*Actualmente la red SORA con puente hacia Ethereum, Polkadot y Kusama, próximamente otras redes EVM y Bitcoin"
+  },
+  "value": {
+    "label": "Valora la libertad",
+    "title": "Propiedad total de tu criptografía con fácil acceso a pagos y DeFi",
+    "items": [
+      {
+        "icon": "wallet",
+        "title": "Wallet auto-custodia",
+        "description": "Aplicación de estilo neobanco que vincula las criptomonedas descentralizadas y el efectivo fiduciario (fiat)"
+      },
+      {
+        "icon": "card",
+        "title": "Tarjeta de Débito",
+        "description": "Lista para usar en más de 90 millones de comercios que aceptan  tarjetas a nivel mundial"
+      },
+      {
+        "icon": "cash",
+        "title": "Cuenta con IBAN",
+        "description": "Una cuenta de dinero electrónico internacional con sede en la UE (próximamente en otros países)"
+      },
+      {
+        "icon": "lock",
+        "title": "Privacidad y Seguridad",
+        "description": "Las mayores medidas de privacidad y seguridad posibles"
+      }
+    ]
+  },
+  "accordionBanner": {
+    "title": "Acelera tu libertad financiera hoy",
+    "items": [
+      {
+        "title": "Auto-custodia",
+        "content": [
+          "Conserva la custodia (posesión) total de tus criptoactivos en todo momento. La billetera SORA es simplemente una interfaz para administrar tus activos, conectándose directamente a la cadena de bloques."
+        ]
+      },
+      {
+        "title": "De fácil uso",
+        "content": [
+          "Acceso a tarjetas tanto físicas como digitales. Utiliza la tarjeta SORA en más de 90 millones de comercios en todo el mundo. Compatibilidad con Apple Pay y Google Pay (*estará disponible en breve en la Fase 2 del lanzamiento de la tarjeta SORA)."
+        ]
+      },
+      {
+        "title": "Más que gastar criptomonedas",
+        "content": [
+          "¡Compra, vende, gana, paga, intercambia, recibe y más! Todo en un solo lugar, a tu discreción. Gracias al intercambio descentralizado integrado ",
+          {
+            "title": "Polkaswap",
+            "href": "https://polkaswap.io/"
+          },
+          " y la plataforma ",
+          {
+            "title": "Demeter",
+            "href": "https://farming.deotoken.io/"
+          },
+          " DeFi."
+        ]
+      },
+      {
+        "title": "Privacidad y Seguridad",
+        "content": [
+          "El acceso y las acciones relacionadas con tus criptoactivos no requieren ninguna información personal como nombres y direcciones; solo necesitas tu clave privada para acceder y ser propietario total."
+        ]
+      }
+    ]
+  },
+  "possibilities": {
+    "label": "Posibilidades",
+    "title": "Privacidad, límites e interoperabilidad superiores",
+    "items": [
+      {
+        "title": "Funciones de privacidad más altas posibles",
+        "description": "KYC únicamente con el proveedor IBAN (fiat), la criptografía completamente auto-custodiada y descentralizada"
+      },
+      {
+        "title": "Límites altos y tarifas bajas",
+        "description": "Límites de retiro de efectivo de primera línea, así como límites y opciones de gasto y recarga"
+      },
+      {
+        "title": "Integraciones criptográficas premium",
+        "description": "SORA Card es una billetera criptográfica todo en uno con autocustodia única y una tarjeta de débito fiduciaria integrada con un intercambio descentralizado de múltiples cadenas y una plataforma DeFi"
+      }
+    ],
+    "comparisonDetails": [
+      "Consulte este ",
+      {
+        "title": "article",
+        "href": "https://medium.com/sora-spanish-community/tarjeta-sora-vs-otras-crypto-tarjetas-y-wallets-5a82f21c823a"
+      },
+      " para obtener una comparación más detallada"
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "title": "¿Puedo obtener la tarjeta SORA si vivo en ___________?",
+        "content": [
+          "La tarjeta SORA está disponible para pedidos de personas de todo el mundo, sujeto a la finalización exitosa del procedimiento KYC. La aprobación de tu solicitud depende de aprobar KYC, que tiene en cuenta tu residencia (no tu nacionalidad). Ten en cuenta que los residentes de ciertos países como Rusia, Irán y la RPDC no son elegibles para la tarjeta SORA. Para obtener una lista completa de países restringidos, consulta ",
+          {
+            "title": "soracard.com/blacklist",
+            "href": "/blacklist"
+          },
+          ". Por ejemplo, un ciudadano ruso que reside en Francia puede solicitar la tarjeta SORA, mientras que un ciudadano ruso que reside en Moscú no puede pasar el KYC."
+        ]
+      },
+      {
+        "title": "¿Qué criptomonedas puedo utilizar con la Tarjeta SORA?",
+        "content": [
+          "Actualmente, la tarjeta SORA admite la conversión directa entre XOR y EUR. A través de ",
+          {
+            "title": "Polkaswap.io",
+            "href": "https://polkaswap.io"
+          },
+          ", es fácil enviar e intercambiar tokens de la red Ethereum como ETH y DAI para recargar tu tarjeta SORA con XOR o comprar estos tokens con euros. En un futuro próximo se agregará soporte para otras redes y sus tokens nativos."
+        ]
+      },
+      {
+        "title": "¿Cómo puedo agregar fondos a la tarjeta SORA?",
+        "content": [
+          "Puedes recargar tu Tarjeta SORA mediante XOR ↔ EUR o SEPA (transferencia bancaria)."
+        ]
+      },
+      {
+        "title": "¿Puedo utilizar la tarjeta SORA a nivel mundial?",
+        "content": [
+          "¡Por supuesto! La tarjeta SORA se puede utilizar en cualquier lugar de la red global de proveedores de tarjetas."
+        ]
+      },
+      {
+        "title": "¿Qué tan segura es la tarjeta SORA?",
+        "content": [
+          "SORA Card prioriza el más alto nivel de seguridad y protección de datos. Tus datos de usuario y tus criptoactivos permanecen inaccesibles para SORA. Sólo el emisor de la tarjeta y la red de proveedores de la tarjeta tienen acceso a los detalles de su transacción. SORA Card utiliza tecnología de billetera con auto-custodia, lo que garantiza que solo usted tenga acceso y control sobre sus criptoactivos. Nuestras aplicaciones implementan sólidas medidas de seguridad, incluida la autenticación de dos factores y la identificación biométrica. Además, la naturaleza descentralizada de la red SORA significa que ninguna entidad tiene control sobre la red o sus transacciones."
+        ]
+      },
+      {
+        "title": "¿Cuáles son los límites de gasto de la Tarjeta SORA?",
+        "content": [
+          "Para obtener información detallada sobre los límites de gasto, consulte nuestro sitio web en ",
+          {
+            "title": "soracard.com/fees/#4",
+            "href": "/fees/#4"
+          }
+        ]
+      },
+      {
+        "title": "¿Cuáles son las tarifas de uso asociadas con la tarjeta SORA?",
+        "content": [
+          "Puede encontrar los detalles sobre las tarifas de uso de la tarjeta SORA en nuestro sitio web en ",
+          {
+            "title": "soracard.com/fees",
+            "href": "/fees"
+          },
+          ". Como muestra de gratitud a la comunidad solidaria de SORA, a los primeros 5.000 solicitantes no se les cobrará ninguna tarifa anual o mensual."
+        ]
+      },
+      {
+        "title": "¿Cómo puedo obtener la Tarjeta SORA?",
+        "content": [
+          "Para solicitar la tarjeta SORA, puede visitar ",
+          {
+            "title": "Polkaswap.io",
+            "href": "https://polkaswap.io/"
+          },
+          " o utilizar ",
+          {
+            "title": "SORA Wallet",
+            "href": "https://sora.org/wallet"
+          },
+          ". El proceso de solicitud incluye completar el procedimiento KYC, que implica proporcionar información personal como un selfie, un documento de identificación y un comprobante de domicilio. Una vez aprobada, puede solicitar su tarjeta física y configurar su cuenta y tarjeta digitales."
+        ]
+      },
+      {
+        "title": "¿Qué medidas de seguridad tiene SORA Card para proteger mis fondos y datos?",
+        "content": [
+          "La tarjeta SORA garantiza la máxima seguridad para tus fondos y datos. SORA no puede acceder a los datos del usuario ni a los criptoactivos; Sólo el emisor de la tarjeta y la red de proveedores de la tarjeta tienen acceso a los detalles de la transacción. SORA Card utiliza tecnología de billetera con autocustodia, lo que te otorga acceso y control exclusivos sobre sus criptoactivos. Nuestras aplicaciones incorporan múltiples medidas de seguridad, incluida la autenticación de dos factores, la identificación biométrica y los límites de transacciones, todas ellas destinadas a salvaguardar sus fondos."
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "title": "Últimas publicaciones del blog",
+    "viewAllButtonTitle": "Ver todo"
+  },
+  "getCardBanner": {
+    "title": "Obtenga la tarjeta SORA: valore la libertad",
+    "description": "La tarjeta SORA es una solución de estilo neobanca que brinda acceso directo a criptomonedas descentralizadas y sin custodia. SORA no tiene acceso a tus criptoactivos ni a tus datos de usuario. Valoramos la libertad.",
+    "applyButtonTitle": "Aplica ya"
+  }
+}

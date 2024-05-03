@@ -2,10 +2,10 @@
 import type { Link } from '~/lib/constants/types'
 
 import en from '~/lib/lang/en/legalLinks.json'
-import be from '~/lib/lang/be/legalLinks.json'
+import es from '~/lib/lang/es/legalLinks.json'
 
 const { tm } = useI18n({
-  messages: { en, be }
+  messages: { en, es }
 })
 
 type LegalLink = Link & { external?: boolean }
