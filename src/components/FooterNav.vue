@@ -9,6 +9,8 @@ const { tm } = useI18n({
 })
 
 const isApplyModalOpen = useApplyModalState()
+
+const localePath = useLocalePath()
 </script>
 
 <template>
@@ -20,7 +22,7 @@ const isApplyModalOpen = useApplyModalState()
           <button v-if="('applyButton' in item)" class="link hover-trigger py-3xs" @click="isApplyModalOpen = true">
             <span class="hover-underline">{{ item.applyButton }}</span>
           </button>
-          <NuxtLink v-else :href="item.href" class="link hover-trigger py-3xs">
+          <NuxtLink v-else :href="item.external ? item.href : localePath(item.href)" class="link hover-trigger py-3xs">
             <span class="hover-underline">{{ item.title }}</span>
             <img v-if="item.external" src="/icons/external.svg" alt="external link icon" class="external">
             <span v-if="item.label" class="label bold rounded">{{ item.label }}</span>
