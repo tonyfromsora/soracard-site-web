@@ -1,11 +1,6 @@
 <script setup lang="ts">
+defineProps<{ questions: string[] }>()
 defineEmits<{ 'question': [value: string] }>()
-
-const questions = [
-  'What is SORA?',
-  'What is SORA Card?',
-  'How to apply for SORA Card?'
-]
 </script>
 
 <template>

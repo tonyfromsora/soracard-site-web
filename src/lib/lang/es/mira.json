@@ -1,0 +1,28 @@
+{
+  "greeting": [
+    "Hola 👋",
+    "Soy Mira, una asistente experimental entrenada en datos de SORA. Pregúntame cualquier cosa y haré lo mejor que pueda. Estoy en beta, así que verifica si no estás seguro.",
+    [
+      "Evita compartir información sensible. Recolecto registros anónimos para mejorar y utilizo la API de OpenAI. El chat está protegido por reCAPTCHA y Google ",
+      { "title": "Política de Privacidad", "href": "https://policies.google.com/privacy" },
+      " y ",
+      { "title": "Términos de Servicio", "href": "https://policies.google.com/terms" },
+      " aplican."
+    ],
+    "Aquí tienes algunos ejemplos para que empieces 👇"
+  ],
+  "exampleQuestions": [
+    "¿Qué es SORA?",
+    "¿Qué es la Tarjeta SORA?",
+    "¿Cómo solicitar la Tarjeta SORA?"
+  ],
+  "textField": {
+    "placeholder": "Escribe tu pregunta...",
+    "button": "Enviar"
+  },
+  "error": {
+    "server": "Error del servidor. Por favor, inténtalo de nuevo más tarde.",
+    "canNotAnswer": "Algo salió mal, no puedo responder eso.",
+    "reCAPTCHA": "Error de reCAPTCHA. Por favor, inténtalo de nuevo."
+  }
+}

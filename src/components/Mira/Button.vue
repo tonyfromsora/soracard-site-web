@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const title = 'Chat Mira'
+defineProps<{ title: string }>()
 </script>
 
 <template>

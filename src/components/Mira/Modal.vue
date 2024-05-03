@@ -1,5 +1,12 @@
 <script setup lang="ts">
-import { type QAFeedItem } from '~/lib/constants/types'
+import en from '~/lib/lang/en/mira.json'
+import es from '~/lib/lang/es/mira.json'
+import { type Link, type QAFeedItem } from '~/lib/constants/types'
+
+const { tm, t } = useI18n({
+  messages: { en, es }
+})
+
 const { miraRecaptchaSiteKey } = useRuntimeConfig().public
 const { miraBaseUrl } = useRuntimeConfig().public
 
@@ -34,7 +41,7 @@ const handleSubmit = async () => {
     token = await window.grecaptcha.execute(miraRecaptchaSiteKey, { action: 'submit' })
   } catch (error) {
     console.log(error)
-    feed.value[0].answer = ['reCAPTCHA error. Please try again.']
+    feed.value[0].answer = [t('error.reCAPTCHA')]
     processing.value = false
     return
   }
@@ -48,11 +55,11 @@ const handleSubmit = async () => {
 
     const { message, links } = await result.json()
 
-    feed.value[0].answer = message?.split('\n').filter((el: string) => el) || ["Something went wrong, I can't answer that."]
+    feed.value[0].answer = message?.split('\n').filter((el: string) => el) || [t('error.canNotAnswer')]
     feed.value[0].links = links
   } catch (error) {
     console.log(error)
-    feed.value[0].answer = ['Server error. Please try again later.']
+    feed.value[0].answer = [t('error.server')]
   }
 
   try {
@@ -80,35 +87,36 @@ onMounted(() => {
   <section class="mira-modal text-s p-xs" :class="{ open: isMiraModalOpen }">
     <div class="feed rounded">
       <template v-for="item in feed" :key="item.ts">
-        <MiraMessage from="Mira" data-aos="fade-up" data-aos-delay="300">
+        <MiraMessage fromMira data-aos="fade-up" data-aos-delay="300">
           <p v-for="p in item.answer">
             {{ p }}
           </p>
           <MiraAnswerControls v-if="item.answer?.length" v-bind="item" />
         </MiraMessage>
-        <MiraMessage from="You" data-aos="fade-up">
+        <MiraMessage data-aos="fade-up">
           <p v-for="p in item.question">
             {{ p }}
           </p>
         </MiraMessage>
       </template>
-      <MiraExampleQuestions v-if="!feed.length" @question="(value) => { question = value; handleSubmit() }" />
-      <MiraMessage from="Mira">
-        <p>Hi there 👋</p>
-        <p>I'm Mira, an experimental assistant trained on SORA data. Ask me anything, and I'll do my best. I'm in beta,
-          so double-check if unsure.</p>
-        <p>Avoid sharing sensitive info. I collect anonymous logs for improvement and use the OpenAI API. Chat is
-          protected by reCAPTCHA and Google
-          <a href="https://policies.google.com/privacy" target="_blank" class="hover-deunderline">Privacy Policy</a>
-          and
-          <a href="https://policies.google.com/terms" target="_blank" class="hover-deunderline">Terms of Service</a>
-          apply.
+      <MiraExampleQuestions v-if="!feed.length" @question="(value) => { question = value; handleSubmit() }"
+        :questions="tm('exampleQuestions')" />
+      <MiraMessage fromMira>
+        <p v-for="p in (tm('greeting') as (string | (string | Link)[])[])">
+          <template v-if="typeof p === 'string'">
+            {{ p }}
+          </template>
+          <template v-else v-for="piece in p">
+            <template v-if="typeof piece === 'string'">{{ piece }}</template>
+            <template v-else>
+              <a :href="piece.href" target="_blank" class="hover-deunderline">{{ piece.title }}</a>
+            </template>
+          </template>
         </p>
-        <p>Here are some examples for you to get started with 👇</p>
       </MiraMessage>
     </div>
-    <MiraTextField v-model="question" @submit="handleSubmit" :disabled="processing" placeholder="Type your question"
-      button="Send" class="bg-light1 rounded px-s py-xxs" />
+    <MiraTextField v-bind="tm('textField')" v-model="question" @submit="handleSubmit" :disabled="processing"
+      class="bg-light1 rounded px-s py-xxs" />
   </section>
 </template>
 

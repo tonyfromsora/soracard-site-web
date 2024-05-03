@@ -1,6 +1,5 @@
 {
-  "header": {
-    "fees": "Fees",
-    "apply": "Apply"
-  }
+  "fees": "Fees",
+  "apply": "Apply",
+  "mira": "Chat Mira"
 }

@@ -62,9 +62,10 @@ const localePath = useLocalePath()
     <div class="nav">
       <HeaderNav />
       <div class="cta">
-        <MiraButton v-if="miraEnabled" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }" />
-        <Button :href="localePath('/fees')" :title="t('header.fees')" ghost />
-        <Button :title="t('header.apply')" @click="() => { isOpen = false; isApplyModalOpen = !isApplyModalOpen }" />
+        <MiraButton v-if="miraEnabled" @click="() => { isOpen = false; isMiraModalOpen = !isMiraModalOpen }"
+          :title="t('mira')" />
+        <Button :href="localePath('/fees')" :title="t('fees')" ghost />
+        <Button :title="t('apply')" @click="() => { isOpen = false; isApplyModalOpen = !isApplyModalOpen }" />
       </div>
     </div>
 

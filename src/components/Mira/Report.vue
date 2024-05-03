@@ -1,4 +1,10 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/miraReport.json'
+import es from '~/lib/lang/es/miraReport.json'
+
+const { tm, t } = useI18n({
+  messages: { en, es }
+})
 const { question, answer } = defineProps<{ question: string[], answer: string[] }>()
 
 const { miraBaseUrl } = useRuntimeConfig().public
@@ -16,7 +22,7 @@ const handleSubmit = async () => {
     token = await window.grecaptcha.execute(miraRecaptchaSiteKey, { action: 'submit' })
   } catch (error) {
     console.log(error)
-    message.value = 'reCAPTCHA error. Please try again.'
+    message.value = t('reCAPTCHAError')
     state.value = 'error'
     return
   }
@@ -34,20 +40,20 @@ const handleSubmit = async () => {
     })
 
     const result = await response.json()
-    if (result.success) message.value = 'Submitted. Thank you for sharing'
+    if (result.success) message.value = t('successMessage')
     else message.value = result.message
     state.value = result.success ? 'success' : 'error'
   } catch (error) {
     console.log(error)
-    message.value = 'Sometging went wrong. Please try again later'
+    message.value = t('defaultError')
     state.value = 'error'
   }
 }
 </script>
 
 <template>
-  <MiraTextField placeholder="Please share why this answer is wrong?" @submit="handleSubmit" button="Submit"
-    v-model="report" :disabled="state === 'processing' || state === 'success'" class="py-xxs" />
+  <MiraTextField v-bind="tm('textField')" @submit="handleSubmit" v-model="report"
+    :disabled="state === 'processing' || state === 'success'" class="py-xxs" />
 
   <div v-if="state === 'success' || state === 'error'" class="center py-xxs">{{ message }}</div>
 </template>

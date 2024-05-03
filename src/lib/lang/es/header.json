@@ -1,6 +1,5 @@
 {
-  "header": {
-    "fees": "Tarifas",
-    "apply": "Solicitar"
-  }
+  "fees": "Tarifas",
+  "apply": "Solicitar",
+  "mira": "Chat Mira"
 }
