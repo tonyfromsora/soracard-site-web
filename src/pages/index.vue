@@ -17,7 +17,7 @@ const isApplyModalOpen = useApplyModalState()
 
 <template>
   <HomeHero v-bind="tm('hero')" />
-  <HomeMira id="more" />
+  <HomeMira v-bind="tm('mira')" id="more" />
   <HomeFeatures id="features" v-bind="tm('features')" />
   <HomeValue v-bind="tm('value')" />
   <HomeAccordionBanner v-bind="tm('accordionBanner')" />

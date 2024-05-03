@@ -1,10 +1,20 @@
+<script setup lang="ts">
+const { title } = defineProps<{
+  title: string
+}>()
+
+const localePath = useLocalePath()
+</script>
+
 <template>
   <section class="w my-xs">
-    <NuxtLink to="/blog/introducing-mira" class="mira mx-auto rounded bg-light1 text-s" data-cursor-show
+    <NuxtLink :to="localePath('/blog/introducing-mira')" class="mira mx-auto rounded bg-light1 text-s" data-cursor-show
       data-cursor-text="View" data-aos="fade-up">
       <video src="/home/mira.mp4" autoplay playsinline muted loop></video>
       <div class="info py-xs pr-xs">
-        <h2 class="text-l">Introducing Mira</h2>
+        <h2 class="text-l">
+          {{ title }}
+        </h2>
         <div class="arrow" />
       </div>
     </NuxtLink>
