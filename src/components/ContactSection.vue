@@ -73,30 +73,26 @@ const handleSubmit = async () => {
         :disabled="disabled" v-model="data.email">
       <textarea name="message" id="message" rows="4" placeholder="Message" class="p-xs text-s" required
         :disabled="disabled" v-model="data.message"></textarea>
-      <Button type="submit" class="text-s" :disabled="disabled" :title="buttonText[state]" style="place-self: center;" />
+      <Button type="submit" class="text-s" :disabled="disabled" :title="buttonText[state]"
+        style="place-self: center;" />
       <div class="text-s mb-m">{{ stateMessage }}</div>
     </form>
     <hr>
     <p class="pt-m mx-auto text-s">
       We request that you refrain from sharing any private or sensitive information with us or others, especially your
       private keys (seed phrase). It is important to keep in mind that in a decentralized system, you are solely
-      responsible for the security and protection of your assets. Therefore, we strongly advise you to take the necessary
-      precautions to safeguard your information and assets from potential threats or unauthorized access. Remember, never
-      share your private keys with anyone.
+      responsible for the security and protection of your assets. Therefore, we strongly advise you to take the
+      necessary precautions to safeguard your information and assets from potential threats or unauthorized access.
+      Remember, never share your private keys with anyone.
     </p>
     <p class="pt-s mx-auto text-s dark2">This site is protected by reCAPTCHA and the Google
-      <a href="https://policies.google.com/privacy" class="hover-underline accent" target="_blank">Privacy Policy</a> and
+      <a href="https://policies.google.com/privacy" class="hover-underline accent" target="_blank">Privacy Policy</a>
+      and
       <a href="https://policies.google.com/terms" class="hover-underline accent" target="_blank">Terms of Service</a>
       apply.
     </p>
   </section>
 </template>
-
-<style>
-.grecaptcha-badge {
-  visibility: hidden;
-}
-</style>
 
 <style scoped>
 .container {

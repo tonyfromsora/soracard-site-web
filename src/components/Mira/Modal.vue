@@ -96,9 +96,14 @@ onMounted(() => {
       <MiraMessage from="Mira">
         <p>Hi there 👋</p>
         <p>I'm Mira, an experimental assistant trained on SORA data. Ask me anything, and I'll do my best. I'm in beta,
-          so
-          double-check if unsure.</p>
-        <p>I collect anonymous logs for improvement and use the OpenAI API. Avoid sharing sensitive info.</p>
+          so double-check if unsure.</p>
+        <p>Avoid sharing sensitive info. I collect anonymous logs for improvement and use the OpenAI API. Chat is
+          protected by reCAPTCHA and Google
+          <a href="https://policies.google.com/privacy" target="_blank" class="hover-deunderline">Privacy Policy</a>
+          and
+          <a href="https://policies.google.com/terms" target="_blank" class="hover-deunderline">Terms of Service</a>
+          apply.
+        </p>
         <p>Here are some examples for you to get started with 👇</p>
       </MiraMessage>
     </div>
