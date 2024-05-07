@@ -1,56 +1,58 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/ambassadors.json'
+import es from '~/lib/lang/es/ambassadors.json'
+
 const { baseUrl } = useRuntimeConfig().public
 
-const title = 'SORA Card | Value Freedom — Ambassadors'
-const ogImage = `${baseUrl}/ambassadors/og.jpg`
+const { t } = useI18n({
+  messages: { en, es },
+})
+
 useSeoMeta({
-  title,
-  ogTitle: title,
-  twitterTitle: title,
-  ogImage,
-  ogImageSecureUrl: ogImage,
-  twitterImage: ogImage,
+  title: t('seoMeta.title'),
+  ogTitle: t('seoMeta.title'),
+  twitterTitle: t('seoMeta.title'),
+  description: t('seoMeta.description'),
+  twitterDescription: t('seoMeta.description'),
+  keywords: t('seoMeta.keywords'),
+  ogDescription: t('seoMeta.description'),
+  ogImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
+  twitterImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
 })
 </script>
 
 <template>
   <section class="rich px-s py-3xl mx-auto" data-aos="fade-up">
-    <span class="px-xs py-3xs bg-light1 rounded text-s">Ambassadors</span>
+    <span class="px-xs py-3xs bg-light1 rounded text-s">
+      {{ t("label") }}
+    </span>
     <h1 class="text-xl my-m">
-      We believe in building a better world through decentralisation and empowering communities
+      {{ t("headline") }}
     </h1>
     <p class="text-l">
-      The SORA community is proud to introduce the SORA Ambassador Program, designed to empower our community members to
-      spread awareness about SORA and its mission to build a decentralized and democratic economic system.
+      {{ t('lead') }}
     </p>
     <hr>
     <p>
-      You will have access to exclusive resources, such as training materials and support from the SORA team, to help
-      you
-      effectively communicate the message and build a strong network of supporters.
+      {{ t('firstParagraph') }}
     </p>
     <figure class="mt-xl mb-l">
       <YoutubeVideo id="Gcqw4g1g-bo" cover="/ambassadors/video.jpg" class="mb-s" />
       <figcaption class="text-center text-s">
-        Become a SORAmbassador
+        {{ t('videoCaption') }}
       </figcaption>
     </figure>
     <p>
-      By becoming a SORA ambassador, you will also have the chance to collaborate with other like-minded individuals
-      from
-      around the world and make a meaningful impact in the crypto and blockchain space. You will be able to participate
-      in
-      events, webinars, and other activities that will help you grow as a leader and expand your knowledge of the
-      industry.
+      {{ t('secondParagraph') }}
     </p>
     <hr>
     <p class="text-center">
-      Join the SORA community and be part of a movement to create a more equitable and prosperous world for all.
+      {{ t('ctaMessage') }}
     </p>
     <hr>
     <div class="text-center">
-      <Button href="https://medium.com/sora-xor/天-become-a-sorambassador-ed290dadb247" title="Learn more" class="text-s"
-        target="_blank" />
+      <Button href="https://medium.com/sora-xor/天-become-a-sorambassador-ed290dadb247" :title="t('ctaButton')"
+        class="text-s" target="_blank" />
     </div>
   </section>
 </template>
