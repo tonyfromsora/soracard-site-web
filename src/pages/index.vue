@@ -2,6 +2,8 @@
 import en from '~/lib/lang/en/homepage.json'
 import es from '~/lib/lang/es/homepage.json'
 
+const { baseUrl } = useRuntimeConfig().public
+
 const { t, tm } = useI18n({
   messages: { en, es },
 })
@@ -10,6 +12,12 @@ useSeoMeta({
   title: t('seoMeta.title'),
   ogTitle: t('seoMeta.title'),
   twitterTitle: t('seoMeta.title'),
+  description: t('seoMeta.description'),
+  twitterDescription: t('seoMeta.description'),
+  keywords: t('seoMeta.keywords'),
+  ogDescription: t('seoMeta.description'),
+  ogImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
+  twitterImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
 })
 
 const isApplyModalOpen = useApplyModalState()

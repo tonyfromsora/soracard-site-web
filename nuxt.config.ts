@@ -26,11 +26,12 @@ export default defineNuxtConfig({
   },
   i18n: {
     locales: [
-      { name: 'En', code: 'en' },
-      { name: 'Es', code: 'es' },
+      { name: 'En', code: 'en', iso: 'en-US' },
+      { name: 'Es', code: 'es', iso: 'es-ES' },
     ],
     defaultLocale: 'en',
     strategy: 'prefix_and_default',
+    baseUrl: 'https://soracard.com',
   },
   build: {
     transpile: ['gsap'],

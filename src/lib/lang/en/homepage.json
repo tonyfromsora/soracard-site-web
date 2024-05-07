@@ -1,6 +1,9 @@
 {
   "seoMeta": {
-    "title": "SORA Card | Value Freedom"
+    "title": "SORA Card | Value Freedom",
+    "description": "Access the new era of interoperable finance, all in the palm of your hands.",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto",
+    "ogImage": "og.jpg"
   },
   "hero": {
     "title": "More than just a card",
