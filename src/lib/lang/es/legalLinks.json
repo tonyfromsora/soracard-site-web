@@ -1,0 +1,41 @@
+{
+  "legalLinks": [
+    {
+      "title": "Términos y Condiciones",
+      "href": "/terms"
+    },
+    {
+      "title": "Política de Privacidad",
+      "href": "/privacy"
+    },
+    {
+      "title": "Países Restringidos",
+      "href": "/blacklist"
+    },
+    {
+      "title": "Memorando de Polkaswap y Términos de Servicio",
+      "href": "https://wiki.sora.org/polkaswap/terms",
+      "external": true
+    },
+    {
+      "title": "Política de Privacidad de Polkaswap",
+      "href": "https://wiki.sora.org/polkaswap/privacy",
+      "external": true
+    },
+    {
+      "title": "Términos y Condiciones de SORA Wallet",
+      "href": "https://sora.org/terms",
+      "external": true
+    },
+    {
+      "title": "Política de Privacidad de SORA Wallet",
+      "href": "https://sora.org/privacy",
+      "external": true
+    },
+    {
+      "title": "Política de Privacidad de Unlimit",
+      "href": "https://www.unlimit.com/privacy-policy/",
+      "external": true
+    }
+  ]
+}

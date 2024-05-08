@@ -1,0 +1,9 @@
+{
+  "textField": {
+    "placeholder": "¿Por qué crees que esta respuesta es incorrecta?",
+    "button": "Enviar"
+  },
+  "reCAPTCHAError": "Error de reCAPTCHA. Por favor, inténtalo de nuevo.",
+  "defaultError": "Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
+  "successMessage": "Enviado. Gracias por compartir."
+}

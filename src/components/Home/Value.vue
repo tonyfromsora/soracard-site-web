@@ -7,24 +7,6 @@ let ctx: gsap.Context
 const container = ref<HTMLElement>()
 const progress = ref(0)
 
-const features = [{
-  icon: 'wallet',
-  title: 'Self-Custodial Wallet',
-  description: 'Neobanking-style app linking decentralized crypto and fiat cash'
-}, {
-  icon: 'card',
-  title: 'Debit Card',
-  description: 'Ready to use at more than 90 million card provider merchants globally'
-}, {
-  icon: 'cash',
-  title: 'IBAN Account',
-  description: 'An EU-based international e-money account (other countries coming soon)'
-}, {
-  icon: 'lock',
-  title: 'Privacy & Security',
-  description: 'Highest privacy and security measures possible'
-},]
-
 onMounted(() => {
   if (container.value) {
     ctx = gsap.context(() => {
@@ -44,15 +26,25 @@ onMounted(() => {
 onUnmounted(() => {
   ctx?.revert()
 })
+
+const { label, title, items } = defineProps<{
+  label: string
+  title: string
+  items: { icon: string; title: string; description: string }[]
+}>()
 </script>
 
 <template>
   <section class="container w px-s" ref="container">
     <div class="text" data-aos="fade-up">
-      <div class="accent bold mb-xxs">Value Freedom</div>
-      <h2 class="mb-l">Full ownership of your crypto with easy access to payments and DeFi</h2>
+      <div class="accent bold mb-xxs">
+        {{ label }}
+      </div>
+      <h2 class="mb-l">
+        {{ title }}
+      </h2>
       <div class="features">
-        <div v-for="feature in features">
+        <div v-for="feature in items">
           <h3 class="text-m mb-xxs feature-title">
             <div class="icon mr-3xs">
               <img :src="`/icons/${feature.icon}.svg`" :alt="`${feature.icon} icon`">

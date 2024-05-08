@@ -7,24 +7,22 @@ const { items } = defineProps<{
     content: (string | Link)[]
   }[]
 }>()
-const itemsRef = ref(items.map(el => ({ ...el, isOpen: false })))
+const activeItem = ref<number>()
 
 const toggleAccordion = (i: number) => {
-  if (itemsRef.value[i].isOpen) {
-    itemsRef.value[i].isOpen = false
+  if (activeItem.value === i) {
+    activeItem.value = undefined
   } else {
-    itemsRef.value.forEach((el, j) => {
-      el.isOpen = i === j
-    })
+    activeItem.value = i
   }
 }
 </script>
 
 <template>
   <div>
-    <div v-for="(item, i) in itemsRef" :key="i" class="item" :class="{ open: item.isOpen }">
+    <div v-for="(item, i) in items" :key="i" class="item" :class="{ open: i === activeItem }">
       <h3 @click="toggleAccordion(i)" class="text-m py-s hover-trigger" data-cursor-show
-        :data-cursor-text="item.isOpen ? 'Close' : 'Open'">
+        :data-cursor-text="i === activeItem ? 'Close' : 'Open'">
         <span>
           {{ item.title }}
         </span>

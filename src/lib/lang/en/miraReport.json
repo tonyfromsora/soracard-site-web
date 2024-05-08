@@ -1,0 +1,9 @@
+{
+  "textField": {
+    "placeholder": "Please share why this answer is wrong?",
+    "button": "Submit"
+  },
+  "reCAPTCHAError": "reCAPTCHA error. Please try again.",
+  "defaultError": "Something went wrong. Please try again later",
+  "successMessage": "Submitted. Thank you for sharing"
+}

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 const route = useRoute()
-const { data } = await useAsyncData(route.fullPath, () => queryContent(route.fullPath).findOne())
+console.log(route)
+
+const { data } = await useAsyncData(`blog/${route.params.slug}`, () => queryContent(`blog/${route.params.slug}`).findOne())
 
 if (!data.value) {
   throw createError({

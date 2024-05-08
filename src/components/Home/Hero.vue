@@ -28,17 +28,27 @@ onMounted(() => {
 onUnmounted(() => {
   ctx?.revert()
 })
+
+const { title, description, applyButtonTitle, moreButtonTitle, ecosystemLogosLine } = defineProps<{
+  title: string
+  description: string
+  applyButtonTitle: string
+  moreButtonTitle: string
+  ecosystemLogosLine: string
+}>()
 </script>
 
 <template>
   <section class="py-3xl w container" ref="container">
-    <h1 class="text-3xl mb-m" data-aos="fade-up">More than just a card</h1>
-    <p class="text-l dark2 mb-l" data-aos="fade-up" data-aos-delay="100">Access the new era of interoperable finance,
-      all
-      in the palm of your hands.</p>
+    <h1 class="text-3xl mb-m" data-aos="fade-up">
+      {{ title }}
+    </h1>
+    <p class="text-l dark2 mb-l" data-aos="fade-up" data-aos-delay="100">
+      {{ description }}
+    </p>
     <div class="flex" data-aos="fade-up" data-aos-delay="200">
-      <Button title="Apply" large @click="isApplyModalOpen = !isApplyModalOpen" />
-      <Button title="Learn more" href="#features" ghost large />
+      <Button :title="applyButtonTitle" large @click="isApplyModalOpen = !isApplyModalOpen" />
+      <Button :title="moreButtonTitle" href="#features" ghost large />
     </div>
     <div class="image" data-aos="fade-up" data-aos-delay="400">
       <picture :style="`--progress: ${progress};`">
@@ -83,7 +93,7 @@ onUnmounted(() => {
           fill="#E6007A" />
       </svg>
       <p class="text-s">
-        Your fiat gateway to crypto
+        {{ ecosystemLogosLine }}
       </p>
     </div>
   </section>

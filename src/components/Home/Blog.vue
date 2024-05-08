@@ -1,14 +1,23 @@
+<script setup lang="ts">
+const { title, viewAllButtonTitle } = defineProps<{
+  title: string
+  viewAllButtonTitle: string
+}>()
+</script>
+
 <template>
-  <div class="w mb-m flex title" data-aos="fade-up">
-    <h2 class="text-xxl">Latest blog posts</h2>
-    <Button href="/blog" title="See All" class="text-s" />
+  <div class="w mb-m title" data-aos="fade-up">
+    <h2 class="text-xxl">
+      {{ title }}
+    </h2>
+    <Button href="/blog" :title="viewAllButtonTitle" class="text-s mb-xs" />
   </div>
   <BlogList :limit="3" data-aos="fade-up" data-aos-delay="100" />
 </template>
 
 <style scoped>
 .title {
-  flex-direction: column;
+  display: grid;
   gap: var(--space-xs);
   align-items: flex-start;
 }
@@ -21,9 +30,9 @@
 
 @media (min-width: 960px) {
   .title {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-xxl);
+    align-items: end;
   }
 }
 </style>

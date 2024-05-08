@@ -1,5 +1,12 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/miraAnswerControls.json'
+import es from '~/lib/lang/es/miraAnswerControls.json'
 import { type QAFeedItem } from '~/lib/constants/types'
+
+const { t } = useI18n({
+  messages: { en, es }
+})
+
 const { question, answer = [], links } = defineProps<QAFeedItem>()
 const state = ref<'links' | 'wrong' | undefined>(undefined)
 </script>
@@ -9,11 +16,15 @@ const state = ref<'links' | 'wrong' | undefined>(undefined)
     <button v-if="links && links.length" class="flex aic hover-trigger py-3xs"
       @click="state = state === 'links' ? undefined : 'links'" :class="{ expanded: state === 'links' }">
       <MiraPlus :expanded="state === 'links'" class="mr-3xs" />
-      <span class="hover-underline">Links</span>
+      <span class="hover-underline">
+        {{ t('links') }}
+      </span>
     </button>
     <template v-else> </template>
     <button class=" hover-trigger py-3xs" @click="state = state === 'wrong' ? undefined : 'wrong'">
-      <span class="hover-underline">Wrong answer?</span>
+      <span class="hover-underline">
+        {{ t('report') }}
+      </span>
     </button>
   </div>
   <MiraReport v-if="state === 'wrong'" :question="question" :answer="answer" />

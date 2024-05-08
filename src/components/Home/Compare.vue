@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import type { Link } from '~/lib/constants/types'
 
 gsap.registerPlugin(ScrollTrigger)
 let ctx: gsap.Context
@@ -44,6 +45,10 @@ onMounted(() => {
 onUnmounted(() => {
   ctx?.revert()
 })
+
+const { details } = defineProps<{
+  details: (string | Link)[]
+}>()
 </script>
 
 <template>
@@ -55,8 +60,12 @@ onUnmounted(() => {
       </div>
     </div>
     <div class="text-s article-link text-center">
-      See this <NuxtLink href="/blog/sora-card-vs-others" class="accent hover-deunderline">article</NuxtLink> for a more
-      in depth comparison
+      <template v-for="detail in details">
+        <template v-if="typeof detail === 'string'">
+          {{ detail }}
+        </template>
+        <NuxtLink v-else :href="detail.href" class="accent hover-deunderline">{{ detail.title }}</NuxtLink>
+      </template>
     </div>
   </div>
 </template>

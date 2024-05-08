@@ -1,0 +1,13 @@
+{
+  "apply": {
+    "modalTitle": [
+      "Descarga e instala la aplicación móvil ",
+      {
+        "b": "SORA Wallet"
+      },
+      " para crear tu cuenta SORA y solicitar la tarjeta SORA usando la aplicación"
+    ],
+    "storesTitle": "Obtén SORA Wallet para móvil:",
+    "qrTitle": "Obtén la aplicación a través del código QR:"
+  }
+}

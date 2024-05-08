@@ -1,4 +1,13 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/apply.json'
+import es from '~/lib/lang/es/apply.json'
+
+const { tm } = useI18n({
+  messages: { en, es }
+})
+
+type Piece = { b: string } | string
+
 const isApplyModalOpen = useApplyModalState()
 </script>
 
@@ -7,9 +16,10 @@ const isApplyModalOpen = useApplyModalState()
     :z-index="23" :opacity=".3" />
   <section class="apply-overlay text-s p-xs" :class="{ open: isApplyModalOpen }">
     <div class="text-s rounded p-xs bg-light1 text-center">
-      Download and install the <b>SORA Wallet</b> mobile app to create your SORA account and apply for SORA Card using
-      the
-      app
+      <template v-for="item in (tm('apply.modalTitle') as Piece[])">
+        <span v-if="typeof item === 'string'">{{ item }}</span>
+        <b v-else>{{ item.b }}</b>
+      </template>
     </div>
     <Apply />
   </section>

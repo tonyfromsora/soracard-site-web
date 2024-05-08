@@ -1,41 +1,21 @@
 <script setup lang="ts">
 import type { Link } from '~/lib/constants/types'
 
-const links: (Link & { external?: boolean })[] = [{
-  title: 'Terms and Conditions',
-  href: '/terms'
-}, {
-  title: 'Privacy Policy',
-  href: '/privacy'
-}, {
-  title: 'Restricted Countries',
-  href: '/blacklist'
-}, {
-  title: 'Polkaswap Memorandum and Terms of Services',
-  href: 'https://wiki.sora.org/polkaswap/terms',
-  external: true
-}, {
-  title: 'Polkaswap Privacy Policy',
-  href: 'https://wiki.sora.org/polkaswap/privacy',
-  external: true
-}, {
-  title: 'SORA Wallet Terms and Conditions',
-  href: 'https://sora.org/terms',
-  external: true
-}, {
-  title: 'SORA Wallet Privacy Policy',
-  href: 'https://sora.org/privacy',
-  external: true
-}, {
-  title: 'Unlimit Privacy Policy ',
-  href: 'https://www.unlimit.com/privacy-policy/',
-  external: true
-},]
+import en from '~/lib/lang/en/legalLinks.json'
+import es from '~/lib/lang/es/legalLinks.json'
+
+const { tm } = useI18n({
+  messages: { en, es }
+})
+
+type LegalLink = Link & { external?: boolean }
+const localePath = useLocalePath()
 </script>
 
 <template>
   <div class="text-xs dark2 text-center py-s legal">
-    <NuxtLink v-for="link in links" :href="link.href" class="hover-trigger p-3xs link"
+    <NuxtLink v-for="link in (tm('legalLinks') as LegalLink[])"
+      :href="link.external ? link.href : localePath(link.href)" class="hover-trigger p-3xs link"
       :target="link.external ? '_blank' : undefined">
       <span class="hover-underline">
         {{ link.title }}

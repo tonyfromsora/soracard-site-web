@@ -18,6 +18,11 @@ router.afterEach(() => {
   cursor?.removeText()
   cursor?.hide()
 })
+
+const i18nHead = useLocaleHead({
+  addSeoAttributes: true
+})
+useHead(i18nHead)
 </script>
 
 <template>

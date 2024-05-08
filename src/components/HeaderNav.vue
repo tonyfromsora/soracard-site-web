@@ -1,39 +1,49 @@
 <script setup lang="ts">
-import nav from '@/lib/constants/navigation'
+import type { NavGroup } from '~/lib/constants/types'
+
+import en from '~/lib/lang/en/navigation.json'
+import es from '~/lib/lang/es/navigation.json'
+
+const { tm } = useI18n({
+  messages: { en, es }
+})
 
 const isApplyModalOpen = useApplyModalState()
 
-const navRef = ref(nav.map(el => ({ ...el, isOpen: false })))
+const activeGroup = ref<number>()
 
 const toggleAccordion = (i: number) => {
-  if (navRef.value[i].isOpen) {
-    navRef.value[i].isOpen = false
+  if (i === activeGroup.value) {
+    activeGroup.value = undefined
   } else {
-    navRef.value.forEach((el, j) => {
-      el.isOpen = i === j
-    })
+    activeGroup.value = i
   }
 }
+
+const localePath = useLocalePath()
 </script>
 
 <template>
   <nav>
     <ul class="groups">
-      <li v-for="(group, i) in navRef" :key="group.title" :class="{ open: group.isOpen }" class="group">
+      <li v-for="(group, i) in (tm('navigation') as NavGroup[])" :key="group.groupTitle"
+        :class="{ open: i === activeGroup }" class="group">
         <div @click="toggleAccordion(i)" class="group-title p-xs bold">
-          <span :data-title="group.title">{{ group.title }}</span>
+          <span :data-title="group.groupTitle">{{ group.groupTitle }}</span>
         </div>
         <div class="links">
           <div>
             <ul>
               <li v-for="(item, i) in group.links" :style="`--delay: ${i * 0.05}s`">
-                <button v-if="(typeof item === 'string')" class="link hover-trigger px-xs py-3xs mx-auto"
+                <button v-if="('applyButton' in item)" class="link hover-trigger px-xs py-3xs mx-auto"
                   @click="isApplyModalOpen = true">
-                  <span class="hover-underline">Apply</span>
+                  <span class="hover-underline">{{ item.applyButton }}</span>
                 </button>
-                <NuxtLink v-else :href="item.href" class="link hover-trigger px-xs py-3xs">
+                <NuxtLink v-else :href="item.external ? item.href : localePath(item.href)"
+                  class="link hover-trigger px-xs py-3xs" :external="item.external"
+                  :target="item.external ? '_blank' : undefined">
                   <span class="hover-underline">{{ item.title }}</span>
-                  <img v-if="item.isExternal" src="/icons/external.svg" alt="external link icon" class="external">
+                  <img v-if="item.external" src="/icons/external.svg" alt="external link icon" class="external">
                   <span v-if="item.label" class="label bold rounded">{{ item.label }}</span>
                 </NuxtLink>
               </li>

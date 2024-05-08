@@ -1,0 +1,113 @@
+{
+  "navigation": [
+    {
+      "groupTitle": "Tarjeta",
+      "links": [
+        {
+          "title": "Características",
+          "href": "/#features"
+        },
+        {
+          "title": "Integraciones",
+          "href": "/integrations"
+        },
+        {
+          "title": "Ganar",
+          "href": "/earn"
+        },
+        {
+          "title": "Tarifas",
+          "href": "/fees"
+        },
+        {
+          "title": "Blog",
+          "href": "/blog"
+        },
+        {
+          "title": "Referidos",
+          "href": "/referrals",
+          "label": "pronto"
+        },
+        {
+          "applyButton": "Solicitar"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Acerca de",
+      "links": [
+        {
+          "title": "Visión",
+          "href": "/vision"
+        },
+        {
+          "title": "SORAnomics",
+          "href": "/soranomics"
+        },
+        {
+          "title": "Tecnología",
+          "href": "/technology"
+        },
+        {
+          "title": "Embajadores",
+          "href": "/ambassadors"
+        },
+        {
+          "title": "Socios",
+          "href": "/partners"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Ayuda",
+      "links": [
+        {
+          "title": "FAQ",
+          "href": "/#faq"
+        },
+        {
+          "title": "Soporte",
+          "href": "/support/"
+        },
+        {
+          "title": "Contacto",
+          "href": "/contact"
+        },
+        {
+          "title": "Solicitar función",
+          "href": "/request-feature"
+        }
+      ]
+    },
+    {
+      "groupTitle": "Recursos",
+      "links": [
+        {
+          "title": "SORA Wiki",
+          "href": "https://wiki.sora.org/",
+          "external": true
+        },
+        {
+          "title": "Constructores",
+          "href": "https://medium.com/sora-xor/sora-builders-programme-979bea8831ed",
+          "external": true
+        },
+        {
+          "title": "Seguro SII",
+          "href": "https://medium.com/sora-xor/social-insurance-for-systematically-important-infrastructure-18a63ef711ca",
+          "external": true
+        },
+        {
+          "title": "Recompensa por Errores",
+          "href": "https://medium.com/sora-xor/announcing-the-sora-and-polkaswap-bug-bounty-programme-65ff37fe4876",
+          "external": true
+        },
+        {
+          "title": "Kit de Marca",
+          "href": "https://github.com/sora-xor/sora-branding",
+          "external": true
+        }
+      ]
+    }
+  ]
+}

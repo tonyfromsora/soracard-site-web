@@ -15,3 +15,11 @@ export type QAFeedItem = {
   links?: { title: string; href: string }[]
   ts: number
 }
+export type NavLink = Link & {
+  external?: boolean
+  label?: string
+}
+export type NavGroup = {
+  groupTitle: string
+  links: (NavLink | { applyButton: string })[]
+}

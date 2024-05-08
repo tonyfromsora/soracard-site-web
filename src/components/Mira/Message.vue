@@ -1,17 +1,23 @@
 <script setup lang="ts">
-const { from = 'You' } = defineProps<{ from: "You" | "Mira" }>()
+import en from '~/lib/lang/en/miraMessage.json'
+import es from '~/lib/lang/es/miraMessage.json'
+
+const { t } = useI18n({
+  messages: { en, es }
+})
+const { fromMira = false } = defineProps<{ fromMira?: boolean }>()
 </script>
 
 <template>
   <div class="bg-light1 rounded px-s pt-s pb-xxs message">
     <div class="author bold mb-xs">
       <div class="avatar">
-        <video v-if="from === 'Mira'" src="/mira.mp4" autoplay muted playsinline />
+        <video v-if="fromMira" src="/mira.mp4" autoplay muted playsinline />
       </div>
-      {{ from }}
+      {{ fromMira ? t('fromMira') : t('fromUser') }}
     </div>
     <slot>
-      <p>Typing...</p>
+      <p>{{ t('typing') }}</p>
     </slot>
   </div>
 </template>

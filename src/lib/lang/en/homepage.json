@@ -1,0 +1,214 @@
+{
+  "seoMeta": {
+    "title": "SORA Card | Value Freedom",
+    "description": "Access the new era of interoperable finance, all in the palm of your hands.",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto",
+    "ogImage": "og.jpg"
+  },
+  "hero": {
+    "title": "More than just a card",
+    "description": "Access the new era of interoperable finance, all in the palm of your hands.",
+    "applyButtonTitle": "Apply",
+    "moreButtonTitle": "Learn more",
+    "ecosystemLogosLine": "Your fiat gateway to crypto"
+  },
+  "mira": {
+    "title": "Introducing Mira"
+  },
+  "features": {
+    "title": "The ultimate all-in-one self-custodial crypto + neobanking-inspired solution",
+    "items": [
+      "Full ownership over your crypto",
+      "Easy access to payments and DeFi",
+      "Real-time exchange rate when buying/selling crypto",
+      "Fiat access to major blockchains with true interoperability*"
+    ],
+    "disclaimer": "*Currently SORA network with a bridge to Ethereum, Polkadot and Kusama, soon other EVM networks and Bitcoin"
+  },
+  "value": {
+    "label": "Value Freedom",
+    "title": "Full ownership of your crypto with easy access to payments and DeFi",
+    "items": [
+      {
+        "icon": "wallet",
+        "title": "Self-Custodial Wallet",
+        "description": "Neobanking-style app linking decentralized crypto and fiat cash"
+      },
+      {
+        "icon": "card",
+        "title": "Debit Card",
+        "description": "Ready to use at more than 90 million card provider merchants globally"
+      },
+      {
+        "icon": "cash",
+        "title": "IBAN Account",
+        "description": "An EU-based international e-money account (other countries coming soon)"
+      },
+      {
+        "icon": "lock",
+        "title": "Privacy & Security",
+        "description": "Highest privacy and security measures possible"
+      }
+    ]
+  },
+  "accordionBanner": {
+    "title": "Accelerate your financial freedom today",
+    "items": [
+      {
+        "title": "Self-custody",
+        "content": [
+          "Retain full custody (possession) of your crypto assets at all times. The SORA wallet is merely an interface to manage your assets, connecting directly to the blockchain."
+        ]
+      },
+      {
+        "title": "Ease of use",
+        "content": [
+          "Access to both physical and digital cards. Use SORA Card at more than 90 million card provider merchants globally. Apple Pay and Google Pay compatibility (* will be available shortly in Phase 2 of SORA Card rollout)."
+        ]
+      },
+      {
+        "title": "More than spending crypto",
+        "content": [
+          "Buy, Sell, Earn, Pay, Trade, Receive and more! All in one place, at your discretion. Thanks to the integrated ",
+          {
+            "title": "Polkaswap",
+            "href": "https://polkaswap.io/"
+          },
+          " decentralized exchange and the ",
+          {
+            "title": "Demeter",
+            "href": "https://farming.deotoken.io/"
+          },
+          " DeFi platform."
+        ]
+      },
+      {
+        "title": "Privacy and Security",
+        "content": [
+          "Access and actions regarding your crypto assets do not require any personal information like names and addresses — you just need your private key for access and full ownership."
+        ]
+      }
+    ]
+  },
+  "possibilities": {
+    "label": "Possibilities",
+    "title": "Superior privacy, limits and interoperability",
+    "items": [
+      {
+        "title": "Highest possible privacy features",
+        "description": "KYC with IBAN (fiat) provider only, crypto completely self-custodial and decentralized"
+      },
+      {
+        "title": "High limits and low fees",
+        "description": "Top of the line cash withdrawal limits, as well as spending and top-up limits and options"
+      },
+      {
+        "title": "Premium crypto integrations",
+        "description": "SORA Card is a unique all-in-one self-custodial crypto wallet and fiat debit card integrated with a multi-chain decentralized exchange and DeFi platform"
+      }
+    ],
+    "comparisonDetails": [
+      "See this ",
+      {
+        "title": "article",
+        "href": "/blog/sora-card-vs-others"
+      },
+      " for a more in depth comparison"
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "title": "Can I get SORA Card if I live in ___________?",
+        "content": [
+          "SORA Card is available for order to individuals worldwide, subject to the successful completion of the KYC procedure. The approval of your application depends on passing KYC, which takes into account your residency (not nationality). Please note that residents of certain countries like Russia, Iran, and DPRK are not eligible for SORA Card. For a complete list of restricted countries, please refer to ",
+          {
+            "title": "soracard.com/blacklist",
+            "href": "/blacklist"
+          },
+          ". For example, a Russian national residing in France can order SORA Card, whereas a Russian resident in Moscow cannot pass the KYC."
+        ]
+      },
+      {
+        "title": "Which cryptocurrencies can I use with SORA Card?",
+        "content": [
+          "Currently, SORA Card supports direct conversion between XOR and EUR. Through ",
+          {
+            "title": "Polkaswap.io",
+            "href": "https://polkaswap.io"
+          },
+          ", it is easy to bridge and swap Ethereum network tokens such as ETH and DAI to top up your SORA Card with XOR or purchase these tokens with Euro. Support for other networks and their native tokens will be added in the near future."
+        ]
+      },
+      {
+        "title": "How can I add funds to SORA Card?",
+        "content": ["You can top up your SORA Card using XOR ↔ EUR or SEPA (bank transfer)."]
+      },
+      {
+        "title": "Can I use SORA Card globally?",
+        "content": [
+          "Absolutely! SORA Card can be used anywhere on the global card provider network."
+        ]
+      },
+      {
+        "title": "How secure is SORA Card?",
+        "content": [
+          "SORA Card prioritizes the highest level of security and data protection. Your user data and crypto assets remain inaccessible to SORA. Only the card issuer and card provider network have access to your transaction details. SORA Card utilizes self-custodial wallet technology, ensuring that you alone have access and control over your crypto assets. Our applications implement robust security measures, including two-factor authentication and biometric identification. Moreover, the decentralized nature of the SORA network means that no single entity has control over the network or your transactions."
+        ]
+      },
+      {
+        "title": "What are the spending limits for SORA Card?",
+        "content": [
+          "For detailed information on spending limits, please refer to our website at ",
+          {
+            "title": "soracard.com/fees/#4",
+            "href": "/fees/#4"
+          }
+        ]
+      },
+      {
+        "title": "What are the usage fees associated with SORA Card?",
+        "content": [
+          "You can find the details regarding SORA Card usage fees on our website at ",
+          {
+            "title": "soracard.com/fees",
+            "href": "/fees"
+          },
+          ". As an expression of gratitude to the supportive SORA community, the first 5,000 applicants will not be charged any yearly or monthly fees."
+        ]
+      },
+      {
+        "title": "How can I obtain SORA Card?",
+        "content": [
+          "To apply for SORA Card, you can visit ",
+          {
+            "title": "Polkaswap.io",
+            "href": "https://polkaswap.io/"
+          },
+          " or use ",
+          {
+            "title": "SORA Wallet",
+            "href": "https://sora.org/wallet"
+          },
+          ". The application process includes completing the KYC procedure, which involves providing personal information such as a selfie, an ID document, and proof of address. Once approved, you can order your physical card and set up your digital account and card."
+        ]
+      },
+      {
+        "title": "What security measures does SORA Card have in place to protect my funds and data?",
+        "content": [
+          "SORA Card ensures the utmost security for your funds and data. User data and crypto assets are not accessible to SORA; only the card issuer and card provider network have access to transaction details. SORA Card employs self-custodial wallet technology, granting you exclusive access and control over your crypto assets. Our applications incorporate multiple security measures, including two-factor authentication, biometric identification, and transaction limits, all aimed at safeguarding your funds."
+        ]
+      }
+    ]
+  },
+  "blog": {
+    "title": "Latest blog posts",
+    "viewAllButtonTitle": "See All"
+  },
+  "getCardBanner": {
+    "title": "Get SORA Card — Value Freedom",
+    "description": "SORA card is a neobanking-style solution that gives direct access to decentralized and non-custodial crypto. SORA does not have access to your crypto assets or user data. We value freedom.",
+    "applyButtonTitle": "Apply now"
+  }
+}

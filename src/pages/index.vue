@@ -1,32 +1,47 @@
 <script setup lang="ts">
-const isApplyModalOpen = useApplyModalState()
+import en from '~/lib/lang/en/homepage.json'
+import es from '~/lib/lang/es/homepage.json'
 
-const title = 'SORA Card | Value Freedom'
-useSeoMeta({
-  title,
-  ogTitle: title,
-  twitterTitle: title,
+const { baseUrl } = useRuntimeConfig().public
+
+const { t, tm } = useI18n({
+  messages: { en, es },
 })
+
+useSeoMeta({
+  title: t('seoMeta.title'),
+  ogTitle: t('seoMeta.title'),
+  twitterTitle: t('seoMeta.title'),
+  description: t('seoMeta.description'),
+  twitterDescription: t('seoMeta.description'),
+  keywords: t('seoMeta.keywords'),
+  ogDescription: t('seoMeta.description'),
+  ogImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
+  twitterImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
+})
+
+const isApplyModalOpen = useApplyModalState()
 </script>
 
 <template>
-  <HomeHero />
-  <HomeMira id="more" />
-  <HomeFeatures id="features" />
-  <HomeValue />
-  <HomeAccordionBanner />
-  <HomePossibilities />
-  <HomeFAQ id="faq" data-aos="fade-up" />
-  <HomeBlog />
+  <HomeHero v-bind="tm('hero')" />
+  <HomeMira v-bind="tm('mira')" id="more" />
+  <HomeFeatures id="features" v-bind="tm('features')" />
+  <HomeValue v-bind="tm('value')" />
+  <HomeAccordionBanner v-bind="tm('accordionBanner')" />
+  <HomePossibilities v-bind="tm('possibilities')" />
+  <HomeFAQ id="faq" data-aos="fade-up" v-bind="tm('faq')" />
+  <HomeBlog v-bind="tm('blog')" />
   <Banner :image="{
     src: '/home/banner.jpg',
     alt: 'Hand holding SORA Card'
   }" data-aos="fade-up">
-    <h2 class="mb-m">Get SORA Card — Value Freedom</h2>
+    <h2 class="mb-m">
+      {{ t('getCardBanner.title') }}
+    </h2>
     <p class="text-l mb-l">
-      SORA card is a neobanking-style solution that gives direct access to decentralized and non-custodial crypto.
-      SORA does not have access to your crypto assets or user data. We value freedom.
+      {{ t('getCardBanner.description') }}
     </p>
-    <Button title="Apply now" large light @click="isApplyModalOpen = !isApplyModalOpen" />
+    <Button :title="t('getCardBanner.applyButtonTitle')" large light @click="isApplyModalOpen = !isApplyModalOpen" />
   </Banner>
 </template>
