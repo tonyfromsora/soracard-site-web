@@ -2,9 +2,10 @@
 title: 'Mastering Crypto'
 description: 'Your Essential Guide to Understanding and Using Cryptocurrency. From the basics of blockchain to advanced security tips, this guide covers everything you need to navigate the crypto world confidently.'
 date: 2024-05-17
-image: /blog/mastering-crypto/cover.jpg # cover for the website, 1920x1080px
-og: /blog/mastering-crypto/og.jpg # thumbnal image for sharing, 1200x630px
+image: /blog/mastering-crypto/cover.jpg
+og: /blog/mastering-crypto/og.jpg
 ---
+
 **Your Essential Guide to Understanding and Using Cryptocurrency**
 
 On October 31, 2008, an 8-page whitepaper was published on a niche tech forum. The paper challenged one of the pillars of modern civilization — our monetary system. It asked how we could send and receive money without the need for intermediaries. The answer it presented was genuinely revolutionary, a combination of innovative ideas from the fields of cryptography, game theory, theory of probabilities, data and network architecture, finance, and economics.

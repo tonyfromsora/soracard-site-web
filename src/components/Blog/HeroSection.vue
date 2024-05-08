@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { type BlogArticleMeta } from '@/lib/constants/types'
 const { title, description, date, image } = defineProps<BlogArticleMeta>()
+
+const { locale } = useI18n()
 </script>
 
 <template>
@@ -25,7 +27,12 @@ const { title, description, date, image } = defineProps<BlogArticleMeta>()
             fill="currentColor" />
         </svg>
 
-        {{ (new Date(date)).toDateString() }}
+        {{ (new Date(date)).toLocaleDateString(locale, {
+          weekday: 'short',
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+        }) }}
       </p>
       <img :src="image" alt="Article cover image" class="rounded" data-aos="fade-up" data-aos-delay="300">
     </div>

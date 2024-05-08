@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   modules: ['@nuxt/content', 'nuxt-aos', '@nuxtjs/sitemap', '@nuxtjs/i18n'],
   content: {
+    locales: ['en', 'es'],
     markdown: {
       anchorLinks: false,
     },
