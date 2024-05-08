@@ -1,0 +1,14 @@
+{
+  "seoMeta": {
+    "title": "SORA Card | Value Freedom — Earn farming and staking rewards",
+    "description": "SORA Card offers a seamless integration with the Polkaswap DEX and Demeter farming platform, allowing users to easily earn multiple levels of rewards.",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Earn, Farming, Staking, Rewards",
+    "ogImage": "earn/og.jpg"
+  },
+  "label": "Earn",
+  "headline": "Earn farming and staking rewards",
+  "lead": "SORA Card offers a seamless integration with the Polkaswap DEX and Demeter farming platform, allowing users to easily earn multiple levels of rewards.",
+  "regularParagraph": "By adding liquidity to an existing pool or creating a new one, users can earn built-in liquidity provider and strategic farming rewards in Polkaswap. Additionally, staking LP tokens can provide 2x rewards through Demeter Farming. Users can also farm in multiple pools using the same LP tokens with Demeter.",
+  "firstSmallParagraph": "The Demeter Farming platform is a novel concept, providing Farming-as-a-Service that benefits not only users seeking to earn rewards on their tokens but also Web3 projects issuing tokens, as it offers an out-of-the-box solution for implementing yield farming.",
+  "secondSmallParagraph": "Referring friends to the SORA network also earns rewards, with users receiving 10% of their referrals' network fees from transactions made on the network. Referrals are integrated in the SORA Wallet mobile app as well as in the Polkaswap DEX web app."
+}
