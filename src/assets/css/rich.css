@@ -89,8 +89,8 @@
   font-weight: normal;
 }
 
-.rich table tr:not(:last-child) td {
-  border-bottom: 1px solid var(--color-light3);
+.rich table tr:not(:first-child) td {
+  border-top: 1px solid var(--color-light3);
 }
 .rich table td:not(:last-child),
 .rich table th:not(:last-child) {
