@@ -1,0 +1,39 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Libertad de valor — Solicitar una función",
+    "description": "¡Nos apasiona el futuro de la tecnología blockchain y nos encantaría escuchar tus ideas!",
+    "keywords": "SORA, Polkaswap, Descentralización, DeFi, Futuro, Sortition, Metaverso, TradFi, Tarjeta, Cripto, Función, Solicitud",
+    "ogImage": "request-feature/og.jpg"
+  },
+  "headline": "Solicitar una función",
+  "lead": "¡Nos apasiona el futuro de la tecnología blockchain y nos encantaría escuchar tus ideas! Si tienes una solicitud de función o una sugerencia, no dudes en compartirla con nosotros.",
+  "primaryText": "Le daremos toda nuestra atención y haremos todo lo posible para tenerla en cuenta. Tu opinión es valiosa para nosotros mientras trabajamos para mejorar nuestros servicios y satisfacer las necesidades de nuestros usuarios.",
+  "secondaryParagraphs": [
+    [
+      "Para SORA, la participación de la comunidad es fundamental en el proceso de desarrollo. Nos esforzamos por estar siempre enfocados en el usuario y ser impulsados por la comunidad, por eso damos la bienvenida a cualquiera que proponga nuevas funciones o se convierta en un constructor de SORA a través de nuestro proceso de RFP. Tus ideas y comentarios son importantes, y queremos asegurarnos de que se les dé la consideración que merecen."
+    ],
+    [
+      "Para evitar duplicaciones, te animamos a participar en nuestra comunidad a través de ",
+      {
+        "title": "Telegram",
+        "href": "https://t.me/sora_xor"
+      },
+      " o ",
+      {
+        "title": "Discord",
+        "href": "https://t.co/AKzRnWBGzz"
+      },
+      ", donde puedes conectarte con otros y mantenerte al día de las últimas novedades. Tu participación y aportes son esenciales para el éxito continuo de SORA Card y la red SORA, y apreciamos tus contribuciones."
+    ]
+  ],
+  "github": {
+    "icon": "/icons/github.svg",
+    "title": "GitHub",
+    "description": "Comunícate con la comunidad de constructores de SORA a través de GitHub con tus solicitudes de funciones e ideas",
+    "button": {
+      "title": "Abrir SORA RFP en GitHub",
+      "href": "https://github.com/sora-xor/rfps"
+    }
+  },
+  "formTitle": "Alternativamente, puedes simplemente enviarnos un mensaje con tus ideas"
+}

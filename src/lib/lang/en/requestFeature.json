@@ -1,0 +1,39 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Value Freedom — Request a feature",
+    "description": "We're passionate about the future of blockchain technology, and we'd love to hear your ideas!",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Feature, Request",
+    "ogImage": "request-feature/og.jpg"
+  },
+  "headline": "Request a feature",
+  "lead": "We're passionate about the future of blockchain technology, and we'd love to hear your ideas! If you have a feature request or suggestion, please don't hesitate to share it with us.",
+  "primaryText": "We'll give it our full attention and do our best to take it into consideration. Your feedback is valuable to us as we work towards improving our services and meeting the needs of our users.",
+  "secondaryParagraphs": [
+    [
+      "For SORA, community involvement is at the core of the development process. We strive to always be user-focused and community-driven, which is why we welcome anyone to propose new features or become a SORA builder through our RFP process. Your ideas and feedback are important, and we want to ensure that they are given the consideration they deserve."
+    ],
+    [
+      "To avoid any duplication, we encourage you to participate in our community through ",
+      {
+        "title": "Telegram",
+        "href": "https://t.me/sora_xor"
+      },
+      " or ",
+      {
+        "title": "Discord",
+        "href": "https://t.co/AKzRnWBGzz"
+      },
+      ", where you can connect with others and stay up to date on the latest updates. Your involvement and input are essential to the continued success of SORA Card and the SORA network, and we appreciate your contributions."
+    ]
+  ],
+  "github": {
+    "icon": "/icons/github.svg",
+    "title": "GitHub",
+    "description": "Reach out to the SORA builders community through GitHub with your feature requests and ideas",
+    "button": {
+      "title": "Open SORA RFP GitHub",
+      "href": "https://github.com/sora-xor/rfps"
+    }
+  },
+  "formTitle": "Alternatively, you can simply send us a message with your ideas"
+}
