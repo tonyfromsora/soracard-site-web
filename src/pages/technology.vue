@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { baseUrl } = useRuntimeConfig().public
 
-const title = 'SORA Card | Value Freedom — Technology'
+const title = 'SORA Card • Value Freedom — Technology'
 const ogImage = `${baseUrl}/technology/og.jpg`
 useSeoMeta({
   title,

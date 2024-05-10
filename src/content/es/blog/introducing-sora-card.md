@@ -46,4 +46,4 @@ Usando la tecnología SORA, la tarjeta SORA te dará acceso a todos tus tokens f
 
 Sigue este espacio y nuestra cuenta de Twitter para obtener más información durante las próximas semanas. ¡Toda la información y el registro previo al lanzamiento estarán disponibles en [soracard.com](http://soracard.com/), pronto!
 
-Tarjeta SORA | Valora la Libertad
+Tarjeta SORA • Valora la Libertad

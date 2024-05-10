@@ -1,4 +1,4 @@
-const title = 'SORA Card | Value Freedom',
+const title = 'SORA Card • Value Freedom',
   description = 'Access the new era of interoperable finance, all in the palm of your hands.',
   keyWords =
     'SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto',
