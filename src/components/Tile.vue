@@ -16,7 +16,7 @@ const { icon, title, description, button } = defineProps<{
     </div>
     <h2 class="text-l mb-xs">{{ title }}</h2>
     <p class="mb-m text-s">{{ description }}</p>
-    <Button v-bind="button" class="text-s" />
+    <Button v-bind="button" class="text-s" target="_blank" />
   </div>
 </template>
 

@@ -1,0 +1,58 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Libertad de Valor — Contacto",
+    "description": "Nos dedicamos a brindar asistencia siempre que la necesite.",
+    "keywords": "SORA, Polkaswap, Descentralización, DeFi, Futuro, Sortición, Metaverso, TradFi, Tarjeta, Cripto, Contactos",
+    "ogImage": "contacts/og.jpg"
+  },
+  "headline": "Comunícate",
+  "lead": "Nos dedicamos a brindar asistencia siempre que la necesite. Por favor, no dudes en contactarnos con tu consulta, y haremos todo lo posible para responder de manera pronta y eficiente.",
+  "text": [
+    "Para asegurarnos de que podemos ayudarte de la manera más eficiente posible, te pedimos que tomes un momento para revisar nuestras ",
+    {
+      "title": "Preguntas frecuentes",
+      "href": "/#faq"
+    },
+    " y ",
+    {
+      "title": "Soporte",
+      "href": "/support"
+    },
+    ", así como el ",
+    {
+      "title": "Wiki de SORA",
+      "href": "https://wiki.sora.org/",
+      "external": true
+    },
+    ", ",
+    {
+      "title": "Países restringidos",
+      "href": "/blacklist"
+    },
+    ", y ",
+    {
+      "title": "Tarifas y límites",
+      "href": "/fees"
+    },
+    ". De esta manera, puedes encontrar que tu pregunta ya ha sido respondida y ahorrar algo de tiempo. Si aún no puedes encontrar la información que necesitas, por favor no dudes en comunicarte."
+  ],
+  "telegram": {
+    "icon": "/icons/telegram.svg",
+    "title": "Telegram",
+    "description": "Comunícate con la comunidad de SORA a través de Telegram, alguien te ayudará allí en breve",
+    "button": {
+      "title": "Abrir Telegram de SORA",
+      "href": "https://t.me/sora_xor"
+    }
+  },
+  "discord": {
+    "icon": "/icons/discord.svg",
+    "title": "Discord",
+    "description": "Comunícate con la comunidad de SORA a través de Discord, alguien te ayudará allí en breve",
+    "button": {
+      "title": "Abrir Discord de SORA",
+      "href": "https://t.co/AKzRnWBGzz"
+    }
+  },
+  "formTitle": "Alternativamente, simplemente puedes enviarnos un mensaje"
+}
