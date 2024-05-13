@@ -1,0 +1,82 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Libertad de Valor — Integraciones",
+    "description": "La nueva era de finanzas interoperables comienza aquí",
+    "keywords": "SORA, Polkaswap, Descentralización, DeFi, Futuro, Sortición, Metaverso, TradFi, Tarjeta, Cripto, Integraciones",
+    "ogImage": "integrations/og.jpg"
+  },
+  "hero": {
+    "title": "La nueva era de finanzas interoperables comienza aquí",
+    "description": "Todo en la palma de tus manos",
+    "learnMore": "Más información"
+  },
+  "products": [
+    {
+      "label": "SORA Wallet",
+      "title": "Una billetera cripto auto custodiada única con un DEX integrado y una tarjeta de débito",
+      "contents": [
+        [
+          "La billetera SORA proporciona acceso seguro y conveniente a tus activos de la red SORA desde cualquier lugar. Puedes mantener, enviar y recibir tokens SORA sin esfuerzo mientras estás en movimiento. Experimenta el poder de intercambiar y agrupar tokens, mientras obtienes recompensas lucrativas con la innovadora ",
+          {
+            "title": "Polkaswap",
+            "href": "https://polkaswap.io/"
+          },
+          " DEX y la plataforma de agricultura ",
+          {
+            "title": "Demeter",
+            "href": "https://farming.deotoken.io/"
+          },
+          "."
+        ],
+        [
+          "SORA Card es una oferta todo en uno inspirada en neobancos que cuenta con un IBAN europeo, transferencias SEPA, capacidades de cambio de divisas, una tarjeta de débito y una multitud de otras características impresionantes. Con esta solución integral, puedes acceder sin problemas a todas tus necesidades financieras, ya sea que estés transfiriendo fondos alrededor del mundo o intercambiando monedas. Además, con la potente tarjeta de débito, puedes realizar compras con facilidad, tanto en tiendas como en línea, mientras disfrutas de tasas competitivas y medidas de seguridad y privacidad excepcionales."
+        ]
+      ],
+      "button": {
+        "title": "Descargar SORA Wallet",
+        "modal": true
+      },
+      "image": {
+        "src": "/integrations/sora-wallet.jpg",
+        "alt": "Aplicación móvil de SORA Wallet"
+      }
+    },
+    {
+      "label": "Polkaswap",
+      "title": "La DEX AMM que revoluciona el futuro interoperable de Polkadot",
+      "contents": [
+        [
+          "Polkaswap, construido sobre el poderoso marco Substrate, ofrece una plataforma de trading superior que destaca en calidad, seguridad y eficiencia. Al aprovechar su velocidad excepcional y su infraestructura técnica avanzada, Polkaswap introduce un cambio de paradigma en cómo intercambiamos y agrupamos activos en un entorno descentralizado."
+        ],
+        [
+          "En el centro de la innovación de Polkaswap se encuentra su tecnología de liquidez agregada (ALT) de vanguardia. Este enfoque innovador garantiza a los usuarios una liquidez óptima con cada operación, maximizando la cantidad de tokens de salida recibidos. Además, Polkaswap se integra con orgullo en el ecosistema de Polkadot y Ethereum, y pronto en BNB Smart Chain y otras redes EVM, a través de su confiable puente HASHI."
+        ],
+        [
+          "Polkaswap también se integra con SORA Card. Con esta interoperabilidad única, los usuarios pueden experimentar un nivel incomparable de accesibilidad y conveniencia mientras disfrutan de los beneficios tanto de TradFi como de DeFi. Prepárate para una nueva era de intercambio de activos digitales mientras Polkaswap allana el camino para el futuro de la interoperabilidad de Polkadot."
+        ]
+      ],
+      "button": {
+        "title": "Comienza a usar polkaswap.io",
+        "href": "https://polkaswap.io/"
+      },
+      "image": {
+        "src": "/integrations/polkaswap.jpg",
+        "alt": "Aplicación de Polkaswap"
+      }
+    }
+  ],
+  "banner": {
+    "title": "Pronto, SORA Card también se integrará con Fearless Wallet",
+    "features": [
+      "Billetera móvil auto custodiada y de extensión",
+      "Todo Polkadot y Ethereum en una sola aplicación",
+      "DEX de intercambio cruzado de Polkaswap",
+      "Soluciones avanzadas centradas en el usuario"
+    ],
+    "button": {
+      "title": "fearlesswallet.io",
+      "href": "https://fearlesswallet.io"
+    },
+    "imageAlt": "Aplicación de Fearless Wallet"
+  }
+}

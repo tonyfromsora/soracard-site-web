@@ -1,0 +1,82 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Value Freedom — Integrations",
+    "description": "The new era of interoperable finance starts here",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Integrations",
+    "ogImage": "integrations/og.jpg"
+  },
+  "hero": {
+    "title": "The new era of interoperable finance starts here",
+    "description": "All in the palm of your hands",
+    "learnMore": "Learn more"
+  },
+  "products": [
+    {
+      "label": "SORA Wallet",
+      "title": "A unique self-custodial crypto wallet with an integrated DEX and debit card",
+      "contents": [
+        [
+          "SORA Wallet provides safe and convenient access to your SORA network assets from anywhere. You can effortlessly hold, send, and receive SORA tokens while on the move. Experience the power of swapping and pooling tokens, while simultaneously earning lucrative rewards with the innovative ",
+          {
+            "title": "Polkaswap",
+            "href": "https://polkaswap.io/"
+          },
+          " DEX and ",
+          {
+            "title": "Demeter",
+            "href": "https://farming.deotoken.io/"
+          },
+          " farming platform integration."
+        ],
+        [
+          "SORA Card is an all-in-one neobank-inspired offering that boasts a European IBAN, SEPA transfers, FX capabilities, a debit card, and a plethora of other impressive features. With this comprehensive solution, you can seamlessly access all your financial needs, whether you're transferring funds across the world or exchanging currencies. Plus, with the powerful debit card, you can make purchases with ease, both in-store and online, all while enjoying competitive rates and outstanding security and privacy measures."
+        ]
+      ],
+      "button": {
+        "title": "Download SORA Wallet",
+        "modal": true
+      },
+      "image": {
+        "src": "/integrations/sora-wallet.jpg",
+        "alt": "SORA Wallet mobile app"
+      }
+    },
+    {
+      "label": "Polkaswap",
+      "title": "The AMM DEX revolutionizing Polkadot's interoperable future",
+      "contents": [
+        [
+          "Polkaswap, built on the powerful Substrate framework, offers a superior trading platform that excels in quality, security, and efficiency. By leveraging its exceptional speed and advanced technical infrastructure, Polkaswap introduces a paradigm shift in how we trade and pool assets in a decentralized environment."
+        ],
+        [
+          "At the core of Polkaswap's innovation lies its cutting-edge Aggregate Liquidity Technology (ALT). This groundbreaking approach guarantees users optimal liquidity with each trade, maximizing the number of output tokens received. Moreover, Polkaswap proudly integrates with the Polkadot ecosystem and Ethereum, and soon BNB Smart Chain and other EVM networks, through its reliable HASHI bridge."
+        ],
+        [
+          "Polkaswap also integrates with SORA Card. With this unique interoperability, users can experience an unparalleled level of accessibility and convenience while enjoying the benefits of both TradFi and DeFi. Brace yourself for a new era of digital asset exchange as Polkaswap paves the way for the future of Polkadot's interoperability."
+        ]
+      ],
+      "button": {
+        "title": "Start using polkaswap.io",
+        "href": "https://polkaswap.io/"
+      },
+      "image": {
+        "src": "/integrations/polkaswap.jpg",
+        "alt": "Polkaswap app"
+      }
+    }
+  ],
+  "banner": {
+    "title": "Soon, SORA Card will also integrate with Fearless Wallet",
+    "features": [
+      "Self-custodial mobile wallet and extension",
+      "All of Polkadot and Ethereum in one app",
+      "Polkaswap cross-chain DEX",
+      "Advanced user-focused solutions"
+    ],
+    "button": {
+      "title": "fearlesswallet.io",
+      "href": "https://fearlesswallet.io"
+    },
+    "imageAlt": "Fearless Wallet app"
+  }
+}
