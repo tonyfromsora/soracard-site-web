@@ -1,0 +1,40 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Value Freedom — Partners",
+    "description": "We believe in the power of partnerships to revolutionize our world economy",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Partners",
+    "ogImage": "partners/og.jpg"
+  },
+  "label": "Partners",
+  "headline": "We believe in the power of partnerships to revolutionize our world economy",
+  "lead": "In the world of blockchain, collaboration is key, and SORA has embraced this philosophy through a variety of partnerships from top institutions to anonymous community members from around the globe.",
+  "firstParagraph": [
+    "Partnerships are at the heart of SORA's mission to create a more efficient blockchain network for all. ",
+    { "href": "https://soramitsu.co.jp/", "title": "SORAMITSU" },
+    ", ",
+    { "href": "https://ceresblockchain.solutions/", "title": "Ceres" },
+    ", ",
+    { "href": "https://linkedin.com/company/abed-group/", "title": "Abed Group" },
+    ", ",
+    { "href": "https://drinknoir.com/", "title": "Noir" },
+    ", and ",
+    { "href": "https://rmrk.app/", "title": "RMRK" },
+    " are just a few of the organizations that SORA has collaborated with to build a decentralized ecosystem that empowers users. These partnerships have resulted in innovative solutions such as the ",
+    { "href": "https://polkaswap.io/", "title": "Polkaswap" },
+    " DEX, the ",
+    { "href": "https://farming.deotoken.io/", "title": "Demeter" },
+    " farming platform, the ",
+    { "href": "https://hermes-dao.io/", "title": "Hermes DAO" },
+    " decentralized fund for investments, the ",
+    { "href": "https://deoarena.io/", "title": "DEO Arena" },
+    " Play-to-Earn game, ",
+    { "href": "https://adar.com/", "title": "ADAR" },
+    ", an advanced digital asset routing platform to simplify recurring payments, ",
+    { "href": "https://noir.digital/", "title": "noir.digital" },
+    ", the world’s first phygital wine, and now SORA Card, all built on the SORA network."
+  ],
+  "videoCaption": "Build with SORA",
+  "secondParagraph": "By partnering with organizations that share our vision of a more equitable and prosperous world, SORA is helping to shape the future of blockchain technology. Through our comprehensive tutorial and RFP process, SORA is also encouraging community involvement in the development of the network, ensuring that we remain user-focused and community-driven.",
+  "accentedParagraph": "Join the SORA community and be part of the movement to revolutionize our economy with blockchain technology. As a partner, you will have the opportunity to contribute to the growth and development of the network, and be a part of a community dedicated to building a better future for all.",
+  "learnMore": "Learn more"
+}
