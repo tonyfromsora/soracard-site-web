@@ -1,0 +1,16 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Libertad de Valor — Referidos",
+    "description": "El sistema de referidos está programado tentativamente para su lanzamiento durante la Fase 2 del despliegue de la tarjeta SORA",
+    "keywords": "SORA, Polkaswap, Descentralización, DeFi, Futuro, Sortición, Metaverso, TradFi, Tarjeta, Cripto, Referidos",
+    "ogImage": "referrals/og.jpg"
+  },
+  "label": "Próximamente",
+  "headline": "Actualmente en desarrollo",
+  "lead": "El sistema de referidos está programado tentativamente para su lanzamiento durante la Fase 2 del despliegue de la tarjeta SORA.",
+  "button": {
+    "title": "Más información",
+    "href": "https://wiki.sora.org/es/referral.html"
+  },
+  "subline": "sobre el sistema de referidos de la red SORA"
+}

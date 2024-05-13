@@ -1,32 +1,41 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/referrals.json'
+import es from '~/lib/lang/es/referrals.json'
+
 const { baseUrl } = useRuntimeConfig().public
 
-const title = 'SORA Card • Value Freedom — Referrals'
-const ogImage = `${baseUrl}/referrals/og.jpg`
+const { t, tm } = useI18n({
+  messages: { en, es },
+})
+
 useSeoMeta({
-  title,
-  ogTitle: title,
-  twitterTitle: title,
-  ogImage,
-  ogImageSecureUrl: ogImage,
-  twitterImage: ogImage,
+  title: t('seoMeta.title'),
+  ogTitle: t('seoMeta.title'),
+  twitterTitle: t('seoMeta.title'),
+  description: t('seoMeta.description'),
+  twitterDescription: t('seoMeta.description'),
+  keywords: t('seoMeta.keywords'),
+  ogDescription: t('seoMeta.description'),
+  ogImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
+  twitterImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
 })
 </script>
 
 <template>
   <section class="rich px-s py-3xl mx-auto text-center" data-aos="fade-up">
-    <span class="px-xs py-3xs bg-light1 rounded text-s">Coming soon</span>
+    <span class="px-xs py-3xs bg-light1 rounded text-s">
+      {{ t('label') }}
+    </span>
     <h1 class="my-m">
-      Development is currently underway
+      {{ t('headline') }}
     </h1>
     <p class="text-l">
-      The referral system is tentatively scheduled for launch during Phase 2 of the SORA Card rollout.
+      {{ t('lead') }}
     </p>
     <hr>
-
-    <Button href="https://wiki.sora.org/referral.html" title="Learn more" class="text-s" target="_blank" />
+    <Button v-bind="tm('button')" class="text-s" target="_blank" />
     <p class="text-s mt-xs">
-      about the SORA network referral system
+      {{ t('subline') }}
     </p>
   </section>
 </template>
