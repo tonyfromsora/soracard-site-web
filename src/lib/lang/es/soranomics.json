@@ -1,0 +1,52 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Libertad de Valor — SORAnomics",
+    "description": "Creemos que la inflación es beneficiosa solo cuando se crean nuevos bienes o servicios utilizando el dinero recién impreso",
+    "keywords": "SORA, Polkaswap, Descentralización, DeFi, Futuro, Sortición, Metaverso, TradFi, Tarjeta, Cripto, SORAnomics",
+    "ogImage": "soranomics/og.jpg"
+  },
+  "label": "SORAnomics",
+  "headline": "Creemos que la inflación es beneficiosa solo cuando se crean nuevos bienes o servicios utilizando el dinero recién impreso",
+  "lead": "Por eso estamos construyendo un sistema económico descentralizado y democrático que empodera a los productores para crear nuevos bienes y servicios, sin discriminar a nadie.",
+  "paragraphsBeforeVideo": [
+    [
+      "Con SORA, la inclusión financiera para todos es posible, y gestionar las finanzas diarias se vuelve muy sencillo. Nuestro sistema de gobernanza on-chain está impulsado por el ",
+      {
+        "title": "token XOR",
+        "href": "https://wiki.sora.org/tokenomics"
+      },
+      ", que permite a los productores proponer financiación para sus proyectos. Los poseedores de tokens luego votan sobre cómo asignar los tokens, asegurando que solo se creen los mejores bienes y servicios."
+    ],
+    [
+      "Para construir la economía de SORA, los productores deberían aceptar XOR por sus bienes y servicios, creando un ecosistema económico sostenible y próspero."
+    ]
+  ],
+  "videoCaption": "El profesor Richard Werner presentando en el Foro Económico SORA, 22 de junio de 2021",
+  "paragraphsAfterVideo": [
+    [
+      "Nuestro mecanismo se basa en la Teoría Desagregada de la Cantidad del Crédito, que establece que una moneda puede inflarse de tres maneras: para ",
+      { "b": "consumo" },
+      ", para ",
+      { "b": "especulación" },
+      ", o para ",
+      { "b": "producción" },
+      ". Inflar una moneda para consumo o especulación conduce a la inestabilidad económica, pero crear dinero para producción puede impulsar un crecimiento económico predecible, promoviendo el desarrollo humano y tecnológico."
+    ],
+    [
+      "La tokenómica de SORA se basa en una ",
+      {
+        "title": "Curva de Unión de Token",
+        "href": "https://wiki.sora.org/token-bonding-curve"
+      },
+      ", que ayuda a mitigar las valoraciones de auge y caída que afectan a muchas criptomonedas. Este enfoque innovador maneja los desafíos de no tener un suministro elástico de capital, permitiendo un crecimiento constante y sostenible."
+    ],
+    [
+      "La propia tarjeta SORA es un ejemplo de cómo la gobernanza democrática on-chain empodera a los productores con la financiación que necesitan para crear nuevos bienes y servicios. Al utilizar este sistema revolucionario, los proyectos pueden acceder a los recursos que necesitan para construir las herramientas que impulsarán el futuro de las finanzas. Este proceso garantiza que los proyectos se creen con las necesidades de la comunidad en mente, y que todos tengan igual voz en la dirección que toman estos proyectos. Con SORA Card, los usuarios pueden aprovechar esta nueva infraestructura financiera para acceder a soluciones cripto descentralizadas y no custodiadas, todo manteniendo el control sobre sus datos y activos."
+    ]
+  ],
+  "accentedParagraph": "Únete a la comunidad de SORA y sé parte de un movimiento para crear un mundo más equitativo y próspero para todos.",
+  "button": {
+    "title": "Más información en soranomics.com",
+    "href": "https://soranomics.com/"
+  }
+}
