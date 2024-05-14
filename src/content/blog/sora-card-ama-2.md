@@ -137,11 +137,11 @@ In the future, family accounts will be enabled. You can have multiple people wit
 
 A significant part will always go back to the SORA community. The rest will be used to grow SORA Card: more features, more users, more business and growth, which of course again benefits the SORA community.
 
-### Will fiat transfer be effected on both swift and Sepa?
+### Will both Swift and SEPA transfers be enabled?
 
-Yes, both SEPA and SWIFT transactions will be enabled
+SEPA and SEPA direct will be enabled for in-and-outgoing payments. Swift will be enabled for incoming payments only.
 
-### Will the SORA card be available on Apple and google pay?
+### Will the SORA card be available on Apple and Google Pay?
 
 YES
 
