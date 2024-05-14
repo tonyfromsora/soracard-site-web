@@ -46,5 +46,5 @@ All contributors are working hard on delivering “**Phase 2**” as soon as pos
 - A virtual and physical debit card ready to use and in hand
 - A European IBAN (International Bank Account Number)
 - Account top-ups using XOR, SEPA (bank transfer), or any credit/debit card you prefer
-- A fiat wallet with integrated SEPA and SWIFT payment functionality
+- A fiat wallet with SEPA and SEPA direct payment functionality
 - Referral Program access: share the road to freedom with your friends and family, and both of you will earn rewards.

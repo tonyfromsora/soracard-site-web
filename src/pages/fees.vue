@@ -67,11 +67,6 @@ const nav = [
             <td>per transaction</td>
           </tr>
           <tr>
-            <td>SWIFT</td>
-            <td>0.1% + €20</td>
-            <td>per transaction + % of value</td>
-          </tr>
-          <tr>
             <td>IBAN/ledger load fee (card transfer)</td>
             <td>€0</td>
             <td>per transaction</td>
