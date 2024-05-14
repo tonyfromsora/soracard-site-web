@@ -136,9 +136,9 @@ En el futuro, se habilitarán las cuentas familiares. Podrás tener varias perso
 
 Una parte importante siempre volverá a la comunidad SORA. El resto se utilizará para hacer crecer la tarjeta SORA: más funciones, más usuarios, más negocios y crecimiento, lo que, por supuesto, nuevamente beneficia a la comunidad SORA.
 
-### - ¿Se efectuará la transferencia fiduciaria tanto en Swift como en Sepa?
+### ¿Se habilitarán las transferencias Swift y SEPA?
 
-Sí, se habilitarán las transacciones SEPA y SWIFT
+Swift y SEPA directo estarán habilitados para pagos entrantes y salientes. Swift estará habilitado solo para pagos entrantes.
 
 ### - ¿La tarjeta SORA estará disponible en Apple y Google Pay?
 

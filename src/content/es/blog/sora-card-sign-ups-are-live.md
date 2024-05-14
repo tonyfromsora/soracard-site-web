@@ -46,5 +46,5 @@ Puedes esperar:
 - Una tarjeta de débito virtual y física lista para usar y en mano
 - Un IBAN Europeo (Número Internacional de Cuenta Bancaria)
 - Recargas de cuenta usando XOR, SEPA (transferencia bancaria), o cualquier tarjeta de crédito/débito que prefieras
-- Una billetera fiduciaria con funcionalidad de pago SEPA y SWIFT integrada
+- Una billetera fiduciaria con funcionalidad de pago SEPA y SEPA directo
 - Acceso al programa de referidos: comparte el camino hacia la libertad con tus amigos y familiares, y ambos ganarán recompensas
