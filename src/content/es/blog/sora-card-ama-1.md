@@ -1,139 +1,139 @@
 ---
 title: 'SORA Card AMA #1'
-description: On Thursday 24th of November, an AMA with Dr Makoto Takemiya, Beno Van Gansen and the SORA community was held on Telegram to answer questions about SORA Card and its upcoming release
+description: El jueves 24 de noviembre, se llevó a cabo un AMA con el Dr. Makoto Takemiya, Beno Van Gansen y la comunidad de SORA en Telegram para responder preguntas sobre la tarjeta SORA y su próximo lanzamiento.
 date: 2022/11/26
 image: /blog/sora-card-ama-1/cover.jpg
 og: /blog/sora-card-ama-1/og.jpg
 ---
 
-### The first SORA Card AMA took place on Thursday 24th of November, 2022
+### El primer AMA de la tarjeta SORA tuvo lugar el jueves 24 de noviembre de 2022
 
-With the launch of the SORA Card around the corner, the SORA community was treated to an interesting AMA where details regarding SORA Card, its operation and fees were covered. Here is a transcript of the AMA that took place in the SORA Telegram community.
+Con el lanzamiento de la tarjeta SORA a la vuelta de la esquina, la comunidad de SORA fue tratada con un interesante AMA donde se cubrieron detalles sobre la tarjeta SORA, su funcionamiento y tarifas. Aquí hay una transcripción del AMA que tuvo lugar en la comunidad de SORA en Telegram.
 
-The questions have been edited for clarity.
+Las preguntas han sido editadas para mayor claridad.
 
-### Dear community! We will now start the live AMA with Makoto and Beno, and will answer first the pre-submitted questions. We merged some similar questions to keep the information concise.
+### ¡Estimada comunidad! Ahora comenzaremos el AMA en vivo con Makoto y Beno, y primero responderemos las preguntas preenviadas. Hemos fusionado algunas preguntas similares para mantener la información concisa.
 
-**Beno**: Hello everybody. I am happy to answer all your questions ^\_^
+**Beno**: Hola a todos. Estoy feliz de responder todas sus preguntas ^\_^
 
-### 2. Let’s start with the first introductory question: Can you introduce yourself to the old and the new community?
+### 2. Comencemos con la primera pregunta introductoria: ¿Pueden presentarse a la antigua y nueva comunidad?
 
-**Makoto**: I am Makoto Takemiya, the CEO and co-founder of a blockchain technology company called SORAMITSU. I have been active in the blockchain space since 2013. I also had the honor of attending one of the early Polkadot events in 2017, in Spain, and our company has worked with the Web3 Foundation since 2018. I am a huge supporter of DOTSAMA and believe that the Polkadot/Kusama concept of many chains with shared security and interoperability is the obvious future for crypto. I have a PhD in Interdisciplinary Information Studies from the University of Tokyo and I am passionate about applying technology to solve the real, structural problems that are faced by economies all around the world.
+**Makoto**: Soy Makoto Takemiya, el CEO y cofundador de una empresa de tecnología blockchain llamada SORAMITSU. He estado activo en el espacio de blockchain desde 2013. También tuve el honor de asistir a uno de los primeros eventos de Polkadot en 2017, en España, y nuestra empresa ha trabajado con la Fundación Web3 desde 2018. Soy un gran defensor de DOTSAMA y creo que el concepto de Polkadot/Kusama de muchas cadenas con seguridad compartida e interoperabilidad es el futuro obvio para las criptomonedas. Tengo un doctorado en Estudios de Información Interdisciplinaria de la Universidad de Tokio y estoy apasionado por aplicar la tecnología para resolver los problemas reales y estructurales que enfrentan las economías de todo el mundo.
 
 ![](https://miro.medium.com/v2/resize:fit:320/format:webp/1*O98GaT3FDlXxhy9U_gv-bw.jpeg)
 
-**Beno**: I am Beno, contributor to SORA through Polka Biome (Polkaswap community initiatives) and SORA Biome (SORA Card). I have a background in Law (LL.M) and worked 7 years on the business side of technology services before contributing to SORA and working in Web3. Since I read about SORA the first time in 2020, I felt the urge to dedicate my energy to this project — or should I say movement?
+**Beno**: Soy Beno, colaborador de SORA a través de Polka Biome (iniciativas de la comunidad de Polkaswap) y SORA Biome (SORA Card). Tengo formación en Derecho (LL.M) y trabajé 7 años en el lado comercial de servicios tecnológicos antes de contribuir a SORA y trabajar en Web3. Desde que leí sobre SORA por primera vez en 2020, sentí la necesidad de dedicar mi energía a este proyecto, ¿o debería decir movimiento?
 
 ![](https://miro.medium.com/v2/resize:fit:320/format:webp/1*xCuobDKuNu9wUoAX2i-Dag.jpeg)
 
-### 3. What is SORA Card and why should I care?
+### 3. ¿Qué es la tarjeta SORA y por qué debería importarme?
 
-**Beno**: SORA Card is the product name for the neo bank-style fiat wallet with IBAN and Debit Card that integrates into the self-custodial and decentralized solutions SORA Wallet and Polkaswap provide. SORA Card is unique because, unlike other crypto payment cards, It gives the user direct access to DeFi, meaning full ownership over their crypto assets, and at the same time, it also gives access to the traditional finance (TradFi) world, with real-world transactions and shopping, all in one place.
+**Beno**: La tarjeta SORA es el nombre del producto para la billetera fiat de estilo neo bank con IBAN y tarjeta de débito que se integra en las soluciones de auto custodia y descentralizadas que proporcionan SORA Wallet y Polkaswap. La tarjeta SORA es única porque, a diferencia de otras tarjetas de pago criptográficas, le brinda al usuario acceso directo a DeFi, lo que significa propiedad total sobre sus activos criptográficos, y al mismo tiempo, también brinda acceso al mundo financiero tradicional (TradFi), con transacciones y compras del mundo real, todo en un solo lugar.
 
-This solution is not for everyone, however: a self-custodial wallet comes with increased responsibility and ownership for the user, since they have sole access to the assets. We believe our solution is specifically relevant to people who value freedom, take ownership over their finances and decisions, and value privacy without sacrificing the premium user experience that we have all come to expect in this digitally evolved world.
+Sin embargo, esta solución no es para todos: una billetera de auto custodia viene con una mayor responsabilidad y propiedad para el usuario, ya que tienen acceso exclusivo a los activos. Creemos que nuestra solución es específicamente relevante para las personas que valoran la libertad, toman control sobre sus finanzas y decisiones, y valoran la privacidad sin sacrificar la experiencia premium del usuario que todos esperamos en este mundo digitalmente evolucionado.
 
-You should care because users of our decentralized and self-custodial solutions will never face situations as we have recently seen with FTX and other centralized platforms. On the fiat side, you have the same access to the TradFi world, protection, and obligations as with any other regulated financial institution
+Deberías preocuparte porque los usuarios de nuestras soluciones descentralizadas y de auto custodia nunca enfrentarán situaciones como las que hemos visto recientemente con FTX y otras plataformas centralizadas. En el lado fiat, tienes el mismo acceso al mundo TradFi, protección y obligaciones que con cualquier otra institución financiera regulada.
 
-### 4. Can you share the roadmap for SORA card?
+### 4. ¿Pueden compartir el plan de ruta para la tarjeta SORA?
 
-**Beno**: A High-Level overview of plans for SORA Card are:
+**Beno**: Una visión general de alto nivel de los planes para la tarjeta SORA es:
 
-- Phase 1 (2023): Pre-order cards, pass KYC, buy XOR up to EUR 700 with soft KYC
-- Phase 2 (Early 2023): With card in hand and on mobile, ready to use, exchange XOR ↔ EUR. KYC will be integrated in the apps and there will be a referral program
-- Phase 3 (Mid-2023): Multi-currency wallet, Multi-account wallet, additional features to the fiat wallet.
+- Fase 1 (2023): Pedidos anticipados de tarjetas, pasar KYC, comprar XOR hasta EUR 700 con KYC suave.
+- Fase 2 (Principios de 2023): Con la tarjeta en mano y en el móvil, listo para usar, intercambiar XOR ↔ EUR. El KYC se integrará en las aplicaciones y habrá un programa de referencia.
+- Fase 3 (Mediados de 2023): Billetera multi-moneda, billetera multi-cuenta, características adicionales para la billetera fiat.
 
-You can also expect GBP and USD SORA Cards before the end of Q2 2023! Many other additions are proposed and being discussed, but do not yet fit into a roadmap and project plan. It is important to know that we will take community feedback after launch to optimize the product(s) and to integrate community requests, if they make enough sense.
+¡También pueden esperar tarjetas SORA en GBP y USD antes de finales del segundo trimestre de 2023! Se proponen y se discuten muchas otras adiciones, pero aún no encajan en un plan de ruta y proyecto. Es importante saber que tomaremos comentarios de la comunidad después del lanzamiento para optimizar el/los producto(s) e integrar las solicitudes de la comunidad, si tienen suficiente sentido.
 
-### 5. How old is SORA? What are the major plans ahead? Could you show us the image of your roadmap?
+### 5. ¿Cuántos años tiene SORA? ¿Cuáles son los principales planes futuros? ¿Podrían mostrarnos la imagen de su plan de ruta?
 
-**Makoto**: The idea of SORA is from 2017 and the SORA community has been working since then to build the SORA economic system, as a viable alternative to the contemporary fiat, debt-based monetary systems that are commonplace, yet failing, in our world today. The goal of SORA is to create the tools to provide consistent, high growth, so that everyone can reach the full potential. You can see the SORA integrated plan [here](https://sora.org/plan).
+**Makoto**: La idea de SORA es desde 2017 y la comunidad de SORA ha estado trabajando desde entonces para construir el sistema económico SORA, como una alternativa viable a los sistemas monetarios contemporáneos basados en fiat y deuda que son comunes, pero fallidos, en nuestro mundo hoy. El objetivo de SORA es crear las herramientas para proporcionar un crecimiento constante y alto, para que todos puedan alcanzar su máximo potencial. Pueden ver el plan integrado de SORA [aquí](https://sora.org/plan).
 
-### 6. Dear Sir, According to the roadmap, what are your most important next priorities? Does your team have enough funds and a strong community to achieve those milestones? please tell me.
+### 6. Estimado señor, según el plan de ruta, ¿cuáles son sus prioridades más importantes? ¿Tiene su equipo suficientes fondos y una comunidad sólida para alcanzar esos hitos? Por favor, cuénteme.
 
-**Makoto**: The SORA integrated plan shows the priorities, as the y-axis is time-sorted (so features near the top of the screen are higher priority). Because SORA and Polkaswap development are both funded by the community via TBCD minting, there is funding to realize all the planned features, going into the future.
+**Makoto**: El plan integrado de SORA muestra las prioridades, ya que el eje y está ordenado por tiempo (por lo que las características cerca de la parte superior de la pantalla son de mayor prioridad). Debido a que el desarrollo de SORA y Polkaswap es financiado por la comunidad a través de la creación de TBCD, hay financiamiento para realizar todas las características planificadas, yendo hacia el futuro.
 
-### 7. How will the value flow from the IBAN account to the SORA network?
+### 7. ¿Cómo fluirá el valor desde la cuenta IBAN hacia la red SORA?
 
-**Beno**: In summary, it looks like this:
+**Beno**: En resumen, se ve así:
 
-1. From the IBAN Account: “Buy XOR”.
-2. EUR will be sent to an integrated custodial wallet with native XOR.
-3. Native XOR will be sent from this wallet to your SORA network address, accessible by your self-custodial SORA Wallet and/or Polkaswap.
+1. Desde la cuenta IBAN: "Comprar XOR".
+2. EUR se enviará a una billetera custodia integrada con XOR nativo.
+3. El XOR nativo se enviará desde esta billetera a su dirección de red SORA, accesible mediante su SORA Wallet de auto custodia y/o Polkaswap.
 
-The steps 2 and 3 are automated once you sign the transaction in 1.
+Los pasos 2 y 3 están automatizados una vez que firme la transacción en el paso 1.
 
 ![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*d-bmajUoUm7-CXqkAsfazQ.png)
 
-### 8. Does our balance stay in our SORA Wallet or at the bank’s side? If its at the SORA Wallet, how is the bank able to get it from my wallet?
+### 8. ¿Se mantiene nuestro saldo en nuestra SORA Wallet o en el lado del banco? Si está en la SORA Wallet, ¿cómo puede el banco obtenerlo de mi billetera?
 
-**Beno**: Your EURO balance is on your IBAN with the bank. Your SORA Card is linked to this IBAN account. Your crypto stays on your SORA crypto account. You need to manually top-up your IBAN / card by selling XOR for EUR, as the SORA Card is a debit card. There is a clear separation and no transfer of data (except buy/sell EUR <> XOR) between the crypto wallet and the fiat wallet.
+**Beno**: Tu saldo EURO está en tu IBAN con el banco. Tu tarjeta SORA está vinculada a esta cuenta IBAN. Tu criptomoneda permanece en tu cuenta criptográfica de SORA. Necesitas recargar manualmente tu IBAN/tarjeta vendiendo XOR por EUR, ya que la tarjeta SORA es una tarjeta de débito. Hay una separación clara y no hay transferencia de datos (excepto compra/venta EUR <> XOR) entre la billetera criptográfica y la billetera fiat.
 
-### 9. Which bank will you use?
+### 9. ¿Qué banco van a usar?
 
-**Beno**: We cannot yet disclose the issuing bank, but it is a bank in good standing, licensed in the EU. This will be shared when ordering the card becomes available.
+**Beno**: Aún no podemos revelar el banco emisor, pero es un banco con buena reputación, con licencia en la UE. Esto se compartirá cuando esté disponible el pedido de la tarjeta.
 
-### 10. Can I deposit euro on my IBAN and go to Polkaswap swap XOR/EUR?
+### 10. ¿Puedo depositar euros en mi IBAN e ir a Polkaswap para intercambiar XOR/EUR?
 
-**Beno**: The user will experience it like this. However, in reality, the XOR/EUR exchange does not take place on the SORA network, nor on Polkaswap. We integrated an automated custodial solution on the fiat side for this part of the flow. This is required to be compliant with EU TradFi regulations.
+**Beno**: El usuario lo experimentará de esta manera. Sin embargo, en realidad, el intercambio XOR/EUR no se lleva a cabo en la red SORA, ni en Polkaswap. Integramos una solución custodia automatizada en el lado fiat para esta parte del flujo. Esto es necesario para cumplir con las regulaciones de TradFi de la UE.
 
-### 11. Can I give the IBAN of the SORA Card to my employer to receive my salary on it?
+### 11. ¿Puedo darle a mi empleador el IBAN de la tarjeta SORA para recibir mi salario en ella?
 
-**Makoto**: Absolutely — please do! It works like the IBAN of any neo- and commercial bank. Your SORA IBAN will be even more private since only the card issuer and card provider can have access to your transaction details and balance, while commercial banks usually share these with other third parties by default.
+**Makoto**: ¡Absolutamente! Funciona como el IBAN de cualquier banco neo y comercial. Su IBAN de SORA será aún más privado ya que solo el emisor de la tarjeta y el proveedor de la tarjeta pueden tener acceso a los detalles de sus transacciones y saldo, mientras que los bancos comerciales suelen compartir estos con otros terceros por defecto.
 
-### 12. Can I order a card to the United Kingdom?
+### 12. ¿Puedo pedir una tarjeta al Reino Unido?
 
-**Beno**: Yes, you can, although it makes more sense to wait for a little while until the GBP cards are ready to order, in Q1 2023. Although SORA Card is completely available, and up to your discretion to use in the UK, the EUR card will come with a conversion fee for all your GBP spending.
+**Beno**: Sí, puedes, aunque tiene más sentido esperar un poco hasta que las tarjetas GBP estén listas para pedirlas, en el primer trimestre de 2023. Aunque la tarjeta SORA está completamente disponible y a tu discreción para usarla en el Reino Unido, la tarjeta EUR vendrá con una tarifa de conversión para todos tus gastos en GBP.
 
-### 13. Can people in Abu Dhabi use the card?
+### 13. ¿Pueden las personas en Abu Dhabi usar la tarjeta?
 
-**Beno**: YES, you can USE SORA Card on the card provider network anywhere around the world. Just like with any debit card, the additional fees depend on the local merchant, system/machine, and currency conversion. APPLYING for SORA Card is also possible. Just keep in mind that you will have a European IBAN and EUR card, and approval of your application is at the sole discretion of the bank — they can reject your application without the need to give a reason.
+**Beno**: SÍ, puedes USAR la tarjeta SORA en la red del proveedor de tarjetas en cualquier parte del mundo. Al igual que con cualquier tarjeta de débito, las tarifas adicionales dependen del comerciante local, sistema/máquina y conversión de moneda. También es posible SOLICITAR la tarjeta SORA. Solo ten en cuenta que tendrás un IBAN europeo y una tarjeta EUR, y la aprobación de tu solicitud está a discreción exclusiva del banco; pueden rechazar tu solicitud sin necesidad de dar una razón.
 
-### 14. Considering SORAMITSU is a Japanese blockchain company, will the SORA Card be available for Japanese residents on release? If not, how soon can Japanese residents expect it to be available by?
+### 14. Considerando que SORAMITSU es una empresa de blockchain japonesa, ¿la tarjeta SORA estará disponible para los residentes japoneses en su lanzamiento? Si no es así, ¿cuándo pueden esperar los residentes japoneses que esté disponible?
 
-**Makoto**: As mentioned, SORA Card will initially be a Euro card. Japanese residents can apply, although it is at the discretion of the bank to approve or deny your KYC application. Conversion fees will apply when spending EUR in Japan.
+**Makoto**: Como se mencionó, la tarjeta SORA será inicialmente una tarjeta Euro. Los residentes japoneses pueden aplicar, aunque es a discreción del banco aprobar o denegar tu solicitud KYC. Se aplicarán tarifas de conversión al gastar EUR en Japón.
 
-That being said, we are preparing a potential expansion of the SORA Card program into Asia. Every country has different regulations, customs, and currencies, which makes the decision to invest in a certain country more challenging than a big single market like the EU or USA. If we see the right business opportunity, and there is a lot of demand in Japan, we will definitely investigate the possibilities.
+Dicho esto, estamos preparando una posible expansión del programa de la tarjeta SORA a Asia. Cada país tiene regulaciones, costumbres y monedas diferentes, lo que hace que la decisión de invertir en un país en particular sea más desafiante que un gran mercado único como la UE o EE. UU. Si vemos la oportunidad de negocio adecuada y hay mucha demanda en Japón, definitivamente investigaremos las posibilidades.
 
-BTW, SORA and SORAMITSU are not the same thing. SORA is a decentralized world economic system that has no location, but is everywhere the internet reaches. SORAMITSU is a fintech software company, which contributes to the SORA codebase, among other contributing peers.
+Por cierto, SORA y SORAMITSU no son lo mismo. SORA es un sistema económico mundial descentralizado que no tiene ubicación, pero está en todas partes donde llega internet. SORAMITSU es una empresa de software fintech, que contribuye al código base de SORA, entre otros compañeros contribuyentes.
 
-### 15. How do I get a metal SORA Card so I can slap that down on the table (good for promoting SORA on the streets)?
+### 15. ¿Cómo puedo obtener una tarjeta SORA metálica para poder colocarla sobre la mesa (ideal para promover SORA en las calles)?
 
-**Beno**: Love the enthusiasm! We are working on different SORA Card program tiers, of which the highest tier will have a metal card. More info on this will follow in early 2023!
+**Beno**: ¡Me encanta el entusiasmo! Estamos trabajando en diferentes niveles de programas de tarjetas SORA, de los cuales el nivel más alto tendrá una tarjeta metálica. ¡Más información sobre esto se dará a conocer a principios de 2023!
 
-### 16. Is direct deposit on the IBAN possible? If yes, is there any balance limit?
+### 16. ¿Es posible el depósito directo en el IBAN? Si es así, ¿hay algún límite de saldo?
 
-**Beno**: Direct deposit is definitely possible, as SORA Card works like any other IBAN. There are no limits on receiving funds, just take into account limits from the sender side. Also, take into account that proof of funds can be requested for high amounts and volume (AML).
+**Beno**: El depósito directo es definitivamente posible, ya que la tarjeta SORA funciona como cualquier otro IBAN. No hay límites para recibir fondos, solo ten en cuenta los límites del lado del remitente. Además, ten en cuenta que se puede solicitar comprobante de fondos para cantidades y volúmenes altos (AML).
 
-### 17. How many types of cards will be available at start?
+### 17. ¿Cuántos tipos de tarjetas estarán disponibles al principio?
 
-**Makoto**: Just the SORA Card euro debit card to start. In the future, different tiers will likely become available. More info on this in early 2023.
+**Makoto**: Solo la tarjeta de débito euro SORA Card para empezar. En el futuro, es probable que estén disponibles diferentes niveles. Más información sobre esto a principios de 2023.
 
-### 18. I read that the goal of SORA Card is to provide users access to and ownership over their crypto and fiat assets. How does SORA plan to build an open ecosystem for web 3 that gives users ownership of their data? How will you solve the limitations of web 3 which involve scalability?
+### 18. Leí que el objetivo de la tarjeta SORA es brindar a los usuarios acceso y propiedad sobre sus activos criptográficos y fiat. ¿Cómo planea SORA construir un ecosistema abierto para la web 3 que brinde a los usuarios propiedad de sus datos? ¿Cómo resolverá las limitaciones de la web 3 que involucran la escalabilidad?
 
-**Makoto**: Whenever touching TradFi, there are limitations on how much control people can have over their assets. That’s why with SORA Card, it’s going to be very easy to move money from your bank account to crypto tokens that you control directly within a DeFi platform. To start, this means swapping EUR to XOR, but once you are in XOR, you have full control of the tokens and can do whatever you want with your assets (like swapping them for other assets on Polkaswap).
+**Makoto**: Siempre que se toque TradFi, hay limitaciones sobre cuánto control pueden tener las personas sobre sus activos. Es por eso que con la tarjeta SORA, será muy fácil mover dinero desde tu cuenta bancaria a tokens criptográficos que controlas directamente dentro de una plataforma DeFi. Para empezar, esto significa intercambiar EUR por XOR, pero una vez que estés en XOR, tendrás control total de los tokens y podrás hacer lo que quieras con tus activos (como intercambiarlos por otros activos en Polkaswap).
 
-The SORA network uses Parity Substrate, which is already very fast and scalable, compared to legacy blockchains like Bitcoin or Ethereum, so scalability is not a problem and won’t ever be, even if we get millions of SORA Card users.
+La red SORA utiliza Parity Substrate, que ya es muy rápida y escalable, en comparación con blockchains legadas como Bitcoin o Ethereum, por lo que la escalabilidad no es un problema y nunca lo será, incluso si tenemos millones de usuarios de tarjetas SORA.
 
 ![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*1mBVts-8QJTBrH5cbNVcdw.png)
 
-### 19. What kind of problem are you solving with SORA Card?
+### 19. ¿Qué tipo de problema están resolviendo con la tarjeta SORA?
 
-**Beno**: We are solving the need for self-custodial crypto and TradFi access within the same solution. At start, this will be integrated into Polkaswap and the SORA Wallet. You can easily spend your Demeter yield by selling it for fiat and spending it via the card, or, eventually, make use of any DOTSAMA parachain tokens you may have. SORA Card will also give you the best fiat on-ramp!
+**Beno**: Estamos resolviendo la necesidad de acceso a criptomonedas de auto custodia y TradFi dentro de la misma solución. Al principio, esto se integrará en Polkaswap y la SORA Wallet. Puedes gastar fácilmente tu rendimiento Deméter vendiéndolo por fiat y gastándolo a través de la tarjeta, o, eventualmente, hacer uso de cualquier token de parachain DOTSAMA que puedas tener. ¡La tarjeta SORA también te dará la mejor entrada fiat!
 
-In 2023 Fearless Wallet, the DeFi wallet of the Polkadot & Kusama ecosystem, will integrate SORA Card. This gives you access to the multi-(para)chain world, and allows, for example, that you sell your GLMR staking rewards when the check comes in the restaurant and you want to pay the bill with SORA Card.
+En 2023, Fearless Wallet, la billetera DeFi del ecosistema Polkadot & Kusama, integrará la tarjeta SORA. Esto te da acceso al mundo multi-(para)cadena, y permite, por ejemplo, que vendas tus recompensas de staking de GLMR cuando llegue la cuenta en el restaurante y quieras pagar la factura con la tarjeta SORA.
 
-### 20. What costs are related for maintaining the SORA Card project?
+### 20. ¿Qué costos están relacionados con el mantenimiento del proyecto de la tarjeta SORA?
 
-**Makoto**: This depends on the number of users and volume: more users and volume is a higher cost overall, but it will also bring the cost to the community down since this can be funded by revenue (transaction fees). It is difficult to put an exact number to it since there are variable costs and variable revenue, although the minimum maintenance cost will not be under $20k per month.
+**Makoto**: Esto depende del número de usuarios y del volumen: más usuarios y volumen representan un costo total más alto, pero también reducirán el costo para la comunidad ya que esto puede financiarse con los ingresos (tarifas de transacción). Es difícil poner un número exacto, ya que hay costos variables y ingresos variables, aunque el costo mínimo de mantenimiento no será inferior a $20,000 por mes.
 
-This basic maintenance cost is expected to be funded by the SORA community via XST minting, as this is a basic good for the ecosystem. The converse of this is that with enough transaction volume, SORA Card can be revenue-positive and can drive value directly back into the SORA community.
+Se espera que este costo básico de mantenimiento sea financiado por la comunidad de SORA a través de la creación de XST, ya que esto es un bien básico para el ecosistema. La consecuencia de esto es que con suficiente volumen de transacciones, la tarjeta SORA puede generar ingresos positivos y puede impulsar directamente el valor de vuelta a la comunidad de SORA.
 
-### 21. Any marketing and PR activities for SORA Card?
+### 21. ¿Hay actividades de marketing y relaciones públicas para la tarjeta SORA?
 
-**Beno**: For phase 1 we mainly count on our own channels, Polkadot channels, and some collaborations in the works. Once phases 1 and 2 are delivered, and SORA Card and wallet are highly rated by the first users, and the referral program is rolled out, then it makes more sense to go out and reach the masses. The feedback from the initial community users will be extremely valuable before increasing the investment into larger PR and marketing campaigns.
+**Beno**: Para la fase 1, principalmente confiamos en nuestros propios canales, canales de Polkadot y algunas colaboraciones en proceso. Una vez que se entreguen las fases 1 y 2, y la tarjeta SORA y la billetera sean muy valoradas por los primeros usuarios, y se implemente el programa de referencia, entonces tiene más sentido salir y alcanzar a las masas. La retroalimentación de los usuarios de la comunidad inicial será extremadamente valiosa antes de aumentar la inversión en campañas de relaciones públicas y marketing más grandes.
 
-You can definitely expect SORA and SORA Card to be at multiple events in the upcoming months. To name a few: Polkadot Sub0 in Lisbon, Polkadot Bangkok, on the sidelines of the World Economic Forum in Davos, the European Blockchain Convention in Barcelona, and many more to come!
+Definitivamente puedes esperar que SORA y SORA Card estén en varios eventos en los próximos meses. Para nombrar algunos: Polkadot Sub0 en Lisboa, Polkadot Bangkok, al margen del Foro Económico Mundial en Davos, la Convención Europea de Blockchain en Barcelona, ¡y muchos más por venir!
 
 ---
 
-**[Continue reading the original article on Medium](https://medium.com/sora-xor/sora-card-ama-1-7f6808d6be5)**
+**[Continúa leyendo el artículo original en Medium](https://medium.com/sora-xor/sora-card-ama-1-7f6808d6be5)**
