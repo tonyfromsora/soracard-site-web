@@ -35,14 +35,7 @@ useSeoMeta({
     </p>
     <hr>
     <p>
-      <template v-for="piece in (tm('firstParagraph') as (string | Link)[])">
-        <template v-if="typeof piece === 'string'">
-          {{ piece }}
-        </template>
-        <template v-else>
-          <a :href="piece.href" target="_blank">{{ piece.title }}</a>
-        </template>
-      </template>
+      <RichText :content="tm('firstParagraph')" />
     </p>
     <figure class="mt-xl mb-l">
       <YoutubeVideo id="058n40NpfqM" cover="/partners/video.jpg" class="mb-s" />

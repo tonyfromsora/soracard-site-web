@@ -83,14 +83,7 @@ interface Item {
         {{ t('disclaimer') }}
       </p>
       <p>
-        <template v-for="item in (tm('reference') as (string | Link)[])">
-          <template v-if="typeof item === 'string'">
-            {{ item }}
-          </template>
-          <template v-else>
-            <a :href="item.href" target="_blank">{{ item.title }}</a>
-          </template>
-        </template>
+        <RichText :content="tm('reference')" />
       </p>
     </div>
   </section>

@@ -84,12 +84,7 @@ const handleSubmit = async () => {
       {{ t('privacyNote') }}
     </p>
     <p class="pt-s mx-auto text-s dark2">
-      <template v-for="piece in (tm('legalNote') as (string | Link)[])">
-        <template v-if="typeof piece === 'string'">{{ piece }}</template>
-        <template v-else>
-          <a :href="piece.href" target="_blank" class="hover-underline accent">{{ piece.title }}</a>
-        </template>
-      </template>
+      <RichText :content="tm('legalNote')" />
     </p>
   </section>
 </template>

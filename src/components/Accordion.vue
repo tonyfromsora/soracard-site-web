@@ -34,15 +34,7 @@ const toggleAccordion = (i: number) => {
       <div class="content">
         <div>
           <div class="pb-l pt-xs inner">
-            <template v-for="part in item.content">
-              <template v-if="(typeof part === 'string')">
-                {{ part }}
-              </template>
-              <NuxtLink v-else :to="part.href" :target="part.href.startsWith('https://') ? '_blank' : undefined"
-                class="accent hover-deunderline">
-                {{ part.title }}
-              </NuxtLink>
-            </template>
+            <RichText :content="item.content" />
           </div>
         </div>
       </div>

@@ -34,14 +34,9 @@ useSeoMeta({
     <p>
       {{ t('primaryText') }}
     </p>
-    <p v-for="(paragraph, i) in (tm('secondaryParagraphs') as ((string | Link)[])[]) " class="text-s"
+    <p v-for="(p, i) in (tm('secondaryParagraphs') as ((string | Link)[])[]) " class="text-s"
       :class="i < (tm('secondaryParagraphs').length - 1) ? 'mb-s' : ''">
-      <template v-for="item in paragraph">
-        <template v-if="typeof item === 'string'">{{ item }}</template>
-        <template v-else>
-          <a :href="item.href" target="_blank">{{ item.title }}</a>
-        </template>
-      </template>
+      <RichText :content="p" />
     </p>
   </section>
   <section class="w mb-3xl tile">

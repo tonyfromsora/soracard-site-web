@@ -6,8 +6,6 @@ const { tm } = useI18n({
   messages: { en, es }
 })
 
-type Piece = { b: string } | string
-
 const isApplyModalOpen = useApplyModalState()
 </script>
 
@@ -16,10 +14,7 @@ const isApplyModalOpen = useApplyModalState()
     :z-index="23" :opacity=".3" />
   <section class="apply-overlay text-s p-xs" :class="{ open: isApplyModalOpen }">
     <div class="text-s rounded p-xs bg-light1 text-center">
-      <template v-for="item in (tm('apply.modalTitle') as Piece[])">
-        <span v-if="typeof item === 'string'">{{ item }}</span>
-        <b v-else>{{ item.b }}</b>
-      </template>
+      <RichText :content="tm('apply.modalTitle')" />
     </div>
     <Apply />
   </section>

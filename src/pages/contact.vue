@@ -38,15 +38,7 @@ const localePath = useLocalePath()
     </p>
     <hr>
     <p class="text-s">
-      <template v-for="item in (tm('text') as PieceOfText[])">
-        <template v-if="typeof item === 'string'">{{ item }}</template>
-        <template v-else-if="item.external">
-          <a :href="item.href" target="_blank">{{ item.title }}</a>
-        </template>
-        <template v-else>
-          <NuxtLink :to="localePath(item.href)">{{ item.title }}</NuxtLink>
-        </template>
-      </template>
+      <RichText :content="tm('text')" />
     </p>
   </section>
   <section class="w mb-3xl grid">

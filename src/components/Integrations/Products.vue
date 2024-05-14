@@ -28,18 +28,11 @@ const isApplyModalOpen = useApplyModalState()
           {{ item.title }}
         </h2>
         <p v-for="p in item.contents">
-          <template v-for="piece in p">
-            <template v-if="typeof piece === 'string'">
-              {{ piece }}
-            </template>
-            <template v-else>
-              <a :href="piece.href" target="_blank">{{ piece.title }}</a>
-            </template>
-          </template>
+          <RichText :content="p" />
         </p>
         <Button v-if="'modal' in item.button" :title="item.button.title" @click="isApplyModalOpen = true"
           class="text-s mt-xs" />
-        <Button v-else :title="item.button.title" :href="item.button.href" class="text-s mt-xs" />
+        <Button v-else :title="item.button.title" :href="item.button.href" target="_blank" class="text-s mt-xs" />
       </div>
       <IntegrationsProductVisual :image="item.image" class="visual" data-aos="fade-up" data-aos-delay="100" />
     </div>

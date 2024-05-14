@@ -38,15 +38,7 @@ type Piece = string | { b: string } | Link
     </p>
     <hr>
     <p v-for="p in (tm('paragraphsBeforeVideo') as Piece[][])">
-      <template v-for="piece in p">
-        <template v-if="typeof piece === 'string'">{{ piece }}</template>
-        <template v-else-if="'href' in piece">
-          <a :href="piece.href" target="_blank">{{ piece.title }}</a>
-        </template>
-        <template v-else>
-          <strong>{{ piece.b }}</strong>
-        </template>
-      </template>
+      <RichText :content="p" />
     </p>
     <figure class="mt-xl mb-l">
       <YoutubeVideo id="KEfdlctvHH4" cover="/soranomics/werner.jpg" class="mb-s" />
@@ -55,15 +47,7 @@ type Piece = string | { b: string } | Link
       </figcaption>
     </figure>
     <p v-for="p in (tm('paragraphsAfterVideo') as Piece[][])">
-      <template v-for="piece in p">
-        <template v-if="typeof piece === 'string'">{{ piece }}</template>
-        <template v-else-if="'href' in piece">
-          <a :href="piece.href" target="_blank">{{ piece.title }}</a>
-        </template>
-        <template v-else>
-          <strong>{{ piece.b }}</strong>
-        </template>
-      </template>
+      <RichText :content="p" />
     </p>
     <hr>
     <p class="text-center">
