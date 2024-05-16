@@ -30,36 +30,37 @@ const nav = [
   { title: "Site Management", href: "#14" },
   { title: "Privacy Policy", href: "#15" },
   { title: "Term and Termination", href: "#16" },
-  { title: "Modifications and Interruptions", href: "#17" },
-  { title: "Governing Law", href: "#18" },
-  { title: "Dispute Resolution", href: "#19" },
-  { title: "Corrections", href: "#20" },
-  { title: "Disclaimer", href: "#21" },
-  { title: "Limitations of Liability", href: "#22" },
-  { title: "Indemnification", href: "#23" },
-  { title: "Complaints Policy", href: "#24" },
-  { title: "User Data", href: "#25" },
-  { title: "Electronic Communications, Transactions, and Signatures", href: "#26" },
-  { title: "Regulatory Matters", href: "#27" },
-  { title: "Miscellaneous", href: "#28" },
-  { title: "Contacts", href: "#29" },
-  { title: "Linked Documents", href: "#30" },
-  { title: "AML / CTF Policy", href: "#31", bold: true },
-  { title: "Sweeping Clause", href: '#32', },
-  { title: "Audience and Confidentiality", href: '#33', },
-  { title: "Acronyms in Use", href: '#34', },
-  { title: "Linked Documents", href: '#35', },
-  { title: "Preamble", href: '#36', },
-  { title: "Scope of Application", href: '#37', },
-  { title: "Financial Action Task Force", href: '#38', },
-  { title: "Definitions", href: '#39', },
-  { title: "Personal Responsibility", href: '#40', },
-  { title: "Professional Obligations", href: '#41', },
-  { title: "Cooperation with the Licence Provider", href: '#42', },
-  { title: "Ongoing Training, Recruitment and Awareness", href: '#43', },
-  { title: "Document Retention", href: '#44', },
-  { title: "Policy Compliance", href: '#45', },
-  { title: "Information on Collection of Data", href: "#46", bold: true },
+  { title: "Closing your SORA Card Account", href: "#17" },
+  { title: "Modifications and Interruptions", href: "#18" },
+  { title: "Governing Law", href: "#19" },
+  { title: "Dispute Resolution", href: "#20" },
+  { title: "Corrections", href: "#21" },
+  { title: "Disclaimer", href: "#22" },
+  { title: "Limitations of Liability", href: "#23" },
+  { title: "Indemnification", href: "#24" },
+  { title: "Complaints Policy", href: "#25" },
+  { title: "User Data", href: "#26" },
+  { title: "Electronic Communications, Transactions, and Signatures", href: "#27" },
+  { title: "Regulatory Matters", href: "#28" },
+  { title: "Miscellaneous", href: "#29" },
+  { title: "Contacts", href: "#30" },
+  { title: "Linked Documents", href: "#31" },
+  { title: "AML / CTF Policy", href: "#32", bold: true },
+  { title: "Sweeping Clause", href: '#33', },
+  { title: "Audience and Confidentiality", href: '#34', },
+  { title: "Acronyms in Use", href: '#35', },
+  { title: "Linked Documents", href: '#36', },
+  { title: "Preamble", href: '#37', },
+  { title: "Scope of Application", href: '#38', },
+  { title: "Financial Action Task Force", href: '#39', },
+  { title: "Definitions", href: '#40', },
+  { title: "Personal Responsibility", href: '#41', },
+  { title: "Professional Obligations", href: '#42', },
+  { title: "Cooperation with the Licence Provider", href: '#43', },
+  { title: "Ongoing Training, Recruitment and Awareness", href: '#44', },
+  { title: "Document Retention", href: '#45', },
+  { title: "Policy Compliance", href: '#46', },
+  { title: "Information on Collection of Data", href: "#47", bold: true },
 ]
 </script>
 
@@ -378,7 +379,32 @@ const nav = [
         behalf of the third party. In addition to terminating or suspending your account, we reserve the right to take
         appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.</p>
 
-      <h3 id="17">Modifications and Interruptions</h3>
+      <h3 id="17">Closing your SORA Card Account</h3>
+
+      <p>
+        You may close your SORA Card Account at any time by contacting us via email:
+        <a href="mailto:techsupport@soracard.com">techsupport@soracard.com</a>.
+      </p>
+      <p>
+        In some cases, fees relating to ongoing management of inactive accounts may continue to be charged following
+        closure of your Account. This provision shall survive termination of the relationship between you and us.
+      </p>
+      <p>
+        If your SORA Card Account holds a balance at the time of its closure, we will ask you to withdraw your funds
+        within a reasonable period, during which your Account will be accessible for the purpose of withdrawing the
+        remaining balance only.
+      </p>
+      <p>
+        We reserve the right to carry out any necessary money laundering, terrorism financing, fraud or other illegal
+        activity checks before authorizing any withdrawal of your funds, including in relation to returning any funds
+        to you after you have closed your SORA Card Account.
+      </p>
+      <p>
+        We recommend that you reclaim or spend in full any funds in your SORA Card Account as soon as possible before
+        your Account is closed.
+      </p>
+
+      <h3 id="18">Modifications and Interruptions</h3>
 
       <p>We reserve the right to change, modify, or remove the contents of the Site at any time or for any reason at our
         sole discretion without notice. However, we have no obligation to update any information on our Site. We also
@@ -393,14 +419,14 @@ const nav = [
         Site. Nothing in these Terms of Use will be construed to obligate us to maintain and support the Site or to
         supply any corrections, updates, or releases in connection therewith.</p>
 
-      <h3 id="18">Governing Law</h3>
+      <h3 id="19">Governing Law</h3>
 
       <p>Please note that these Terms of Use, their subject matter and their formation, are governed by the English Law
         and the use of the United Nations Convention of Contracts for the International Sale of Goods is expressly
         excluded. If your habitual residence is in the EU, and you are a consumer, you additionally possess the
         protection provided to you by obligatory provisions of the law of your country of residence.</p>
 
-      <h3 id="19">Dispute Resolution</h3>
+      <h3 id="20">Dispute Resolution</h3>
 
       <h4>Binding Arbitration</h4>
       <p>Any dispute arising from the relationships between the parties to this contract shall be determined by one
@@ -425,14 +451,14 @@ const nav = [
         competent jurisdiction within the courts listed for jurisdiction above, and the Parties agree to submit to the
         personal jurisdiction of that court.</p>
 
-      <h3 id="20">Corrections</h3>
+      <h3 id="21">Corrections</h3>
 
       <p>There may be information on the Site that contains typographical errors, inaccuracies, or omissions, including
         descriptions, pricing, availability, and various other information. We reserve the right to correct any errors,
         inaccuracies, or omissions and to change or update the information on the Site at any time, without prior
         notice.</p>
 
-      <h3 id="21">Disclaimer</h3>
+      <h3 id="22">Disclaimer</h3>
 
       <p>THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES
         WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR
@@ -459,7 +485,7 @@ const nav = [
         PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGEMENT
         AND EXERCISE CAUTION WHERE APPROPRIATE.</p>
 
-      <h3 id="22">Limitations of Liability</h3>
+      <h3 id="23">Limitations of Liability</h3>
 
       <p>IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT,
         INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST
@@ -470,7 +496,7 @@ const nav = [
         WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE
         ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS.</p>
 
-      <h3 id="23">Indemnification</h3>
+      <h3 id="24">Indemnification</h3>
 
       <p>You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all our
         respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or
@@ -488,7 +514,7 @@ const nav = [
         with our defence of such claims. We will use reasonable efforts to notify you of any such claim, action, or
         proceeding which is subject to this indemnification upon becoming aware of it.</p>
 
-      <h3 id="24">Complaints Policy</h3>
+      <h3 id="25">Complaints Policy</h3>
 
       <p>You may make a complaint by contacting our support or by sending an email to <a
           href="mailto:support@soracard.com">support@soracard.com</a>. We will endeavour to resolve a reported complaint
@@ -501,7 +527,7 @@ const nav = [
         the date of finalisation of the transaction which is the subject of the complaint in question will not be taken
         into consideration and shall have no value.</p>
 
-      <h3 id="25">User Data</h3>
+      <h3 id="26">User Data</h3>
 
       <p>We will maintain certain data that you transmit to the Site for the purpose of managing the performance of the
         Site, as well as data relating to your use of the Site. Although we perform regular routine backups of data, you
@@ -509,7 +535,7 @@ const nav = [
         the Site. You agree that we shall have no liability to you for any loss or corruption of any such data, and you
         hereby waive any right of action against us arising from any such loss or corruption of such data.</p>
 
-      <h3 id="26">Electronic Communications, Transactions, and Signatures</h3>
+      <h3 id="27">Electronic Communications, Transactions, and Signatures</h3>
 
       <p>Visiting the Site, sending us emails, and completing online forms constitute electronic communications. You
         consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other
@@ -521,7 +547,7 @@ const nav = [
         retention of non-electronic records, or to payments or the granting of credits by any means other than
         electronic means.</p>
 
-      <h3 id="27">Regulatory Matters</h3>
+      <h3 id="28">Regulatory Matters</h3>
 
       <p>BY ACCEPTING THESE TERMS OF USE AND USING THE SITE, THE USER ACKNOWLEDGES AND EXPLICITLY AGREES THAT THE FORMAL
         ISSUER OF THE SORA CARD IS THE LICENCE PROVIDER, WHO PROVIDES THE RESPECTIVE FINANCIAL SERVICES TO THE USERS.
@@ -533,7 +559,7 @@ const nav = [
         Licence Provider, whereby SORA shall not be in any event liable for any action or omission of the Licence
         Provider.</p>
 
-      <h3 id="28">Miscellaneous</h3>
+      <h3 id="29">Miscellaneous</h3>
 
       <p>These Terms of Use and any policies or operating rules posted by us on the Site or in respect to the Site
         constitute the entire agreement and understanding between you and us.</p>
@@ -549,7 +575,7 @@ const nav = [
       <p>You hereby waive any and all defences you may have based on the electronic form of these Terms of Use and the
         lack of signing by the parties hereto to execute these Terms of Use.</p>
 
-      <h3 id="29">Contacts</h3>
+      <h3 id="30">Contacts</h3>
 
       <p>In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site,
         please contact us at:</p>
@@ -557,7 +583,7 @@ const nav = [
       <p> Sveta Sofia 8, Str.<br> Floor 1, Office 101<br> 1000 SOFIA<br> Bulgaria </p>
       <p>Email: <a href="mailto:support@soracard.com">support@soracard.com</a></p>
 
-      <h3 id="30">Linked Documents</h3>
+      <h3 id="31">Linked Documents</h3>
 
       <p>Partner’s Agreements are provided below. Please read them carefully, by signing you are agreeing to these terms
         and policies too:</p>
@@ -576,26 +602,26 @@ const nav = [
             target="_blank">https://www.gatehub.net/legal/gatehub-uab</a></li>
       </ol>
 
-      <h2 id="31">AML/CTF Policy</h2>
+      <h2 id="32">AML/CTF Policy</h2>
 
       <hr>
 
       <h3>SORA BIOME</h3>
 
-      <h3 id="32">Sweeping Clause</h3>
+      <h3 id="33">Sweeping Clause</h3>
 
       <p>Words imposing the singular meaning shall include, where the context so admits, the plural meaning and vice
         versa. Words denoting the masculine gender shall include the feminine and neuter genders and wording denoting
         natural persons shall include corporations and forms and all such words shall be construed interchangeably in
         that manner.</p>
 
-      <h3 id="33">Audience and Confidentiality</h3>
+      <h3 id="34">Audience and Confidentiality</h3>
 
       <p>This document is classified as a controlled information asset and intended for the internal use of recipients
         only and may not be distributed externally or reproduced for external distribution in any form without express
         written permission of SORA BIOME.</p>
 
-      <h3 id="34">Acronyms in Use</h3>
+      <h3 id="35">Acronyms in Use</h3>
 
       <p>The following list of Acronyms aims to guide the reader all through the document:</p>
       <table>
@@ -671,7 +697,7 @@ const nav = [
         </tbody>
       </table>
 
-      <h3 id="35">Linked Documents</h3>
+      <h3 id="36">Linked Documents</h3>
 
       <h4>European Directives and Regulations</h4>
       <ul>
@@ -719,7 +745,7 @@ const nav = [
         <li>AML/CTF Comfort Letter.</li>
       </ul>
 
-      <h3 id="36">Preamble</h3>
+      <h3 id="37">Preamble</h3>
 
       <p>It is the policy of SORA BIOME (hereinafter the “Company” or “SORA”) to prohibit and actively prevent money
         laundering and any activity that facilitates money laundering or the financing of terrorist or criminal
@@ -747,7 +773,7 @@ const nav = [
         directors and its employees, SORA has strong ethical values which enforce a compliance culture in the working
         environment and in every relation in which the Company is involved.</p>
 
-      <h3 id="37">Scope of Application</h3>
+      <h3 id="38">Scope of Application</h3>
 
       <p>SORA is committed to high standards of AML/CTF compliance and requires management and employees to adhere to
         these standards in preventing the use of the Company’s products and services for money laundering purposes.</p>
@@ -756,7 +782,7 @@ const nav = [
         anti-money laundering laws establish a higher standard, our entities located in those jurisdictions must meet
         those standards.</p>
 
-      <h3 id="38">Financial Action Task Force</h3>
+      <h3 id="39">Financial Action Task Force</h3>
 
       <p>On a quarterly basis, the “Financial Action Task Force” (hereinafter “FATF”) produces statements highlighting
         AML related issues which include the list of jurisdictions presenting a higher risk for ML and it is anticipated
@@ -767,7 +793,7 @@ const nav = [
       <p>From time to time, the FATF amends or revises the current list of recommendations to be followed at
         international level. Whenever this occurs, new rules and regulations may be produced in that sense.</p>
 
-      <h3 id="39">Definitions</h3>
+      <h3 id="40">Definitions</h3>
 
       <h4>Money Laundering</h4>
       <p>“Money Laundering” (hereinafter “ML”) is generally defined as engaging in acts designed to conceal or disguise
@@ -914,7 +940,7 @@ const nav = [
       <p>The scope of a risk assessment is limited to the type of risk that such assessment explicitly mentions to have
         taken into consideration.</p>
 
-      <h3 id="40">Personal responsibility</h3>
+      <h3 id="41">Personal responsibility</h3>
 
       <p>Every staff member of the Company is responsible for the fight against money laundering, the countering of
         terrorist financing, the detection and exposure of bribery and corruption and therefore all staff members are to
@@ -951,7 +977,7 @@ const nav = [
           taking decisions;</li>
       </ul>
 
-      <h3 id="41">Professional obligations</h3>
+      <h3 id="42">Professional obligations</h3>
 
       <p>UK laws, rules and regulations include a number of professional obligations, which SORA voluntarily follows
         (although it is not obliged by statutory law to do that). Those obligations include:</p>
@@ -1186,7 +1212,7 @@ const nav = [
       <p>The Company shall keep a log of all prohibited and refused business relationships together with the reasons for
         such refusal.</p>
 
-      <h3 id="42">Cooperation with the Licence Provider</h3>
+      <h3 id="43">Cooperation with the Licence Provider</h3>
 
       <p>The Company’s directors, officers and employees must cooperate fully with the Licence Provider, and shall:</p>
       <ul>
@@ -1233,19 +1259,19 @@ const nav = [
         continuing in nature, and we will not be required to treat the Request as a government provided list of
         suspected terrorists for purposes of the customer identification and verification requirements.</p>
 
-      <h3 id="43">Ongoing Training, Recruitment and Awareness</h3>
+      <h3 id="44">Ongoing Training, Recruitment and Awareness</h3>
 
       <p>The Company’s employees and collaborators are required to participate in ongoing training programs related to
         AML and CTF that are organised by the Licence Provider.</p>
 
-      <h3 id="44">Document Retention</h3>
+      <h3 id="45">Document Retention</h3>
 
       <p>SORA will be responsible for holding all elements collected. All customer related data and information will be
         kept and stored in accordance with the applicable legislation and as requested by the Licence Provider (in order
         for the Licence Provider to fulfil all of its legal obligations under applicable AML/CTF legislation).</p>
       <p>In general, SORA will comply with the provisions of the GDPR.</p>
 
-      <h3 id="45">Policy Compliance</h3>
+      <h3 id="46">Policy Compliance</h3>
 
       <h4>Compliance Management</h4>
       <p>The Company will verify compliance with the AML/CTF policy through various methods, including but not limited
@@ -1262,7 +1288,7 @@ const nav = [
         prior policy and procedures on this subject matter. The AML/CTF policy is valid until a revision is published.
       </p>
 
-      <h2 id="46">Information on Collection of Data</h2>
+      <h2 id="47">Information on Collection of Data</h2>
 
       <hr>
 
