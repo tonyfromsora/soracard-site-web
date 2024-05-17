@@ -25,7 +25,7 @@ The 2008 white paper talks mainly about Bitcoin, a “peer-to-peer electronic ca
 
 A distributed ledger is a nice idea, but it is difficult to implement. In such peer-to-peer arrangements, security, synchronization, and consensus (whose version is correct) can become a developer's nightmare.
 
-Bitcoin's whitepaper proposed a unique database architecture to solve this problem: transactions are registered in discrete blocks, and no one can modify past blocks. To prevent alternative branches of blockchains, adding a new block requires a “proof-of-work” – a special CAPTCHA. This computation can adjust the difficulty to avoid faster blocks. This is blockchain.
+Bitcoin's whitepaper proposed a unique database architecture to solve this problem: transactions are registered in discrete blocks, and no one can modify past blocks. To prevent alternative branches of blockchains, adding a new block requires a “proof-of-work” – a special CAPTCHA. This computation can adjust the difficulty to control the speed of block creation, ensuring a consistent and secure blockchain.
 
 Since the original Bitcoin blockchain idea, thousands of implementations and variations of the same **decentralized** ledger idea have occurred. (This suggests that the problem has actually not been solved.) Some blockchains are faster than others yet compromise on security; others are fast and secure yet work in small test environments and cannot be scaled.
 
@@ -43,7 +43,19 @@ Crypto wallets can support multiple blockchains. For each blockchain, users shou
 
 You can receive and store your crypto on your address on the blockchain (and use it with your securely stored private key). There are many ways to earn crypto, but the most common for a newbie is to buy it. **Crypto exchanges** convert your fiat currency (USD or EURO) to your preferred crypto. Once purchased, the exchange allows you to transfer the crypto to your address (public key).
 
+![using-qr](blog/mastering-crypto/using-qr.jpg)
+
 **Crypto cards** are among the most popular methods for on- and off-ramping crypto. They are also one of the most convenient ways of storing and using crypto on the go. **SORA Card** elevates this convenience even further by seamlessly integrating with major financial networks, ensuring that users can effortlessly manage, spend, and convert their cryptocurrency into fiat in real time, making it an essential tool for novice and seasoned crypto enthusiasts.
+
+## Safe With Crypto
+
+### Self or Third-party custody
+
+Storing crypto is possible through third parties such as specialized custodians or crypto exchanges. In this case, you trust the third party to keep your funds under their custody on their blockchain accounts. Such wallets are called **custodial wallets**. The advantage of such wallets is if you lose your credentials, your funds can be restored when you verify ownership correctly. Nevertheless, keeping significant crypto funds in **non-custodial wallets (or self-custodial) is standard**. It is important to remember that with self-custodial wallets, lost private keys (secret phrase) cannot be recovered, and the respective funds are forever lost.
+
+### Hot and Cold addresses
+
+Self-custodial wallets can be further broken down into **hot** and **cold** wallets. Wallets easily accessible from devices and the web are classified as **hot**. Those are convenient for frequent use and should not carry large crypto balances. You should regularly transfer large balances and keep them on **cold** wallets that are not easily accessed, for example, “air-gaped” from the web. A cold wallet can be as simple as a printed piece of paper stuffed between the pages of a book or an encrypted USB locked in a safe. Either way, it's a physical holding of your stored crypto offline.
 
 ## Using Crypto
 
@@ -58,16 +70,6 @@ A unique digital asset type (there can only be one or a very limited amount) is 
 Crypto investing is becoming mainstream with the introduction of traditional funds that allow investing in crypto without technical burdens such as maintaining self-custodial wallets. These funds provide access to significant crypto, such as Bitcoin and Ether. Bitcoin futures, Exchange-Traded Funds (**ETFs**), and Trusts maintain a substantial share of Bitcoin trading activity.
 
 Any use of crypto, be that for trading or transfers, speculation or investing, stablecoins or NFTs, is regulated by the respective jurisdiction's laws. Crypto regulations differ by jurisdiction and may be subject to interpretation because of an underdeveloped regulatory landscape. In other words, it's worth staying up to date with your local laws.
-
-## Safe With Crypto
-
-### Self or Third-party custody
-
-Storing crypto is possible through third parties such as specialized custodians or crypto exchanges. In this case, you trust the third party to keep your funds under their custody on their blockchain accounts. Such wallets are called **custodial wallets**. The advantage of such wallets is if you lose your credentials, your funds can be restored when you verify ownership correctly. Nevertheless, keeping significant crypto funds in **non-custodial wallets (or self-custodial) is standard**. It is important to remember that with self-custodial wallets, lost private keys (secret phrase) cannot be recovered, and the respective funds are forever lost.
-
-### Hot and Cold addresses
-
-Self-custodial wallets can be further broken down into **hot** and **cold** wallets. Wallets easily accessible from devices and the web are classified as **hot**. Those are convenient for frequent use and should not carry large crypto balances. You should regularly transfer large balances and keep them on **cold** wallets that are not easily accessed, for example, “air-gaped” from the web. A cold wallet can be as simple as a printed piece of paper stuffed between the pages of a book or an encrypted USB locked in a safe. Either way, it's a physical holding of your stored crypto offline.
 
 ## Conclusion
 
