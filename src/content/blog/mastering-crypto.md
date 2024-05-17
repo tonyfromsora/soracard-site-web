@@ -15,7 +15,7 @@ In this article, we provide the essential information to understand the crypto i
 
 Are you looking for tips on what to buy and when? I'm sorry, but you will NOT find any investment insights in this article. Cryptocurrency investments are risky and subject to the same regulations as other trading activities. We will help you navigate some legitimate resources and tools for researching and understanding them. You must take advantage of this important spark of human thought.
 
-## **What is Blockchain?**
+## What is Blockchain?
 
 The 2008 white paper talks mainly about Bitcoin, a “peer-to-peer electronic cash system”, yet it also boasts the first mention of another revolutionary technology: **blockchain**. To understand blockchain in easy terms, let's follow the step-by-step reasoning that led to its invention:
 
@@ -31,7 +31,7 @@ Since the original Bitcoin blockchain idea, thousands of implementations and var
 
 Nevertheless, they all have one thing in common: they contain and manage digital assets. Sometimes referred to as tokens, coins, cryptocurrency, crypto assets, or just **crypto**, these units can travel on their designated networks and help people send values between themselves.
 
-## **Making Transactions with Crypto**
+## Making Transactions with Crypto
 
 Let's begin with how to own cryptocurrency.
 
@@ -45,7 +45,7 @@ You can receive and store your crypto on your address on the blockchain (and use
 
 **Crypto cards** are among the most popular methods for on- and off-ramping crypto. They are also one of the most convenient ways of storing and using crypto on the go. **SORA Card** elevates this convenience even further by seamlessly integrating with major financial networks, ensuring that users can effortlessly manage, spend, and convert their cryptocurrency into fiat in real time, making it an essential tool for novice and seasoned crypto enthusiasts.
 
-## **Using Crypto**
+## Using Crypto
 
 Satoshi Nakamoto's (Bitcoin's anonymous creator) idea was to create digital cash to help people transact without fees and restrictions. However, digital assets found their first validated use niche in **speculative trading**. The price of Bitcoin and other crypto is thus very volatile, and using it as money is currently not convenient.
 
@@ -59,7 +59,7 @@ Crypto investing is becoming mainstream with the introduction of traditional fun
 
 Any use of crypto, be that for trading or transfers, speculation or investing, stablecoins or NFTs, is regulated by the respective jurisdiction's laws. Crypto regulations differ by jurisdiction and may be subject to interpretation because of an underdeveloped regulatory landscape. In other words, it's worth staying up to date with your local laws.
 
-## **Safe With Crypto**
+## Safe With Crypto
 
 ### Self or Third-party custody
 
@@ -69,6 +69,6 @@ Storing crypto is possible through third parties such as specialized custodians 
 
 Self-custodial wallets can be further broken down into **hot** and **cold** wallets. Wallets easily accessible from devices and the web are classified as **hot**. Those are convenient for frequent use and should not carry large crypto balances. You should regularly transfer large balances and keep them on **cold** wallets that are not easily accessed, for example, “air-gaped” from the web. A cold wallet can be as simple as a printed piece of paper stuffed between the pages of a book or an encrypted USB locked in a safe. Either way, it's a physical holding of your stored crypto offline.
 
-## **Conclusion**
+## Conclusion
 
 Blockchain, decentralized ledger technology, and cryptocurrency are brilliant and exciting inventions of modern times. As with all new technologies, crypto has many uncertainties and imperfections. It is still in an early stage, yet it is already certain at this point that it will stay in one form or another. We hope this overview has opened you up to exploring and mastering this technology, enjoying the new opportunities it brings, and even inspiring you to contribute to its development.
