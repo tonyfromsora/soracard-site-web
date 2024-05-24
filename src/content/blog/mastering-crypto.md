@@ -43,7 +43,7 @@ Crypto wallets can support multiple blockchains. For each blockchain, users shou
 
 You can receive and store your crypto on your address on the blockchain (and use it with your securely stored private key). There are many ways to earn crypto, but the most common for a newbie is to buy it. **Crypto exchanges** convert your fiat currency (USD or EURO) to your preferred crypto. Once purchased, the exchange allows you to transfer the crypto to your address (public key).
 
-![using-qr](blog/mastering-crypto/using-qr.jpg)
+![using-qr](/blog/mastering-crypto/using-qr.jpg)
 
 **Crypto cards** are among the most popular methods for on- and off-ramping crypto. They are also one of the most convenient ways of storing and using crypto on the go. **SORA Card** elevates this convenience even further by seamlessly integrating with major financial networks, ensuring that users can effortlessly manage, spend, and convert their cryptocurrency into fiat in real time, making it an essential tool for novice and seasoned crypto enthusiasts.
 
