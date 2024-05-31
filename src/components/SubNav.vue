@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { type Link } from '~/lib/constants/types'
-const { items } = defineProps<{ items: (Link & { bold?: boolean })[] }>()
+export type SubNavLink = Link & { bold?: boolean }
+const { items } = defineProps<{ items: SubNavLink[] }>()
 
 const isOpen = ref(false)
 </script>
