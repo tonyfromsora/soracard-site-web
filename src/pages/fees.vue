@@ -205,7 +205,7 @@ const nav = [
         </thead>
         <tbody>
           <tr>
-            <td>Cash Withdrawl Limit</td>
+            <td>Cash Withdrawal Limit</td>
             <td>EUR 5,000*<br> <small>* Will be higher for upcoming higher tier card programs. ATM limits need to be
                 observed.</small> </td>
             <td>per day</td>
