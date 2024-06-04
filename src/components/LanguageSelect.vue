@@ -2,11 +2,14 @@
 const { locale, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 const router = useRouter()
+const capitalizeFirstLetter = (str: string) => {
+  return str.charAt(0).toUpperCase() + str.slice(1)
+}
 </script>
 
 <template>
   <div class="lang ml-s rounded bg-light1">
-    <span class="label" :data-label="locales.find(l => l.code === locale)?.name + ' ▾'" />
+    <span class="label" :data-label="capitalizeFirstLetter(locales.find(l => l.code === locale)?.code || '') + ' ▾'" />
     <select aria-label="Language" @change="(e) => {
       // @ts-ignore
       router.push(switchLocalePath(e.currentTarget?.value))
@@ -79,7 +82,7 @@ const router = useRouter()
   position: absolute;
   background-color: var(--color-dark1);
   border-radius: 50%;
-  transform: translateY(101%);
+  transform: translateY(106%);
   transition: transform 1s var(--ease), border-radius 1s var(--ease), background-color 1s var(--ease);
 }
 
