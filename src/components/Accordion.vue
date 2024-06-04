@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import type { Link } from '~/lib/constants/types'
+import en from '~/lib/lang/en/accordion.json'
+import es from '~/lib/lang/es/accordion.json'
+
+const { t } = useI18n({
+  messages: { en, es }
+})
 
 const { items } = defineProps<{
   items: {
@@ -22,7 +28,7 @@ const toggleAccordion = (i: number) => {
   <div>
     <div v-for="(item, i) in items" :key="i" class="item" :class="{ open: i === activeItem }">
       <h3 @click="toggleAccordion(i)" class="text-m py-s hover-trigger" data-cursor-show
-        :data-cursor-text="i === activeItem ? 'Close' : 'Open'">
+        :data-cursor-text="i === activeItem ? t('close') : t('open')">
         <span>
           {{ item.title }}
         </span>
