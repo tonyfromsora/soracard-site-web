@@ -1,4 +1,10 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/youtubeVideo.json'
+import es from '~/lib/lang/es/youtubeVideo.json'
+
+const { t } = useI18n({
+  messages: { en, es }
+})
 const { id, cover } = defineProps<{ id: string, cover: string }>()
 
 const play = ref(false)
@@ -6,7 +12,7 @@ const play = ref(false)
 
 <template>
   <div class="block rounded bg-dark2" :class="{ play }">
-    <img :src="cover" alt="Video cover" @click="play = true" data-cursor-show data-cursor-text="Play">
+    <img :src="cover" alt="Video cover" @click="play = true" data-cursor-show :data-cursor-text="t('play')">
     <iframe v-if="play" width="1920" height="1080" :src="`https://www.youtube.com/embed/${id}?autoplay=1`"
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
