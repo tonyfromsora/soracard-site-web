@@ -1,10 +1,17 @@
 <script setup lang="ts">
 import { type BlogArticleMeta } from '@/lib/constants/types'
+import en from '~/lib/lang/en/blogTile.json'
+import es from '~/lib/lang/es/blogTile.json'
+
+const { t } = useI18n({
+  messages: { en, es }
+})
+
 const { title, description, date, image, accented } = defineProps<BlogArticleMeta & { href: string, accented?: boolean }>()
 </script>
 
 <template>
-  <NuxtLink :href="href" data-cursor-show data-cursor-text="View" class="tile" :class="{ accented }">
+  <NuxtLink :href="href" data-cursor-show :data-cursor-text="t('view')" class="tile" :class="{ accented }">
     <div class="image rounded">
       <img :src="image" alt="Article cover" :loading="accented ? undefined : 'lazy'">
     </div>
