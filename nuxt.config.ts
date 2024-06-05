@@ -1,4 +1,4 @@
-const title = 'SORA Card | Value Freedom',
+const title = 'SORA Card • Value Freedom',
   description = 'Access the new era of interoperable finance, all in the palm of your hands.',
   keyWords =
     'SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto',
@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   modules: ['@nuxt/content', 'nuxt-aos', '@nuxtjs/sitemap', '@nuxtjs/i18n'],
   content: {
+    locales: ['en', 'es'],
     markdown: {
       anchorLinks: false,
     },
@@ -26,8 +27,8 @@ export default defineNuxtConfig({
   },
   i18n: {
     locales: [
-      { name: 'En', code: 'en', iso: 'en-US' },
-      { name: 'Es', code: 'es', iso: 'es-ES' },
+      { name: 'English', code: 'en', iso: 'en-US' },
+      { name: 'Español', code: 'es', iso: 'es-ES' },
     ],
     defaultLocale: 'en',
     strategy: 'prefix_and_default',

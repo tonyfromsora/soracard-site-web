@@ -1,0 +1,40 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Libertad de Valor — Socios",
+    "description": "Creemos en el poder de las asociaciones para revolucionar la economía mundial",
+    "keywords": "SORA, Polkaswap, Descentralización, DeFi, Futuro, Sortición, Metaverso, TradFi, Tarjeta, Cripto, Socios",
+    "ogImage": "partners/og.jpg"
+  },
+  "label": "Socios",
+  "headline": "Creemos en el poder de las asociaciones para revolucionar la economía mundial",
+  "lead": "En el mundo de la cadena de bloques, la colaboración es clave, y SORA ha adoptado esta filosofía a través de una variedad de asociaciones desde las principales instituciones hasta miembros anónimos de la comunidad de todo el mundo.",
+  "firstParagraph": [
+    "Las asociaciones están en el corazón de la misión de SORA de crear una red de cadena de bloques más eficiente para todos. ",
+    { "href": "https://soramitsu.co.jp/", "title": "SORAMITSU" },
+    ", ",
+    { "href": "https://ceresblockchain.solutions/", "title": "Ceres" },
+    ", ",
+    { "href": "https://linkedin.com/company/abed-group/", "title": "Grupo Abed" },
+    ", ",
+    { "href": "https://drinknoir.com/", "title": "Noir" },
+    ", y ",
+    { "href": "https://rmrk.app/", "title": "RMRK" },
+    " son solo algunas de las organizaciones con las que SORA ha colaborado para construir un ecosistema descentralizado que empodera a los usuarios. Estas asociaciones han dado lugar a soluciones innovadoras como el DEX ",
+    { "href": "https://polkaswap.io/", "title": "Polkaswap" },
+    ", la plataforma de agricultura ",
+    { "href": "https://farming.deotoken.io/", "title": "Demeter" },
+    ", el fondo descentralizado para inversiones ",
+    { "href": "https://hermes-dao.io/", "title": "Hermes DAO" },
+    ", el juego Play-to-Earn ",
+    { "href": "https://deoarena.io/", "title": "DEO Arena" },
+    ", ",
+    { "href": "https://adar.com/", "title": "ADAR" },
+    ", una plataforma avanzada de enrutamiento de activos digitales para simplificar los pagos recurrentes, ",
+    { "href": "https://noir.digital/", "title": "noir.digital" },
+    ", el primer vino figital del mundo, y ahora SORA Card, todos construidos en la red SORA."
+  ],
+  "videoCaption": "Construye con SORA",
+  "secondParagraph": "Al asociarnos con organizaciones que comparten nuestra visión de un mundo más equitativo y próspero, SORA está ayudando a dar forma al futuro de la tecnología de cadena de bloques. A través de nuestro completo proceso de tutoriales y RFP, SORA también está fomentando la participación de la comunidad en el desarrollo de la red, asegurando que permanezcamos enfocados en el usuario y impulsados por la comunidad.",
+  "accentedParagraph": "Únete a la comunidad de SORA y sé parte del movimiento para revolucionar nuestra economía con la tecnología de cadena de bloques. Como socio, tendrás la oportunidad de contribuir al crecimiento y desarrollo de la red, y ser parte de una comunidad dedicada a construir un futuro mejor para todos.",
+  "learnMore": "Más información"
+}

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { title } = defineProps<{
   title: string
+  view: string
 }>()
 
 const localePath = useLocalePath()
@@ -9,7 +10,7 @@ const localePath = useLocalePath()
 <template>
   <section class="w my-xs">
     <NuxtLink :to="localePath('/blog/introducing-mira')" class="mira mx-auto rounded bg-light1 text-s" data-cursor-show
-      data-cursor-text="View" data-aos="fade-up">
+      :data-cursor-text="view" data-aos="fade-up">
       <video src="/home/mira.mp4" autoplay playsinline muted loop></video>
       <div class="info py-xs pr-xs">
         <h2 class="text-l">

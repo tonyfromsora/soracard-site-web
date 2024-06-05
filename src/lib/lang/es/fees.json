@@ -1,0 +1,195 @@
+{
+  "seoMeta": {
+    "title": "Tarjeta SORA • Valora la libertad — Tarifas",
+    "description": "Accede a la nueva era de las finanzas interoperables, todo en la palma de tus manos.",
+    "keywords": "SORA, Polkaswap, descentralización, DeFi, futuro, clasificación, metaverso, TradFi, tarjeta, cripto, tarifas",
+    "ogImage": "fees/og.jpg"
+  },
+  "headline": "Tarifas",
+  "date": "8 de mayo de 2023",
+  "lead": {
+    "accent": "Los primeros 5000 solicitantes no pagarán tarifas anuales o mensuales durante los primeros 2 años.",
+    "regular": "Solo se cobrarán a su cuenta las tarifas según su uso.*",
+    "note": "* Las tarifas de uso son necesarias para cubrir los costos de los socios de servicio bancario y de tarjetas, quienes manejan las transacciones financieras. Estas tarifas son una manera financieramente sostenible para que SORA brinde sus servicios mientras garantiza la privacidad y la seguridad de los usuarios. Es importante recordar que si un producto es gratuito, probablemente tú seas el producto que se está vendiendo. Con SORA, puedes confiar en que tu información personal no se utiliza con fines de lucro. Por lo tanto, pagar las tarifas de uso es un pequeño precio a pagar por la tranquilidad que viene con el uso de una plataforma segura y confiable como la Tarjeta SORA."
+  },
+  "action": "Acción",
+  "amount": "Cantidad",
+  "recurrence": "Recurrencia/Condiciones",
+  "items": [
+    {
+      "title": "Tarifas de Transacción IBAN/SEPA",
+      "table": [
+        {
+          "action": "Tarifa de transferencia de cuenta a cuenta (interledger)",
+          "amount": "€0.22",
+          "recurrence": "por transacción"
+        },
+        {
+          "action": "Tarifa de transacción entrante/saliente (SEPA, SEPA instantánea)",
+          "amount": "0.1% + €0.40",
+          "recurrence": "por transacción"
+        },
+        {
+          "action": "BACS, CHAPS, ACH",
+          "amount": "0.1% + €1.10",
+          "recurrence": "por transacción"
+        },
+        {
+          "action": "Tarifa de carga IBAN/ledger (transferencia de tarjeta)",
+          "amount": "€0",
+          "recurrence": "por transacción"
+        }
+      ]
+    },
+    {
+      "title": "Tarifas de Conversión de FX",
+      "table": [
+        {
+          "action": "FX",
+          "amount": "T1 0.7%, T2 1%, T3 2.2%, T4 por caso",
+          "recurrence": "de volumen de transacción, dependiente de la moneda"
+        }
+      ]
+    },
+    {
+      "title": "Tarifas de Tarjeta y Cuenta",
+      "table": [
+        {
+          "action": "Recarga de cuenta/tarjeta con tarjeta de débito o crédito de terceros a través de transacción de comercio electrónico",
+          "amount": "2.5%",
+          "recurrence": "del volumen de transacción + intercambio + costos del esquema de tarjeta"
+        },
+        {
+          "action": "Recarga de cuenta/tarjeta con tarjeta de débito o crédito de terceros a través de transacción softPOS—tarjeta presente",
+          "amount": "1.5%",
+          "recurrence": "del volumen de transacción + intercambio + costos del esquema de tarjeta"
+        },
+        {
+          "action": "Costo de inactividad (tasa de interés negativo en IBANs en euros)",
+          "amount": "0.06%",
+          "recurrence": "mensual, incluido en la tarifa de la cuenta para saldos menores a €1,500 solamente"
+        },
+        {
+          "action": "Compras POS/en línea",
+          "amount": "10 compras complementarias",
+          "recurrence": "por mes"
+        },
+        {
+          "action": null,
+          "amount": "€0.22",
+          "recurrence": "por compra después de eso"
+        },
+        {
+          "action": "Tarjeta virtual",
+          "amount": "la primera tarjeta es pagada por la comunidad SORA",
+          "recurrence": ""
+        },
+        {
+          "action": null,
+          "amount": "tarjetas adicionales pagadas por el usuario €2",
+          "recurrence": "por tarjeta virtual emitida"
+        },
+        {
+          "action": "Tarifa de mantenimiento mensual de la tarjeta",
+          "amount": "€0 / €0.99 si la tarjeta no se usa al menos 3 veces por mes",
+          "recurrence": "pagada por la comunidad SORA para los primeros 5000 usuarios"
+        },
+        {
+          "action": "Tarifa de membresía",
+          "amount": "€0",
+          "recurrence": "ofrecida por la comunidad SORA"
+        },
+        {
+          "action": "Tarifa 3D secure",
+          "amount": "€0.18",
+          "recurrence": "por intento"
+        },
+        {
+          "action": "ATM doméstico",
+          "amount": "€1.20 + 0.5%",
+          "recurrence": "por transacción, pueden aplicar costos adicionales dependiendo del proveedor de ATM"
+        },
+        {
+          "action": "ATM EEA+UK",
+          "amount": "€1.20 + 0.8%",
+          "recurrence": "por transacción, pueden aplicar costos adicionales dependiendo del proveedor de ATM"
+        },
+        {
+          "action": "ATM internacional",
+          "amount": "€1.20 + 3%",
+          "recurrence": "por transacción, pueden aplicar costos adicionales dependiendo del proveedor de ATM"
+        },
+        {
+          "action": "Operaciones ATM",
+          "amount": "€0",
+          "recurrence": "más costos si los hay (rechazo, etc.)"
+        },
+        {
+          "action": "Compras en moneda extranjera / ATM",
+          "amount": "€0.65 + 0.2%",
+          "recurrence": "más costos FX si los hay"
+        },
+        {
+          "action": "Consulta de saldo en ATM",
+          "amount": "€0.65",
+          "recurrence": "más costos si los hay"
+        },
+        {
+          "action": "Tarifa de carga (tarjeta, directa)",
+          "amount": "0%",
+          "recurrence": "del monto de carga + tarifas de transferencia bancaria"
+        },
+        {
+          "action": "Tarifa de cambio XOR↔EUR",
+          "amount": "1.95%",
+          "recurrence": "del monto de carga + tarifas de transferencia bancaria"
+        }
+      ]
+    },
+    {
+      "title": "Límites",
+      "table": [
+        {
+          "action": "Límite de Retiro de Efectivo",
+          "amount": {
+            "value": "EUR 5,000*",
+            "note": "* Será mayor para los próximos programas de tarjet as de nivel superior. Se deben observar los límites de ATM."
+          },
+          "recurrence": "por día"
+        },
+        {
+          "action": "Límite de Gasto",
+          "amount": {
+            "value": "EUR 25,000*",
+            "note": "* Será mayor para los próximos programas de tarjetas de nivel superior."
+          },
+          "recurrence": "por día"
+        },
+        {
+          "action": "Límite de Recarga Diaria",
+          "amount": "EUR 30,000",
+          "recurrence": "por día"
+        },
+        {
+          "action": "Límite de Recarga Mensual",
+          "amount": "EUR 30,000",
+          "recurrence": "por mes"
+        },
+        {
+          "action": "Límite de Recarga Anual",
+          "amount": "EUR 360,000",
+          "recurrence": "por año"
+        }
+      ]
+    }
+  ],
+  "disclaimer": "Aviso: todas las tarifas están sujetas a cambios.",
+  "reference": [
+    "Consulta ",
+    {
+      "title": "este artículo",
+      "href": "https://medium.com/sora-xor/sora-card-phase-1-everything-you-need-to-know-d00a3df19a1a"
+    },
+    " para más detalles sobre Tarifas y Límites."
+  ]
+}

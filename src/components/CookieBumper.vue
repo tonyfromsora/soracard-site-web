@@ -1,4 +1,13 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/cookieBumper.json'
+import es from '~/lib/lang/es/cookieBumper.json'
+
+const { t } = useI18n({
+  messages: { en, es },
+})
+
+const localePath = useLocalePath()
+
 const isVisible = ref(false)
 
 const handleCLick = () => {
@@ -20,10 +29,10 @@ onMounted(() => {
 <template>
   <div class="bumper p-xs text-s bg-dark1 light3 rounded" :class="{ visible: isVisible }">
     <p>
-      <span class="mr-xs">We use only necessary cookies to give you the most relevant experience.</span>{{ ' ' }}
-      <NuxtLink to="/privacy" class="hover-deunderline">Learn more</NuxtLink>
+      <span class="mr-xs">{{ t('message') }}</span>{{ ' ' }}
+      <NuxtLink :to="localePath('/privacy')" class="hover-deunderline nowrap">{{ t('learnMore') }}</NuxtLink>
     </p>
-    <Button @click="handleCLick" light title="Accept" />
+    <Button @click="handleCLick" light :title="t('accept')" />
   </div>
 </template>
 

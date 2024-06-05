@@ -1,8 +1,9 @@
 <script setup lang="ts">
 const route = useRoute()
-console.log(route)
 
-const { data } = await useAsyncData(`blog/${route.params.slug}`, () => queryContent(`blog/${route.params.slug}`).findOne())
+const { locale } = useI18n()
+
+const { data } = await useAsyncData(`${locale}/blog/${route.params.slug}`, () => queryContent(`/blog/${route.params.slug}`).locale(locale.value).findOne())
 
 if (!data.value) {
   throw createError({

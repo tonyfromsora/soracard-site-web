@@ -1,0 +1,20 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Libertad de Valor — Visión",
+    "description": "Creemos que un mundo mejor comienza con un mejor dinero",
+    "keywords": "SORA, Polkaswap, Descentralización, DeFi, Futuro, Sortition, Metaverso, TradFi, Tarjeta, Cripto, Visión",
+    "ogImage": "vision/og.jpg"
+  },
+  "label": "Visión",
+  "headline": "Creemos que un mundo mejor comienza con un mejor dinero",
+  "description": "En nuestro núcleo, todos deseamos un mundo mejor. El revolucionario sistema económico descentralizado de SORA está diseñado para tratar el dinero como un bien común global, permitiendo que la humanidad trabaje en conjunto para avanzar en toda la humanidad.",
+  "paragraphs": [
+    "Ya sea que seas un empresario, un líder comunitario o simplemente alguien que se preocupa por el futuro de nuestro planeta, SORA ofrece una nueva forma de pensar sobre el dinero y su papel en la formación de nuestro mundo. Con SORA, puedes formar parte de un movimiento para crear un futuro más equitativo y sostenible para todos.",
+    "La tarjeta SORA sirve como un puente vital que conecta los mundos de las finanzas tradicionales, la economía SORA y el ecosistema cripto más grande. Con sus características e innovaciones, la tarjeta SORA capacita a los usuarios para acceder y gestionar fácilmente sus activos digitales, ya sean parte del sistema financiero tradicional o del espacio cripto descentralizado. Al unir estos dos mundos, la tarjeta SORA está ayudando a impulsar la adopción de activos digitales y el crecimiento de la economía cripto, al mismo tiempo que proporciona a los usuarios una forma conveniente y segura de gestionar sus finanzas. Con la tarjeta SORA, las posibilidades de libertad financiera e innovación son infinitas.",
+    "Únete a nosotros en la búsqueda de un mundo mejor. Descubre cómo SORA está cambiando el juego en cuanto a innovación económica y únete al movimiento que impulsa el cambio y el progreso."
+  ],
+  "button": {
+    "title": "Más información en sora.org",
+    "href": "https://sora.org/"
+  }
+}

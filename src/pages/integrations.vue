@@ -1,34 +1,41 @@
 <script setup lang="ts">
+import en from '~/lib/lang/en/integrations.json'
+import es from '~/lib/lang/es/integrations.json'
+
 const { baseUrl } = useRuntimeConfig().public
 
-const title = 'SORA Card | Value Freedom — Integrations'
-const ogImage = `${baseUrl}/integrations/og.jpg`
+const { t, tm } = useI18n({
+  messages: { en, es },
+})
+
 useSeoMeta({
-  title,
-  ogTitle: title,
-  twitterTitle: title,
-  ogImage,
-  ogImageSecureUrl: ogImage,
-  twitterImage: ogImage,
+  title: t('seoMeta.title'),
+  ogTitle: t('seoMeta.title'),
+  twitterTitle: t('seoMeta.title'),
+  description: t('seoMeta.description'),
+  twitterDescription: t('seoMeta.description'),
+  keywords: t('seoMeta.keywords'),
+  ogDescription: t('seoMeta.description'),
+  ogImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
+  twitterImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
 })
 </script>
 
 <template>
-  <IntegrationsHero />
-  <IntegrationsProducts id="more" />
+  <IntegrationsHero v-bind="tm('hero')" />
+  <IntegrationsProducts id="more" :items="tm('products')" />
   <Banner :image="{
     src: '/integrations/fearless-wallet.jpg',
-    alt: ''
+    alt: t('banner.imageAlt')
   }" background="#11121B" data-aos="fade-up">
-    <h2 class="mb-3xs">Soon, SORA Card will also integrate with Fearless Wallet</h2>
+    <h2 class="mb-3xs">
+      {{ t('banner.title') }}
+    </h2>
     <div class="text-l mb-m rich">
       <ul>
-        <li>Self-custodial mobile wallet and extension</li>
-        <li>All of Polkadot and Ethereum in one app</li>
-        <li>Polkaswap cross-chain DEX</li>
-        <li>Advanced user-focused solutions</li>
+        <li v-for="feature in tm('banner.features')">{{ feature }}</li>
       </ul>
     </div>
-    <Button title="fearlesswallet.io" href="https://fearlesswallet.io" target="_blank" large light />
+    <Button v-bind="tm('banner.button')" target="_blank" large light />
   </Banner>
 </template>

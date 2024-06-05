@@ -1,0 +1,58 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Value Freedom — Contact",
+    "description": "We are dedicated to providing assistance whenever you need it.",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Contacts",
+    "ogImage": "contacts/og.jpg"
+  },
+  "headline": "Reach out",
+  "lead": "We are dedicated to providing assistance whenever you need it. Please don't hesitate to contact us with your inquiry, and we will do our best to respond promptly and efficiently.",
+  "text": [
+    "To ensure that we can assist you in the most efficient way possible, we ask that you take a moment to review our ",
+    {
+      "title": "FAQ",
+      "href": "/#faq"
+    },
+    " and ",
+    {
+      "title": "Support",
+      "href": "/support"
+    },
+    " pages, as well as the ",
+    {
+      "title": "SORA Wiki",
+      "href": "https://wiki.sora.org/",
+      "external": true
+    },
+    ", ",
+    {
+      "title": "Restricted Countries",
+      "href": "/blacklist"
+    },
+    ", and ",
+    {
+      "title": "Fees and Limits",
+      "href": "/fees"
+    },
+    " pages. By doing so, you may find that your question has already been answered and save yourself some time. If you are still unable to find the information you need, please don't hesitate to reach out."
+  ],
+  "telegram": {
+    "icon": "/icons/telegram.svg",
+    "title": "Telegram",
+    "description": "Reach out to the SORA community through Telegram, somebody will help you there shortly",
+    "button": {
+      "title": "Open SORA Telegram",
+      "href": "https://t.me/sora_xor"
+    }
+  },
+  "discord": {
+    "icon": "/icons/discord.svg",
+    "title": "Discord",
+    "description": "Reach out to the SORA community through Discord, somebody will help you there shortly",
+    "button": {
+      "title": "Open SORA Discord",
+      "href": "https://t.co/AKzRnWBGzz"
+    }
+  },
+  "formTitle": "Alternatively, you can simply send us a message"
+}

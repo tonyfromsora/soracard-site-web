@@ -1,4 +1,12 @@
 <script setup lang="ts">
+import type { Link } from '~/lib/constants/types'
+import en from '~/lib/lang/en/contactSection.json'
+import es from '~/lib/lang/es/contactSection.json'
+
+const { t, tm } = useI18n({
+  messages: { en, es },
+})
+
 const { title } = defineProps<{ title: string }>()
 const { recaptchaSiteKey } = useRuntimeConfig().public
 
@@ -12,17 +20,11 @@ useHead({
 })
 
 type StateType = 'initial' | 'pending' | 'success' | 'error'
-const buttonText: { [state in StateType]: string } = {
-  initial: 'Send Message',
-  pending: 'Sending...',
-  success: 'Done',
-  error: 'Try Again'
-}
 
 const data = ref({ name: '', email: '', message: '' })
 const state = ref<StateType>('initial')
 const disabled = computed(() => state.value === 'pending' || state.value === 'success')
-const stateMessage = ref("We don't spam")
+const stateMessage = ref(t('stateMessage.noSpam'))
 
 const handleSubmit = async () => {
   state.value = 'pending'
@@ -35,7 +37,7 @@ const handleSubmit = async () => {
     console.log(error)
 
     state.value = 'error'
-    stateMessage.value = 'reCAPTCHA error. Please try again.'
+    stateMessage.value = t('stateMessage.recaptchaError')
     return
   }
 
@@ -48,7 +50,7 @@ const handleSubmit = async () => {
     console.log(error)
 
     state.value = 'error'
-    stateMessage.value = 'Server error. Please try again later.'
+    stateMessage.value = t('stateMessage.serverError')
     return
   }
 
@@ -67,29 +69,22 @@ const handleSubmit = async () => {
   <section class="w narrow text-center pb-3xl" data-aos="fade-up">
     <h2 class="text-xl text-center mb-l">{{ title }}</h2>
     <form method="post" action="/api/contact" class="form mx-auto" @submit.prevent="handleSubmit">
-      <input type="text" name="name" id="name" placeholder="Your name" class="p-xs text-s" required :disabled="disabled"
-        v-model="data.name">
-      <input type="email" name="email" id="email" placeholder="Your email" class="p-xs text-s" required
+      <input type="text" name="name" id="name" :placeholder="t('placeholder.name')" class="p-xs text-s" required
+        :disabled="disabled" v-model="data.name">
+      <input type="email" name="email" id="email" :placeholder="t('placeholder.email')" class="p-xs text-s" required
         :disabled="disabled" v-model="data.email">
-      <textarea name="message" id="message" rows="4" placeholder="Message" class="p-xs text-s" required
-        :disabled="disabled" v-model="data.message"></textarea>
-      <Button type="submit" class="text-s" :disabled="disabled" :title="buttonText[state]"
+      <textarea name="message" id="message" rows="4" :placeholder="t('placeholder.message')" class="p-xs text-s"
+        required :disabled="disabled" v-model="data.message"></textarea>
+      <Button type="submit" class="text-s" :disabled="disabled" :title="tm('buttonText')[state]"
         style="place-self: center;" />
       <div class="text-s mb-m">{{ stateMessage }}</div>
     </form>
     <hr>
     <p class="pt-m mx-auto text-s">
-      We request that you refrain from sharing any private or sensitive information with us or others, especially your
-      private keys (seed phrase). It is important to keep in mind that in a decentralized system, you are solely
-      responsible for the security and protection of your assets. Therefore, we strongly advise you to take the
-      necessary precautions to safeguard your information and assets from potential threats or unauthorized access.
-      Remember, never share your private keys with anyone.
+      {{ t('privacyNote') }}
     </p>
-    <p class="pt-s mx-auto text-s dark2">This site is protected by reCAPTCHA and the Google
-      <a href="https://policies.google.com/privacy" class="hover-underline accent" target="_blank">Privacy Policy</a>
-      and
-      <a href="https://policies.google.com/terms" class="hover-underline accent" target="_blank">Terms of Service</a>
-      apply.
+    <p class="pt-s mx-auto text-s dark2">
+      <RichText :content="tm('legalNote')" />
     </p>
   </section>
 </template>

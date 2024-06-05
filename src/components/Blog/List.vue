@@ -1,13 +1,19 @@
 <script setup lang="ts">
 const { limit, accent } = defineProps<{ limit?: number, accent?: boolean }>()
+const { locale } = useI18n()
+const localePath = useLocalePath()
 </script>
 
 <template>
   <section class="container w pt-l pb-3xl">
-    <ContentList :query="{ sort: [{ 'date': -1 }], limit }" v-slot="{ list }" path="/blog">
-      <BlogTile v-for="(article, i) in list" :key="article._path" :title="article.title || 'Title is missing'"
-        :date="(new Date(article.date)).toDateString()" :href="`${article._path}`"
-        :description="article.description || 'Description is missing'" :image="article.image" :accented="accent && !i" />
+    <ContentList :query="{ sort: [{ 'date': -1 }], limit, locale }" v-slot="{ list }" path="/blog">
+      <BlogTile v-for="(article, i) in list" :key="article._path" :title="article.title || 'Title is missing'" :date="(new Date(article.date)).toLocaleDateString(locale, {
+      weekday: 'short',
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+    })" :href="localePath(article._path)" :description="article.description || 'Description is missing'"
+        :image="article.image" :accented="accent && !i" />
     </ContentList>
   </section>
 </template>

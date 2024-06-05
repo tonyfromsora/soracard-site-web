@@ -1,0 +1,32 @@
+{
+  "buttonText": {
+    "initial": "Enviar Mensaje",
+    "pending": "Enviando...",
+    "success": "Hecho",
+    "error": "Intentar de Nuevo"
+  },
+  "stateMessage": {
+    "noSpam": "No enviamos spam",
+    "recaptchaError": "Error de reCAPTCHA. Por favor, inténtalo de nuevo.",
+    "serverError": "Error del servidor. Por favor, inténtalo de nuevo más tarde."
+  },
+  "placeholder": {
+    "name": "Tu nombre",
+    "email": "Tu correo electrónico",
+    "message": "Mensaje"
+  },
+  "privacyNote": "Te pedimos que te abstengas de compartir cualquier información privada o sensible con nosotros o con otros, especialmente tus claves privadas (frase semilla). Es importante tener en cuenta que en un sistema descentralizado, eres el único responsable de la seguridad y protección de tus activos. Por lo tanto, te recomendamos encarecidamente que tomes las precauciones necesarias para proteger tu información y activos de posibles amenazas o accesos no autorizados. Recuerda, nunca compartas tus claves privadas con nadie.",
+  "legalNote": [
+    "Este sitio está protegido por reCAPTCHA y se aplican las ",
+    {
+      "title": "Políticas de Privacidad",
+      "href": "https://policies.google.com/privacy"
+    },
+    " y ",
+    {
+      "title": "Términos de Servicio",
+      "href": "https://policies.google.com/terms"
+    },
+    " de Google."
+  ]
+}

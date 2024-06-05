@@ -1,0 +1,14 @@
+{
+  "seoMeta": {
+    "title": "Tarjeta SORA • Valora la libertad — Obtén recompensas de farming y staking",
+    "description": "La Tarjeta SORA ofrece una integración sin problemas con el DEX Polkaswap y la plataforma de farming Demeter, permitiendo a los usuarios ganar múltiples niveles de recompensas fácilmente.",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Earn, Farming, Staking, Rewards",
+    "ogImage": "earn/og.jpg"
+  },
+  "label": "Ganar",
+  "headline": "Obtén recompensas de farming y staking",
+  "lead": "La Tarjeta SORA ofrece una integración sin problemas con el DEX Polkaswap y la plataforma de farming Demeter, permitiendo a los usuarios ganar múltiples niveles de recompensas fácilmente.",
+  "regularParagraph": "Al añadir liquidez a un pool existente o creando uno nuevo, los usuarios pueden ganar recompensas incorporadas de proveedor de liquidez y de farming estratégico en Polkaswap. Además, hacer staking de tokens LP puede proporcionar recompensas 2x a través de Demeter Farming. Los usuarios también pueden hacer farming en múltiples pools usando los mismos tokens LP con Demeter.",
+  "firstSmallParagraph": "La plataforma de farming Demeter es un concepto novedoso, que proporciona Farming-como-Servicio que beneficia no solo a los usuarios que buscan obtener recompensas en sus tokens, sino también a los proyectos Web3 que emiten tokens, ya que ofrece una solución lista para implementar el farming de rendimientos.",
+  "secondSmallParagraph": "Referir amigos a la red SORA también genera recompensas, con los usuarios recibiendo el 10% de las comisiones de red de sus referidos de las transacciones realizadas en la red. Las referencias están integradas en la aplicación móvil de la Billetera SORA, así como en la aplicación web del DEX Polkaswap."
+}

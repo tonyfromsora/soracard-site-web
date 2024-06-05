@@ -60,12 +60,7 @@ const { details } = defineProps<{
       </div>
     </div>
     <div class="text-s article-link text-center">
-      <template v-for="detail in details">
-        <template v-if="typeof detail === 'string'">
-          {{ detail }}
-        </template>
-        <NuxtLink v-else :href="detail.href" class="accent hover-deunderline">{{ detail.title }}</NuxtLink>
-      </template>
+      <RichText :content="details" />
     </div>
   </div>
 </template>

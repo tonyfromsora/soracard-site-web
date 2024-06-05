@@ -1,0 +1,53 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Value Freedom — Technology",
+    "description": "We believe in a better, more efficient blockchain network for all",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Technology",
+    "ogImage": "technology/og.jpg"
+  },
+  "label": "Technology",
+  "headline": "We believe in a better, more efficient blockchain network for all",
+  "lead": [
+    "SORA is built on ",
+    {
+      "title": "Parity Substrate",
+      "href": "https://substrate.io/"
+    },
+    ", a framework that scales more efficiently than Ethereum, resulting in lower fees. With SORA's NPoS (Nominated Proof-of-Stake) mechanism, validators play a crucial role in accepting or rejecting transactions."
+  ],
+  "paragraphBeforeImage": [
+    "Creating an account on SORA is free and limitless, without the need for KYC or a minimum balance. SORA's bridging pallet offers seamless interoperability between the entire ",
+    {
+      "title": "Polkadot",
+      "href": "https://polkadot.network/"
+    },
+    " and ",
+    {
+      "title": "Kusama",
+      "href": "https://kusama.network/"
+    },
+    " ecosystems, paving the way for direct and secure interactions between networks."
+  ],
+  "paragraphsAfterImage": [
+    [
+      "SORA empowers decentralized applications with tools for digital assets, including atomic token swaps, token bridging, and programmatic asset rules."
+    ],
+    [
+      "One of the DeFi applications built on the SORA network is ",
+      { "href": "https://polkaswap.io/", "title": "Polkaswap" },
+      ". Polkaswap is a non-custodial AMM DEX exclusively designed for the Polkadot ecosystem and its interoperable future. Polkaswap offers boundless liquidity through its one-of-a-kind ",
+      {
+        "href": "https://twitter.com/soramitsu_co/status/1654425644296536067",
+        "title": "Aggregate Liquidity Technology (ALT)"
+      },
+      ", with security, and convenience, facilitating immediate asset exchanges with ease and flexibility."
+    ],
+    [
+      "The Polkadot architecture offers virtually limitless composability between blockchains, further expanding Polkaswap's capabilities."
+    ]
+  ],
+  "button": {
+    "title": "Learn more at wiki.sora.org",
+    "href": "https://wiki.sora.org/"
+  }
+}

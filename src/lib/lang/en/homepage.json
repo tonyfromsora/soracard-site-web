@@ -1,6 +1,6 @@
 {
   "seoMeta": {
-    "title": "SORA Card | Value Freedom",
+    "title": "SORA Card • Value Freedom",
     "description": "Access the new era of interoperable finance, all in the palm of your hands.",
     "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto",
     "ogImage": "og.jpg"
@@ -13,7 +13,8 @@
     "ecosystemLogosLine": "Your fiat gateway to crypto"
   },
   "mira": {
-    "title": "Introducing Mira"
+    "title": "Introducing Mira",
+    "view": "View"
   },
   "features": {
     "title": "The ultimate all-in-one self-custodial crypto + neobanking-inspired solution",

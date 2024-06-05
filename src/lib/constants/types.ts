@@ -2,6 +2,7 @@ export type Link = {
   title: string
   href: string
   target?: '_blank' | '_parent' | '_self' | '_top'
+  external?: boolean
 }
 export type BlogArticleMeta = {
   title: string
@@ -23,3 +24,4 @@ export type NavGroup = {
   groupTitle: string
   links: (NavLink | { applyButton: string })[]
 }
+export type RichTextElement = string | { b: string } | Link

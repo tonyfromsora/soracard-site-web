@@ -1,8 +1,20 @@
+<script setup lang="ts">
+defineProps<{
+  title: string
+  description: string
+  learnMore: string
+}>()
+</script>
+
 <template>
   <section class="text-center w pt-3xl">
-    <h1 class="mb-s text-3xl" data-aos="fade-up">The new era of interoperable finance starts here</h1>
-    <p class="text-l mb-m" data-aos="fade-up" data-aos-delay="100">All in the palm of your hands</p>
-    <Button href="#more" title="Learn more" large style="z-index: 2;" data-aos="fade-up" data-aos-delay="200" />
+    <h1 class="mb-s text-3xl" data-aos="fade-up">
+      {{ title }}
+    </h1>
+    <p class="text-l mb-m" data-aos="fade-up" data-aos-delay="100">
+      {{ description }}
+    </p>
+    <Button href="#more" :title="learnMore" large style="z-index: 2;" data-aos="fade-up" data-aos-delay="200" />
     <div class="hero" data-aos="fade-up" data-aos-delay="300">
       <IntegrationsHeroVisual class="mx-auto inner" />
     </div>

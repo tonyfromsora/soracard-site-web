@@ -25,7 +25,7 @@ If you've previously forked the repository, ensure to sync it with the upstream 
 
 ## 3. Add an Article to the Forked Repository
 
-Navigate to the forked GitHub repository and add a new `.md` file to the `/src/content/blog` directory.
+Navigate to the forked GitHub repository and add a new `.md` file to the subdirectory `en` for the English version or `es` for the Spanish version, within the `/src/content/blog` directory.
 
 ![Screenshot](./images/04.jpg)
 

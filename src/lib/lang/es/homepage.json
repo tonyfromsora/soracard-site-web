@@ -1,6 +1,6 @@
 {
   "seoMeta": {
-    "title": "Tarjeta SORA | Valora la libertad",
+    "title": "Tarjeta SORA • Valora la libertad",
     "description": "Accede a la nueva era de las finanzas interoperables, todo en la palma de tus manos.",
     "keywords": "SORA, Polkaswap, descentralización, DeFi, futuro, clasificación, metaverso, TradFi, tarjeta, cripto",
     "ogImage": "og-es.jpg"
@@ -13,7 +13,8 @@
     "ecosystemLogosLine": "Tu puerta de entrada fiduciaria a las criptomonedas"
   },
   "mira": {
-    "title": "Introducing Mira"
+    "title": "Presentando a Mira",
+    "view": "Ver"
   },
   "features": {
     "title": "La solución definitiva todo en uno, con autocustodia criptográfica y neobanca",
@@ -111,7 +112,7 @@
       "Consulte este ",
       {
         "title": "article",
-        "href": "https://medium.com/sora-spanish-community/tarjeta-sora-vs-otras-crypto-tarjetas-y-wallets-5a82f21c823a"
+        "href": "/blog/sora-card-vs-others"
       },
       " para obtener una comparación más detallada"
     ]

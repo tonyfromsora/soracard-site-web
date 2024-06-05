@@ -1,0 +1,16 @@
+{
+  "seoMeta": {
+    "title": "SORA Card • Value Freedom — Referrals",
+    "description": "The referral system is tentatively scheduled for launch during Phase 2 of the SORA Card rollout",
+    "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Referrals",
+    "ogImage": "referrals/og.jpg"
+  },
+  "label": "Coming soon",
+  "headline": "Development is currently underway",
+  "lead": "The referral system is tentatively scheduled for launch during Phase 2 of the SORA Card rollout.",
+  "button": {
+    "title": "Learn more",
+    "href": "https://wiki.sora.org/referral.html"
+  },
+  "subline": "about the SORA network referral system"
+}
