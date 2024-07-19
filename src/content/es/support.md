@@ -1,6 +1,6 @@
 # Soporte
 
-Si no puedes encontrar una respuesta a continuación, por favor [envía una solicitud](https://soracard.com/request-feature) y nuestro equipo de soporte resolverá tu problema lo antes posible. Alternativamente, por favor comunícate con la comunidad de SORA a través de [Telegram](https://t.me/sora_xor) o [Discord](https://t.co/AKzRnWBGzz).
+Si no puedes encontrar una respuesta a continuación, por favor [envía una solicitud](https://soracard.com/es/request-feature) y nuestro equipo de soporte resolverá tu problema lo antes posible. Alternativamente, por favor comunícate con la comunidad de SORA a través de [Telegram](https://t.me/sora_xor) o [Discord](https://t.co/AKzRnWBGzz).
 
 ---
 
@@ -19,7 +19,7 @@ Y las tres opciones para solicitar la Tarjeta SORA, junto con las tarifas de cad
 
 ## Disponibilidad geográfica
 
-Por favor, consulta la lista de [países restringidos](https://soracard.com/blacklist) para ver si puedes solicitar la Tarjeta SORA. Si tu país no está en la lista de restricciones, puedes aplicar.
+Por favor, consulta la lista de [países restringidos](https://soracard.com/es/blacklist) para ver si puedes solicitar la Tarjeta SORA. Si tu país no está en la lista de restricciones, puedes aplicar.
 
 ## Gestión de tu cuenta
 
