@@ -1,6 +1,6 @@
 # Support
 
-If you can't find an answer below please [submit a request](http://localhost:3000/contact) and our support will solve your issue as soon as possible. Alternatively, please reach out to the SORA community through [Telegram](http://localhost:3000/contact) or [Discord](http://localhost:3000/contact).
+If you can't find an answer below please [submit a request](/request-feature) and our support will solve your issue as soon as possible. Alternatively, please reach out to the SORA community through [Telegram](https://t.me/sora_xor) or [Discord](https://t.co/AKzRnWBGzz).
 
 ---
 
@@ -19,7 +19,7 @@ And the three options to apply for SORA Card, along with the fees for each optio
 
 ## Geographic availability
 
-Please refer to the [restricted countries](http://localhost:3000/blacklist) list to see if you can apply for SORA Card. If your country is not on the restrictions list, you may apply.
+Please refer to the [restricted countries](/blacklist) list to see if you can apply for SORA Card. If your country is not on the restrictions list, you may apply.
 
 ## Managing your account
 
