@@ -32,7 +32,7 @@ The SORA CARD Profile allows Users to use services provided by SORA, its Merchan
 
 SORA is not accepting, handling, exchanging, or holding any fiat or crypto funds. All crypto-related transactions are processed by X Vienas UAB and GateHub UAB LTH.
 
-Payment of the Service shall be provided by the User in accordance with supported payment methods and in accordance with the Price List (available via: [https://soracard.com/fees](http://localhost:3000/fees)).
+Payment of the Service shall be provided by the User in accordance with supported payment methods and in accordance with the Price List (available via: [https://soracard.com/fees](/fees)).
 
 The Service Fee (as determined in the Price List) shall be paid by the User prior to SORA (either by itself or through the Merchants or Licence Provider) providing the Service.
 
@@ -176,7 +176,7 @@ We reserve the right, but not the obligation, to:
 
 ### Privacy Policy
 
-As part of providing the Service, we collect and use your personal information and we care about data privacy and security. SORA`s Privacy Policy explains how we use this data to provide you with the Service. It also explains your rights in relation to data privacy and processing. We will only use your personal information as set out in our Privacy Policy found here: [https://soracard.com/privacy](http://localhost:3000/privacy). By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in London (UK). If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in London (UK), then through your continued use of the Site, you are transferring your data to London (UK), and you agree to have your data transferred to and processed in London (UK).
+As part of providing the Service, we collect and use your personal information and we care about data privacy and security. SORA`s Privacy Policy explains how we use this data to provide you with the Service. It also explains your rights in relation to data privacy and processing. We will only use your personal information as set out in our Privacy Policy found here: [https://soracard.com/privacy](/privacy). By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in London (UK). If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in London (UK), then through your continued use of the Site, you are transferring your data to London (UK), and you agree to have your data transferred to and processed in London (UK).
 
 If you have any questions relating to your personal data, please send us an email at [support@soracard.com](mailto:support@soracard.com) or check out our Privacy Policy for further information.
 
