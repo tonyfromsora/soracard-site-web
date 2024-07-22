@@ -9,22 +9,27 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
   modules: ['@nuxt/content', 'nuxt-aos', '@nuxtjs/sitemap', '@nuxtjs/i18n'],
+
   content: {
     locales: ['en', 'es'],
     markdown: {
       anchorLinks: false,
     },
   },
+
   aos: {
     duration: 800,
   },
+
   site: {
     url: 'soracard.com',
   },
+
   sitemap: {
     sources: ['/api/sitemap'],
     credits: false,
   },
+
   i18n: {
     locales: [
       { name: 'English', code: 'en', iso: 'en-US' },
@@ -34,9 +39,11 @@ export default defineNuxtConfig({
     strategy: 'prefix_and_default',
     baseUrl: 'https://soracard.com',
   },
+
   build: {
     transpile: ['gsap'],
   },
+
   runtimeConfig: {
     gmailClientId: '',
     gmailClientSecret: '',
@@ -54,6 +61,7 @@ export default defineNuxtConfig({
       miraRecaptchaSiteKey: '',
     },
   },
+
   app: {
     head: {
       htmlAttrs: {
@@ -171,4 +179,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: '2024-07-22',
 })
