@@ -17,7 +17,7 @@ const { fromMira = false } = defineProps<{ fromMira?: boolean }>()
       {{ fromMira ? t('fromMira') : t('fromUser') }}
     </div>
     <slot>
-      <p>{{ t('typing') }}</p>
+      <p class="mb-3xs">{{ t('typing') }}</p>
     </slot>
   </div>
 </template>
@@ -42,9 +42,5 @@ const { fromMira = false } = defineProps<{ fromMira?: boolean }>()
   height: 100%;
   object-fit: cover;
   object-position: center;
-}
-
-.message :deep(p) {
-  margin-bottom: var(--space-xxs);
 }
 </style>

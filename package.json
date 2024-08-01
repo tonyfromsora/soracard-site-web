@@ -7,16 +7,19 @@
     "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "analyze": "nuxi analyze"
   },
   "devDependencies": {
-    "@nuxtjs/i18n": "^8.3.1",
+    "@nuxt/image": "^1.7.0",
+    "@nuxtjs/i18n": "^8.3.3",
     "@nuxtjs/sitemap": "^5.3.5",
+    "@types/markdown-it": "^14.1.2",
     "@types/nodemailer": "^6.4.15",
     "nuxt": "^3.12.4",
     "nuxt-aos": "^1.2.5",
-    "typescript": "^5.5.3",
-    "vue": "^3.4.33",
+    "typescript": "^5.5.4",
+    "vue": "^3.4.34",
     "vue-router": "^4.4.0"
   },
   "dependencies": {
@@ -24,8 +27,10 @@
     "googleapis": "^140.0.1",
     "gsap": "^3.12.5",
     "ip": "^2.0.1",
+    "markdown-it": "^14.1.0",
     "mouse-follower": "^1.1.2",
     "nodemailer": "^6.9.14",
-    "ogl": "^1.0.7"
-  }
+    "ogl": "^1.0.8"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }

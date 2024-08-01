@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   srcDir: 'src/',
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/content', 'nuxt-aos', '@nuxtjs/sitemap', '@nuxtjs/i18n'],
+  modules: ['@nuxtjs/i18n', '@nuxt/content', '@nuxt/image', 'nuxt-aos', '@nuxtjs/sitemap'],
 
   content: {
     locales: ['en', 'es'],

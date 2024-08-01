@@ -31,7 +31,7 @@
 .rich p:not(:last-child):not([class]),
 .rich ul:not([class]),
 .rich ol:not([class]) {
-  margin-bottom: 1em;
+  margin-bottom: 1.4em;
 }
 
 .rich h1:not(:last-child):not([class]) {
