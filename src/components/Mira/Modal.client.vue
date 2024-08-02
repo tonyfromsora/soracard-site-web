@@ -55,7 +55,7 @@ const handleSubmit = async () => {
 
     const { message, links } = await result.json()
 
-    feed.value[0].answer = message?.split('\n').filter((el: string) => el) || [t('error.canNotAnswer')]
+    feed.value[0].answer = [message] || [t('error.canNotAnswer')]
     feed.value[0].links = links
   } catch (error) {
     console.log(error)
@@ -88,31 +88,33 @@ onMounted(() => {
     <div class="feed rounded">
       <template v-for="item in feed" :key="item.ts">
         <MiraMessage fromMira data-aos="fade-up" data-aos-delay="300">
-          <p v-for="p in item.answer">
-            {{ p }}
-          </p>
+          <MiraMDC v-for="(p, i) in item.answer" :value="p" :class="{ 'mt-xxs': i }" />
           <MiraAnswerControls v-if="item.answer?.length" v-bind="item" />
         </MiraMessage>
-        <MiraMessage data-aos="fade-up">
-          <p v-for="p in item.question">
-            {{ p }}
-          </p>
+        <MiraMessage data-aos="fade-up" class="pb-s">
+          <div class="mira rich">
+            <p v-for="p in item.question">
+              {{ p }}
+            </p>
+          </div>
         </MiraMessage>
       </template>
       <MiraExampleQuestions v-if="!feed.length" @question="(value) => { question = value; handleSubmit() }"
         :questions="tm('exampleQuestions')" />
-      <MiraMessage fromMira>
-        <p v-for="p in (tm('greeting') as (string | (string | Link)[])[])">
-          <template v-if="typeof p === 'string'">
-            {{ p }}
-          </template>
-          <template v-else v-for="piece in p">
-            <template v-if="typeof piece === 'string'">{{ piece }}</template>
-            <template v-else>
-              <a :href="piece.href" target="_blank" class="hover-deunderline">{{ piece.title }}</a>
+      <MiraMessage fromMira class="pb-s">
+        <div class="mira rich">
+          <p v-for="p in (tm('greeting') as (string | (string | Link)[])[])">
+            <template v-if="typeof p === 'string'">
+              {{ p }}
             </template>
-          </template>
-        </p>
+            <template v-else v-for="piece in p">
+              <template v-if="typeof piece === 'string'">{{ piece }}</template>
+              <template v-else>
+                <a :href="piece.href" target="_blank">{{ piece.title }}</a>
+              </template>
+            </template>
+          </p>
+        </div>
       </MiraMessage>
     </div>
     <MiraTextField v-bind="tm('textField')" v-model="question" @submit="handleSubmit" :disabled="processing"
@@ -149,5 +151,19 @@ onMounted(() => {
   display: flex;
   flex-direction: column-reverse;
   gap: 2px;
+}
+</style>
+
+<style>
+.mira.rich p:not(:first-child):not([class]),
+.mira.rich ul:not([class]),
+.mira.rich ol:not([class]) {
+  margin-top: 0.8em;
+}
+
+.mira.rich p:not(:last-child):not([class]),
+.mira.rich ul:not([class]),
+.mira.rich ol:not([class]) {
+  margin-bottom: 0.8em;
 }
 </style>

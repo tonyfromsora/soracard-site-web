@@ -44,15 +44,15 @@ onUnmounted(() => {
 }
 
 .back {
-  transform: translateY(calc(var(--progress) * -10%));
+  transform: translateY(calc(var(--progress) * 5%));
 }
 
 .front {
   position: absolute;
   right: 0;
-  bottom: 15%;
+  bottom: -10%;
   width: 40%;
-  transform: translateY(calc(var(--progress) * 40%));
+  transform: translateY(calc(var(--progress) * -20%));
   border-radius: min(2rem, 2vw);
   box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.15);
 }
