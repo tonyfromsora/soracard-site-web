@@ -18,7 +18,7 @@
   "period": "Período",
   "adoptionGroups": {
     "earlyAdopters": "Primeros Adoptantes",
-    "afterACQIntegration": "Estándar"
+    "standard": "Estándar"
   },
   "earlyAdopters": [
     {
@@ -302,7 +302,7 @@
       ]
     }
   ],
-  "afterACQIntegration": [
+  "standard": [
     {
       "title": "Incorporación",
       "table": [

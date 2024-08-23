@@ -18,7 +18,7 @@
   "period": "Period",
   "adoptionGroups": {
     "earlyAdopters": "Early Adopters",
-    "afterACQIntegration": "Standard"
+    "standard": "Standard"
   },
   "earlyAdopters": [
     {
@@ -302,7 +302,7 @@
       ]
     }
   ],
-  "afterACQIntegration": [
+  "standard": [
     {
       "title": "Onboarding",
       "table": [

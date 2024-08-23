@@ -8,9 +8,9 @@ const { t, tm } = useI18n({
   messages: { en, es },
 })
 
-type AdoptionGroup = 'earlyAdopters' | 'afterACQIntegration'
+type AdoptionGroup = 'earlyAdopters' | 'standard'
 
-const adoptionGroup = ref<AdoptionGroup>('earlyAdopters')
+const adoptionGroup = ref<AdoptionGroup>('standard')
 
 useSeoMeta({
   title: t('seoMeta.title'),
@@ -62,8 +62,8 @@ const toggleTab = (e: string) => adoptionGroup.value = e as AdoptionGroup
 
   <div class="text-center px-xs" data-aos="fade-up" data-aos-delay="200">
     <Tabs :items="[
+        { title: t('adoptionGroups.standard'), value: 'standard' },
         { title: t('adoptionGroups.earlyAdopters'), value: 'earlyAdopters' },
-        { title: t('adoptionGroups.afterACQIntegration'), value: 'afterACQIntegration' },
       ]" :activeItem="adoptionGroup" @toggle="toggleTab" class="mb-l mx-auto" />
   </div>
 
