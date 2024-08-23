@@ -67,7 +67,7 @@
       "title": "Transacciones de Cuenta",
       "table": [
         {
-          "action": "Transacciones INTERNAS (entre las cuentas del usuario)",
+          "action": "Transacciones INTERNAS (entre cuentas del mismo usuario)",
           "price1": "0.22€",
           "price2": "0.22€",
           "period": "Por evento"
@@ -78,18 +78,8 @@
           "price2": "0.22€",
           "period": "Por evento"
         },
-        {
-          "action": "SEPA entrante",
-          "price1": "0.05€",
-          "price2": "0.05€",
-          "period": "Por evento"
-        },
-        {
-          "action": "SEPA saliente",
-          "price1": "0.50€",
-          "price2": "0.50€",
-          "period": "Por evento"
-        },
+        { "action": "SEPA entrante", "price1": "0.05€", "price2": "0.05€", "period": "Por evento" },
+        { "action": "SEPA saliente", "price1": "0.50€", "price2": "0.50€", "period": "Por evento" },
         {
           "action": "SWIFT entrante",
           "price1": "0.05€",
@@ -103,19 +93,19 @@
           "period": "Por evento"
         },
         {
-          "action": "Recarga de cuenta con tarjeta de 3rd Party",
+          "action": "Recarga de cuenta con tarjeta de terceros",
           "price1": "int++ 3%",
           "price2": "int++ 3%",
           "period": "Por evento"
         },
         {
-          "action": "Recarga de cuenta con SoftPOS de 3rd Party",
+          "action": "Recarga de cuenta con SoftPOS de terceros",
           "price1": "int++ 2%",
           "price2": "int++ 2%",
           "period": "Por evento"
         },
         {
-          "action": "Recarga de cuenta con Crypto",
+          "action": "Recarga de cuenta con criptomonedas",
           "price1": "1.0%",
           "price2": "1.0%",
           "period": "Por evento"
@@ -132,7 +122,7 @@
           "period": "Único"
         },
         {
-          "action": "Reemisión de tarjeta física, renovación",
+          "action": "Reemisión, renovación de tarjeta física",
           "price1": "5.00€",
           "price2": "5.00€",
           "period": "Único"
@@ -156,7 +146,7 @@
           "period": "Único"
         },
         {
-          "action": "Reemisión de tarjeta virtual, renovación",
+          "action": "Reemisión, renovación de tarjeta virtual",
           "price1": "0.25€",
           "price2": "0.50€",
           "period": "Único"
@@ -204,7 +194,7 @@
           "period": "Por evento"
         },
         {
-          "action": "Consulta de saldo (ATM, SMS)",
+          "action": "Consulta de saldo (Cajero, SMS)",
           "price1": "0.00€",
           "price2": "0.35€",
           "period": "Por evento"
@@ -252,25 +242,25 @@
           "period": "Por evento"
         },
         {
-          "action": "ATM EEA+ (+ coste del ATM)",
+          "action": "Cajero EEA+ (+ coste del cajero)",
           "price1": "1.2€ + 3.0%",
           "price2": "1.2€ + 3.0%",
           "period": "Por evento"
         },
         {
-          "action": "ATM Internacional (+ coste del ATM)",
+          "action": "Cajero Internacional (+ coste del cajero)",
           "price1": "1.75€ + 3%",
           "price2": "1.75€ + 3%",
           "period": "Por evento"
         },
         {
-          "action": "SMS y/o SCA 3D Secure para transacciones online",
+          "action": "SMS 3D Secure y/o SCA para transacciones online",
           "price1": "0.09€",
           "price2": "0.09€",
           "period": "Por ítem"
         },
         {
-          "action": "Inscripción en 3DS",
+          "action": "Inscripción de tarjeta 3DS",
           "price1": "0.00€",
           "price2": "0.00€",
           "period": "Mensual"
@@ -282,19 +272,19 @@
           "period": "Por evento"
         },
         {
-          "action": "Tarjeta digital trimestral (Apple Pay) - por tarjeta",
+          "action": "Tarjeta digital mensual (Apple Pay, Google Pay) - por tarjeta",
           "price1": "0.00€",
           "price2": "0.00€",
           "period": "Mensual"
         },
         {
-          "action": "Google Pay - pago online o en POS (adicional)",
+          "action": "Google Pay - pago online o POS (adicional)",
           "price1": "0.00%",
           "price2": "0.00%",
           "period": "Mensual"
         },
         {
-          "action": "Apple Pay - pago online o en POS (adicional)",
+          "action": "Apple Pay - pago online o POS (adicional)",
           "price1": "0.00%",
           "price2": "0.00%",
           "period": "Mensual"
@@ -332,7 +322,7 @@
         },
         { "action": "Cuenta mensual", "price1": "0.00€", "price2": "0.00€", "period": "Mensual" },
         {
-          "action": "Comisiones por inactividad de cuenta (después de 4 meses)",
+          "action": "Tarifas por inactividad de cuenta (después de 4 meses)",
           "price1": "1.99€",
           "price2": "1.99€",
           "period": "Mensual"
@@ -453,7 +443,13 @@
           "period": "Mensual"
         },
         {
-          "action": "Comisiones por inactividad de tarjeta (después de 3 meses)",
+          "action": "Tarifas por inactividad de tarjeta (después de 3 meses) - virtual",
+          "price1": "0.00€",
+          "price2": "0.99€",
+          "period": "Mensual"
+        },
+        {
+          "action": "Tarifas por inactividad de tarjeta (después de 3 meses) - física",
           "price1": "0.00€",
           "price2": "0.99€",
           "period": "Mensual"

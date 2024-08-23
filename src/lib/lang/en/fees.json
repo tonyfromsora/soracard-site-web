@@ -186,13 +186,13 @@
           "period": "Monthly"
         },
         {
-          "action": "Card inactivity fees (after 3 months) - virtual ",
+          "action": "Card inactivity fees (after 3 months) - virtual",
           "price1": "0.00€",
           "price2": "0.99€",
           "period": "Monthly"
         },
         {
-          "action": "Card inactivity fees (after 3 months) - physical ",
+          "action": "Card inactivity fees (after 3 months) - physical",
           "price1": "0.00€",
           "price2": "0.99€",
           "period": "Monthly"
@@ -282,7 +282,7 @@
           "period": "Per event"
         },
         {
-          "action": "Digital card quarterly (Apple Pay) - per card",
+          "action": "Digital card monthly (Apple Pay, Google Pay) - per card",
           "price1": "0.00€",
           "price2": "0.00€",
           "period": "Monthly"
@@ -448,7 +448,13 @@
           "period": "Monthly"
         },
         {
-          "action": "Card inactivity fees (after 3 months)",
+          "action": "Card inactivity fees (after 3 months) - virtual",
+          "price1": "0.00€",
+          "price2": "0.99€",
+          "period": "Monthly"
+        },
+        {
+          "action": "Card inactivity fees (after 3 months) - physical",
           "price1": "0.00€",
           "price2": "0.99€",
           "period": "Monthly"

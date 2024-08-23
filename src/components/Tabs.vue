@@ -23,6 +23,6 @@ defineEmits<{ 'toggle': [value: string] }>()
 <style scoped>
 .tabs {
   width: fit-content;
-  gap: var(--space-3xs)
+  gap: var(--space-3xs);
 }
 </style>
