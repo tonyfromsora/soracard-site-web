@@ -208,7 +208,18 @@
           "price2": "0.35€",
           "period": "Por evento"
         },
-        { "action": "Cambio de PIN", "price1": "0.00€", "price2": "0.50€", "period": "Por evento" }
+        {
+          "action": "Cambio de PIN (primer evento)",
+          "price1": "0.00€",
+          "price2": "0.50€",
+          "period": "Por evento"
+        },
+        {
+          "action": "Cambio de PIN (eventos adicionales)",
+          "price1": "0.50€",
+          "price2": "0.50€",
+          "period": "Por evento"
+        }
       ]
     },
     {
@@ -239,13 +250,13 @@
           "period": "Por evento"
         },
         {
-          "action": "PAGO CON TARJETA internacional*** ONLINE + FX",
+          "action": "PAGO CON TARJETA internacional ONLINE + FX",
           "price1": "0.90€ + 1,1%",
           "price2": "0.90€ + 1,1%",
           "period": "Por evento"
         },
         {
-          "action": "PAGO CON TARJETA internacional*** POS + FX",
+          "action": "PAGO CON TARJETA internacional POS + FX",
           "price1": "0.90€ + 1,1%",
           "price2": "0.90€ + 1,1%",
           "period": "Por evento"

@@ -198,7 +198,18 @@
           "price2": "0.35€",
           "period": "Per event"
         },
-        { "action": "PIN change", "price1": "0.00€", "price2": "0.50€", "period": "Per event" }
+        {
+          "action": "PIN change (first event)",
+          "price1": "0.00€",
+          "price2": "0.50€",
+          "period": "Per event"
+        },
+        {
+          "action": "PIN change (additional events)",
+          "price1": "0.50€",
+          "price2": "0.50€",
+          "period": "Per event"
+        }
       ]
     },
     {
@@ -229,13 +240,13 @@
           "period": "Per event"
         },
         {
-          "action": "CARD PAYMENT international*** ONLINE + FX",
+          "action": "CARD PAYMENT international ONLINE + FX",
           "price1": "0.90€ + 1%",
           "price2": "0.90€ + 1%",
           "period": "Per event"
         },
         {
-          "action": "CARD PAYMENT international*** POS + FX",
+          "action": "CARD PAYMENT international POS + FX",
           "price1": "0.90€ + 1%",
           "price2": "0.90€ + 1%",
           "period": "Per event"
