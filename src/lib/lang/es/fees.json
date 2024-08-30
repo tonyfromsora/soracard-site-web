@@ -15,6 +15,7 @@
   "action": "Artículo de facturación",
   "price1": "Precio para el usuario final",
   "price2": "2ª tarjeta / cuenta +",
+  "limit": "Límite",
   "period": "Período",
   "altFeesLink": {
     "title": "Haz clic aquí para ver las tarifas para adoptadores tempranos",
@@ -310,6 +311,41 @@
       ]
     }
   ],
+  "limits": {
+    "title": "Límites",
+    "table": [
+      {
+        "action": "Comisiones por Conversión de Divisas",
+        "limit": "T1 0.7%, T2 1%, T3 2.2%, T4 por caso",
+        "period": "del volumen de transacción, dependiente de la divisa"
+      },
+      {
+        "action": "Límite de Retiro de Efectivo",
+        "limit": "5,000€*",
+        "period": "por día"
+      },
+      {
+        "action": "Límite de Gastos",
+        "limit": "25,000€*",
+        "period": "por día"
+      },
+      {
+        "action": "Límite Diario de Recarga",
+        "limit": "30,000€",
+        "period": "por día"
+      },
+      {
+        "action": "Límite Mensual de Recarga",
+        "limit": "30,000€",
+        "period": "por mes"
+      },
+      {
+        "action": "Límite Anual de Recarga",
+        "limit": "360,000€",
+        "period": "por año"
+      }
+    ]
+  },
   "disclaimer": "Aviso: todas las tarifas están sujetas a cambios.",
   "reference": [
     "Consulta ",

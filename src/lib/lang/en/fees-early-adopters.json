@@ -15,6 +15,7 @@
   "action": "Billing item",
   "price1": "End-user price",
   "price2": "2nd card / account +",
+  "limit": "Limit",
   "period": "Period",
   "altFeesLink": { "title": "Click here for standard fees", "href": "/fees" },
   "fees": [
@@ -322,6 +323,41 @@
       ]
     }
   ],
+  "limits": {
+    "title": "Limits",
+    "table": [
+      {
+        "action": "FX Conversion Fees",
+        "limit": "T1 0.7%, T2 1%, T3 2.2%, T4 per case",
+        "period": "of transaction volume, currency dependent"
+      },
+      {
+        "action": "Cash Withdrawal Limit",
+        "limit": "5,000€*",
+        "period": "per day"
+      },
+      {
+        "action": "Spending Limit",
+        "limit": "25,000€*",
+        "period": "per day"
+      },
+      {
+        "action": "Daily Top-Up Limit",
+        "limit": "30,000€",
+        "period": "per day"
+      },
+      {
+        "action": "Monthly Top-Up Limit",
+        "limit": "30,000€",
+        "period": "per month"
+      },
+      {
+        "action": "Annual Top-Up Limit",
+        "limit": "360,000€",
+        "period": "per year"
+      }
+    ]
+  },
   "disclaimer": "Disclaimer: all fees are subject to change.",
   "reference": [
     "Refer to ",

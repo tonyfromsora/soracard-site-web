@@ -9,6 +9,12 @@ type Section = {
   }[]
 }
 
+type LimitsTable = {
+  action: string
+  limit: string
+  period: string
+}[]
+
 type Fees = {
   headline: string
   date: string
@@ -21,11 +27,16 @@ type Fees = {
   price1: string
   price2: string
   period: string
+  limit: string
   altFeesLink: {
     title: string
     href: string
   }
   fees: Section[]
+  limits: {
+    title: string
+    table: LimitsTable
+  }
   disclaimer: string
   reference: string
   notes: string[]
@@ -53,10 +64,14 @@ useSeoMeta({
   twitterImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
 })
 
-const nav = computed(() => tm('fees').map((item, i) => ({
-  title: item.title,
-  href: `#${i + 1}`,
-}))
+const nav = computed(() => {
+  const nav = tm('fees').map((item, i) => ({
+    title: item.title,
+    href: `#fees${i + 1}`,
+  }))
+  nav.push({ title: t('limits.title'), href: '#limits' })
+  return nav
+}
 )
 </script>
 
@@ -85,14 +100,14 @@ const nav = computed(() => tm('fees').map((item, i) => ({
       </p>
 
       <template v-for="(item, i) in (tm('fees') as Section[])">
-        <h2 :id="`${i + 1}`">{{ item.title }}</h2>
+        <h2 :id="`fees${i + 1}`">{{ item.title }}</h2>
         <table>
           <thead>
             <tr>
-              <th style="width:44%">{{ t('action') }}</th>
-              <th style="width:17%">{{ t('price1') }}</th>
-              <th style="width:17%">{{ t('price2') }}</th>
-              <th style="width:17%">{{ t('period') }}</th>
+              <th style="width:46%">{{ t('action') }}</th>
+              <th style="width:18%">{{ t('price1') }}</th>
+              <th style="width:18%">{{ t('price2') }}</th>
+              <th style="width:18%">{{ t('period') }}</th>
             </tr>
           </thead>
           <tbody>
@@ -113,6 +128,24 @@ const nav = computed(() => tm('fees').map((item, i) => ({
           </tbody>
         </table>
       </template>
+
+      <h2 id="limits">{{ t('limits.title') }}</h2>
+      <table>
+        <thead>
+          <tr>
+            <th style="width:46%">{{ t('action') }}</th>
+            <th style="width:27%">{{ t('limit') }}</th>
+            <th style="width:27%">{{ t('period') }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(row, j) in (tm('limits.table') as LimitsTable)" :key="j">
+            <td :style="row.action ? '' : { borderTop: 0 }">{{ row.action || '' }}</td>
+            <td v-if="typeof row.limit === 'string'">{{ row.limit }}</td>
+            <td>{{ row.period }}</td>
+          </tr>
+        </tbody>
+      </table>
 
       <p>
         {{ t('disclaimer') }}
