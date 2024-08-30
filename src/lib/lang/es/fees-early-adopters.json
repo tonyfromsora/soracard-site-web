@@ -65,12 +65,12 @@
       "table": [
         {
           "action": "Transacciones INTERNAS (entre cuentas del mismo usuario)",
-          "price1": "0.22€",
-          "price2": "0.22€",
+          "price1": "0.00€",
+          "price2": "0.00€",
           "period": "Por evento"
         },
         {
-          "action": "Transacciones INTERLEDGER (entre usuarios)",
+          "action": "Transacciones INTERLEDGER (entre usuarios de la Tarjeta SORA)",
           "price1": "0.22€",
           "price2": "0.22€",
           "period": "Por evento"
@@ -191,8 +191,20 @@
           "period": "Por evento"
         },
         {
-          "action": "Consulta de saldo (Cajero, SMS)",
+          "action": "Consulta de saldo en cajero automático (tarjeta virtual)",
+          "price1": "0.35€",
+          "price2": "0.35€",
+          "period": "Por evento"
+        },
+        {
+          "action": "Consulta de saldo en cajero automático (tarjeta física, primer evento por mes)",
           "price1": "0.00€",
+          "price2": "0.00€",
+          "period": "Por evento"
+        },
+        {
+          "action": "Consulta de saldo en cajero automático (tarjeta física, eventos adicionales por mes)",
+          "price1": "0.35€",
           "price2": "0.35€",
           "period": "Por evento"
         },
@@ -227,13 +239,13 @@
           "period": "Por evento"
         },
         {
-          "action": "PAGO CON TARJETA internacional ONLINE + FX",
+          "action": "PAGO CON TARJETA internacional*** ONLINE + FX",
           "price1": "0.90€ + 1,1%",
           "price2": "0.90€ + 1,1%",
           "period": "Por evento"
         },
         {
-          "action": "PAGO CON TARJETA internacional POS + FX",
+          "action": "PAGO CON TARJETA internacional*** POS + FX",
           "price1": "0.90€ + 1,1%",
           "price2": "0.90€ + 1,1%",
           "period": "Por evento"
@@ -245,7 +257,7 @@
           "period": "Por evento"
         },
         {
-          "action": "Cajero Internacional (+ coste del cajero)",
+          "action": "Cajero Internacional*** (+ coste del cajero)",
           "price1": "1.75€ + 3%",
           "price2": "1.75€ + 3%",
           "period": "Por evento"
@@ -297,5 +309,10 @@
       "href": "https://medium.com/sora-xor/sora-card-phase-1-everything-you-need-to-know-d00a3df19a1a"
     },
     " para más detalles sobre Tarifas y Límites."
+  ],
+  "notes": [
+    "* Nacional se refiere a los Estados miembros de la UE, Islandia, Liechtenstein y Noruega.",
+    "** Internacional se refiere a otros países y territorios distintos de los Estados miembros de la UE, Islandia, Liechtenstein y Noruega.",
+    "*** Los retiros en una moneda diferente a la moneda de la tarjeta se cobran como internacionales."
   ]
 }

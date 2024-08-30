@@ -28,6 +28,7 @@ type Fees = {
   fees: Section[]
   disclaimer: string
   reference: string
+  notes: string[]
 }
 
 const { messages } = defineProps<{ messages: { en: Fees, es: Fees } }>()
@@ -119,6 +120,14 @@ const nav = computed(() => tm('fees').map((item, i) => ({
       <p>
         <RichText :content="tm('reference')" />
       </p>
+
+      <hr>
+
+      <div class="rich text-s">
+        <p v-for="note in tm('notes')">
+          {{ note }}
+        </p>
+      </div>
     </div>
   </section>
 </template>

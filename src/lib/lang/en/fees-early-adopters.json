@@ -65,12 +65,12 @@
       "table": [
         {
           "action": "INTERNAL Trasactions (between user's own accounts)",
-          "price1": "0.22€",
-          "price2": "0.22€",
+          "price1": "0.00€",
+          "price2": "0.00€",
           "period": "Per event"
         },
         {
-          "action": "INTERLEDGER Trasactions (between users)",
+          "action": "INTERLEDGER Trasactions (between users of SORA Card)",
           "price1": "0.22€",
           "price2": "0.22€",
           "period": "Per event"
@@ -201,8 +201,20 @@
           "period": "Per event"
         },
         {
-          "action": "Balance inquiry (ATM, SMS)",
+          "action": "Balance Inquiry ATM (virtual card)",
+          "price1": "0.35€",
+          "price2": "0.35€",
+          "period": "Per event"
+        },
+        {
+          "action": "Balance Inquiry ATM (phyisical card, first event per month)",
           "price1": "0.00€",
+          "price2": "0.00€",
+          "period": "Per event"
+        },
+        {
+          "action": "Balance inquiry ATM (physical card, additional events per month)",
+          "price1": "0.35€",
           "price2": "0.35€",
           "period": "Per event"
         },
@@ -237,13 +249,13 @@
           "period": "Per event"
         },
         {
-          "action": "CARD PAYMENT international ONLINE + FX",
+          "action": "CARD PAYMENT international*** ONLINE + FX",
           "price1": "0.90€ + 1,1%",
           "price2": "0.90€ + 1,1%",
           "period": "Per event"
         },
         {
-          "action": "CARD PAYMENT international POS + FX",
+          "action": "CARD PAYMENT international*** POS + FX",
           "price1": "0.90€ + 1,1%",
           "price2": "0.90€ + 1,1%",
           "period": "Per event"
@@ -255,7 +267,7 @@
           "period": "Per event"
         },
         {
-          "action": "ATM International (+ ATM cost)",
+          "action": "ATM International*** (+ ATM cost)",
           "price1": "1.75€ + 3%",
           "price2": "1.75€ + 3%",
           "period": "Per event"
@@ -307,5 +319,10 @@
       "href": "https://medium.com/sora-xor/sora-card-phase-1-everything-you-need-to-know-d00a3df19a1a"
     },
     " for further details on Fees and Limits."
+  ],
+  "notes": [
+    "* Domestic means the EU Member States, Iceland, Liechtenstein and Norway.",
+    "** International means other countries and territories other than the EU Member States, Iceland, Lichtenstein and Norway.",
+    "*** Withdrawals in currency other than card currency are charged as international."
   ]
 }
