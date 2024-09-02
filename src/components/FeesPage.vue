@@ -130,7 +130,7 @@ const nav = computed(() => {
       </template>
 
       <h2 id="limits">{{ t('limits.title') }}</h2>
-      <table>
+      <table style="display: table;">
         <thead>
           <tr>
             <th style="width:46%">{{ t('action') }}</th>

@@ -315,11 +315,6 @@
     "title": "Límites",
     "table": [
       {
-        "action": "Comisiones por Conversión de Divisas",
-        "limit": "T1 0.7%, T2 1%, T3 2.2%, T4 por caso",
-        "period": "del volumen de transacción, dependiente de la divisa"
-      },
-      {
         "action": "Límite de Retiro de Efectivo",
         "limit": "5,000€*",
         "period": "por día"

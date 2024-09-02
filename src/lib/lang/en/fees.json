@@ -307,11 +307,6 @@
     "title": "Limits",
     "table": [
       {
-        "action": "FX Conversion Fees",
-        "limit": "T1 0.7%, T2 1%, T3 2.2%, T4 per case",
-        "period": "of transaction volume, currency dependent"
-      },
-      {
         "action": "Cash Withdrawal Limit",
         "limit": "5,000€*",
         "period": "per day"
