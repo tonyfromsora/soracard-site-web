@@ -1,11 +1,11 @@
 {
   "seoMeta": {
-    "title": "SORA Card • Value Freedom — Standard Fees",
+    "title": "SORA Card • Value Freedom — Early Adopters Fees",
     "description": "Access the new era of interoperable finance, all in the palm of your hands.",
     "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Fees, Tariff",
     "ogImage": "fees/og.jpg"
   },
-  "headline": "Standard Fees",
+  "headline": "Early Adopters Fees",
   "date": "August 8, 2024",
   "lead": {
     "accent": "The first 5000 applicants will not pay yearly or monthly fees for the first 2 years.",
@@ -17,14 +17,14 @@
   "price2": "2nd card / account +",
   "limit": "Limit",
   "period": "Period",
-  "altFeesLink": { "title": "Click here for early adopters fees", "href": "/fees-early-adopters" },
+  "altFeesLink": { "title": "Click here for standard fees", "href": "/fees" },
   "fees": [
     {
       "title": "Onboarding",
       "table": [
         {
           "action": "Suggested yearly subscription",
-          "price1": "39.00€",
+          "price1": "0.00€",
           "price2": "0.00€",
           "period": "Yearly"
         },
@@ -48,12 +48,17 @@
         },
         { "action": "Account monthly", "price1": "0.00€", "price2": "0.00€", "period": "Monthly" },
         {
-          "action": "Account inactivity fees (after 4 months)",
+          "action": "Account inactivity fees (after 3 months)",
           "price1": "1.99€",
           "price2": "1.99€",
           "period": "Monthly"
         },
-        { "action": "Account closing", "price1": "8.00€", "price2": "8.00€", "period": "One-off" }
+        {
+          "action": "Account closing",
+          "price1": "8.00€",
+          "price2": "8.00€",
+          "period": "One-off"
+        }
       ]
     },
     {
@@ -71,9 +76,24 @@
           "price2": "0.22€",
           "period": "Per event"
         },
-        { "action": "SEPA incoming", "price1": "0.05€", "price2": "0.05€", "period": "Per event" },
-        { "action": "SEPA outgoing", "price1": "0.50€", "price2": "0.50€", "period": "Per event" },
-        { "action": "SWIFT incoming", "price1": "0.05€", "price2": "0.05€", "period": "Per event" },
+        {
+          "action": "SEPA incoming",
+          "price1": "0.05€",
+          "price2": "0.05€",
+          "period": "Per event"
+        },
+        {
+          "action": "SEPA outgoing",
+          "price1": "0.50€",
+          "price2": "0.50€",
+          "period": "Per event"
+        },
+        {
+          "action": "SWIFT incoming",
+          "price1": "0.05€",
+          "price2": "0.05€",
+          "period": "Per event"
+        },
         {
           "action": "SWIFT outgoing",
           "price1": "20.00€",
@@ -242,14 +262,14 @@
         },
         {
           "action": "CARD PAYMENT international ONLINE + FX",
-          "price1": "0.90€ + 1%",
-          "price2": "0.90€ + 1%",
+          "price1": "0.90€ + 1,1%",
+          "price2": "0.90€ + 1,1%",
           "period": "Per event"
         },
         {
           "action": "CARD PAYMENT international POS + FX",
-          "price1": "0.90€ + 1%",
-          "price2": "0.90€ + 1%",
+          "price1": "0.90€ + 1,1%",
+          "price2": "0.90€ + 1,1%",
           "period": "Per event"
         },
         {
@@ -272,14 +292,14 @@
         },
         {
           "action": "3DS Card enrollment",
-          "price1": "0.05€",
-          "price2": "0.05€",
+          "price1": "0.00€",
+          "price2": "0.00€",
           "period": "Monthly"
         },
         {
           "action": "SMS notification (excluding MC Secure Code and Visa Secure)",
-          "price1": "0.06€",
-          "price2": "0.06€",
+          "price1": "0.00€",
+          "price2": "0.00€",
           "period": "Per event"
         },
         {
@@ -290,14 +310,14 @@
         },
         {
           "action": "Google Pay - online or POS payment (on top)",
-          "price1": "0.10%",
-          "price2": "0.10%",
+          "price1": "0.00%",
+          "price2": "0.00%",
           "period": "Monthly"
         },
         {
           "action": "Apple Pay - online or POS payment (on top)",
-          "price1": "0.10%",
-          "price2": "0.10%",
+          "price1": "0.00%",
+          "price2": "0.00%",
           "period": "Monthly"
         }
       ]

@@ -1,11 +1,11 @@
 {
   "seoMeta": {
-    "title": "Tarjeta SORA • Valora la libertad — Tarifas Estándar",
+    "title": "Tarjeta SORA • Valora la libertad — Tarifas para Adoptadores Tempranos",
     "description": "Accede a la nueva era de las finanzas interoperables, todo en la palma de tus manos.",
     "keywords": "SORA, Polkaswap, descentralización, DeFi, futuro, clasificación, metaverso, TradFi, tarjeta, cripto, tarifas",
     "ogImage": "fees/og.jpg"
   },
-  "headline": "Tarifas Estándar",
+  "headline": "Tarifas para Adoptadores Tempranos",
   "date": "8 de mayo de 2023",
   "lead": {
     "accent": "Los primeros 5000 solicitantes no pagarán tarifas anuales o mensuales durante los primeros 2 años.",
@@ -17,17 +17,14 @@
   "price2": "2ª tarjeta / cuenta +",
   "limit": "Límite",
   "period": "Período",
-  "altFeesLink": {
-    "title": "Haz clic aquí para ver las tarifas para adoptadores tempranos",
-    "href": "/fees-early-adopters"
-  },
+  "altFeesLink": { "title": "Haz clic aquí para ver las tarifas estándar", "href": "/fees" },
   "fees": [
     {
       "title": "Incorporación",
       "table": [
         {
           "action": "Suscripción anual sugerida",
-          "price1": "39.00€",
+          "price1": "0.00€",
           "price2": "0.00€",
           "period": "Anual"
         },
@@ -51,12 +48,17 @@
         },
         { "action": "Cuenta mensual", "price1": "0.00€", "price2": "0.00€", "period": "Mensual" },
         {
-          "action": "Tarifas por inactividad de cuenta (después de 4 meses)",
+          "action": "Tarifas por inactividad de cuenta (después de 3 meses)",
           "price1": "1.99€",
           "price2": "1.99€",
           "period": "Mensual"
         },
-        { "action": "Cierre de cuenta", "price1": "8.00€", "price2": "8.00€", "period": "Único" }
+        {
+          "action": "Cierre de cuenta",
+          "price1": "8.00€",
+          "price2": "8.00€",
+          "period": "Único"
+        }
       ]
     },
     {
@@ -250,14 +252,14 @@
         },
         {
           "action": "PAGO CON TARJETA internacional ONLINE + FX",
-          "price1": "0.90€ + 1%",
-          "price2": "0.90€ + 1%",
+          "price1": "0.90€ + 1,1%",
+          "price2": "0.90€ + 1,1%",
           "period": "Por evento"
         },
         {
           "action": "PAGO CON TARJETA internacional POS + FX",
-          "price1": "0.90€ + 1%",
-          "price2": "0.90€ + 1%",
+          "price1": "0.90€ + 1,1%",
+          "price2": "0.90€ + 1,1%",
           "period": "Por evento"
         },
         {
@@ -280,14 +282,14 @@
         },
         {
           "action": "Inscripción de tarjeta 3DS",
-          "price1": "0.05€",
-          "price2": "0.05€",
+          "price1": "0.00€",
+          "price2": "0.00€",
           "period": "Mensual"
         },
         {
           "action": "Notificación por SMS (excluyendo MC Secure Code y Visa Secure)",
-          "price1": "0.06€",
-          "price2": "0.06€",
+          "price1": "0.00€",
+          "price2": "0.00€",
           "period": "Por evento"
         },
         {
@@ -298,14 +300,14 @@
         },
         {
           "action": "Google Pay - pago online o POS (adicional)",
-          "price1": "0.10%",
-          "price2": "0.10%",
+          "price1": "0.00%",
+          "price2": "0.00%",
           "period": "Mensual"
         },
         {
           "action": "Apple Pay - pago online o POS (adicional)",
-          "price1": "0.10%",
-          "price2": "0.10%",
+          "price1": "0.00%",
+          "price2": "0.00%",
           "period": "Mensual"
         }
       ]
