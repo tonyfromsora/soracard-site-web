@@ -2,44 +2,28 @@
 type Section = {
   title: string
   table: {
-    action: string | null
-    price1: string | { value: string, note: string }
-    price2: string | { value: string, note: string }
-    period: string
+    action: string | { title: string, notes: string[] }
+    price: string
   }[]
 }
-
-type LimitsTable = {
-  action: string
-  limit: string
-  period: string
-}[]
 
 type Fees = {
   headline: string
   date: string
-  lead: {
-    accent: string
-    regular: string
-    note: string
-  }
   action: string
-  price1: string
-  price2: string
-  period: string
-  limit: string
+  price: string
   altFeesLink: {
     title: string
     href: string
   }
   fees: Section[]
-  limits: {
-    title: string
-    table: LimitsTable
-  }
   disclaimer: string
   reference: string
   notes: string[]
+  pdf: {
+    title: string
+    href: string
+  }
 }
 
 const { messages } = defineProps<{ messages: { en: Fees, es: Fees } }>()
@@ -64,14 +48,10 @@ useSeoMeta({
   twitterImage: `${baseUrl}/${t('seoMeta.ogImage')}`,
 })
 
-const nav = computed(() => {
-  const nav = tm('fees').map((item, i) => ({
-    title: item.title,
-    href: `#fees${i + 1}`,
-  }))
-  nav.push({ title: t('limits.title'), href: '#limits' })
-  return nav
-}
+const nav = computed(() => tm('fees').map((item, i) => ({
+  title: item.title,
+  href: `#fees${i + 1}`,
+}))
 )
 </script>
 
@@ -91,76 +71,52 @@ const nav = computed(() => {
           {{ t('altFeesLink.title') }}
         </NuxtLink>
       </p>
-      <p class="mb-s">
-        <strong>{{ t('lead.accent') }}</strong>
-        {{ t('lead.regular') }}
-      </p>
-      <p class="text-s">
-        {{ t('lead.note') }}
-      </p>
 
       <template v-for="(item, i) in (tm('fees') as Section[])">
         <h2 :id="`fees${i + 1}`">{{ item.title }}</h2>
-        <table>
+        <table style="display: table;">
           <thead>
             <tr>
-              <th style="width:46%">{{ t('action') }}</th>
-              <th style="width:18%">{{ t('price1') }}</th>
-              <th style="width:18%">{{ t('price2') }}</th>
-              <th style="width:18%">{{ t('period') }}</th>
+              <th style="width:67%">{{ t('action') }}</th>
+              <th style="width:33%">{{ t('price') }}</th>
             </tr>
           </thead>
           <tbody>
             <tr v-for="(row, j) in item.table" :key="j">
-              <td :style="row.action ? '' : { borderTop: 0 }">{{ row.action || '' }}</td>
-              <td v-if="typeof row.price1 === 'string'">{{ row.price1 }}</td>
-              <td v-else>
-                {{ row.price1.value }}<br>
-                <small>{{ row.price1.note }}</small>
+              <td>
+                <template v-if="typeof row.action === 'string'">{{ row.action }}</template>
+                <template v-else>
+                  <p>{{ row.action.title }}</p>
+                  <p class="text-xs dark2" v-for="(note, k) in row.action.notes" :key="k">{{ note }}</p>
+                </template>
               </td>
-              <td v-if="typeof row.price2 === 'string'">{{ row.price2 }}</td>
-              <td v-else>
-                {{ row.price2.value }}<br>
-                <small>{{ row.price2.note }}</small>
-              </td>
-              <td>{{ row.period }}</td>
+              <td>{{ row.price }}</td>
             </tr>
           </tbody>
         </table>
       </template>
 
-      <h2 id="limits">{{ t('limits.title') }}</h2>
-      <table style="display: table;">
-        <thead>
-          <tr>
-            <th style="width:46%">{{ t('action') }}</th>
-            <th style="width:27%">{{ t('limit') }}</th>
-            <th style="width:27%">{{ t('period') }}</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="(row, j) in (tm('limits.table') as LimitsTable)" :key="j">
-            <td :style="row.action ? '' : { borderTop: 0 }">{{ row.action || '' }}</td>
-            <td v-if="typeof row.limit === 'string'">{{ row.limit }}</td>
-            <td>{{ row.period }}</td>
-          </tr>
-        </tbody>
-      </table>
+      <p v-for="note in tm('notes')" class="text-s mb-3xs">
+        {{ note }}
+      </p>
 
-      <p>
+      <hr>
+
+      <p class="mb-xxs">
         {{ t('disclaimer') }}
       </p>
-      <p>
+      <p class="mt-xxs">
         <RichText :content="tm('reference')" />
       </p>
 
       <hr>
 
-      <div class="rich text-s">
-        <p v-for="note in tm('notes')">
-          {{ note }}
-        </p>
-      </div>
+      <p>
+        <a :href="localePath(t('pdf.href'))" target="_blank">
+          {{ t('pdf.title') }}
+        </a>
+      </p>
+
     </div>
   </section>
 </template>

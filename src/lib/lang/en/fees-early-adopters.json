@@ -1,63 +1,43 @@
 {
   "seoMeta": {
-    "title": "SORA Card • Value Freedom — Early Adopters Fees",
+    "title": "SORA Card • Value Freedom — Standard Fees",
     "description": "Access the new era of interoperable finance, all in the palm of your hands.",
     "keywords": "SORA, Polkaswap, Decentralization, DeFi, Future, Sortition, Metaverse, TradFi, Card, Crypto, Fees, Tariff",
     "ogImage": "fees/og.jpg"
   },
-  "headline": "Early Adopters Fees",
-  "date": "August 8, 2024",
-  "lead": {
-    "accent": "The first 5000 applicants will not pay yearly or monthly fees for the first 2 years.",
-    "regular": "Only fees according to their usage will be charged to their account.*",
-    "note": "* Usage fees are necessary to cover the costs of banking and card service partners, who handle financial transactions. These fees are a financially sustainable way for SORA to provide its services while ensuring the privacy and security of users. It's important to remember that if a product is free, you are likely the product being sold. With SORA, you can trust that your personal information is not being used for profit. So, paying the usage fees is a small price to pay for the peace of mind that comes with using a secure and reliable platform like SORA Card."
-  },
-  "action": "Billing item",
-  "price1": "End-user price",
-  "price2": "2nd card / account +",
-  "limit": "Limit",
-  "period": "Period",
+  "headline": "Standard Fees",
+  "date": "September 17, 2024",
+  "action": "Action",
+  "price": "Price, €",
   "altFeesLink": { "title": "Click here for standard fees", "href": "/fees" },
   "fees": [
     {
-      "title": "Onboarding",
+      "title": "Onboarding and Client Membership",
       "table": [
         {
-          "action": "Suggested yearly subscription",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Yearly"
+          "action": "Client KYC",
+          "price": "0"
         },
-        { "action": "KYC Onboarding", "price1": "0.00€", "price2": "0.00€", "period": "One-Off" },
         {
-          "action": "Screening (2x per year)",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Yearly"
+          "action": "Client KYC screening (2x per year)",
+          "price": "0"
+        },
+        {
+          "action": "Client membership, per year (charged after 1 year)",
+          "price": "0 (first 3 years)"
         }
       ]
     },
     {
-      "title": "Account",
+      "title": "Account Opening, Maintenance and Closing",
       "table": [
         {
-          "action": "Account issuing + activation",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "One-Off"
-        },
-        { "action": "Account monthly", "price1": "0.00€", "price2": "0.00€", "period": "Monthly" },
-        {
-          "action": "Account inactivity fees (after 3 months)",
-          "price1": "1.99€",
-          "price2": "1.99€",
-          "period": "Monthly"
+          "action": "Account issuance",
+          "price": "0"
         },
         {
-          "action": "Account closing",
-          "price1": "8.00€",
-          "price2": "8.00€",
-          "period": "One-off"
+          "action": "Account membership, per month",
+          "price": "0"
         }
       ]
     },
@@ -65,171 +45,71 @@
       "title": "Account Transactions",
       "table": [
         {
-          "action": "INTERNAL Trasactions (between user's own accounts)",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Per event"
+          "action": "Internal (between user’s own accounts)",
+          "price": "0"
         },
         {
-          "action": "INTERLEDGER Trasactions (between users of SORA Card)",
-          "price1": "0.22€",
-          "price2": "0.22€",
-          "period": "Per event"
-        },
-        {
-          "action": "SEPA incoming",
-          "price1": "0.05€",
-          "price2": "0.05€",
-          "period": "Per event"
+          "action": "Interledger (between Unlimit accounts)",
+          "price": "0.22"
         },
         {
           "action": "SEPA outgoing",
-          "price1": "0.50€",
-          "price2": "0.50€",
-          "period": "Per event"
+          "price": "0.5"
+        },
+        {
+          "action": "SEPA Instant outgoing",
+          "price": "0.5"
         },
         {
           "action": "SWIFT incoming",
-          "price1": "0.05€",
-          "price2": "0.05€",
-          "period": "Per event"
-        },
-        {
-          "action": "SWIFT outgoing",
-          "price1": "20.00€",
-          "price2": "20.00€",
-          "period": "Per event"
-        },
-        {
-          "action": "Account Topup 3rd Party Card",
-          "price1": "int++ 3%",
-          "price2": "int++ 3%",
-          "period": "Per event"
-        },
-        {
-          "action": "Account Topup 3rd Party SoftPOS",
-          "price1": "int++ 2%",
-          "price2": "int++ 2%",
-          "period": "Per event"
-        },
-        {
-          "action": "Account Topup Crypto",
-          "price1": "1.0%",
-          "price2": "1.0%",
-          "period": "Per event"
+          "price": "0.05"
         }
       ]
     },
     {
-      "title": "Cards",
+      "title": "Card Issuing, Maintenance and Management",
       "table": [
         {
-          "action": "Physical card issuing",
-          "price1": "0.00€",
-          "price2": "5.00€",
-          "period": "One-Off"
+          "action": {
+            "title": "Physical card issuance, activation and delivery, first card",
+            "notes": [
+              "*Physical cards are invoiced to partner separately (3.80€ per card).",
+              "**Card activation cost is 1€.",
+              "***Delivery cost is estimated to 2€ but can vary depending on the country; delivery costs are invoiced to partner separately."
+            ]
+          },
+          "price": "0"
         },
         {
-          "action": "Physical card reissuing, renewal",
-          "price1": "5.00€",
-          "price2": "5.00€",
-          "period": "One-Off"
+          "action": {
+            "title": "Virtual card issuance and activation, first card",
+            "notes": ["*Virtual card issuance cost is 0.25€.", "**Card activation cost is 1€."]
+          },
+          "price": "0"
         },
         {
-          "action": "Physical card replacement",
-          "price1": "5.00€",
-          "price2": "5.00€",
-          "period": "One-Off"
+          "action": "Physical card monthly fee, first card",
+          "price": "0"
         },
         {
-          "action": "Card delivery (cost, varies depending on country)",
-          "price1": "0.00€",
-          "price2": "2.00€",
-          "period": "One-Off"
-        },
-        {
-          "action": "Virtual card issuing",
-          "price1": "0.00€",
-          "price2": "2.99€",
-          "period": "One-Off"
-        },
-        {
-          "action": "Virtual card reissuing, renewal",
-          "price1": "0.25€",
-          "price2": "0.50€",
-          "period": "One-Off"
-        },
-        {
-          "action": "Virtual card replacement",
-          "price1": "0.25€",
-          "price2": "0.50€",
-          "period": "One-Off"
-        },
-        {
-          "action": "Card activation (physical, virtual)",
-          "price1": "0.00€",
-          "price2": "1.99€",
-          "period": "One-Off"
-        },
-        {
-          "action": "Physical card monthly",
-          "price1": "0.00€",
-          "price2": "1.49€",
-          "period": "Monthly"
-        },
-        {
-          "action": "Virtual card monthly",
-          "price1": "0.00€",
-          "price2": "1.49€",
-          "period": "Monthly"
-        },
-        {
-          "action": "Card inactivity fees (after 3 months) - virtual",
-          "price1": "0.00€",
-          "price2": "0.99€",
-          "period": "Monthly"
-        },
-        {
-          "action": "Card inactivity fees (after 3 months) - physical",
-          "price1": "0.00€",
-          "price2": "0.99€",
-          "period": "Monthly"
+          "action": "Virtual card monthly fee, first card",
+          "price": "0"
         },
         {
           "action": "Card blocking/unblocking, PIN unblocking",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Per event"
+          "price": "0"
         },
         {
-          "action": "Balance Inquiry ATM (virtual card)",
-          "price1": "0.35€",
-          "price2": "0.35€",
-          "period": "Per event"
+          "action": "Balance inquiry (ATM), physical cards, first event per month",
+          "price": "0"
         },
         {
-          "action": "Balance Inquiry ATM (phyisical card, first event per month)",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Per event"
+          "action": "Physical card PIN change, first event per year",
+          "price": "0"
         },
         {
-          "action": "Balance inquiry ATM (physical card, additional events per month)",
-          "price1": "0.35€",
-          "price2": "0.35€",
-          "period": "Per event"
-        },
-        {
-          "action": "PIN change (first event)",
-          "price1": "0.00€",
-          "price2": "0.50€",
-          "period": "Per event"
-        },
-        {
-          "action": "PIN change (additional events)",
-          "price1": "0.50€",
-          "price2": "0.50€",
-          "period": "Per event"
+          "action": "Virtual card PIN change, first event per year",
+          "price": "0"
         }
       ]
     },
@@ -237,122 +117,41 @@
       "title": "Card Transactions",
       "table": [
         {
-          "action": "Ledger load Fee (card account top-up)",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Per event"
+          "action": "Ledger load fee (card account top-up)",
+          "price": "0"
         },
         {
-          "action": "CARD PAYMENT EEA ONLINE",
-          "price1": {
-            "value": "0.22€",
-            "note": "First 10 card payments are complementary (per month)"
-          },
-          "price2": "0.22€",
-          "period": "Per event"
+          "action": "Card payment online, domestic*, first 10 transactions",
+          "price": "0"
         },
         {
-          "action": "CARD PAYMENT EEA+ POS",
-          "price1": {
-            "value": "0.22€",
-            "note": "First 10 card payments are complementary (per month)"
-          },
-          "price2": "0.22€",
-          "period": "Per event"
+          "action": "Card payment POS, domestic*, first 10 transactions",
+          "price": "0"
         },
         {
-          "action": "CARD PAYMENT international ONLINE + FX",
-          "price1": "0.90€ + 1,1%",
-          "price2": "0.90€ + 1,1%",
-          "period": "Per event"
+          "action": "Card payment online, international*",
+          "price": "0.90 + 1.1%"
         },
         {
-          "action": "CARD PAYMENT international POS + FX",
-          "price1": "0.90€ + 1,1%",
-          "price2": "0.90€ + 1,1%",
-          "period": "Per event"
+          "action": "Card payment POS, international*",
+          "price": "0.90 + 1.1%"
         },
         {
-          "action": "ATM EEA+ (+ ATM cost)",
-          "price1": "1.2€ + 3.0%",
-          "price2": "1.2€ + 3.0%",
-          "period": "Per event"
+          "action": "ATM withdrawal, domestic*",
+          "price": "1.20 + 3%"
         },
         {
-          "action": "ATM International*** (+ ATM cost)",
-          "price1": "1.75€ + 3%",
-          "price2": "1.75€ + 3%",
-          "period": "Per event"
-        },
-        {
-          "action": "3D Secure SMS and/or SCA for online transactions",
-          "price1": "0.09€",
-          "price2": "0.09€",
-          "period": "Per item"
-        },
-        {
-          "action": "3DS Card enrollment",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Monthly"
-        },
-        {
-          "action": "SMS notification (excluding MC Secure Code and Visa Secure)",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Per event"
-        },
-        {
-          "action": "Digital card monthly (Apple Pay, Google Pay) - per card",
-          "price1": "0.00€",
-          "price2": "0.00€",
-          "period": "Monthly"
-        },
-        {
-          "action": "Google Pay - online or POS payment (on top)",
-          "price1": "0.00%",
-          "price2": "0.00%",
-          "period": "Monthly"
-        },
-        {
-          "action": "Apple Pay - online or POS payment (on top)",
-          "price1": "0.00%",
-          "price2": "0.00%",
-          "period": "Monthly"
+          "action": "ATM withdrawal, international*",
+          "price": "1.75 + 3%"
         }
       ]
     }
   ],
-  "limits": {
-    "title": "Limits",
-    "table": [
-      {
-        "action": "Cash Withdrawal Limit",
-        "limit": "5,000€*",
-        "period": "per day"
-      },
-      {
-        "action": "Spending Limit",
-        "limit": "25,000€*",
-        "period": "per day"
-      },
-      {
-        "action": "Daily Top-Up Limit",
-        "limit": "30,000€",
-        "period": "per day"
-      },
-      {
-        "action": "Monthly Top-Up Limit",
-        "limit": "30,000€",
-        "period": "per month"
-      },
-      {
-        "action": "Annual Top-Up Limit",
-        "limit": "360,000€",
-        "period": "per year"
-      }
-    ]
-  },
+  "notes": [
+    "*Domestic means the EU Member States, Iceland, Liechtenstein and Norway.",
+    "**International means other countries and territories other than the EU Member States, Iceland, Lichtenstein and Norway.",
+    "**Withdrawals in currency other than card currency are charged as international."
+  ],
   "disclaimer": "Disclaimer: all fees are subject to change.",
   "reference": [
     "Refer to ",
@@ -362,9 +161,8 @@
     },
     " for further details on Fees and Limits."
   ],
-  "notes": [
-    "* Domestic means the EU Member States, Iceland, Liechtenstein and Norway.",
-    "** International means other countries and territories other than the EU Member States, Iceland, Lichtenstein and Norway.",
-    "*** Withdrawals in currency other than card currency are charged as international."
-  ]
+  "pdf": {
+    "title": "See all pricing here",
+    "href": "/fees.pdf"
+  }
 }
