@@ -159,14 +159,6 @@
     "**Los retiros en moneda diferente a la moneda de la tarjeta se cobran como internacionales."
   ],
   "disclaimer": "Aviso legal: todas las tarifas están sujetas a cambios.",
-  "reference": [
-    "Consulta ",
-    {
-      "title": "este artículo",
-      "href": "https://medium.com/sora-xor/sora-card-phase-1-everything-you-need-to-know-d00a3df19a1a"
-    },
-    " para más detalles sobre Tarifas y Límites."
-  ],
   "pdf": {
     "title": "Consulta todos los precios aquí",
     "href": "/fees.pdf"

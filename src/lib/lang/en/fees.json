@@ -153,14 +153,6 @@
     "**Withdrawals in currency other than card currency are charged as international."
   ],
   "disclaimer": "Disclaimer: all fees are subject to change.",
-  "reference": [
-    "Refer to ",
-    {
-      "title": "this article",
-      "href": "https://medium.com/sora-xor/sora-card-phase-1-everything-you-need-to-know-d00a3df19a1a"
-    },
-    " for further details on Fees and Limits."
-  ],
   "pdf": {
     "title": "See all pricing here",
     "href": "/fees.pdf"

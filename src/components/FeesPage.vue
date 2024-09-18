@@ -18,7 +18,6 @@ type Fees = {
   }
   fees: Section[]
   disclaimer: string
-  reference: string
   notes: string[]
   pdf: {
     title: string
@@ -105,11 +104,6 @@ const nav = computed(() => tm('fees').map((item, i) => ({
       <p class="mb-xxs">
         {{ t('disclaimer') }}
       </p>
-      <p class="mt-xxs">
-        <RichText :content="tm('reference')" />
-      </p>
-
-      <hr>
 
       <p>
         <a :href="localePath(t('pdf.href'))" target="_blank">
