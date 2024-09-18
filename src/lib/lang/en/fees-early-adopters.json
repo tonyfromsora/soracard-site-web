@@ -32,11 +32,11 @@
       "title": "Account Opening, Maintenance and Closing",
       "table": [
         {
-          "action": "Account issuance",
+          "action": "Account issuance, first account",
           "price": "0"
         },
         {
-          "action": "Account membership, per month",
+          "action": "Account membership, per month, first account",
           "price": "0"
         }
       ]

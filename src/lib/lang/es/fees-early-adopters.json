@@ -32,11 +32,11 @@
       "title": "Apertura, Mantenimiento y Cierre de Cuenta",
       "table": [
         {
-          "action": "Emisión de cuenta",
+          "action": "Emisión de cuenta, primera cuenta",
           "price": "0"
         },
         {
-          "action": "Membresía de cuenta, por mes",
+          "action": "Membresía de cuenta, por mes, primera cuenta",
           "price": "0"
         }
       ]
