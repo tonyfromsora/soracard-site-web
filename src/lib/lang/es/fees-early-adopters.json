@@ -132,11 +132,11 @@
           "price": "0"
         },
         {
-          "action": "Pago con tarjeta en línea, internacional*",
+          "action": "Pago con tarjeta en línea, internacional**",
           "price": "0.90 + 1.1%"
         },
         {
-          "action": "Pago con tarjeta POS, internacional*",
+          "action": "Pago con tarjeta POS, internacional**",
           "price": "0.90 + 1.1%"
         },
         {
@@ -144,7 +144,7 @@
           "price": "1.20 + 3%"
         },
         {
-          "action": "Retiro en cajero automático, internacional*",
+          "action": "Retiro en cajero automático, internacional**",
           "price": "1.75 + 3%"
         }
       ]

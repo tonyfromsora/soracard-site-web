@@ -129,11 +129,11 @@
           "price": "0"
         },
         {
-          "action": "Card payment online, international*",
+          "action": "Card payment online, international**",
           "price": "0.90 + 1.1%"
         },
         {
-          "action": "Card payment POS, international*",
+          "action": "Card payment POS, international**",
           "price": "0.90 + 1.1%"
         },
         {
@@ -141,7 +141,7 @@
           "price": "1.20 + 3%"
         },
         {
-          "action": "ATM withdrawal, international*",
+          "action": "ATM withdrawal, international**",
           "price": "1.75 + 3%"
         }
       ]
