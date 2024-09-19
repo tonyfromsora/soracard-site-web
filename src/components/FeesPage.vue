@@ -100,7 +100,7 @@ const nav = computed(() => tm('fees').map((item, i) => ({
       </p>
 
       <p>
-        <a :href="localePath(t('pdf.href'))" target="_blank">
+        <a :href="t('pdf.href')" target="_blank">
           {{ t('pdf.title') }}
         </a>
       </p>
