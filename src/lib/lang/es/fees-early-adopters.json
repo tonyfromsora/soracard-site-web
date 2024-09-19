@@ -70,24 +70,11 @@
       "title": "Emisión, Mantenimiento y Gestión de Tarjeta",
       "table": [
         {
-          "action": {
-            "title": "Emisión de tarjeta física, activación y entrega, primera tarjeta",
-            "notes": [
-              "*Las tarjetas físicas se facturan por separado al socio (3.80€ por tarjeta).",
-              "**El coste de activación de la tarjeta es de 1€.",
-              "***El coste estimado de entrega es de 2€, pero puede variar según el país; los costes de entrega se facturan por separado al socio."
-            ]
-          },
+          "action": "Emisión de tarjeta física, activación y entrega, primera tarjeta",
           "price": "0"
         },
         {
-          "action": {
-            "title": "Emisión y activación de tarjeta virtual, primera tarjeta",
-            "notes": [
-              "*El coste de emisión de la tarjeta virtual es de 0.25€.",
-              "**El coste de activación de la tarjeta es de 1€."
-            ]
-          },
+          "action": "Emisión y activación de tarjeta virtual, primera tarjeta",
           "price": "0"
         },
         {

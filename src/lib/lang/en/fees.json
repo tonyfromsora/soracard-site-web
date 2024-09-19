@@ -70,21 +70,11 @@
       "title": "Card Issuing, Maintenance and Management",
       "table": [
         {
-          "action": {
-            "title": "Physical card issuance, activation and delivery, first card",
-            "notes": [
-              "*Physical cards are invoiced to partner separately (3.80€ per card).",
-              "**Card activation cost is 1€.",
-              "***Delivery cost is estimated to 2€ but can vary depending on the country; delivery costs are invoiced to partner separately."
-            ]
-          },
+          "action": "Physical card issuance, activation and delivery, first card",
           "price": "0"
         },
         {
-          "action": {
-            "title": "Virtual card issuance and activation, first card",
-            "notes": ["*Virtual card issuance cost is 0.25€.", "**Card activation cost is 1€."]
-          },
+          "action": "Virtual card issuance and activation, first card",
           "price": "0"
         },
         {

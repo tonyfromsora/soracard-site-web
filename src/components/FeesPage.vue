@@ -2,7 +2,7 @@
 type Section = {
   title: string
   table: {
-    action: string | { title: string, notes: string[] }
+    action: string
     price: string
   }[]
 }
@@ -82,13 +82,7 @@ const nav = computed(() => tm('fees').map((item, i) => ({
           </thead>
           <tbody>
             <tr v-for="(row, j) in item.table" :key="j">
-              <td>
-                <template v-if="typeof row.action === 'string'">{{ row.action }}</template>
-                <template v-else>
-                  <p>{{ row.action.title }}</p>
-                  <p class="text-xs dark2" v-for="(note, k) in row.action.notes" :key="k">{{ note }}</p>
-                </template>
-              </td>
+              <td>{{ row.action }}</td>
               <td>{{ row.price }}</td>
             </tr>
           </tbody>
