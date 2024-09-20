@@ -10,6 +10,7 @@ type Section = {
 type Fees = {
   headline: string
   date: string
+  description?: string
   action: string
   price: string
   altFeesLink: {
@@ -64,6 +65,9 @@ const nav = computed(() => tm('fees').map((item, i) => ({
       <span class="px-xs py-3xs bg-light1 rounded text-s">
         {{ t('date') }}
       </span>
+      <p v-if="typeof tm('description') === 'string'">
+        {{ tm('description') }}
+      </p>
       <hr>
       <p class="mb-m">
         <NuxtLink :to="localePath(t('altFeesLink.href'))">
