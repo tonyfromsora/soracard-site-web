@@ -33,7 +33,7 @@ Cada programa de tarjeta aplica un modelo comercial distinto y tiene diversas ca
 | Top-Up Options                  | Crypto — Autoconversion                          | Crypto — top up for spending only, no fiat off ramp | Crypto + Fiat bank transfer                                   | Fiat: bank transfer, credit card, debit card  | Crypto (XOR) + fiat: bank transfer, credit card, debit card                                                      |
 | IBAN                            | No                                               | Yes                                                 | Yes                                                           | Yes                                           | Yes                                                                                                              |
 
-Vea la tabla de comparación en formato PDF: [/pub/sora-card-table-alt.pdf](https://soracard.com/pub/sora-card-table-alt.pdf)
+Vea la tabla de comparación en formato PDF: [/pub/sora-card-table-alt.pdf](/pub/sora-card-table-alt.pdf)
 
 El objetivo de la Tarjeta SORA es proporcionar a los usuarios acceso y propiedad sobre sus activos criptográficos y fiduciarios, ¡todo en un solo lugar!
 
