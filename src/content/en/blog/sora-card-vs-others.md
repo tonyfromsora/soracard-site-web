@@ -29,7 +29,7 @@ Every card program applies a distinct business model and has diverse features, t
 | Top-Up Options                  | Crypto — Autoconversion                          | Crypto — top up for spending only, no fiat off ramp | Crypto + Fiat bank transfer                                   | Fiat: bank transfer, credit card, debit card  | Crypto (XOR) + fiat: bank transfer, credit card, debit card                                                      |
 | IBAN                            | No                                               | Yes                                                 | Yes                                                           | Yes                                           | Yes                                                                                                              |
 
-View the comparison table as PDF: [/pub/sora-card-table-alt.pdf](https://soracard.com/pub/sora-card-table-alt.pdf)
+View the comparison table as PDF: [/pub/sora-card-table-alt.pdf](/pub/sora-card-table-alt.pdf)
 
 SORA Card’s goal is to provide users access and ownership over their crypto and fiat assets, all in one place!
 
