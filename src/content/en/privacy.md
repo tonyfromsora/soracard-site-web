@@ -150,6 +150,8 @@ Please note that we may process your personal data without your knowledge or con
 
 All of our partners are obligated to protect your data and privacy as required by the laws and regulation.
 
+**6.10.** We explicitly share your information with the following parties: SumSub (https://sumsub.com), Unlimit (https://unlimit.com), GateHub (https://gatehub.net), and we also store it in our secure local records. We minimize the scope of data shared and do so only for specific, explicit purposes and needs. Additionally, we share your information with other parties that you may onboard via our service, especially if they require KYC (Know Your Customer) to provide services to you.
+
 ## Data Storage and Security
 
 **7.1.** We have adopted security measures to protect personal data against accidental or unlawful destruction, accidental loss, alteration, unauthorised disclosure, or access. We limit access to your personal data to those employees and third parties who have a business need to know. They will only process your personal data on our instructions, and they are subject to a duty of confidentiality.
