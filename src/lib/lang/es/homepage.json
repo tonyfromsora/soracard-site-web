@@ -123,7 +123,7 @@
       {
         "title": "¿Puedo obtener la tarjeta SORA si vivo en ___________?",
         "content": [
-          "SORA Card está actualmente disponible para residentes de países del EEE, sujeto a la finalización exitosa del procedimiento KYC. La aprobación de su solicitud depende de pasar el KYC, que considera su residencia (no su nacionalidad). Los residentes de países fuera del EEE podrán aplicar en una etapa posterior. Tenga en cuenta que los residentes de ciertos países como Rusia, Irán y Corea del Norte no son elegibles para SORA Card. Para obtener una lista completa de los países restringidos, por favor consulte ",
+          "SORA Card está actualmente disponible para residentes de países del EEE, sujeto a completar exitosamente el proceso KYC. La aprobación de su solicitud depende de aprobar el KYC, que considera su residencia (no su nacionalidad). Los residentes de países fuera del EEE podrán aplicar en una etapa posterior. Tenga en cuenta que los residentes de ciertos países como Rusia, Irán y Corea del Norte no son elegibles para SORA Card. Para obtener una lista completa de los países restringidos, por favor consulte ",
           {
             "title": "soracard.com/blacklist",
             "href": "/blacklist"
