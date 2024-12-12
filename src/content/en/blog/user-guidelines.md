@@ -26,9 +26,9 @@ If you are requested to pay a fee of €2.50 to add a new account you do not nee
 
 **How to do it:**
 
-Go to Settings > Add accounts.
+* Go to Settings > Add accounts.
 
-Click on New > Select Consumer account and confirm
+* Click on New > Select Consumer account and confirm
 
 ![screenshot1](/blog/user-guidelines/screenshot1.jpg)
 
@@ -48,7 +48,7 @@ Your virtual card will be issued in seconds.
 
 Congratulations!
 
-You now have your virtual SORA Card. To spend your IBAN funds, Top up your new card.
+You now have your virtual SORA Card. To spend your IBAN funds, top up your new card.
 
 **3. For all users: Loading your card**
 
