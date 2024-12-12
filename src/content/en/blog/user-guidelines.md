@@ -24,7 +24,7 @@ Additionally, when adding a new account next to your initial IBAN, the fee shoul
 
 If you are requested to pay a fee of €2.50 to add a new account, you do not need to add a new account to order your virtual card. If you are in the latter situation, you can order a SORA Card from the initial account free of charge.
 ## **Adding a New Account**
-**How to do it:**
+**How to add an account:**
 
 * Go to Settings > Add accounts.
 
