@@ -18,7 +18,7 @@ This will not incur any cost for you.
 
 **If you are unsure about being an early adopter:**
 
-In case you can order a virtual card from your IBAN, you should do that. It means you are not considered an early adopter and you do not need to add a new account before ordering your virtual card.
+If you can order a virtual card from your IBAN, you should do so. This means you are not considered an early adopter and do not need to add a new account before ordering your virtual card.
 
 Additionally, when adding a new account next to your initial IBAN, the fee should be 0 for early adopters.
 
