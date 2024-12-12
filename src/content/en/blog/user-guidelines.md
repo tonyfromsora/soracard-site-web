@@ -40,7 +40,7 @@ New users can order their virtual cards from the issued IBAN.
 
 Go to your new account and click the red ‘Order’ button to order a card.
 
-Next: slide to confirm your details and the fee-your first card is free of charge.
+Next: slide to confirm your details and the fee- **your first card is free of charge**.
 
 Your virtual card will be issued in seconds.
 
