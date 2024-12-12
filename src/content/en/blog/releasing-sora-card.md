@@ -11,8 +11,6 @@ og: /blog/releasing-sora-card/og.jpg # thumbnal image for sharing, 1200x630px
 
 We are thrilled to announce the official launch of **SORA Card**, a revolutionary fintech solution that seamlessly integrates e-money and account features with the innovative world of decentralized finance (DeFi). Designed for individuals who value freedom and flexibility, SORA Card brings together the convenience of an International Bank Account Number (IBAN), a corresponding debit card, a crypto exchange, and the power of the SORA self-custodial crypto wallet — all in one app.
 
-![sora card-is live 1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/60b12b52-a589-4d53-8dd7-c112c8359650/4fe5d3c4-4060-4da5-8687-e84a13624b36/sora_card-is_live_1.png)
-
 ## **Experience the Future of Payments Today**
 
 ### **Comprehensive e-money and account Features**
@@ -32,7 +30,7 @@ We are thrilled to announce the official launch of **SORA Card**, a revolutionar
 
 To celebrate our launch and show appreciation for the community's support, we're offering SORA address holders the opportunity to apply for **SORA Card free of charge for a limited time**. Successful applicants who pass the KYC process will receive a **one-year subscription free of charge**. Additionally, early applicants who previously completed KYC under the initial terms will be rewarded with a **three-year subscription free of charge** as a token of our gratitude for your patience and enthusiasm.
 
-![sora_card_launch_5b.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/60b12b52-a589-4d53-8dd7-c112c8359650/834e4593-e0ae-4b12-9c13-a188ad85107e/sora_card_launch_5b.png)
+![limited-offer.png](/blog/limited-offer.jpg)
 
 ## **A Milestone in the SORA Ecosystem**
 
@@ -45,7 +43,7 @@ SORA Card is a product of the SORA Community and SORA Biome, developed in collab
 
 We're excited to announce that SORA Card will soon be accessible via **Fearless Wallet**, the multi-chain DeFi wallet. This integration will provide DeFi users with an enhanced experience, extending the benefits of SORA Card beyond the SORA ecosystem.
 
-![sora_card_launch_5.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/60b12b52-a589-4d53-8dd7-c112c8359650/21665f87-04d3-4dc6-b765-f95d34f9e644/sora_card_launch_5.png)
+![fearless-wallet](/blog/releasing-sora-card/fearless-wallet.jpg)
 
 ### **Get Started Today**
 
@@ -68,7 +66,7 @@ Fearless Wallet is an open-source mobile wallet and browser extension built for 
 
 The launch of SORA Card is more than just a new product—it's a step towards a more inclusive and decentralized financial future. We invite you to be part of this exciting journey.
 
-![sora_card_launch_1b.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/60b12b52-a589-4d53-8dd7-c112c8359650/954b60b0-cb7c-4c41-9994-1b4391c0be64/sora_card_launch_1b.png)
+![soracard-is-here](/blog/releasing-sora-card/soracard-is-here.jpg)
 
 ## **Stay Connected**
 
