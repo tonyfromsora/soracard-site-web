@@ -41,7 +41,7 @@ SORA Card is a product of the SORA Community and SORA Biome, developed in collab
 
 ## **Coming Soon to Fearless Wallet**
 
-We're excited to announce that SORA Card will soon be accessible via **Fearless Wallet**, the multi-chain DeFi wallet. This integration will provide DeFi users with an enhanced experience, extending the benefits of SORA Card beyond the SORA ecosystem.
+We're excited to announce that SORA Card will soon be accessible via [**Fearless Wallet**](https://fearlesswallet.io/), the multi-chain DeFi wallet. This integration will provide DeFi users with an enhanced experience, extending the benefits of the SORA Card beyond the SORA ecosystem.
 
 ![fearless-wallet](/blog/releasing-sora-card/fearless-wallet.jpg)
 
