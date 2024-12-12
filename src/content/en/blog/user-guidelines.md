@@ -34,7 +34,7 @@ If you are requested to pay a fee of €2.50 to add a new account, you do not ne
 
 **2. Order your card through the new IBAN**
 
-Early adopters should order their virtual card from the new IBAN account.
+Early adopters should order their virtual card through the new IBAN account.
 ## **Ordering a Virtual Card**
 New users can order their virtual cards from the issued IBAN.
 
