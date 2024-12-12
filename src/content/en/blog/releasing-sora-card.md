@@ -30,7 +30,7 @@ We are thrilled to announce the official launch of **SORA Card**, a revolutionar
 
 To celebrate our launch and show appreciation for the community's support, we're offering SORA address holders the opportunity to apply for **SORA Card free of charge for a limited time**. Successful applicants who pass the KYC process will receive a **one-year subscription free of charge**. Additionally, early applicants who previously completed KYC under the initial terms will be rewarded with a **three-year subscription free of charge** as a token of our gratitude for your patience and enthusiasm.
 
-![limited-offer](/blog/limited-offer.jpg)
+![limited-offer](/blog/releasing-sora-card/limited-offer.jpg)
 
 ## **A Milestone in the SORA Ecosystem**
 
