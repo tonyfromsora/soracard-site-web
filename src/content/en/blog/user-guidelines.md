@@ -6,7 +6,7 @@ image: /blog/user-guidelines/cover.jpg # cover for the website, 1920x1080px
 og: /blog/user-guidelines/og.jpg # thumbnal image for sharing, 1200x630px
 ---
 # **SORA Card User Guidelines**
-**SORA Card is live and ready to be used!**
+**SORA Card is live and ready for use!**
 
 We invite all early adopters—people who successfully passed KYC before July 2024—to follow the steps below before using their account and card:
 
