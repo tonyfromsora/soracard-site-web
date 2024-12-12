@@ -48,7 +48,7 @@ We're excited to announce that SORA Card will soon be accessible via **Fearless 
 ### **Get Started Today**
 
 - **Visit Our Website**: [soracard.com](https://soracard.com/)
-- **Download the SORA Wallet App**: Available on [iOS](https://apps.apple.com/app/sora-card/id6466728323) and [Android](https://play.google.com/store/apps/details?id=jp.co.soramitsu.fearless)
+- **Download the SORA Wallet App**: Available on [iOS](https://apps.apple.com/app/sora-card/id6466728323) and [Android](https://play.google.com/store/apps/details?id=com.soracard.wallet.iban&hl=ENG)
 
 ## **About SORA**
 
