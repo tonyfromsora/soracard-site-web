@@ -9,7 +9,7 @@ og: /blog/releasing-sora-card/og.jpg # thumbnal image for sharing, 1200x630px
 
 # Releasing SORA Card: Your Gateway to Financial Freedom
 
-We are thrilled to announce the official launch of **SORA Card**, a revolutionary fintech solution that seamlessly integrates e-money and account features with the innovative world of decentralized finance (DeFi). Designed for individuals who value freedom and flexibility, the SORA Card combines the convenience of an International Bank Account Number (IBAN), a corresponding debit card, a crypto exchange, and the power of the SORA self-custodial crypto wallet — all in one app.
+We are thrilled to announce the official launch of **SORA Card**, a revolutionary fintech solution that seamlessly integrates e-money and account features with the innovative world of decentralized finance (DeFi). Designed for individuals who value freedom and flexibility, SORA Card combines the convenience of an International Bank Account Number (IBAN), a corresponding debit card, a crypto exchange, and the power of the SORA self-custodial crypto wallet — all in one app.
 
 ## **Experience the Future of Payments Today**
 
@@ -41,7 +41,7 @@ SORA Card is a product of the SORA Community and SORA Biome, developed in collab
 
 ## **Coming Soon to Fearless Wallet**
 
-We're excited to announce that SORA Card will soon be accessible via [**Fearless Wallet**](https://fearlesswallet.io/), the multi-chain DeFi wallet. This integration will provide DeFi users with an enhanced experience, extending the benefits of the SORA Card beyond the SORA ecosystem.
+We're excited to announce that SORA Card will soon be accessible via [**Fearless Wallet**](https://fearlesswallet.io/), the multi-chain DeFi wallet. This integration will provide DeFi users with an enhanced experience, extending the benefits of SORA Card beyond the SORA ecosystem.
 
 ![fearless-wallet](/blog/releasing-sora-card/fearless-wallet.jpg)
 
@@ -70,7 +70,8 @@ The launch of SORA Card is more than just a new product—it's a step towards a 
 
 ## **Stay Connected**
 
-- **Twitter**: [@soracardcom](https://twitter.com/soracardcom)
+- **X (SORA)**: [@sora_xor](https://x.com/sora_xor)
+- **X (SORA Card)**: [@soracardcom](https://x.com/soracardcom)
 - **Telegram**: [SORA Community](https://t.me/soracardofficial)
 - **Reddit**: [r/SORA](https://www.reddit.com/r/SORA/)
 - **GitHub**: [SORA Repositories](https://github.com/sora-xor)
