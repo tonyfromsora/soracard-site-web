@@ -64,6 +64,6 @@ If you have any questions or need support while setting up or using your SORA Ca
 
 Email: support@soracard.com
 
-Community Telegram: Join our SORA Card Community https://t.me/soracardofficial
+Telegram Community: Join our [SORA Card Community](https://t.me/soracardofficial) 
 
 Thank you for joining the SORA family. We're excited to have you join us and look forward to providing you with an exceptional financial experience.
