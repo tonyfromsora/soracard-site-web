@@ -21,7 +21,7 @@ We are thrilled to announce the official launch of **SORA Card**, a revolutionar
 
 ### **Innovative Crypto Integration**
 
-- **On and Off Ramp Crypto with Ease:** An integrated on/offramp to enable swaps between EUR and crypto.
+- **On and Off Ramp Crypto with Ease:** An integrated on/offramp enables seamless swaps between EUR and crypto.
 - **Self-Custody Over Crypto Assets**: Maintain full control over your cryptocurrencies with our secure, self-custodial wallets.
 - **Integrated DeFi Activities**: Engage in trading, staking, farming and more — all from the same app.
 - **Expansive Interoperability**: Connect to multiple EVM and Substrate blockchains via the integrated [Polkaswap.io DEX](https://polkaswap.io/) on the SORA network, bridging seamlessly into the traditional financial world.
