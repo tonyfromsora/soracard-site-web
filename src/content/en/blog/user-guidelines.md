@@ -12,7 +12,7 @@ We invite all early adopters—people who successfully passed KYC before July 20
 
 **1. Early adopters: Request new IBAN before ordering a card**
 
-**Note: The issuer will soon disable the initially issued IBANs**. To use SORA Card with all its features, please add a new account and order your SORA Card from this account.
+**Note: The issuer will soon disable the initial emitted IBANs**. To use SORA Card with all its features, please add a new account and order your SORA Card from this account.
 
 This is complementary.
 
