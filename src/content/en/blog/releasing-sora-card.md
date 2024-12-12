@@ -36,7 +36,7 @@ To celebrate our launch and show appreciation for our community's support, we're
 
 SORA Card is a product of the SORA Community and SORA Biome, developed in collaboration with leading fintech companies [Soramitsu](https://soramitsu.co.jp/), [Hoppacard](https://hoppacard.com/), and [Unlimit](https://unlimit.com/). This launch marks a significant step forward in our mission to create a new economic system and enhance financial freedom for all.
 
-> "We are excited to launch SORA Card and provide unique payment experiences integrating a DEX and self-custodial crypto wallet with your e-money suite. This is a major step forward in our mission to create a new economic system and the toolkit to enhance financial freedom for all."
+> "We are excited to launch SORA Card and provide unique payment experiences integrating a DEX and self-custodial crypto wallet with your e-money suite. This is a major step forward in our mission to create a new economic system and the toolkit to enhance financial freedom for all." said one of the key SORA ecosystem contributors.
 > 
 
 ## **Coming Soon to Fearless Wallet**
