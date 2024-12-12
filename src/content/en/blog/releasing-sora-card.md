@@ -9,7 +9,7 @@ og: /blog/releasing-sora-card/og.jpg # thumbnal image for sharing, 1200x630px
 
 # Releasing SORA Card: Your Gateway to Financial Freedom
 
-We are thrilled to announce the official launch of **SORA Card**, a revolutionary fintech solution that seamlessly integrates e-money and account features with the innovative world of decentralized finance (DeFi). Designed for individuals who value freedom and flexibility, SORA Card brings together the convenience of an International Bank Account Number (IBAN), a corresponding debit card, a crypto exchange, and the power of the SORA self-custodial crypto wallet — all in one app.
+We are thrilled to announce the official launch of **SORA Card**, a revolutionary fintech solution that seamlessly integrates e-money and account features with the innovative world of decentralized finance (DeFi). Designed for individuals who value freedom and flexibility, the SORA Card combines the convenience of an International Bank Account Number (IBAN), a corresponding debit card, a crypto exchange, and the power of the SORA self-custodial crypto wallet — all in one app.
 
 ## **Experience the Future of Payments Today**
 
