@@ -48,7 +48,7 @@ Your virtual card will be issued in seconds.
 
 Congratulations!
 
-You now have your virtual SORA Card. To spend your IBAN funds, top up your new card.
+You now have your very own virtual SORA Card. To spend your IBAN funds, top up your new card.
 
 **3. For all users: Loading your card**
 
