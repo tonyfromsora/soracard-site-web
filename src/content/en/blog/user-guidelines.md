@@ -30,7 +30,7 @@ Go to Settings > Add accounts.
 
 Click on New > Select Consumer account and confirm
 
-https://lh7-rt.googleusercontent.com/docsz/AD_4nXc3oOH3DVMidjh9Qs9-cJFF9pc4MEMF8lfudEtmYHJ_82ZFewzTaWhkvlid4e7C7MJvbl8_CD_j4GDDH-1kG7aLTRg5bwDvpyQm7ORMiFiUAZDPTqIv0m9obW7ip072Ch2ItSLNLGSueQeE95Fv-KCAfxw?key=DKkLUMblA-G4ORA1XQNOSg
+![screenshot1](/blog/user-guidelines/screenshot1.jpg)
 
 **2. Order your card from the new IBAN**
 
@@ -44,7 +44,7 @@ Next: slide to confirm your details and the fee-your first card is free of charg
 
 Your virtual card will be issued in seconds.
 
-https://lh7-rt.googleusercontent.com/docsz/AD_4nXfBLF94ZDY1jXAWgxLeq-Nx0QzEtDrN_JH66yOq4qZyQa1785Y3YEgW816U9WEGRsheDz2hFTdJrBJPxVSZvRaDOg8jcI4ZxdkL-rT8auD2wN6mLrRrpLNRmiZDq-xuyx_smqEc931FhIy99ccCmZTzxts?key=DKkLUMblA-G4ORA1XQNOSg
+![screenshot2](/blog/user-guidelines/screenshot2.jpg)
 
 Congratulations!
 
@@ -56,7 +56,7 @@ Click on your card in the app.
 
 Then, click on the 'Load' button.
 
-https://lh7-rt.googleusercontent.com/docsz/AD_4nXcRkXfHnXvqDDHaeF2Gp5j2H-UGIThOMbv3PXOUIlGKYQbwODi-LsyDmrQVF-q9yq7THduomAVzJ6pc3KNOXsVkugH7uy2CtuBeHN0TW-Vieig7PcezwcPNMuu6N0VAp0040Ph7blhf4GcbeMc1Ew0dHw?key=DKkLUMblA-G4ORA1XQNOSg
+![screenshot3](/blog/user-guidelines/screenshot3.jpg)
 
 **Need Assistance? We're Here to Help!**
 
