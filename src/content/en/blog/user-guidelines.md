@@ -43,7 +43,7 @@ Go to your new account and click the red ‘Order’ button to order a card.
 Next: slide to confirm your details and the fee- **your first card is free of charge**.
 
 Your virtual card will be issued in seconds.
-
+Congratulations!
 ![screenshot2](/blog/user-guidelines/screenshot2.jpg)
 
 ## **Topping up your SORA Card Balance**
