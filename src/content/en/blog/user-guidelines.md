@@ -28,7 +28,7 @@ If you are requested to pay a fee of €2.50 to add a new account, you do not ne
 
 * Go to Settings > Add accounts.
 
-* Click on New > Select Consumer account and confirm
+* Click on New > Select **Consumer account** and confirm
 
 ![screenshot1](/blog/user-guidelines/screenshot1.jpg)
 
