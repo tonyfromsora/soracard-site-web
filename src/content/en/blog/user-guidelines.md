@@ -16,7 +16,7 @@ We invite all early adopters—people who successfully passed KYC before July 20
 
 This will not incur any cost for you.
 
-**If you doubt about being an early adopter:**
+**If you are unsure about being an early adopter:**
 
 In case you can order a virtual card from your IBAN, you should do that. It means you are not considered an early adopter and you do not need to add a new account before ordering your virtual card.
 
