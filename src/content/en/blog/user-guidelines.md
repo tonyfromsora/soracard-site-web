@@ -1,6 +1,6 @@
 ---
 title: 'SORA Card User Guidelines'
-description: 'SORA Card is now live! Early adopters, follow the steps to request a new IBAN and order your virtual card. Not an early adopter? Just order directly. Need help? support@soracard.com'
+description: 'SORA Card is now live! Early adopters, follow the steps to request a new IBAN and order your virtual card. Not an early adopter? Just order directly. Need help? techsupport@soracard.com'
 date: 2024-12-12
 image: /blog/user-guidelines/cover.jpg # cover for the website, 1920x1080px
 og: /blog/user-guidelines/og.jpg # thumbnal image for sharing, 1200x630px
@@ -61,7 +61,7 @@ Then, click on the 'Load' button.
 
 If you have any questions or need support while setting up or using your SORA Card, please don't hesitate to reach out:
 
-Email: support@soracard.com
+Email: techsupport@soracard.com
 
 Telegram Community: Join our [SORA Card Community](https://t.me/soracardofficial) 
 
